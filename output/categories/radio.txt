@@ -1,4 +1,3 @@
-安久电台,https://cdn.ttvb.eu.org/douyin/37532256839
 锦一电台,https://cdn.ttvb.eu.org/douyin/Jinyi.15
 BBS佛教广播,http://bbstv.clouducs.com:1935/bbstv-live/livestream/chunklist_w1403706733.m3u8
 51 Radio TV,http://wms.shared.streamshow.it/canale51/canale51/playlist.m3u8

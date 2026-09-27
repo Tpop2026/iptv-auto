@@ -26,7 +26,6 @@ CGTN阿语,https://0472.org/hls/cgtna.m3u8
 央视网,https://cdn.ttvb.eu.org/bilibili/8178490
 央视频,https://cdn.ttvb.eu.org/bilibili/21623527
 央视文艺,https://cdn.ttvb.eu.org/douyin/1027321223
-央视网科技,https://cdn.ttvb.eu.org/douyin/66415451233.
 央视网财经,https://cdn.ttvb.eu.org/douyin/nuanxinnengl
 央视网超级工厂,https://cdn.ttvb.eu.org/douyin/23265780613
 CCTV-1 综合,http://74.91.26.218:82/live/cctv1hd.m3u8
