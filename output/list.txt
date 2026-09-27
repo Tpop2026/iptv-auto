@@ -478,7 +478,6 @@ OneMicroSpace,https://cdn.ttvb.eu.org/bilibili/390508
 艾尔莎_Channel,https://cdn.ttvb.eu.org/bilibili/81004
 迷影社,https://cdn.ttvb.eu.org/bilibili/545007
 阿梓从小就很可爱,https://cdn.ttvb.eu.org/bilibili/510
-AK.,https://cdn.ttvb.eu.org/douyin/AK36G
 CBD（团队纳新）,https://cdn.ttvb.eu.org/douyin/37907612584
 CCTV4,https://cdn.ttvb.eu.org/douyin/CCTV4..
 GXG男装旗舰店,https://cdn.ttvb.eu.org/douyin/71433089613
@@ -664,7 +663,6 @@ Ria한동훈,https://cdn.ttvb.eu.org/soop/soclato
 ♥메리미유♥,https://cdn.ttvb.eu.org/soop/daphnerin
 강지아,https://cdn.ttvb.eu.org/soop/rkdfksdud98
 경옥GO,https://cdn.ttvb.eu.org/soop/oktube
-로시아♥,https://cdn.ttvb.eu.org/soop/youhj323
 만소♡,https://cdn.ttvb.eu.org/soop/dahye27
 미지수♥,https://cdn.ttvb.eu.org/soop/zxll6721
 사나이♥,https://cdn.ttvb.eu.org/soop/sanaekcy
@@ -679,6 +677,7 @@ Ria한동훈,https://cdn.ttvb.eu.org/soop/soclato
 편집왕하나옵,https://cdn.ttvb.eu.org/soop/hancoma
 하연잉♥,https://cdn.ttvb.eu.org/soop/twinhayoung
 해리〃민경,https://cdn.ttvb.eu.org/soop/dkdleliii
+효둥,https://cdn.ttvb.eu.org/soop/hyojoo74
 AI_Modeler,https://cdn.ttvb.eu.org/twitch/ai_modeler
 AI_TechnoK,https://cdn.ttvb.eu.org/twitch/ai_technok
 ASIANDANCERS,https://cdn.ttvb.eu.org/twitch/ASIANDANCERS
@@ -706,7 +705,6 @@ YY用户,https://cdn.ttvb.eu.org/yy/1354930976
 天晓-Kk不好意思，我们依旧很好,https://cdn.ttvb.eu.org/yy/1745
 天晓大白兔,https://cdn.ttvb.eu.org/yy/1669
 小宁宁,https://cdn.ttvb.eu.org/yy/81821
-小艺,https://cdn.ttvb.eu.org/yy/1349422196
 小青柠,https://cdn.ttvb.eu.org/yy/5893
 少寒Shine,https://cdn.ttvb.eu.org/yy/1357
 燃舞993,https://cdn.ttvb.eu.org/yy/993
@@ -733,6 +731,7 @@ ShiroiY,https://cdn.ttvb.eu.org/bilibili/1889484098
 神奇陆夫人,https://cdn.ttvb.eu.org/bilibili/115
 翼侯大人,https://cdn.ttvb.eu.org/bilibili/60989
 老实憨厚的笑笑,https://cdn.ttvb.eu.org/bilibili/7777
+老飞宇66,https://cdn.ttvb.eu.org/bilibili/7878
 辉耀计划,https://cdn.ttvb.eu.org/bilibili/24158116
 阿帅派克,https://cdn.ttvb.eu.org/bilibili/21733448
 风行云,https://cdn.ttvb.eu.org/bilibili/1829181560
@@ -760,7 +759,6 @@ Sylvia书霖（天道超的主人）,https://cdn.ttvb.eu.org/douyin/1075962236
 炉石林可,https://cdn.ttvb.eu.org/douyin/2220570808
 独牙赛事,https://cdn.ttvb.eu.org/douyin/710326334836
 琴酒ouo,https://cdn.ttvb.eu.org/douyin/be20230113
-破绽（国1运气上单),https://cdn.ttvb.eu.org/douyin/Flaws777
 祈,https://cdn.ttvb.eu.org/douyin/Qi_i7ovo
 童画（内鬼）,https://cdn.ttvb.eu.org/douyin/43432673395
 第五犹太🍒（排位认知-9.9人类教学）,https://cdn.ttvb.eu.org/douyin/d5youtai
@@ -802,6 +800,7 @@ zzc啊哦额,https://cdn.ttvb.eu.org/douyu/666743
 流星丶Meteor丶丶,https://cdn.ttvb.eu.org/douyu/11969011
 火星包,https://cdn.ttvb.eu.org/douyu/52
 电棍,https://cdn.ttvb.eu.org/douyu/12306
+白鲨AyoM,https://cdn.ttvb.eu.org/douyu/12821
 神奇的维C,https://cdn.ttvb.eu.org/douyu/9830066
 立直喵急便,https://cdn.ttvb.eu.org/douyu/8876271
 网友张顺飞,https://cdn.ttvb.eu.org/douyu/2561707
@@ -818,7 +817,6 @@ Karsamzing苏弟,https://cdn.ttvb.eu.org/huya/116864
 Kimmy,https://cdn.ttvb.eu.org/huya/109810
 LING露雪【世1老六】,https://cdn.ttvb.eu.org/huya/326513
 LK-雨果【52009】,https://cdn.ttvb.eu.org/huya/52009
-Maybeee111,https://cdn.ttvb.eu.org/huya/211888
 Sdn,https://cdn.ttvb.eu.org/huya/310112
 Showmaker,https://cdn.ttvb.eu.org/huya/30764352
 TG-左耳老熊,https://cdn.ttvb.eu.org/huya/834622

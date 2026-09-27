@@ -2,7 +2,6 @@ HiiroVTuber,https://cdn.ttvb.eu.org/bilibili/21919321
 JIPA_,https://cdn.ttvb.eu.org/bilibili/6669818
 KL_qiqi_,https://cdn.ttvb.eu.org/bilibili/407149
 OneMicroSpace,https://cdn.ttvb.eu.org/bilibili/390508
-AK.,https://cdn.ttvb.eu.org/douyin/AK36G
 MD1999,https://cdn.ttvb.eu.org/douyin/37029384065
 Pang Di🔥,https://cdn.ttvb.eu.org/douyin/4865362
 ice star,https://cdn.ttvb.eu.org/douyin/49770074750
@@ -17,7 +16,6 @@ Ria한동훈,https://cdn.ttvb.eu.org/soop/soclato
 ♥메리미유♥,https://cdn.ttvb.eu.org/soop/daphnerin
 강지아,https://cdn.ttvb.eu.org/soop/rkdfksdud98
 경옥GO,https://cdn.ttvb.eu.org/soop/oktube
-로시아♥,https://cdn.ttvb.eu.org/soop/youhj323
 만소♡,https://cdn.ttvb.eu.org/soop/dahye27
 미지수♥,https://cdn.ttvb.eu.org/soop/zxll6721
 사나이♥,https://cdn.ttvb.eu.org/soop/sanaekcy
@@ -32,6 +30,7 @@ Ria한동훈,https://cdn.ttvb.eu.org/soop/soclato
 편집왕하나옵,https://cdn.ttvb.eu.org/soop/hancoma
 하연잉♥,https://cdn.ttvb.eu.org/soop/twinhayoung
 해리〃민경,https://cdn.ttvb.eu.org/soop/dkdleliii
+효둥,https://cdn.ttvb.eu.org/soop/hyojoo74
 AI_Modeler,https://cdn.ttvb.eu.org/twitch/ai_modeler
 AI_TechnoK,https://cdn.ttvb.eu.org/twitch/ai_technok
 ASIANDANCERS,https://cdn.ttvb.eu.org/twitch/ASIANDANCERS
@@ -65,7 +64,6 @@ pigff,https://cdn.ttvb.eu.org/douyu/24422
 scboy,https://cdn.ttvb.eu.org/douyu/3484
 yyfyyf,https://cdn.ttvb.eu.org/douyu/9999
 Kimmy,https://cdn.ttvb.eu.org/huya/109810
-Maybeee111,https://cdn.ttvb.eu.org/huya/211888
 Sdn,https://cdn.ttvb.eu.org/huya/310112
 Showmaker,https://cdn.ttvb.eu.org/huya/30764352
 WE957,https://cdn.ttvb.eu.org/huya/890001
