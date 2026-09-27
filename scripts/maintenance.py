@@ -60,6 +60,8 @@ def _now() -> datetime:
 
 def _days_since(iso: str) -> float:
     ts = datetime.fromisoformat(iso.replace("Z", "+00:00"))
+    if ts.tzinfo is None:
+        ts = ts.replace(tzinfo=timezone.utc)  # state.json stores dates
     return (_now() - ts).total_seconds() / 86400
 
 

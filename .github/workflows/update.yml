@@ -13,6 +13,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: update-playlists
@@ -31,6 +32,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Self tests
+        run: python scripts/test_fetch.py
+
       - name: Fetch and generate playlists
         run: python scripts/fetch.py
 
@@ -44,4 +48,31 @@ jobs:
           else
             git commit -m "chore: update playlists $(date -u +%FT%TZ)"
             git push
+          fi
+
+      - name: Open failure issue
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          existing=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open \
+            --search "自动化流水线失败 in:title" --json number --jq '.[0].number // empty')
+          body="运行失败：$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID\n\n请查看日志。连续失败会持续在本 issue 下追加评论；恢复后自动关闭。"
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --repo "$GITHUB_REPOSITORY" --body "$body"
+          else
+            gh issue create --repo "$GITHUB_REPOSITORY" \
+              --title "⚠️ 自动化流水线失败" --body "$body"
+          fi
+
+      - name: Close failure issue on recovery
+        if: success()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          existing=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open \
+            --search "自动化流水线失败 in:title" --json number --jq '.[0].number // empty')
+          if [ -n "$existing" ]; then
+            gh issue close "$existing" --repo "$GITHUB_REPOSITORY" \
+              --comment "已恢复：$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
           fi

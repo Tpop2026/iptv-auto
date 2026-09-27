@@ -2,19 +2,24 @@
 """Aggregate public IPTV playlists into m3u/txt outputs.
 
 Usage: python scripts/fetch.py
-Reads sources.json, fetches upstream playlists, dedupes channels,
-then writes:
-  output/index.m3u
-  output/list.txt
+Reads sources.json, fetches upstream playlists, dedupes channels
+(by URL key, max MAX_PER_NAME lines per channel name), normalizes
+names, then writes:
+  output/index.m3u / output/list.txt / output/channels.json
   output/categories/<cat>.m3u / <cat>.txt
+
+Env: IPTV_CHECK_STREAMS=1 — opt-in 404/410 filter on final lines
+     (default off: fetch only, players tolerate dead links).
 """
 from __future__ import annotations
 
 import json
+import os
 import re
 import sys
 import time
 import unicodedata
+import urllib.error
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
@@ -31,6 +36,14 @@ UA = (
 )
 FETCH_TIMEOUT = 25
 MAX_BYTES = 60 * 1024 * 1024
+MAX_PER_NAME = 3
+EPG_URLS = ",".join(
+    [
+        "https://epg.pw/xmltv/epg.xml",
+        "https://live.zhi35.com/epg.xml.gz",
+    ]
+)
+M3U_HEADER = f'#EXTM3U x-tvg-url="{EPG_URLS}"'
 
 CATEGORIES: dict[str, re.Pattern[str]] = {
     "cctv": re.compile(r"CCTV|央视|CGTN|中央电视", re.I),
@@ -39,12 +52,21 @@ CATEGORIES: dict[str, re.Pattern[str]] = {
         r"体育|足球|篮球|高尔夫|网球|赛车|\bF1\b|风云|劲爆|Sport|ESPN|SSU|CCTV-?5",
         re.I,
     ),
+    "radio": re.compile(r"电台|广播|\bRadio\b|\bFM\s?\d", re.I),
     "hkmotw": re.compile(
         r"凤凰|TVB|翡翠|明珠|无线电视|HOY|RTHK|港台|NOW\s?TV|ViuTV|Viu\b"
         r"|台视|中视|华视|民视|公视|东森|三立|中天|非凡|超视|纬来|莲卫"
         r"|香港|澳门|台湾",
         re.I,
     ),
+}
+CAT_LABELS = {
+    "cctv": "央视",
+    "weishi": "卫视",
+    "tiyu": "体育",
+    "radio": "广播",
+    "hkmotw": "港澳台",
+    "overseas": "海外",
 }
 CJK_RE = re.compile(r"[\u4e00-\u9fff]")
 
@@ -172,8 +194,9 @@ def _canonical_base(name: str) -> str:
 
 
 def normalize_name(raw: str) -> str:
-    """Unify channel names to a canonical form, e.g. CCTV1综合 / CCTV-1高清
-    -> \"CCTV-1 综合(高清)\". Unknown channels keep their (cleaned) name."""
+    """Unify channel names to a canonical form, e.g. CCTV1综合 / 中央1台
+    -> \"CCTV-1 综合\". Quality markers are dropped except (4K)/(8K),
+    which denote a genuinely different feed tier worth keeping."""
     s = unicodedata.normalize("NFKC", raw or "").strip()
     if not s:
         return "Unknown"
@@ -189,6 +212,7 @@ def normalize_name(raw: str) -> str:
     s = re.sub(r"\s+", " ", s)
     if not s:
         return "Unknown"
+    quality = quality if quality in ("(4K)", "(8K)") else ""
     return _canonical_base(s) + quality
 
 
@@ -210,13 +234,13 @@ def http_get(url: str, timeout: int = FETCH_TIMEOUT, max_bytes: int = MAX_BYTES)
 
 def fetch_source(url: str) -> bytes:
     last_err: Exception | None = None
-    for attempt in (1, 2):
+    for attempt, delay in ((1, 0), (2, 2), (3, 5)):
+        if delay:
+            time.sleep(delay)
         try:
             return http_get(url)
         except Exception as exc:  # noqa: BLE001 - retry any fetch failure
             last_err = exc
-            if attempt == 1:
-                time.sleep(2)
     raise RuntimeError(f"fetch failed: {url} ({last_err})")
 
 
@@ -280,6 +304,26 @@ def categorize(name: str) -> list[str]:
     return cats
 
 
+_TRACKING_RE = re.compile(r"^(utm_|fbclid=|gclid=|spm=|ref=)", re.I)
+
+
+def url_key(url: str) -> str:
+    """Dedup key: case-normalized host, no fragment, no tracking params.
+
+    Keeps http/https and other params untouched — signed stream URLs must
+    never be rewritten, only compared.
+    """
+    u = url.strip().split("#", 1)[0]
+    m = re.match(r"^([a-zA-Z][\w+.-]*://)([^/?#]+)(.*)$", u)
+    if m:
+        u = m.group(1).lower() + m.group(2).lower() + m.group(3)
+    if "?" in u:
+        base, query = u.split("?", 1)
+        kept = [p for p in query.split("&") if p and not _TRACKING_RE.match(p)]
+        u = base + ("?" + "&".join(kept) if kept else "")
+    return u
+
+
 def _write(path: Path, lines: list[str]) -> None:
     path.write_text("\n".join(lines) + "\n", encoding="utf-8", newline="\n")
 
@@ -288,7 +332,7 @@ def write_outputs(channels: list[dict]) -> None:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     CAT_DIR.mkdir(parents=True, exist_ok=True)
 
-    lines_m3u = ["#EXTM3U"]
+    lines_m3u = [M3U_HEADER]
     lines_txt: list[str] = []
     by_cat: dict[str, list[dict]] = {cat: [] for cat in (*CATEGORIES, "overseas")}
 
@@ -296,7 +340,7 @@ def write_outputs(channels: list[dict]) -> None:
         logo = f' tvg-logo="{ch["logo"]}"' if ch["logo"] else ""
         group = f' group-title="{ch["group"]}"' if ch["group"] else ""
         tvg_id = f' tvg-id="{ch["tvg_id"]}"' if ch["tvg_id"] else ""
-        lines_m3u.append(f'#EXTINF:-1{tvg_id}{logo}{group},{ch["name"]}')
+        lines_m3u.append(f"#EXTINF:-1{tvg_id}{logo}{group},{ch['name']}")
         lines_m3u.append(ch["url"])
         lines_txt.append(f'{ch["name"]},{ch["url"]}')
         for cat in categorize(ch["name"]):
@@ -305,19 +349,77 @@ def write_outputs(channels: list[dict]) -> None:
     _write(OUT_DIR / "index.m3u", lines_m3u)
     _write(OUT_DIR / "list.txt", lines_txt)
 
+    payload = [
+        {
+            "name": ch["name"],
+            "url": ch["url"],
+            "logo": ch["logo"],
+            "group": ch["group"],
+            "tvg_id": ch["tvg_id"],
+            "categories": categorize(ch["name"]),
+        }
+        for ch in channels
+    ]
+    (OUT_DIR / "channels.json").write_text(
+        json.dumps(payload, ensure_ascii=False, separators=(",", ":")) + "\n",
+        encoding="utf-8",
+        newline="\n",
+    )
+
     for cat, items in by_cat.items():
         if not items:
             continue
-        m3u = ["#EXTM3U"]
+        label = CAT_LABELS.get(cat, cat)
+        m3u = [M3U_HEADER]
         txt: list[str] = []
         for ch in items:
-            group = f' group-title="{ch["group"]}"' if ch["group"] else ""
             logo = f' tvg-logo="{ch["logo"]}"' if ch["logo"] else ""
-            m3u.append(f"#EXTINF:-1{logo}{group},{ch['name']}")
+            m3u.append(f'#EXTINF:-1{logo} group-title="{label}",{ch["name"]}')
             m3u.append(ch["url"])
             txt.append(f'{ch["name"]},{ch["url"]}')
         _write(CAT_DIR / f"{cat}.m3u", m3u)
         _write(CAT_DIR / f"{cat}.txt", txt)
+
+
+def stream_alive(url: str) -> bool:
+    """Conservative liveness probe: drop only clear 404/410 answers.
+
+    A HEAD 404 is reconfirmed with a ranged GET (some servers mis-answer
+    HEAD). Timeouts / 403 / 5xx keep the link — unreachable from this
+    vantage point is not proof of death.
+    """
+    headers = {"User-Agent": UA, "Range": "bytes=0-0"}
+    try:
+        req = urllib.request.Request(url, method="HEAD", headers=headers)
+        with urllib.request.urlopen(req, timeout=6):
+            return True
+    except urllib.error.HTTPError as exc:
+        if exc.code not in (404, 410):
+            return True
+    except Exception:  # noqa: BLE001
+        return True
+    try:
+        req = urllib.request.Request(url, method="GET", headers=headers)
+        with urllib.request.urlopen(req, timeout=6):
+            return True
+    except urllib.error.HTTPError as exc:
+        return exc.code not in (404, 410)
+    except Exception:  # noqa: BLE001
+        return True
+
+
+def filter_dead(channels: list[dict]) -> list[dict]:
+    import concurrent.futures
+
+    dead: set[str] = set()
+    with concurrent.futures.ThreadPoolExecutor(max_workers=48) as pool:
+        futures = {pool.submit(stream_alive, ch["url"]): ch["url"] for ch in channels}
+        for fut in concurrent.futures.as_completed(futures):
+            if not fut.result():
+                dead.add(futures[fut])
+    kept = [ch for ch in channels if ch["url"] not in dead]
+    print(f"stream check: {len(channels)} probed, {len(dead)} dropped")
+    return kept
 
 
 def _load_json(path: Path) -> dict:
@@ -330,17 +432,27 @@ def _load_json(path: Path) -> dict:
 def _update_state(sources: list[dict], status: dict[str, dict]) -> None:
     """Persist per-source fetch health for the maintenance script.
 
-    On success last_ok/last_count are refreshed; on failure only fail_streak
-    grows, so last_ok keeps aging and maintenance can prune stale sources.
+    last_ok is day-granular (UTC date) and entries are only rewritten on
+    meaningful transitions (first success of a new day, failure streak
+    change, recovery). This keeps state.json diffs rare so the bot does
+    not commit on every 6-hour run.
     """
-    now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     state = _load_json(STATE_FILE)
+    changed = False
     for src in sources:
         url = src["url"]
         prev = state.get(url, {})
         res = status.get(url)
         if res and res["ok"]:
-            state[url] = {"last_ok": now, "last_count": res["count"], "fail_streak": 0}
+            if prev.get("last_ok") == today and int(prev.get("fail_streak") or 0) == 0:
+                continue  # already recorded today, nothing new
+            state[url] = {
+                "last_ok": today,
+                "last_count": res["count"],
+                "fail_streak": 0,
+            }
+            changed = True
         else:
             entry = {
                 "last_ok": prev.get("last_ok"),
@@ -350,10 +462,15 @@ def _update_state(sources: list[dict], status: dict[str, dict]) -> None:
             if res:
                 entry["last_error"] = res["error"][:300]
             state[url] = entry
+            changed = True
     known = {s["url"] for s in sources}
-    state = {u: v for u, v in state.items() if u in known}
+    pruned = {u: v for u, v in state.items() if u in known}
+    if len(pruned) != len(state):
+        changed = True
+    if not changed:
+        return
     STATE_FILE.write_text(
-        json.dumps(state, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
+        json.dumps(pruned, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
         encoding="utf-8",
         newline="\n",
     )
@@ -367,6 +484,7 @@ def main() -> int:
     summary: list[str] = []
     status: dict[str, dict] = {}
     renamed = 0
+    total_parsed = 0
 
     for src in sources:
         name, url, fmt = src["name"], src["url"], src.get("format", "m3u")
@@ -381,6 +499,7 @@ def main() -> int:
             continue
 
         status[url] = {"ok": True, "count": len(channels), "error": ""}
+        total_parsed += len(channels)
         for ch in channels:
             new_name = normalize_name(ch["name"])
             if new_name != ch["name"]:
@@ -389,7 +508,7 @@ def main() -> int:
 
         added = 0
         for ch in channels:
-            key = ch["url"].strip()
+            key = url_key(ch["url"])
             if not key or key in seen_urls:
                 continue
             seen_urls.add(key)
@@ -403,16 +522,45 @@ def main() -> int:
         print("no channels collected, aborting", file=sys.stderr)
         return 1
 
-    write_outputs(merged)
-    cat_counts = {}
+    # cap redundant mirrors: keep the first MAX_PER_NAME lines per name
+    per_name: dict[str, int] = {}
+    final: list[dict] = []
     for ch in merged:
+        seen = per_name.get(ch["name"], 0)
+        if seen >= MAX_PER_NAME:
+            continue
+        per_name[ch["name"]] = seen + 1
+        final.append(ch)
+    capped = len(merged) - len(final)
+
+    # safety guard: never overwrite with a drastically shrunken list
+    # (protects against a big upstream source silently failing)
+    prev_file = OUT_DIR / "list.txt"
+    if prev_file.exists():
+        with prev_file.open(encoding="utf-8") as fh:
+            prev_lines = sum(1 for line in fh if line.strip())
+        if prev_lines and len(final) < prev_lines // 2:
+            print(
+                f"FATAL: output would shrink {prev_lines} -> {len(final)} (>50%); "
+                "a major source likely failed — refusing to overwrite",
+                file=sys.stderr,
+            )
+            return 2
+
+    if os.environ.get("IPTV_CHECK_STREAMS") == "1":
+        final = filter_dead(final)
+
+    write_outputs(final)
+    cat_counts = {}
+    for ch in final:
         for cat in categorize(ch["name"]):
             cat_counts[cat] = cat_counts.get(cat, 0) + 1
 
     print("=== summary ===")
     for line in summary:
         print(line)
-    print(f"total channels: {len(merged)}")
+    print(f"total channels: {len(final)} (url-dupes removed {total_parsed - len(merged)}, name-cap removed {capped})")
+    print(f"unique names: {len(per_name)}")
     print(f"names normalized: {renamed}")
     print(f"categories: {json.dumps(cat_counts, ensure_ascii=False)}")
     return 0
