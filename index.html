@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>iptv-auto 网页播放器</title>
+<style>
+  :root{
+    --bg:#0e1116; --panel:#151a22; --panel2:#1a212c; --border:#232a35;
+    --text:#e6edf3; --muted:#8b949e; --accent:#38bdf8; --accent2:#0ea5e9;
+    --star:#f5c518; --danger:#f87171; --ok:#34d399;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%}
+  body{
+    background:var(--bg); color:var(--text); display:flex; flex-direction:column;
+    font:14px/1.5 -apple-system,"PingFang SC","Microsoft YaHei",sans-serif;
+  }
+  header{
+    display:flex; align-items:center; gap:16px; padding:10px 16px;
+    background:var(--panel); border-bottom:1px solid var(--border); flex-wrap:wrap;
+  }
+  .brand{font-size:17px; font-weight:700; letter-spacing:.3px}
+  .brand span{color:var(--accent); font-weight:500; font-size:13px; margin-left:6px}
+  #search{
+    flex:1; min-width:180px; max-width:420px; padding:7px 12px;
+    background:var(--panel2); border:1px solid var(--border); border-radius:8px;
+    color:var(--text); outline:none;
+  }
+  #search:focus{border-color:var(--accent)}
+  header a{color:var(--muted); text-decoration:none; font-size:13px}
+  header a:hover{color:var(--accent)}
+  .layout{flex:1; display:grid; grid-template-columns:350px 1fr; min-height:0}
+  aside{display:flex; flex-direction:column; border-right:1px solid var(--border); min-height:0; background:var(--panel)}
+  #tabs{display:flex; gap:6px; padding:10px; flex-wrap:wrap; border-bottom:1px solid var(--border)}
+  .tab{
+    padding:4px 11px; border-radius:99px; background:var(--panel2); border:1px solid var(--border);
+    color:var(--muted); cursor:pointer; font-size:12.5px; user-select:none;
+  }
+  .tab.on{background:var(--accent); border-color:var(--accent); color:#04121c; font-weight:600}
+  #list{flex:1; overflow-y:auto; padding:6px}
+  .row{
+    display:flex; align-items:center; gap:9px; padding:9px 10px; border-radius:8px; cursor:pointer;
+    border:1px solid transparent;
+  }
+  .row:hover{background:var(--panel2)}
+  .row.on{background:#10283a; border-color:#1d4ed8}
+  .row img{width:26px; height:26px; border-radius:5px; object-fit:cover; background:#000; flex:none}
+  .row .ph{width:26px;height:26px;border-radius:5px;background:var(--panel2);display:flex;align-items:center;justify-content:center;font-size:12px;color:var(--muted);flex:none}
+  .row .nm{flex:1; min-width:0; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; font-size:13.5px}
+  .row .ln{font-size:11px; color:var(--muted); background:var(--panel2); border:1px solid var(--border); border-radius:4px; padding:0 5px; flex:none}
+  .row .fav{color:var(--muted); font-size:15px; flex:none; padding:2px}
+  .row .fav.on{color:var(--star)}
+  #listMeta{padding:8px 12px; font-size:12px; color:var(--muted); border-top:1px solid var(--border)}
+  main{display:flex; flex-direction:column; min-width:0; min-height:0; overflow-y:auto}
+  .player-wrap{position:relative; background:#000; aspect-ratio:16/9; max-height:64vh}
+  video{width:100%; height:100%; display:block; background:#000}
+  #placeholder{
+    position:absolute; inset:0; display:flex; flex-direction:column; gap:8px;
+    align-items:center; justify-content:center; color:var(--muted); font-size:14px;
+    background:linear-gradient(180deg,#0b0e13,#000); text-align:center; padding:20px;
+  }
+  #placeholder .big{font-size:40px; opacity:.5}
+  .now{
+    display:flex; align-items:center; gap:12px; padding:12px 16px;
+    background:var(--panel); border-bottom:1px solid var(--border);
+  }
+  .now img{width:40px;height:40px;border-radius:7px;object-fit:cover;background:#000}
+  .now .info{flex:1; min-width:0}
+  .now .t{font-size:15.5px; font-weight:600; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+  .now .s{font-size:12px; color:var(--muted)}
+  .now .s b{color:var(--accent); font-weight:600}
+  #favBtn{
+    background:var(--panel2); border:1px solid var(--border); color:var(--muted);
+    border-radius:8px; padding:7px 14px; cursor:pointer; font-size:14px;
+  }
+  #favBtn.on{color:var(--star); border-color:var(--star)}
+  .notes{margin:14px 16px 22px; background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:12px 16px; font-size:13px; color:var(--muted)}
+  .notes summary{cursor:pointer; color:var(--text); font-weight:600; font-size:13.5px}
+  .notes ul{margin:10px 0 0 18px; display:grid; gap:5px}
+  .notes a{color:var(--accent)}
+  #toast{
+    position:fixed; left:50%; bottom:26px; transform:translateX(-50%) translateY(20px);
+    background:#0b1520; border:1px solid var(--accent); color:var(--text);
+    padding:9px 18px; border-radius:99px; font-size:13px; opacity:0; pointer-events:none;
+    transition:.25s; z-index:50; max-width:86vw;
+  }
+  #toast.show{opacity:1; transform:translateX(-50%) translateY(0)}
+  #loading{
+    position:fixed; inset:0; display:flex; gap:10px; align-items:center; justify-content:center;
+    background:rgba(14,17,22,.92); z-index:60; color:var(--muted); font-size:14px;
+  }
+  .spin{width:18px;height:18px;border:2px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:sp .8s linear infinite}
+  @keyframes sp{to{transform:rotate(360deg)}}
+  @media (max-width:820px){
+    .layout{grid-template-columns:1fr; grid-template-rows:auto 1fr}
+    aside{max-height:38vh; border-right:none; border-bottom:1px solid var(--border)}
+    .player-wrap{max-height:none}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="brand">▶ iptv-auto<span>网页播放器</span></div>
+  <input id="search" type="search" placeholder="搜索频道名称…" autocomplete="off">
+  <a href="https://github.com/pq0000/iptv-auto" target="_blank" rel="noopener">GitHub 仓库</a>
+  <a href="https://github.com/pq0000/iptv-auto#readme" target="_blank" rel="noopener">订阅/EPG/说明</a>
+</header>
+
+<div class="layout">
+  <aside>
+    <nav id="tabs"></nav>
+    <div id="list"></div>
+    <div id="listMeta">加载中…</div>
+  </aside>
+  <main>
+    <div class="player-wrap">
+      <video id="video" controls playsinline></video>
+      <div id="placeholder">
+        <div class="big">📺</div>
+        <div>从左侧选择频道开始播放<br>播放完全在你的浏览器本地完成，不经过任何服务器中转</div>
+      </div>
+    </div>
+    <div class="now">
+      <img id="nowLogo" alt="" hidden>
+      <div class="info">
+        <div class="t" id="nowName">未选择频道</div>
+        <div class="s" id="nowMeta">自动聚合的公开源 · 失败自动切换备用线路</div>
+      </div>
+      <button id="favBtn" title="收藏">☆ 收藏</button>
+    </div>
+    <details class="notes">
+      <summary>使用说明 · 兼容性限制 · 开源声明</summary>
+      <ul>
+        <li>列表来自 <a href="https://github.com/pq0000/iptv-auto" target="_blank" rel="noopener">pq0000/iptv-auto</a> 每 6 小时自动聚合的公开 IPTV 源，同名频道保留多条线路，播放失败会<b>自动切换下一条</b>。</li>
+        <li>浏览器无法播放 <code>rtp/rtsp/udp/rtmp</code> 协议源（已在列表中过滤），此类源请用本地 VLC 打开。</li>
+        <li>H.265/HEVC 编码依赖系统解码器：Edge/Chrome + Windows 通常可播，部分环境会黑屏或报错——换线路或换浏览器尝试。</li>
+        <li>无效/过期线路属正常现象（列表不做测活），以实际播放为准。</li>
+        <li>本页面为静态开源播放器（Unlicense），不存储、不转码任何视频；频道链接与 EPG 均来自公开社区数据，仅供学习个人使用，请遵守当地法规。</li>
+      </ul>
+    </details>
+  </main>
+</div>
+
+<div id="toast"></div>
+<div id="loading"><div class="spin"></div><span>正在加载频道列表…</span></div>
+
+<script src="https://cdn.jsdelivr.net/npm/hls.js@1.5.13/dist/hls.min.js"
+        onerror="this.onerror=null;this.src='https://unpkg.com/hls.js@1.5.13/dist/hls.min.js'"></script>
+<script>
+(function () {
+  'use strict';
+
+  var CAT_LABELS = { cctv:'央视', weishi:'卫视', tiyu:'体育', radio:'广播', hkmotw:'港澳台', overseas:'海外' };
+  var CAT_ORDER = ['cctv','weishi','tiyu','radio','hkmotw','overseas'];
+  var DATA_URLS = [
+    'output/channels.json',
+    'https://quantil.jsdelivr.net/gh/pq0000/iptv-auto@main/output/channels.json',
+    'https://cdn.jsdelivr.net/gh/pq0000/iptv-auto@main/output/channels.json',
+    'https://ghproxy.net/https://raw.githubusercontent.com/pq0000/iptv-auto/main/output/channels.json'
+  ];
+  var LINE_TIMEOUT = 10000;
+
+  var video = document.getElementById('video');
+  var listEl = document.getElementById('list');
+  var tabsEl = document.getElementById('tabs');
+  var searchEl = document.getElementById('search');
+  var metaEl = document.getElementById('listMeta');
+  var nowName = document.getElementById('nowName');
+  var nowMeta = document.getElementById('nowMeta');
+  var nowLogo = document.getElementById('nowLogo');
+  var favBtn = document.getElementById('favBtn');
+  var placeholder = document.getElementById('placeholder');
+  var toastEl = document.getElementById('toast');
+
+  var channels = [];      // grouped: {name, urls[], logo, cats[], group}
+  var skipped = 0;
+  var activeTab = 'all';
+  var query = '';
+  var current = null;
+  var lineIdx = 0;
+  var attempt = 0;
+  var hls = null;
+  var timer = null;
+  var favs = loadFavs();
+
+  function loadFavs() {
+    try { return new Set(JSON.parse(localStorage.getItem('iptv-auto-favs') || '[]')); }
+    catch (e) { return new Set(); }
+  }
+  function saveFavs() {
+    try { localStorage.setItem('iptv-auto-favs', JSON.stringify(Array.from(favs))); } catch (e) {}
+  }
+
+  var toastTimer = null;
+  function toast(msg) {
+    toastEl.textContent = msg;
+    toastEl.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function () { toastEl.classList.remove('show'); }, 2600);
+  }
+
+  function esc(s) {
+    return String(s).replace(/[&<>"']/g, function (c) {
+      return { '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c];
+    });
+  }
+
+  async function fetchJson(url) {
+    var ctrl = new AbortController();
+    var t = setTimeout(function () { ctrl.abort(); }, 12000);
+    try {
+      var r = await fetch(url, { signal: ctrl.signal, cache: 'no-store' });
+      clearTimeout(t);
+      if (!r.ok) throw new Error(r.status);
+      return await r.json();
+    } catch (e) {
+      clearTimeout(t);
+      throw e;
+    }
+  }
+
+  async function loadChannels() {
+    var lastErr;
+    for (var i = 0; i < DATA_URLS.length; i++) {
+      try {
+        var data = await fetchJson(DATA_URLS[i]);
+        if (Array.isArray(data) && data.length) return data;
+        throw new Error('empty');
+      } catch (e) { lastErr = e; }
+    }
+    throw lastErr || new Error('load failed');
+  }
+
+  function prepare(data) {
+    var map = new Map();
+    skipped = 0;
+    for (var i = 0; i < data.length; i++) {
+      var ch = data[i];
+      if (!ch || !ch.name || !ch.url) continue;
+      if (!/^https?:\/\//i.test(ch.url)) { skipped++; continue; }
+      var g = map.get(ch.name);
+      if (!g) {
+        g = { name: ch.name, urls: [], logo: ch.logo || '', cats: [], group: ch.group || '' };
+        map.set(ch.name, g);
+      }
+      if (g.urls.indexOf(ch.url) === -1) g.urls.push(ch.url);
+      if (!g.logo && ch.logo) g.logo = ch.logo;
+      var cats = ch.categories || [];
+      for (var j = 0; j < cats.length; j++) {
+        if (g.cats.indexOf(cats[j]) === -1) g.cats.push(cats[j]);
+      }
+    }
+    channels = Array.from(map.values());
+  }
+
+  function tabsFor() {
+    var present = {};
+    channels.forEach(function (c) { c.cats.forEach(function (k) { present[k] = 1; }); });
+    var t = [{ id: 'all', label: '全部' }];
+    if (favs.size) t.push({ id: 'fav', label: '★ 收藏' });
+    CAT_ORDER.forEach(function (k) { if (present[k]) t.push({ id: k, label: CAT_LABELS[k] }); });
+    return t;
+  }
+
+  function filtered() {
+    return channels.filter(function (c) {
+      if (activeTab === 'fav') { if (!favs.has(c.name)) return false; }
+      else if (activeTab !== 'all') { if (c.cats.indexOf(activeTab) === -1) return false; }
+      if (query && c.name.toLowerCase().indexOf(query) === -1) return false;
+      return true;
+    });
+  }
+
+  function renderTabs() {
+    tabsEl.innerHTML = tabsFor().map(function (t) {
+      return '<span class="tab' + (t.id === activeTab ? ' on' : '') + '" data-tab="' + t.id + '">' + esc(t.label) + '</span>';
+    }).join('');
+  }
+
+  function renderList() {
+    var rows = filtered();
+    var html = rows.map(function (c) {
+      var isFav = favs.has(c.name);
+      var logo = c.logo
+        ? '<img src="' + esc(c.logo) + '" alt="" loading="lazy" onerror="this.outerHTML=\'<div class=&quot;ph&quot;>📺</div>\'">'
+        : '<div class="ph">📺</div>';
+      return '<div class="row' + (current && current.name === c.name ? ' on' : '') + '" data-name="' + esc(c.name) + '">' +
+        logo +
+        '<span class="nm">' + esc(c.name) + '</span>' +
+        '<span class="ln">线路 ' + c.urls.length + '</span>' +
+        '<span class="fav' + (isFav ? ' on' : '') + '" data-fav="' + esc(c.name) + '">' + (isFav ? '★' : '☆') + '</span>' +
+        '</div>';
+    }).join('');
+    listEl.innerHTML = html || '<div style="padding:24px;text-align:center;color:var(--muted)">没有匹配的频道</div>';
+    metaEl.textContent = '共 ' + channels.length + ' 个频道（显示 ' + rows.length + '）· 已过滤 ' + skipped + ' 条浏览器不支持的协议源';
+  }
+
+  function setNowPlaying() {
+    if (!current) return;
+    nowName.textContent = current.name;
+    nowMeta.innerHTML = '线路 <b>' + (lineIdx + 1) + '/' + current.urls.length + '</b> · ' +
+      (current.cats.map(function (k) { return CAT_LABELS[k] || k; }).join(' / ') || '未分类');
+    if (current.logo) { nowLogo.src = current.logo; nowLogo.hidden = false; }
+    else { nowLogo.hidden = true; }
+    favBtn.textContent = favs.has(current.name) ? '★ 已收藏' : '☆ 收藏';
+    favBtn.classList.toggle('on', favs.has(current.name));
+  }
+
+  function stopPlayback() {
+    attempt++;
+    clearTimeout(timer);
+    if (hls) { try { hls.destroy(); } catch (e) {} hls = null; }
+    video.removeAttribute('src');
+    try { video.load(); } catch (e) {}
+  }
+
+  function failLine(reason) {
+    var my = attempt;
+    return function () {
+      if (my !== attempt || !current) return;
+      clearTimeout(timer);
+      if (lineIdx + 1 < current.urls.length) {
+        lineIdx++;
+        setNowPlaying();
+        toast((reason ? reason + '，' : '') + '切换备用线路 ' + (lineIdx + 1) + '/' + current.urls.length);
+        playLine();
+      } else {
+        toast('《' + current.name + '》所有线路均无法播放' + (reason ? '（' + reason + '）' : ''));
+        nowMeta.textContent = '播放失败，可稍后重试或换其他频道';
+      }
+    };
+  }
+
+  function playLine() {
+    if (!current) return;
+    stopPlayback();
+    var my = attempt;
+    var url = current.urls[lineIdx];
+    setNowPlaying();
+    var giveUp = failLine();
+    timer = setTimeout(function () { if (my === attempt) giveUp('播放超时'); }, LINE_TIMEOUT);
+
+    var looksHls = /\.m3u8(\?|$)/i.test(url) || /m3u8/i.test(url);
+    if (looksHls) {
+      if (video.canPlayType('application/vnd.apple.mpegurl')) {
+        video.src = url;
+      } else if (window.Hls && Hls.isSupported()) {
+        hls = new Hls({
+          manifestLoadingTimeOut: 8000,
+          manifestLoadingMaxRetry: 1,
+          levelLoadingTimeOut: 8000,
+          fragLoadingTimeOut: 12000
+        });
+        hls.loadSource(url);
+        hls.attachMedia(video);
+        hls.on(Hls.Events.ERROR, function (_e, data) {
+          if (data && data.fatal && my === attempt) {
+            giveUp(data.type === Hls.ErrorTypes.NETWORK_ERROR ? '网络错误' : '解码错误');
+          }
+        });
+      } else {
+        giveUp('hls.js 未加载，无法播放 HLS');
+        return;
+      }
+    } else {
+      video.src = url;
+    }
+    var p = video.play();
+    if (p && p.catch) p.catch(function () {});
+  }
+
+  function selectChannel(name) {
+    var c = null;
+    for (var i = 0; i < channels.length; i++) if (channels[i].name === name) { c = channels[i]; break; }
+    if (!c) return;
+    current = c;
+    lineIdx = 0;
+    placeholder.style.display = 'none';
+    renderList();
+    playLine();
+  }
+
+  video.addEventListener('loadeddata', function () { clearTimeout(timer); });
+  video.addEventListener('error', function () {
+    if (current && attempt > 0) failLine('播放错误')();
+  });
+
+  tabsEl.addEventListener('click', function (e) {
+    var t = e.target.closest('[data-tab]');
+    if (!t) return;
+    activeTab = t.getAttribute('data-tab');
+    renderTabs();
+    renderList();
+  });
+
+  listEl.addEventListener('click', function (e) {
+    var f = e.target.closest('[data-fav]');
+    if (f) {
+      var nm = f.getAttribute('data-fav');
+      if (favs.has(nm)) favs.delete(nm); else favs.add(nm);
+      saveFavs();
+      renderTabs();
+      renderList();
+      setNowPlaying();
+      return;
+    }
+    var r = e.target.closest('[data-name]');
+    if (r) selectChannel(r.getAttribute('data-name'));
+  });
+
+  searchEl.addEventListener('input', function () {
+    query = searchEl.value.trim().toLowerCase();
+    renderList();
+  });
+
+  favBtn.addEventListener('click', function () {
+    if (!current) return;
+    if (favs.has(current.name)) favs.delete(current.name); else favs.add(current.name);
+    saveFavs();
+    renderTabs();
+    renderList();
+    setNowPlaying();
+  });
+
+  loadChannels()
+    .then(function (data) {
+      prepare(data);
+      document.getElementById('loading').style.display = 'none';
+      renderTabs();
+      renderList();
+    })
+    .catch(function (e) {
+      document.getElementById('loading').innerHTML =
+        '<div style="text-align:center;line-height:2">频道列表加载失败：' + esc(e && e.message || e) +
+        '<br>请检查网络，或稍后刷新重试</div>';
+    });
+})();
+</script>
+</body>
+</html>
