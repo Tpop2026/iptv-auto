@@ -1,18 +1,3 @@
-Cc,https://cdn.ttvb.eu.org/huya/11601966
-♡혜밍,https://cdn.ttvb.eu.org/soop/dign1461
-미지수♥,https://cdn.ttvb.eu.org/soop/zxll6721
-편집왕하나옵,https://cdn.ttvb.eu.org/soop/hancoma
-AI_Modeler,https://cdn.ttvb.eu.org/twitch/ai_modeler
-lilianasana,https://cdn.ttvb.eu.org/twitch/lilianasana
-pigff,https://cdn.ttvb.eu.org/douyu/24422
-ESLCS,https://cdn.ttvb.eu.org/twitch/ESLCS
-chess24,https://cdn.ttvb.eu.org/twitch/Chess24
-ShoutTV,https://cdn.ttvb.eu.org/twitch/shouttv
-TVOETOINFOTV,https://cdn.ttvb.eu.org/twitch/tvoetoinfotv
-TexasNewsStudioTV,https://cdn.ttvb.eu.org/twitch/texasnewsstudiotv
-TheRealElvira,https://cdn.ttvb.eu.org/twitch/therealelvira
-TheUpperLeft,https://cdn.ttvb.eu.org/twitch/theupperleft
-TopMedia_TopNews,https://cdn.ttvb.eu.org/twitch/topmedia_topnews
 20260927 06:16,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8
 CETV1,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225652/index.m3u8
 CETV1,http://player.cntv.cn/standard/live_HLSDRM20180524.swf?ChannelID=cetv1&videoTVChannel=cetv1&P2PChannelID=pd://cctv_p2p_hdcetv1&tai=cetv1&VideoName=cetv1&channelID=cetv1

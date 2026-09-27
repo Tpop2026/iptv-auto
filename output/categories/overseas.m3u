@@ -1,34 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/huya/11601966" group-title="•虎牙「娱乐」",Cc
-https://cdn.ttvb.eu.org/huya/11601966
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/soop/dign1461" group-title="•SOOP「娱乐」",♡혜밍
-https://cdn.ttvb.eu.org/soop/dign1461
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/soop/zxll6721" group-title="•SOOP「娱乐」",미지수♥
-https://cdn.ttvb.eu.org/soop/zxll6721
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/soop/hancoma" group-title="•SOOP「娱乐」",편집왕하나옵
-https://cdn.ttvb.eu.org/soop/hancoma
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/ai_modeler" group-title="•Twitch「娱乐」",AI_Modeler
-https://cdn.ttvb.eu.org/twitch/ai_modeler
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/lilianasana" group-title="•Twitch「娱乐」",lilianasana
-https://cdn.ttvb.eu.org/twitch/lilianasana
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyu/24422" group-title="•斗鱼「游戏」",pigff
-https://cdn.ttvb.eu.org/douyu/24422
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/ESLCS" group-title="•Twitch「游戏」",ESLCS
-https://cdn.ttvb.eu.org/twitch/ESLCS
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/Chess24" group-title="•Twitch「游戏」",chess24
-https://cdn.ttvb.eu.org/twitch/Chess24
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/shouttv" group-title="•Twitch「其他」",ShoutTV
-https://cdn.ttvb.eu.org/twitch/shouttv
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/tvoetoinfotv" group-title="•Twitch「其他」",TVOETOINFOTV
-https://cdn.ttvb.eu.org/twitch/tvoetoinfotv
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/texasnewsstudiotv" group-title="•Twitch「其他」",TexasNewsStudioTV
-https://cdn.ttvb.eu.org/twitch/texasnewsstudiotv
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/therealelvira" group-title="•Twitch「其他」",TheRealElvira
-https://cdn.ttvb.eu.org/twitch/therealelvira
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/theupperleft" group-title="•Twitch「其他」",TheUpperLeft
-https://cdn.ttvb.eu.org/twitch/theupperleft
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/topmedia_topnews" group-title="•Twitch「其他」",TopMedia_TopNews
-https://cdn.ttvb.eu.org/twitch/topmedia_topnews
 #EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/20260927 06:16.png" group-title="更新时间",20260927 06:16
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8
 #EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/CETV1.png" group-title="央视频道",CETV1
