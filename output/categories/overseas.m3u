@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/5050" group-title="•哔哩「娱乐」",EdmundDZhang
+https://cdn.ttvb.eu.org/bilibili/5050
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/21919321" group-title="•哔哩「娱乐」",HiiroVTuber
 https://cdn.ttvb.eu.org/bilibili/21919321
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/6669818" group-title="•哔哩「娱乐」",JIPA
