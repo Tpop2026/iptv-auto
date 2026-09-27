@@ -4,91 +4,78 @@
       "name": "zhi35",
       "url": "https://live.zhi35.com/iptv.m3u",
       "format": "m3u",
-      "check_streams": true,
       "enabled": true
     },
     {
       "name": "yang1989",
       "url": "https://live.yang-1989.eu.org/Live.m3u",
       "format": "m3u",
-      "check_streams": true,
       "enabled": true
     },
     {
       "name": "vbskycn-ipv4",
       "url": "https://live.zbds.top/tv/iptv4.m3u",
       "format": "m3u",
-      "check_streams": true,
       "enabled": true
     },
     {
       "name": "vbskycn-ipv6",
       "url": "https://live.zbds.top/tv/iptv6.m3u",
       "format": "m3u",
-      "check_streams": true,
       "enabled": true
     },
     {
       "name": "ccsh",
       "url": "https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/live.m3u",
       "format": "m3u",
-      "check_streams": true,
       "enabled": true
     },
     {
       "name": "fanmingming-ipv6",
       "url": "https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u",
       "format": "m3u",
-      "check_streams": true,
       "enabled": true
     },
     {
       "name": "yuechan",
       "url": "https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u",
       "format": "m3u",
-      "check_streams": true,
       "enabled": true
     },
     {
       "name": "zbefine",
       "url": "https://raw.githubusercontent.com/zbefine/iptv/main/iptv.m3u",
       "format": "m3u",
-      "check_streams": true,
       "enabled": true
     },
     {
       "name": "vamoschuck",
       "url": "https://raw.githubusercontent.com/vamoschuck/TV/main/M3U",
       "format": "m3u",
-      "check_streams": true,
       "enabled": true
     },
     {
       "name": "bigbiggrandg-gather",
       "url": "https://raw.githubusercontent.com/BigBigGrandG/IPTV-URL/release/Gather.m3u",
       "format": "m3u",
-      "check_streams": true,
       "enabled": true
     },
     {
       "name": "kimentanm-aptv",
       "url": "https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
       "format": "m3u",
-      "check_streams": true,
       "enabled": true
     },
     {
       "name": "yang-gather",
       "url": "https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u",
       "format": "m3u",
-      "check_streams": true,
       "enabled": true
     },
     {
       "name": "iptv-org",
       "url": "https://iptv-org.github.io/iptv/index.m3u",
       "format": "m3u",
-      "check_streams": false,
       "enabled": true
     }
   ]

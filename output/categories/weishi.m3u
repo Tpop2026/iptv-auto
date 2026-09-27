@@ -914,6 +914,8 @@ https://hwapi.yntv.net/ew265l/z1z6s5.m3u8
 #EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/云南卫视.png" group-title="卫视频道",云南卫视
 http://genglei.8866.org:9901/tsfile/live/1028_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/云南卫视.png" group-title="卫视频道",云南卫视
+http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovL3d3dy5kc2suY2MvcGhwL3N4Z2QucGhwP2lkPXlud3M=
+#EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/云南卫视.png" group-title="卫视频道",云南卫视
 http://1.197.250.140:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/江西卫视.png" group-title="卫视频道",江西卫视
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226344/index.m3u8
@@ -1379,6 +1381,8 @@ http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225659/index.m3u8
 http://kkk.888.3116598.xyz/api.php?n=tttt&id=rdOvlL&tk=FgM0vQMejxvG
 #EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/安多卫视.png" group-title="卫视频道",安多卫视
 http://kkk.888.3116598.xyz/api.php?n=tttt&id=wRMQR6&tk=FgM0vQMejxvG
+#EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/安多卫视.png" group-title="卫视频道",安多卫视
+https://liveout.xntv.tv/a65jur/90p2i1.m3u8?zqinghd#https://liveout.xntv.tv/a65jur/96iln2.m3u8#https://liveout.xntv.tv/a65jur/90p2i1.m3u8?zqing
 #EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/安多卫视.png" group-title="卫视频道",安多卫视
 http://zteres.sn.chinamobile.com:6060/000000001000/1000000005000266001/1.m3u8?channel-id=ystenlive&Contentid=1000000005000266001&livemode=1&stbId=3
 #EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/安多卫视.png" group-title="卫视频道",安多卫视
@@ -1953,6 +1957,56 @@ http://180.97.247.27:8088/liveplay-kk.rtxapp.com/live/program/live/cqws8m/800000
 http://180.97.247.27:8088/liveplay-kk.rtxapp.com/live/program/live/sswshd8m/8000000/mnf.m3u8
 #EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/heilongjiang.png" group-title="百视通",黑龙江卫视
 http://180.97.247.27:8088/liveplay-kk.rtxapp.com/live/program/live/hljwshd8m/8000000/mnf.m3u8
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/江苏卫视.png" group-title="高清",江苏卫视
+https://live.metshop.top/bestv.php?id=jswshd8m/8000000
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/广西卫视.png" group-title="高清",广西卫视
+https://live.metshop.top/bestv.php?id=gxwshd8m/8000000
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/四川卫视.png" group-title="高清",四川卫视
+https://live.metshop.top/bestv.php?id=scwshd/8000000
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/湖南卫视.png" group-title="高清",湖南卫视
+https://live.metshop.top/bestv.php?id=hunanwshd8m/8000000
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/浙江卫视.png" group-title="高清",浙江卫视
+https://live.metshop.top/bestv.php?id=zjwshd8m/8000000
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/东方卫视.png" group-title="高清",东方卫视
+https://live.metshop.top/bestv.php?id=dfwshd8m/8000000
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/北京卫视.png" group-title="高清",北京卫视
+https://live.metshop.top/bestv.php?id=bjwshd8m/8000000
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/天津卫视.png" group-title="高清",天津卫视
+https://live.metshop.top/bestv.php?id=tjwshd8m/8000000
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/辽宁卫视.png" group-title="高清",辽宁卫视
+https://live.metshop.top/bestv.php?id=lnwshd8m/8000000
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/安徽卫视.png" group-title="高清",安徽卫视
+https://live.metshop.top/bestv.php?id=ahwshd8m/8000000
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/黑龙江卫视.png" group-title="高清",黑龙江卫视
+https://live.metshop.top/bestv.php?id=hljwshd8m/8000000
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/广东卫视.png" group-title="高清",广东卫视
+https://live.metshop.top/bestv.php?id=gdwshd8m/8000000
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/深圳卫视.png" group-title="高清",深圳卫视
+https://live.metshop.top/bestv.php?id=szwshd8m/8000000
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/湖北卫视.png" group-title="高清",湖北卫视
+https://live.metshop.top/bestv.php?id=hubeiws8m/8000000
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/吉林卫视.png" group-title="高清",吉林卫视
+https://live.metshop.top/bestv.php?id=jlwshd8m/8000000
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/山东卫视.png" group-title="高清",山东卫视
+https://live.metshop.top/bestv.php?id=sdws8m/8000000
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/江西卫视.png" group-title="高清",江西卫视
+https://live.metshop.top/bestv.php?id=jxws8m/8000000
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/河南卫视.png" group-title="高清",河南卫视
+https://live.metshop.top/bestv.php?id=hnwshd8m/8000000
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/河北卫视.png" group-title="高清",河北卫视
+https://live.metshop.top/bestv.php?id=hbwshd8m/8000000
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/甘肃卫视.png" group-title="高清",甘肃卫视
+https://live.metshop.top/bestv.php?id=gswshd8m/8000000
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/重庆卫视.png" group-title="高清",重庆卫视
+https://live.metshop.top/bestv.php?id=cqws8m/8000000
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/东南卫视.png" group-title="高清",东南卫视
+https://live.metshop.top/bestv.php?id=dnwshd8m/8000000
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/云南卫视.png" group-title="高清",云南卫视
+https://live.metshop.top/bestv.php?id=ynwshd8m/8000000
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/贵州卫视.png" group-title="高清",贵州卫视
+https://live.metshop.top/bestv.php?id=gzwshd8m/8000000
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/海南卫视.png" group-title="高清",海南卫视
+https://live.metshop.top/bestv.php?id=hainanwshd8m/8000000
 #EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/zhejiang.png" group-title="MQIPTV",浙江卫视
 http://mqiptv.com:8014/ch/custom30/mqlive.m3u8
 #EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/yunnan.png" group-title="MQIPTV",云南卫视

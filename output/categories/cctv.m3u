@@ -47,6 +47,22 @@ https://0472.org/hls/cgtnf.m3u8
 https://0472.org/hls/cgtnx.m3u8
 #EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/CGTN阿语.png" group-title="央视频道",CGTN阿语
 https://0472.org/hls/cgtna.m3u8
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/CCTV4.." group-title="•抖音「娱乐」",CCTV4
+https://cdn.ttvb.eu.org/douyin/CCTV4..
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/cctv_video" group-title="•抖音「娱乐」",小央视频
+https://cdn.ttvb.eu.org/douyin/cctv_video
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/68582844865" group-title="•抖音「游戏」",央视台球
+https://cdn.ttvb.eu.org/douyin/68582844865
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/8178490" group-title="•哔哩「其他」",央视网
+https://cdn.ttvb.eu.org/bilibili/8178490
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/21623527" group-title="•哔哩「其他」",央视频
+https://cdn.ttvb.eu.org/bilibili/21623527
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/cctv.com" group-title="•抖音「其他」",央视网
+https://cdn.ttvb.eu.org/douyin/cctv.com
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/nuanxinnengl" group-title="•抖音「其他」",央视网财经
+https://cdn.ttvb.eu.org/douyin/nuanxinnengl
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/23265780613" group-title="•抖音「其他」",央视网超级工厂
+https://cdn.ttvb.eu.org/douyin/23265780613
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/CCTV1.png" group-title="央视频道",CCTV1
 http://74.91.26.218:82/live/cctv1hd.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/CCTV2.png" group-title="央视频道",CCTV2
@@ -179,6 +195,8 @@ http://107.150.60.122/live/cctv3hd.m3u8
 http://74.91.26.218:82/live/cctv3hd.m3u8
 #EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/CCTV3.png" group-title="央视频道",CCTV3
 http://69.30.245.50/live/cctv3.m3u8
+#EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/CCTV3.png" group-title="央视频道",CCTV3
+http://38.75.136.137:98/gslb/dsdqbv/cctv3hd.m3u8?auth=test20251009
 #EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/CCTV3.png" group-title="央视频道",CCTV3
 http://kkk.888.3116598.xyz/api.php?n=tttt&id=kBy2n1&tk=FgM0vQMejxvG
 #EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/CCTV3.png" group-title="央视频道",CCTV3
@@ -827,6 +845,8 @@ https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4k_mbd.m3u8?auth
 https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4k_mbd.m3u8?auth_key=1790514000-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-693e62f0d8ac7c9c3c86ed57d7dd9e0a&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 #EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/CCTV4K.png" group-title="央视频道",CCTV4K
 http://zteres.sn.chinamobile.com:6060/000000001000/1000000004000011651/1.m3u8?channel-id=ystenlive&Contentid=1000000004000011651&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/中央电视塔北.png" group-title="直播中国",中央电视塔北
+https://gcalic.v.myalicdn.com/gc/ztb_1/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/CCTV/CCTV-1.png" group-title="央视",CCTV-1 综合
 rtp://239.3.1.129:8008
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/CCTV/CCTV-2.png" group-title="央视",CCTV-2 财经
@@ -1095,6 +1115,46 @@ http://180.97.247.27:8088/liveplay-kk.rtxapp.com/live/program/live/cctv16hd4k/15
 http://180.97.247.27:8088/liveplay-kk.rtxapp.com/live/program/live/cctv17hd8m/8000000/mnf.m3u8
 #EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/cctv4k.png" group-title="百视通",CCTV4K
 http://180.97.247.27:8088/liveplay-kk.rtxapp.com/live/program/live/cctv4k/15000000/mnf.m3u8
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/cctv1.png" group-title="高清",CCTV1
+https://live.metshop.top/bestv.php?id=cctv1hd8m/8000000
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/cctv2.png" group-title="高清",CCTV2
+https://live.metshop.top/bestv.php?id=cctv2hd8m/8000000
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/cctv3.png" group-title="高清",CCTV3
+https://live.metshop.top/bestv.php?id=cctv38m/8000000
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/cctv4.png" group-title="高清",CCTV4
+https://live.metshop.top/bestv.php?id=cctv4hd8m/8000000
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/cctv5.png" group-title="高清",CCTV5
+https://live.metshop.top/bestv.php?id=cctv58m/8000000
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/cctv5+.png" group-title="高清",CCTV5+
+https://live.metshop.top/bestv.php?id=cctv5phd8m/8000000
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/cctv6.png" group-title="高清",CCTV6
+https://live.metshop.top/bestv.php?id=cctv6hd8m/8000000
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/cctv7.png" group-title="高清",CCTV7
+https://live.metshop.top/bestv.php?id=cctv7hd8m/8000000
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/cctv8.png" group-title="高清",CCTV8
+https://live.metshop.top/bestv.php?id=cctv8hd8m/8000000
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/cctv9.png" group-title="高清",CCTV9
+https://live.metshop.top/bestv.php?id=cctv9hd8m/8000000
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/cctv10.png" group-title="高清",CCTV10
+https://live.metshop.top/bestv.php?id=cctv10hd8m/8000000
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/cctv11.png" group-title="高清",CCTV11
+https://live.metshop.top/bestv.php?id=cctv11hd8m/8000000
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/cctv12.png" group-title="高清",CCTV12
+https://live.metshop.top/bestv.php?id=cctv12hd8m/8000000
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/cctv13.png" group-title="高清",CCTV13
+https://live.metshop.top/bestv.php?id=cctv13xwhd8m/8000000
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/cctv14.png" group-title="高清",CCTV14
+https://live.metshop.top/bestv.php?id=cctvsehd8m/8000000
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/cctv15.png" group-title="高清",CCTV15
+https://live.metshop.top/bestv.php?id=cctv15hd8m/8000000
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/cctv16.png" group-title="高清",CCTV16
+https://live.metshop.top/bestv.php?id=cctv16hd8m/8000000
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/cctv16.png" group-title="高清",CCTV16-4K
+https://live.metshop.top/bestv.php?id=cctv16hd4k/15000000
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/cctv4K.png" group-title="高清",CCTV-4K
+https://live.metshop.top/bestv.php?id=cctv4k/15000000
+#EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/cctv17.png" group-title="高清",CCTV17
+https://live.metshop.top/bestv.php?id=cctv17hd8m/8000000
 #EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/cctv1.png" group-title="MQIPTV",CCTV1
 http://mqiptv.com:8014/ch/custom80/mqlive.m3u8
 #EXTINF:-1 tvg-logo="http://n.ysyz.top:99/buyaolian/cctv2.png" group-title="MQIPTV",CCTV2
@@ -1297,10 +1357,48 @@ https://livear.cgtn.com/1000a/prog_index.m3u8
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV20.m3u8
 #EXTINF:-1 group-title="•特色",CCTV 4K
 http://113.117.74.17:8081/hls/144/index.m3u8
+#EXTINF:-1 group-title="央视IPV4",CCTV1
+http://101.35.240.114:88/live.php?id=CCTV1
+#EXTINF:-1 group-title="央视IPV4",CCTV2
+http://101.35.240.114:88/live.php?id=CCTV2
+#EXTINF:-1 group-title="央视IPV4",CCTV3
+http://101.35.240.114:88/live.php?id=CCTV3
+#EXTINF:-1 group-title="央视IPV4",CCTV4
+http://101.35.240.114:88/live.php?id=CCTV4
+#EXTINF:-1 group-title="央视IPV4",CCTV5
+http://101.35.240.114:88/live.php?id=CCTV5
+#EXTINF:-1 group-title="央视IPV4",CCTV5+
+http://101.35.240.114:88/live.php?id=CCTV5p
+#EXTINF:-1 group-title="央视IPV4",CCTV6
+http://101.35.240.114:88/live.php?id=CCTV6
+#EXTINF:-1 group-title="央视IPV4",CCTV7
+http://101.35.240.114:88/live.php?id=CCTV7
+#EXTINF:-1 group-title="央视IPV4",CCTV8
+http://101.35.240.114:88/live.php?id=CCTV8
+#EXTINF:-1 group-title="央视IPV4",CCTV9
+http://101.35.240.114:88/live.php?id=CCTV9
+#EXTINF:-1 group-title="央视IPV4",CCTV10
+http://101.35.240.114:88/live.php?id=CCTV10
+#EXTINF:-1 group-title="央视IPV4",CCTV11
+http://101.35.240.114:88/live.php?id=CCTV11
+#EXTINF:-1 group-title="央视IPV4",CCTV12
+http://101.35.240.114:88/live.php?id=CCTV12
+#EXTINF:-1 group-title="央视IPV4",CCTV13
+http://101.35.240.114:88/live.php?id=CCTV13
+#EXTINF:-1 group-title="央视IPV4",CCTV14
+http://101.35.240.114:88/live.php?id=CCTV14
+#EXTINF:-1 group-title="央视IPV4",CCTV15
+http://101.35.240.114:88/live.php?id=CCTV15
+#EXTINF:-1 group-title="央视IPV4",CCTV16
+http://101.35.240.114:88/live.php?id=CCTV16
+#EXTINF:-1 group-title="央视IPV4",CCTV17
+http://101.35.240.114:88/live.php?id=CCTV17
 #EXTINF:-1 group-title="央视IPV4",CGTN英语
 https://english-livebkali.cgtn.com/live/encgtn_0.m3u8
 #EXTINF:-1 group-title="央视IPV4",CGTN纪录
 https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8
+#EXTINF:-1 group-title="央视IPV4",CCTV4K
+http://101.35.240.114:88/live.php?id=CCTV4K
 #EXTINF:-1 tvg-logo="https://i.imgur.com/U8d4Is6.png" group-title="News",CCTV+ 1 (600p) [Not 24/7]
 https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/qSg862A.png" group-title="News",CCTV+ 2 (600p) [Not 24/7]

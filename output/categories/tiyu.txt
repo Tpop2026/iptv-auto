@@ -1,5 +1,7 @@
 CCTV-5体育,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226469/1.m3u8?
 CCTV-5+体育赛事,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226894/1.m3u8?
+五星体育,https://cdn.ttvb.eu.org/douyin/Gsports
+华少体育解说,https://cdn.ttvb.eu.org/douyin/75604127264
 CCTV5,http://101.66.194.125:9901/tsfile/live/0005_1.m3u8?key=txiptv&playlive=0&authid=0
 风云剧场,https://live.264788.xyz/channel/fengyunjuchang?streamid=31e7b5b7032d25dd215a4069cdee1a48&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 精品体育,https://epg.pw/stream/f7556eccd4ae06b0c2991fdc7a4f8388496559f728cc82459a8e50346040e226.m3u8
@@ -102,6 +104,7 @@ CCTV5+,http://120.198.86.186:9901/tsfile/live/1025_1.m3u8?key=txiptv&playlive=1&
 游戏风云,http://8.138.7.223/tv/migu3.php?id=yxfy
 山东体育,http://58.57.40.22:9901/tsfile/live/1020_1.m3u8
 陕西体育休闲,http://2280.eu.org:1234/956909356
+云南丽江高尔夫,https://gcalic.v.myalicdn.com/gc/hkylxs09_1/index.m3u8
 CCTV-5 体育,rtp://239.3.1.173:8001
 CCTV-5+ 体育赛事,rtp://239.3.1.130:8004
 体育休闲,rtp://239.3.1.243:8000
@@ -140,6 +143,12 @@ CCTV5+,http://180.97.247.27:8088/liveplay-kk.rtxapp.com/live/program/live/cctv5p
 百事通体育6,http://180.97.247.27:8088/liveplay-kk.rtxapp.com/live/program/live/hdnba6/4000000/mnf.m3u8
 百事通体育7,http://180.97.247.27:8088/liveplay-kk.rtxapp.com/live/program/live/hdnba7/4000000/mnf.m3u8
 游戏风云,http://180.97.247.27:8088/liveplay-kk.rtxapp.com/live/program/live/yxfy8m/8000000/mnf.m3u8
+CCTV5,https://live.metshop.top/bestv.php?id=cctv58m/8000000
+CCTV5+,https://live.metshop.top/bestv.php?id=cctv5phd8m/8000000
+劲爆体育,https://live.metshop.top/bestv.php?id=jbtyhd8m/8000000
+五星体育,https://live.metshop.top/bestv.php?id=wxtyhd8m/8000000
+游戏风云,https://live.metshop.top/bestv.php?id=yxfy8m/8000000
+魅力足球,https://live.metshop.top/bestv.php?id=mlyyhd8m/8000000
 CCTV5,http://mqiptv.com:8014/ch/custom76/mqlive.m3u8
 CCTV5+,http://mqiptv.com:8014/ch/custom64/mqlive.m3u8
 CCTV5,http://39.134.24.161/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226395/index.m3u8?
@@ -175,6 +184,8 @@ Trace Sports Stars,https://trace-sportstars-samsungnz.amagi.tv/playlist.m3u8?che
 足球超级猎食者(下),https://hls.cntv.kcdnvip.com/asp/hls/1200/0303000a/3/default/d7aec4db75da469d915a5dd7a0fb3d70/1200.m3u8
 iHOT爱赛车,http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000006000240630/index.m3u8?channel-id=wasusyt&Contentid=6000000006000240630&livemode=1&stbId=3
 iHOT爱体育,http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000006000290630/index.m3u8?channel-id=wasusyt&Contentid=6000000006000290630&livemode=1&stbId=3
+CCTV5,http://101.35.240.114:88/live.php?id=CCTV5
+CCTV5+,http://101.35.240.114:88/live.php?id=CCTV5p
 五星体育,http://101.35.240.114:88/live.php?id=五星体育
 睛彩篮球「移动」,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000020000011529&livemode=1&stbId=YanG-1989
 5Sport 4K (2160p),http://str2.iptvhd.ru:8080/5SPORT_4K/index.m3u8

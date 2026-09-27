@@ -1,7 +1,7 @@
 # iptv-auto
 
 自动聚合公开 IPTV 直播源，生成可直接订阅的 **M3U / TXT** 文件。  
-GitHub Actions 每 6 小时自动抓取、去重、剔除明显失效链接并提交更新。
+GitHub Actions 每 6 小时自动抓取、去重并提交更新（不测活，抓到什么给什么）。
 
 ## 订阅地址
 
@@ -21,20 +21,19 @@ GitHub Actions 每 6 小时自动抓取、去重、剔除明显失效链接并�
 
 1. 定时（每 6 小时）+ 手动触发 + 源配置变更时运行；
 2. 按 `sources.json` 抓取上游播放列表（失败的源跳过并记录在日志）；
-3. 对上游源做 HTTP 状态校验，按 URL 去重；
-4. 对体积较小的源逐条校验流地址，**仅剔除明确返回 404/410 的链接**（超时/403 等无法证明失效的保留）；
-5. 按频道名分类，生成全量与分类的 m3u/txt；
-6. 有变化则由 `github-actions[bot]` 自动提交。
+3. 按频道流地址去重，不做测活（播放器自行容错）；
+4. 按频道名分类，生成全量与分类的 m3u/txt；
+5. 有变化则由 `github-actions[bot]` 自动提交。
 
 ## 添加 / 管理源
 
 编辑 [`sources.json`](sources.json)：
 
 ```json
-{ "name": "示例", "url": "https://example.com/list.m3u", "format": "m3u", "check_streams": true, "enabled": true }
+{ "name": "示例", "url": "https://example.com/list.m3u", "format": "m3u", "enabled": true }
 ```
 
-- `check_streams`: 是否逐条校验该源的流地址（超大源建议 `false`，如 iptv-org）；
+- `format`: `m3u` 或 `txt`；
 - `enabled`: 设为 `false` 可临时停用。
 
 改完推送到 `main` 会立即触发一次更新。

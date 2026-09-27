@@ -3,19 +3,17 @@
 
 Usage: python scripts/fetch.py
 Reads sources.json, fetches upstream playlists, dedupes channels,
-optionally drops streams that clearly return 404/410, then writes:
+then writes:
   output/index.m3u
   output/list.txt
   output/categories/<cat>.m3u / <cat>.txt
 """
 from __future__ import annotations
 
-import concurrent.futures
 import json
 import re
 import sys
 import time
-import urllib.error
 import urllib.request
 from pathlib import Path
 
@@ -29,8 +27,6 @@ UA = (
     "(KHTML, like Gecko) Chrome/126.0 Safari/537.36 iptv-auto/1.0"
 )
 FETCH_TIMEOUT = 25
-STREAM_TIMEOUT = 6
-STREAM_WORKERS = 32
 MAX_BYTES = 60 * 1024 * 1024
 
 CATEGORIES: dict[str, re.Pattern[str]] = {
@@ -131,56 +127,6 @@ def parse_playlist(text: str, fmt: str) -> list[dict]:
     return parse_m3u(text)
 
 
-def stream_alive(url: str) -> bool:
-    """Conservative check: drop only streams that clearly return 404/410.
-
-    Timeouts, connection errors, 403/5xx are kept — overseas runners often
-    cannot reach geo-restricted or China-only streams, which is not proof
-    of death. A 404/410 on HEAD is re-confirmed with a ranged GET, since
-    some servers answer 404 to HEAD but serve normally to GET.
-    """
-    headers = {"User-Agent": UA, "Range": "bytes=0-0"}
-    head_404 = False
-    try:
-        req = urllib.request.Request(url, method="HEAD", headers=headers)
-        with urllib.request.urlopen(req, timeout=STREAM_TIMEOUT):
-            return True
-    except urllib.error.HTTPError as exc:
-        if exc.code in (404, 410):
-            head_404 = True
-        else:
-            return True  # 4xx/5xx on HEAD is not clear evidence of death
-    except Exception:  # noqa: BLE001
-        return True  # unreachable ≠ dead from this vantage point
-    if not head_404:
-        return True
-    try:
-        req = urllib.request.Request(url, method="GET", headers=headers)
-        with urllib.request.urlopen(req, timeout=STREAM_TIMEOUT):
-            return True
-    except urllib.error.HTTPError as exc:
-        return exc.code not in (404, 410)
-    except Exception:  # noqa: BLE001
-        return True
-
-
-def check_streams(channels: list[dict]) -> list[dict]:
-    urls = sorted({c["url"] for c in channels})
-    dead: set[str] = set()
-    done = 0
-    with concurrent.futures.ThreadPoolExecutor(max_workers=STREAM_WORKERS) as pool:
-        futures = {pool.submit(stream_alive, u): u for u in urls}
-        for fut in concurrent.futures.as_completed(futures):
-            if not fut.result():
-                dead.add(futures[fut])
-            done += 1
-            if done % 500 == 0:
-                print(f"  stream check progress: {done}/{len(urls)} (dead so far: {len(dead)})")
-    kept = [c for c in channels if c["url"] not in dead]
-    print(f"  stream check done: {len(urls)} checked, {len(dead)} dropped")
-    return kept
-
-
 def categorize(name: str) -> list[str]:
     cats = [cat for cat, pat in CATEGORIES.items() if pat.search(name)]
     if not cats and not CJK_RE.search(name):
@@ -245,9 +191,6 @@ def main() -> int:
             summary.append(f"[FAIL] {name}: {exc}")
             print(f"[FAIL] {name}: {exc}", file=sys.stderr)
             continue
-
-        if src.get("check_streams"):
-            channels = check_streams(channels)
 
         added = 0
         for ch in channels:

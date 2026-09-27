@@ -12,6 +12,9 @@ TVBS,http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8575/.m3u8
 东森新闻,http://ali.hlspull.yximgs.com/live/tboxpromhqttuqqcvbyquoqdqqeqywefqqfbxfbxxvbqqqlqqhqsxw.flv
 东森超视,http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8525/.m3u8
 东森综合,http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8524/.m3u8
+❌福建漳州六鳌翡翠湾,http://gcalic.v.myalicdn.com/gc/fcw01_1/index.m3u8?contentid=2820180516001
+非凡-迪安,https://cdn.ttvb.eu.org/huya/940213
+东方明珠东方朔,https://cdn.ttvb.eu.org/bilibili/26351451
 纬来体育,https://epg.pw/stream/4f18dfe0593db5c686eb64ae8edaf2a9202d4d46bdc9bbde2cee27708e12ea01.m3u8
 香港卫视,http://player.cntv.cn/standard/live_HLSDRM20180606.swf?ChannelID=xianggangweishi&P2PChannelID=pd://cctv_p2p_hdxianggangweishi
 香港卫视,http://anren.live/HK/BSJDUFpB.m3u8
@@ -115,7 +118,11 @@ ViuTV,https://10.fast.hidns.vip/163189/viu/
 纬来育乐台,http://31.43.191.125:8080/restream/restream/34808
 纬来育乐台,http://31.43.191.125:8080/restream/restream/34849
 台视,http://38.64.72.148/hls/modn/list/4013/chunklist0.m3u8
+台视,http://173.208.234.146/live/ttvzh.m3u8
+台视,http://173.208.234.146/live/ttv.m3u8
+台视,http://74.91.26.218:82/live/ttv.m3u8
 台视,http://31.43.191.125:8080/restream/restream/34879
+福建漳州六鳌翡翠湾,https://gcalic.v.myalicdn.com/gc/fcw01_1/index.m3u8
 凤凰中文,http://[2409:8087:2001:20:2800:0:df6e:eb24]:80/wh7f454c46tw3553140416_-2021535160/ott.mobaibox.com/PLTV/3/224/3221228527/index.m3u8
 凤凰资讯,http://[2409:8087:2001:20:2800:0:df6e:eb27]:80/wh7f454c46tw3352677969_1732462333/ott.mobaibox.com/PLTV/3/224/3221228524/index.m3u8
 凤凰香港,http://[2409:8087:2001:20:2800:0:df6e:eb1d]:80/ott.mobaibox.com/PLTV/1/224/3221228530/1.m3u8
@@ -158,12 +165,16 @@ ViuTV6,http://50.7.238.114:8278/viusix_twn/playlist.m3u8?tid=MD7D995062979950629
 「HK」凤凰中文,http://113.117.74.17:8081/hls/37/index.m3u8
 「HK」凤凰资讯,http://113.117.74.18:8081/hls/36/index.m3u8
 「HK」凤凰香港,http://113.117.74.18:8081/hls/38/index.m3u8
+「MO」澳门莲花,https://p.ggiptv.com/v/macaulotustv.php
 东森美洲,http://38.64.72.148:80/hls/modn/list/2015/chunklist0.m3u8
 民视新闻,http://38.64.72.148/hls/modn/list/4012/chunklist0.m3u8
+TVBS新闻,http://38.64.72.148:80/hls/modn/list/4006/chunklist0.m3u8
 TVBS亚洲,http://38.64.72.148/hls/modn/list/4005/chunklist1.m3u8
 CNR 香港之声,http://ngcdn008.cnr.cn/live/xgzs/index.m3u8
 台湾Lounge Radio音乐电台,http://streaming.radionomy.com/JamendoLounge
 台湾古典音乐台,http://59.120.88.155:8000/live.mp3
+香港电影,https://yang-1989.eu.org/live/huya/11602058
+「RU」 TVBRICS(ENG),http://brics.bonus-tv.ru/cdn/brics/english/tracks-v1a1/index.m3u8
 「中」凤凰传奇-策马奔腾,http://antiserver.kuwo.cn/anti.s?rid=MUSIC_24042013&response=res&format=mp4&type=convert_url
 「中」凤凰传奇-歌唱二小放牛郎,http://antiserver.kuwo.cn/anti.s?rid=MUSIC_8120530&response=res&format=mp4&type=convert_url
 「中」凤凰传奇-光芒,http://antiserver.kuwo.cn/anti.s?rid=MUSIC_24042019&response=res&format=mp4&type=convert_url
@@ -177,6 +188,9 @@ CNR 香港之声,http://ngcdn008.cnr.cn/live/xgzs/index.m3u8
 「中」凤凰传奇-自由飞翔,http://antiserver.kuwo.cn/anti.s?rid=MUSIC_18747906&response=res&format=mp4&type=convert_url
 「中」凤凰传奇-自由自在,http://antiserver.kuwo.cn/anti.s?rid=MUSIC_24042025&response=res&format=mp4&type=convert_url
 翡翠台,http://101.35.240.114:88/live.php?id=翡翠台
+凤凰资讯,http://101.35.240.114:88/phenix.php?id=fhzx
+凤凰中文,http://101.35.240.114:88/phenix.php?id=fhzw
+凤凰香港,http://101.35.240.114:88/phenix.php?id=fhhk
 HOY Infotainment (1080p) [Geo-blocked],https://hoytv-live-stream.hoy.tv/ch78/index.m3u8
 HOY TV (1080p) [Geo-blocked],https://hoytv-live-stream.hoy.tv/ch77/index.m3u8
 NOW TV (720p),https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8
