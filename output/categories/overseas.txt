@@ -3,10 +3,12 @@ HiiroVTuber,https://cdn.ttvb.eu.org/bilibili/21919321
 JIPA,https://cdn.ttvb.eu.org/bilibili/6669818
 KL_qiqi,https://cdn.ttvb.eu.org/bilibili/407149
 OneMicroSpace,https://cdn.ttvb.eu.org/bilibili/390508
+VVVZQ,https://cdn.ttvb.eu.org/bilibili/1403227
 0387,https://cdn.ttvb.eu.org/douyin/Aa0387
 MD1999,https://cdn.ttvb.eu.org/douyin/37029384065
 Nani,https://cdn.ttvb.eu.org/douyin/lina17
 ally,https://cdn.ttvb.eu.org/douyin/a11y222
+Lusa,https://cdn.ttvb.eu.org/douyin/Lusa17781
 ICEKING,https://cdn.ttvb.eu.org/douyu/3567521
 LR1245,https://cdn.ttvb.eu.org/douyu/12534632
 OrangebabyOAO,https://cdn.ttvb.eu.org/douyu/34411
@@ -39,6 +41,7 @@ mirayogax,https://cdn.ttvb.eu.org/twitch/mirayogax
 nonstopfashion,https://cdn.ttvb.eu.org/twitch/nonstopfashion
 sickemoangel24,https://cdn.ttvb.eu.org/twitch/sickemoangel24
 soywini,https://cdn.ttvb.eu.org/twitch/soywini_
+spicyuuu,https://cdn.ttvb.eu.org/twitch/spicyuuu
 CS-advent,https://cdn.ttvb.eu.org/bilibili/1883358196
 Kyo_ow,https://cdn.ttvb.eu.org/bilibili/7395955
 LexBurner,https://cdn.ttvb.eu.org/bilibili/11365

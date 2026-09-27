@@ -1,6 +1,5 @@
 CCTV-5 体育,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226469/1.m3u8?
 CCTV-5+ 体育赛事,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226894/1.m3u8?
-18k体育,https://cdn.ttvb.eu.org/bilibili/1921304247
 雨说体育徐静雨,https://cdn.ttvb.eu.org/bilibili/21669525
 五星体育,https://cdn.ttvb.eu.org/douyin/Gsports
 CCTV-5 体育,http://101.66.194.125:9901/tsfile/live/0005_1.m3u8?key=txiptv&playlive=0&authid=0

@@ -457,13 +457,13 @@ B站」JJ斗地主,https://cdn.ttvb.eu.org/bilibili/22021983
 斗鱼」跑跑卡丁车,https://cdn.ttvb.eu.org/douyu/7722576
 斗鱼」跑跑卡丁车•手游,https://cdn.ttvb.eu.org/douyu/6672862
 178的珞老师,https://cdn.ttvb.eu.org/bilibili/1963656673
-18k体育,https://cdn.ttvb.eu.org/bilibili/1921304247
 Asaki大人,https://cdn.ttvb.eu.org/bilibili/732
 EdmundDZhang,https://cdn.ttvb.eu.org/bilibili/5050
 HiiroVTuber,https://cdn.ttvb.eu.org/bilibili/21919321
 JIPA,https://cdn.ttvb.eu.org/bilibili/6669818
 KL_qiqi,https://cdn.ttvb.eu.org/bilibili/407149
 OneMicroSpace,https://cdn.ttvb.eu.org/bilibili/390508
+VVVZQ,https://cdn.ttvb.eu.org/bilibili/1403227
 一条小糖糖,https://cdn.ttvb.eu.org/bilibili/52032
 三一律Midori,https://cdn.ttvb.eu.org/bilibili/22491211
 三角洲行动赛事,https://cdn.ttvb.eu.org/bilibili/1921272912
@@ -505,6 +505,7 @@ SL.困困777,https://cdn.ttvb.eu.org/douyin/580669394513
 ally,https://cdn.ttvb.eu.org/douyin/a11y222
 csgo茄子,https://cdn.ttvb.eu.org/douyin/472143576107
 uu大王,https://cdn.ttvb.eu.org/douyin/745395803753
+Lusa,https://cdn.ttvb.eu.org/douyin/Lusa17781
 一休不是光头,https://cdn.ttvb.eu.org/douyin/yixiu2001
 万达影城福利官,https://cdn.ttvb.eu.org/douyin/WandaFilms
 上海小杨摄影工作室,https://cdn.ttvb.eu.org/douyin/Rocky1922812160
@@ -545,6 +546,7 @@ uu大王,https://cdn.ttvb.eu.org/douyin/745395803753
 张开心217,https://cdn.ttvb.eu.org/douyin/8564042
 张雪机车,https://cdn.ttvb.eu.org/douyin/46928345320
 怡bb,https://cdn.ttvb.eu.org/douyin/yibb045692
+我不叫龙虾,https://cdn.ttvb.eu.org/douyin/xxs_longxia
 斯人,https://cdn.ttvb.eu.org/douyin/sirensong
 无忧小老虎,https://cdn.ttvb.eu.org/douyin/wyxlh472
 暴躁萝莉,https://cdn.ttvb.eu.org/douyin/56329918687
@@ -592,9 +594,7 @@ uu大王,https://cdn.ttvb.eu.org/douyin/745395803753
 馨馨☁️223民族女高音,https://cdn.ttvb.eu.org/douyin/98615709237
 鱼蛋 音乐人,https://cdn.ttvb.eu.org/douyin/yudan0901
 鸽宝,https://cdn.ttvb.eu.org/douyin/mc2710
-麻将叶一刀,https://cdn.ttvb.eu.org/douyin/64327329207
 齐景川,https://cdn.ttvb.eu.org/douyin/198547211275
-龙浩天,https://cdn.ttvb.eu.org/douyin/hotan2029
 X8 _XXBB传媒,https://cdn.ttvb.eu.org/douyin/x888888csq
 清清子🍉1219,https://cdn.ttvb.eu.org/douyin/90470435920
 ICEKING,https://cdn.ttvb.eu.org/douyu/3567521
@@ -604,6 +604,7 @@ OrangebabyOAO,https://cdn.ttvb.eu.org/douyu/34411
 何二抛zZ,https://cdn.ttvb.eu.org/douyu/4452132
 傲娇的超级赛亚人,https://cdn.ttvb.eu.org/douyu/4373285
 叶子户外,https://cdn.ttvb.eu.org/douyu/244548
+周柒柒o,https://cdn.ttvb.eu.org/douyu/12244293
 奇光主播Blaze,https://cdn.ttvb.eu.org/douyu/12817608
 奇光主播q,https://cdn.ttvb.eu.org/douyu/12560807
 孙悟空丨兰林汉,https://cdn.ttvb.eu.org/douyu/475252
@@ -706,6 +707,7 @@ cc、柚子【财迷】-锦鲤,https://cdn.ttvb.eu.org/huya/61829
 盛世-顾九卿,https://cdn.ttvb.eu.org/huya/137483
 神秘小希哟,https://cdn.ttvb.eu.org/huya/20985843
 粤语电影放映厅,https://cdn.ttvb.eu.org/huya/21059572
+绮夏【刘绮夏,https://cdn.ttvb.eu.org/huya/291326
 美少女咸儿,https://cdn.ttvb.eu.org/huya/11336572
 老司机,https://cdn.ttvb.eu.org/huya/11352946
 耗子Haozi,https://cdn.ttvb.eu.org/huya/154176
@@ -757,6 +759,7 @@ mirayogax,https://cdn.ttvb.eu.org/twitch/mirayogax
 nonstopfashion,https://cdn.ttvb.eu.org/twitch/nonstopfashion
 sickemoangel24,https://cdn.ttvb.eu.org/twitch/sickemoangel24
 soywini,https://cdn.ttvb.eu.org/twitch/soywini_
+spicyuuu,https://cdn.ttvb.eu.org/twitch/spicyuuu
 艾怡,https://cdn.ttvb.eu.org/twitch/irissiri129
 YY用户,https://cdn.ttvb.eu.org/yy/1354930976
 祥盛】玄律 坚若磐石,https://cdn.ttvb.eu.org/yy/7853
@@ -781,8 +784,8 @@ waywardzz,https://cdn.ttvb.eu.org/bilibili/1919216529
 一米八的坤儿,https://cdn.ttvb.eu.org/bilibili/650
 不死斩剑圣,https://cdn.ttvb.eu.org/bilibili/25820260
 不死鸟总监,https://cdn.ttvb.eu.org/bilibili/22747736
-你的影月月,https://cdn.ttvb.eu.org/bilibili/21414905
 傲慢的小肉包,https://cdn.ttvb.eu.org/bilibili/213
+僵尸驾到丶全场尖叫,https://cdn.ttvb.eu.org/bilibili/7781258
 化圆直,https://cdn.ttvb.eu.org/bilibili/21200604
 半角数字君,https://cdn.ttvb.eu.org/bilibili/2712683
 哔哩哔哩英雄联盟赛事,https://cdn.ttvb.eu.org/bilibili/7734200
@@ -858,7 +861,6 @@ xd777,https://cdn.ttvb.eu.org/douyin/vvvv07
 南笙,https://cdn.ttvb.eu.org/douyin/208365068716
 卢某某,https://cdn.ttvb.eu.org/douyin/y137380
 口袋Kido,https://cdn.ttvb.eu.org/douyin/5529999572
-吕德华,https://cdn.ttvb.eu.org/douyin/dehua66888
 坦克世界-中队,https://cdn.ttvb.eu.org/douyin/86275289503
 大奇游戏解说8008,https://cdn.ttvb.eu.org/douyin/daqi8008
 大斌子,https://cdn.ttvb.eu.org/douyin/99999dbz
@@ -876,10 +878,8 @@ xd777,https://cdn.ttvb.eu.org/douyin/vvvv07
 小鸥,https://cdn.ttvb.eu.org/douyin/10605841863
 帝国时代2肥龙大师,https://cdn.ttvb.eu.org/douyin/feilongdashi
 放逐大帝,https://cdn.ttvb.eu.org/douyin/Douyu5377721
-数码不是光头,https://cdn.ttvb.eu.org/douyin/shumajiang73
 斌斌,https://cdn.ttvb.eu.org/douyin/latiao180
 李天命,https://cdn.ttvb.eu.org/douyin/281720919128
-李思达,https://cdn.ttvb.eu.org/douyin/874333492831
 李知恩,https://cdn.ttvb.eu.org/douyin/k1264861020
 柔风亚索,https://cdn.ttvb.eu.org/douyin/YasuoGod
 梦俊,https://cdn.ttvb.eu.org/douyin/83393879951
@@ -900,6 +900,7 @@ xd777,https://cdn.ttvb.eu.org/douyin/vvvv07
 神戟,https://cdn.ttvb.eu.org/douyin/65518160435
 第五犹太,https://cdn.ttvb.eu.org/douyin/d5youtai
 简心,https://cdn.ttvb.eu.org/douyin/52147204
+花麻麻,https://cdn.ttvb.eu.org/douyin/HMM438
 苏晗,https://cdn.ttvb.eu.org/douyin/suhanxiaohao
 董某人,https://cdn.ttvb.eu.org/douyin/148846647189
 蓝汐,https://cdn.ttvb.eu.org/douyin/63962334778
@@ -909,7 +910,6 @@ xd777,https://cdn.ttvb.eu.org/douyin/vvvv07
 飞雨CD,https://cdn.ttvb.eu.org/douyin/74614661014
 飞鱼,https://cdn.ttvb.eu.org/douyin/fgj179342
 鬼狙,https://cdn.ttvb.eu.org/douyin/csgoGJ
-魔兽世界Temptat,https://cdn.ttvb.eu.org/douyin/Temptat1993
 魔帝Dota2,https://cdn.ttvb.eu.org/douyin/GodOfDota2
 黄大楼,https://cdn.ttvb.eu.org/douyin/HDL0618
 Chalice,https://cdn.ttvb.eu.org/douyu/5135383
@@ -965,7 +965,6 @@ zzc啊哦额,https://cdn.ttvb.eu.org/douyu/666743
 雷欧其,https://cdn.ttvb.eu.org/douyu/128489
 龙四爷攻略组,https://cdn.ttvb.eu.org/douyu/479079
 龚建ZSMJ,https://cdn.ttvb.eu.org/douyu/52876
-4AM小海xx,https://cdn.ttvb.eu.org/huya/791185
 90121童灿,https://cdn.ttvb.eu.org/huya/714333
 ALpb马平,https://cdn.ttvb.eu.org/huya/668
 AzZ丶半个橙子,https://cdn.ttvb.eu.org/huya/769178
@@ -1003,7 +1002,6 @@ loveyouq,https://cdn.ttvb.eu.org/huya/148651
 微竞-嘎嘎V,https://cdn.ttvb.eu.org/huya/333708
 忆玖-一晨【狙神,https://cdn.ttvb.eu.org/huya/607911
 慎独,https://cdn.ttvb.eu.org/huya/31421
-拉风龙,https://cdn.ttvb.eu.org/huya/88863
 明眸【没毛,https://cdn.ttvb.eu.org/huya/786724
 木槿软辅,https://cdn.ttvb.eu.org/huya/527397
 杨齐家丶,https://cdn.ttvb.eu.org/huya/60066
@@ -1067,6 +1065,7 @@ PUMA官方旗舰店,https://cdn.ttvb.eu.org/douyin/87524611523
 劳动报,https://cdn.ttvb.eu.org/douyin/laodongbao
 北京日报,https://cdn.ttvb.eu.org/douyin/bjrb
 卡咔英语,https://cdn.ttvb.eu.org/douyin/54898391755
+同程北海度假专场,https://cdn.ttvb.eu.org/douyin/BeiHai.Travel
 大伟说,https://cdn.ttvb.eu.org/douyin/David.0726
 大声,https://cdn.ttvb.eu.org/douyin/zhejiangzhisheng
 央视文艺,https://cdn.ttvb.eu.org/douyin/1027321223
