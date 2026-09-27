@@ -5,17 +5,15 @@ GitHub Actions 每 6 小时自动抓取、去重、剔除明显失效链接并�
 
 ## 订阅地址
 
-将 `USER` 替换为仓库所有者用户名：
-
 | 文件 | 地址 |
 |---|---|
-| 全量 M3U | `https://raw.githubusercontent.com/USER/iptv-auto/main/output/index.m3u` |
-| 全量 TXT | `https://raw.githubusercontent.com/USER/iptv-auto/main/output/list.txt` |
-| 央视频道 | `.../output/categories/cctv.m3u`（同名 `.txt`） |
-| 卫视频道 | `.../output/categories/weishi.m3u` |
-| 体育频道 | `.../output/categories/tiyu.m3u` |
-| 港澳台频道 | `.../output/categories/hkmotw.m3u` |
-| 海外频道 | `.../output/categories/overseas.m3u` |
+| 全量 M3U | `https://raw.githubusercontent.com/pq0000/iptv-auto/main/output/index.m3u` |
+| 全量 TXT | `https://raw.githubusercontent.com/pq0000/iptv-auto/main/output/list.txt` |
+| 央视频道 | `https://raw.githubusercontent.com/pq0000/iptv-auto/main/output/categories/cctv.m3u`（同名 `.txt`） |
+| 卫视频道 | `https://raw.githubusercontent.com/pq0000/iptv-auto/main/output/categories/weishi.m3u` |
+| 体育频道 | `https://raw.githubusercontent.com/pq0000/iptv-auto/main/output/categories/tiyu.m3u` |
+| 港澳台频道 | `https://raw.githubusercontent.com/pq0000/iptv-auto/main/output/categories/hkmotw.m3u` |
+| 海外频道 | `https://raw.githubusercontent.com/pq0000/iptv-auto/main/output/categories/overseas.m3u` |
 
 支持 VLC、TiviMate、TVBox、DIYP、APTV 等任意 M3U/TXT 播放器。
 
