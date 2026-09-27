@@ -19,12 +19,6 @@
       "enabled": true
     },
     {
-      "name": "vbskycn-ipv6",
-      "url": "https://live.zbds.top/tv/iptv6.m3u",
-      "format": "m3u",
-      "enabled": true
-    },
-    {
       "name": "ccsh",
       "url": "https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/live.m3u",
       "format": "m3u",
@@ -43,24 +37,6 @@
       "enabled": true
     },
     {
-      "name": "zbefine",
-      "url": "https://raw.githubusercontent.com/zbefine/iptv/main/iptv.m3u",
-      "format": "m3u",
-      "enabled": true
-    },
-    {
-      "name": "vamoschuck",
-      "url": "https://raw.githubusercontent.com/vamoschuck/TV/main/M3U",
-      "format": "m3u",
-      "enabled": true
-    },
-    {
-      "name": "bigbiggrandg-gather",
-      "url": "https://raw.githubusercontent.com/BigBigGrandG/IPTV-URL/release/Gather.m3u",
-      "format": "m3u",
-      "enabled": true
-    },
-    {
       "name": "kimentanm-aptv",
       "url": "https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
       "format": "m3u",
@@ -75,6 +51,30 @@
     {
       "name": "iptv-org",
       "url": "https://iptv-org.github.io/iptv/index.m3u",
+      "format": "m3u",
+      "enabled": true
+    },
+    {
+      "name": "Free-TV/IPTV",
+      "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8",
+      "format": "m3u",
+      "enabled": true
+    },
+    {
+      "name": "vbskycn/iptv",
+      "url": "https://live.zbds.top/tv/iptv4.txt",
+      "format": "txt",
+      "enabled": true
+    },
+    {
+      "name": "zilong7728/Collect-IPTV",
+      "url": "https://raw.githubusercontent.com/zilong7728/Collect-IPTV/refs/heads/main/best_sorted.m3u",
+      "format": "m3u",
+      "enabled": true
+    },
+    {
+      "name": "qwerttvv/Beijing-IPTV",
+      "url": "https://raw.githubusercontent.com/qwerttvv/Beijing-IPTV/master/IPTV-Unicom.m3u",
       "format": "m3u",
       "enabled": true
     }

@@ -15,10 +15,12 @@ import re
 import sys
 import time
 import urllib.request
+from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SOURCES_FILE = ROOT / "sources.json"
+STATE_FILE = ROOT / "state.json"
 OUT_DIR = ROOT / "output"
 CAT_DIR = OUT_DIR / "categories"
 
@@ -174,12 +176,52 @@ def write_outputs(channels: list[dict]) -> None:
         _write(CAT_DIR / f"{cat}.txt", txt)
 
 
+def _load_json(path: Path) -> dict:
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return {}
+
+
+def _update_state(sources: list[dict], status: dict[str, dict]) -> None:
+    """Persist per-source fetch health for the maintenance script.
+
+    On success last_ok/last_count are refreshed; on failure only fail_streak
+    grows, so last_ok keeps aging and maintenance can prune stale sources.
+    """
+    now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    state = _load_json(STATE_FILE)
+    for src in sources:
+        url = src["url"]
+        prev = state.get(url, {})
+        res = status.get(url)
+        if res and res["ok"]:
+            state[url] = {"last_ok": now, "last_count": res["count"], "fail_streak": 0}
+        else:
+            entry = {
+                "last_ok": prev.get("last_ok"),
+                "last_count": prev.get("last_count", 0),
+                "fail_streak": int(prev.get("fail_streak", 0)) + 1,
+            }
+            if res:
+                entry["last_error"] = res["error"][:300]
+            state[url] = entry
+    known = {s["url"] for s in sources}
+    state = {u: v for u, v in state.items() if u in known}
+    STATE_FILE.write_text(
+        json.dumps(state, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
+        encoding="utf-8",
+        newline="\n",
+    )
+
+
 def main() -> int:
     cfg = json.loads(SOURCES_FILE.read_text(encoding="utf-8"))
     sources = [s for s in cfg.get("sources", []) if s.get("enabled", True)]
     merged: list[dict] = []
     seen_urls: set[str] = set()
     summary: list[str] = []
+    status: dict[str, dict] = {}
 
     for src in sources:
         name, url, fmt = src["name"], src["url"], src.get("format", "m3u")
@@ -188,10 +230,12 @@ def main() -> int:
             text = raw.decode("utf-8", errors="replace")
             channels = parse_playlist(text, fmt)
         except Exception as exc:  # noqa: BLE001
+            status[url] = {"ok": False, "count": 0, "error": str(exc)}
             summary.append(f"[FAIL] {name}: {exc}")
             print(f"[FAIL] {name}: {exc}", file=sys.stderr)
             continue
 
+        status[url] = {"ok": True, "count": len(channels), "error": ""}
         added = 0
         for ch in channels:
             key = ch["url"].strip()
@@ -201,6 +245,8 @@ def main() -> int:
             merged.append(ch)
             added += 1
         summary.append(f"[ OK ] {name}: fetched={len(channels)} added={added}")
+
+    _update_state(sources, status)
 
     if not merged:
         print("no channels collected, aborting", file=sys.stderr)

@@ -3,6 +3,10 @@
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226469/1.m3u8?
 #EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/CCTV5.png" group-title="央视频道",CCTV-5+体育赛事
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226894/1.m3u8?
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/1921304247" group-title="•哔哩「娱乐」",18k体育
+https://cdn.ttvb.eu.org/bilibili/1921304247
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/21669525" group-title="•哔哩「娱乐」",雨说体育徐静雨
+https://cdn.ttvb.eu.org/bilibili/21669525
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/Gsports" group-title="•抖音「娱乐」",五星体育
 https://cdn.ttvb.eu.org/douyin/Gsports
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/75604127264" group-title="•抖音「其他」",华少体育解说
