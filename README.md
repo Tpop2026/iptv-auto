@@ -24,17 +24,7 @@ GitHub Actions 每 6 小时自动抓取、去重、归一并提交更新；流�
 
 支持 VLC、TiviMate、TVBox、DIYP、APTV 等任意 M3U/TXT 播放器。
 
-## 网页播放器
-
-**▶ [https://pq0000.github.io/iptv-auto/](https://pq0000.github.io/iptv-auto/)**（GitHub Pages 静态托管）
-
-单文件 HTML5 播放器（`index.html`），播放完全在你的浏览器本地完成，不经过任何服务器中转：
-
-- 频道列表来自自动聚合的 `channels.json`，支持分类页签（央视/卫视/体育/广播/港澳台/海外）、搜索、收藏（存本地）；
-- 同名多线路**播放失败自动切换**下一条（10 秒超时判定）；
-- 原生 `<video>` + hls.js 双引擎，覆盖绝大多数 http(s) 的 m3u8 源。
-
-浏览器硬限制（页面内也有说明）：`rtp/rtsp/udp/rtmp` 协议无法播放（已过滤）；H.265 编码依赖系统解码器；不做测活，以实际播放为准。
+> 关于网页播放器：曾实现并试发布过纯静态 HTML5 播放器（GitHub Pages），实测发现 HTTPS 页面无法播放占多数的 `http://` 国内源（浏览器混合内容限制，Service Worker 代理同样被拦截），点播成功率过低，故按约定移除——浏览器端限制是平台层面的，静态托管无解。列表浏览与播放请使用本地播放器。
 
 ## 国内加速订阅
 
