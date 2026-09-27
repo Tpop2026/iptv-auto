@@ -17,6 +17,30 @@ GitHub Actions 每 6 小时自动抓取、去重并提交更新（不测活，�
 
 支持 VLC、TiviMate、TVBox、DIYP、APTV 等任意 M3U/TXT 播放器。
 
+## 国内加速订阅
+
+GitHub raw 链接在国内经常不稳定，可改用以下实测可用的加速地址（2026-09-27 验证；第三方服务可用性可能变化，失效请反馈）：
+
+**方式一：ghproxy.net 前缀（任意文件通用）**
+
+在完整 raw 链接前直接加 `https://ghproxy.net/`：
+
+| 文件 | 加速地址 |
+|---|---|
+| 全量 M3U | `https://ghproxy.net/https://raw.githubusercontent.com/pq0000/iptv-auto/main/output/index.m3u` |
+| 全量 TXT | `https://ghproxy.net/https://raw.githubusercontent.com/pq0000/iptv-auto/main/output/list.txt` |
+
+> 分类文件同理：把 `output/index.m3u` 换成 `output/categories/cctv.m3u` 等，前缀不变。
+
+**方式二：jsDelivr CDN（含国内节点）**
+
+| 文件 | 加速地址 |
+|---|---|
+| 全量 M3U | `https://cdn.jsdelivr.net/gh/pq0000/iptv-auto@main/output/index.m3u` |
+| 全量 TXT（国内节点，推荐） | `https://quantil.jsdelivr.net/gh/pq0000/iptv-auto@main/output/list.txt` |
+
+> jsDelivr 写法：`https://<节点>/gh/仓库所有者/仓库名@分支/路径`，分支固定为 `main`。
+
 ## 工作流程
 
 1. 定时（每 6 小时）+ 手动触发 + 源配置变更时运行；
