@@ -134,7 +134,8 @@
       <summary>使用说明 · 兼容性限制 · 开源声明</summary>
       <ul>
         <li>列表来自 <a href="https://github.com/pq0000/iptv-auto" target="_blank" rel="noopener">pq0000/iptv-auto</a> 每 6 小时自动聚合的公开 IPTV 源，同名频道保留多条线路，播放失败会<b>自动切换下一条</b>。</li>
-        <li>浏览器无法播放 <code>rtp/rtsp/udp/rtmp</code> 协议源（已在列表中过滤），此类源请用本地 VLC 打开。</li>
+        <li>页面通过内置 <b>Service Worker 在你的浏览器本地</b>转发 http 源（绕过 HTTPS 页面的混合内容限制），数据不经过任何第三方服务器。</li>
+        <li>HLS(m3u8) 分段需要源站允许跨域(CORS)，否则会提示「跨域(CORS)限制」——此类源请用本地 VLC 打开；<code>rtp/rtsp/udp/rtmp</code> 协议浏览器无法播放（已在列表中过滤）。</li>
         <li>H.265/HEVC 编码依赖系统解码器：Edge/Chrome + Windows 通常可播，部分环境会黑屏或报错——换线路或换浏览器尝试。</li>
         <li>无效/过期线路属正常现象（列表不做测活），以实际播放为准。</li>
         <li>本页面为静态开源播放器（Unlicense），不存储、不转码任何视频；频道链接与 EPG 均来自公开社区数据，仅供学习个人使用，请遵守当地法规。</li>
@@ -162,8 +163,7 @@
   ];
   var LINE_TIMEOUT = 10000;
 
-  var video = document.getElementById('video');
-  var listEl = document.getElementById('list');
+  var video = document.getElementById('video');  var listEl = document.getElementById('list');
   var tabsEl = document.getElementById('tabs');
   var searchEl = document.getElementById('search');
   var metaEl = document.getElementById('listMeta');
@@ -184,6 +184,35 @@
   var hls = null;
   var timer = null;
   var favs = loadFavs();
+  var swReady = false;
+  var PROXY_BASE = new URL('iptv-play?u=', document.baseURI).href;
+
+  function mediaUrl(u) {
+    if (swReady && (location.protocol === 'https:' || location.protocol === 'http:')) {
+      return PROXY_BASE + encodeURIComponent(u);
+    }
+    return u;
+  }
+
+  function ensureProxy() {
+    if (swReady || !('serviceWorker' in navigator) || location.protocol === 'file:') {
+      return Promise.resolve();
+    }
+    return new Promise(function (resolve) {
+      var done = false;
+      var fin = function () { if (!done) { done = true; resolve(); } };
+      navigator.serviceWorker.register('sw.js').then(function (reg) {
+        navigator.serviceWorker.ready.then(function () { swReady = true; fin(); });
+        setTimeout(fin, 4000);
+        void reg;
+      }).catch(function () { fin(); });
+    });
+  }
+  if ('serviceWorker' in navigator && location.protocol !== 'file:') {
+    navigator.serviceWorker.register('sw.js').then(function () {
+      navigator.serviceWorker.ready.then(function () { swReady = true; });
+    }).catch(function () {});
+  }
 
   function loadFavs() {
     try { return new Set(JSON.parse(localStorage.getItem('iptv-auto-favs') || '[]')); }
@@ -333,6 +362,16 @@
     };
   }
 
+  function makeProxyLoader() {
+    var Base = window.Hls.DefaultConfig.loader;
+    return class ProxyLoader extends Base {
+      load(context, config, callbacks) {
+        if (context && context.url) context.url = mediaUrl(context.url);
+        return super.load(context, config, callbacks);
+      }
+    };
+  }
+
   function playLine() {
     if (!current) return;
     stopPlayback();
@@ -345,9 +384,11 @@
     var looksHls = /\.m3u8(\?|$)/i.test(url) || /m3u8/i.test(url);
     if (looksHls) {
       if (video.canPlayType('application/vnd.apple.mpegurl')) {
-        video.src = url;
+        video.src = mediaUrl(url);
       } else if (window.Hls && Hls.isSupported()) {
+        if (!window.__proxyLoader) window.__proxyLoader = makeProxyLoader();
         hls = new Hls({
+          loader: window.__proxyLoader,
           manifestLoadingTimeOut: 8000,
           manifestLoadingMaxRetry: 1,
           levelLoadingTimeOut: 8000,
@@ -357,7 +398,11 @@
         hls.attachMedia(video);
         hls.on(Hls.Events.ERROR, function (_e, data) {
           if (data && data.fatal && my === attempt) {
-            giveUp(data.type === Hls.ErrorTypes.NETWORK_ERROR ? '网络错误' : '解码错误');
+            var why = '解码错误';
+            if (data.type === Hls.ErrorTypes.NETWORK_ERROR) {
+              why = /CORS|Access-Control/i.test(String(data.details)) ? '跨域(CORS)限制' : '网络错误';
+            }
+            giveUp(why);
           }
         });
       } else {
@@ -365,7 +410,7 @@
         return;
       }
     } else {
-      video.src = url;
+      video.src = mediaUrl(url);
     }
     var p = video.play();
     if (p && p.catch) p.catch(function () {});
@@ -379,7 +424,7 @@
     lineIdx = 0;
     placeholder.style.display = 'none';
     renderList();
-    playLine();
+    ensureProxy().then(playLine);
   }
 
   video.addEventListener('loadeddata', function () { clearTimeout(timer); });
