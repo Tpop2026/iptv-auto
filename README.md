@@ -48,6 +48,18 @@ GitHub raw 链接在国内经常不稳定，可改用以下实测可用的加速
 
 > jsDelivr 写法：`https://<节点>/gh/仓库所有者/仓库名@分支/路径`，分支固定为 `main`。
 
+## EPG 节目单接口
+
+生成的所有 M3U 头部已自动内置下列 EPG 地址（TiviMate、TVBox 等支持 `x-tvg-url` 的播放器会自动加载）。如播放器需要手动填写 EPG/XMLTV 地址，可直接使用：
+
+| 接口 | 地址 | 说明 |
+|---|---|---|
+| epg.pw | `https://epg.pw/xmltv/epg.xml` | 国际 + 国内频道，覆盖面广 |
+| zhi35 | `https://live.zhi35.com/epg.xml.gz` | 国内央视/卫视为主，gzip 压缩 |
+
+- 两者均为**第三方公共服务**，可用性、频道匹配率以提供方实况为准；
+- 需要完全自建 EPG（自选频道、定时抓取生成 XMLTV）可使用 [iptv-org/epg](https://github.com/iptv-org/epg) 工具。
+
 ## 工作流程
 
 1. 定时（每 6 小时）+ 手动触发 + 源配置变更时运行，先跑单元测试（`scripts/test_fetch.py`）再抓取；
@@ -97,6 +109,13 @@ python scripts/fetch.py        # 抓取生成（可选 IPTV_CHECK_STREAMS=1 开�
 
 无第三方依赖（纯标准库）。国内网络抓取 GitHub raw 源时可设置代理环境变量。
 
+## 开源与致谢
+
+- 本仓库以 [Unlicense](LICENSE) 发布（公共领域授权）：脚本与生成的列表均可自由使用、修改、分发，无需署名、无需开源衍生作品；
+- 欢迎社区贡献：新增上游源（改 `sources.json`）、完善分类/名称归一规则（`scripts/fetch.py`）、修复问题，直接提 Issue 或 PR 即可，所有变更都会经自动测试后合入；
+- 致谢上游聚合项目（列表数据全部来自这些社区的开放成果，排名不分先后）：[iptv-org/iptv](https://github.com/iptv-org/iptv)、[fanmingming/live](https://github.com/fanmingming/live)、[vbskycn/iptv](https://github.com/vbskycn/iptv)、[zhi35/iptv](https://github.com/zhi35/iptv)、[CCSH/IPTV](https://github.com/CCSH/IPTV)、[Guovin/iptv-api](https://github.com/Guovin/iptv-api)、[YanG-1989/m3u](https://github.com/YanG-1989/m3u)、[YueChan/Live](https://github.com/YueChan/Live)、[Free-TV/IPTV](https://github.com/Free-TV/IPTV)、[qwerttvv/Beijing-IPTV](https://github.com/qwerttvv/Beijing-IPTV) 等；
+- EPG 节目单数据来自 [epg.pw](https://epg.pw) 与 [zhi35/iptv](https://github.com/zhi35/iptv)，本仓库仅引用其公开地址。
+
 ## 免责声明
 
-本仓库不存储任何视频文件，仅整理公开可访问的流媒体链接。部分上游的流地址带时效参数，静态列表存放过久可能自然失效，**有效性以播放器实际播放为准**（播放器会自动跳过无法播放的线路）。链路质量取决于上游，仅供学习与个人使用；请遵守当地法律法规，勿用于商业用途。代码以 [Unlicense](LICENSE) 公共领域许可发布。
+本仓库不存储任何视频文件，仅整理公开可访问的流媒体链接。部分上游的流地址带时效参数，静态列表存放过久可能自然失效，**有效性以播放器实际播放为准**（播放器会自动跳过无法播放的线路）。EPG 节目单接口由上述第三方提供，本仓库不拥有其数据，准确性与可用性请以提供方为准，如有问题请联系对应提供方。链路质量取决于上游，仅供学习与个人使用；请遵守当地法律法规，勿用于商业用途。代码以 [Unlicense](LICENSE) 公共领域许可发布，使用本仓库即表示自行承担上述风险。
