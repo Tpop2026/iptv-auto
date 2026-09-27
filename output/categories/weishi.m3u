@@ -65,8 +65,6 @@ http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227045/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7Eq0D3NdTUN7FuRzr8eJsbQA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 #EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/康巴卫视.png" group-title="卫视频道",康巴卫视
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227027/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EkHMvBpWz4rccMxNvSRekpQ%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/1435733665" group-title="•抖音「娱乐」",河南卫视《梨园春》
-https://cdn.ttvb.eu.org/douyin/1435733665
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/安徽卫视.png" group-title="卫视频道",安徽卫视
 http://101.66.194.125:9901/tsfile/live/0130_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/北京卫视.png" group-title="卫视频道",北京卫视
@@ -135,7 +133,7 @@ https://idclive.hljtv.com:4430/live/hljws_own.m3u8
 http://play1-qk.nmtv.cn/live/1769652018126032.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/人间卫视.png" group-title="卫视频道",人间卫视
 https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/chunklist_w511254805.m3u8
-#EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/东方卫视4K.png" group-title="卫视频道",东方卫视4K
+#EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/东方卫视4K.png" group-title="卫视频道",东方卫视(4K)
 https://bp-resource-dfl.bestv.cn/148/3/video.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/福建海峡卫视.png" group-title="卫视频道",福建海峡卫视
 http://38.64.72.148:80/hls/modn/list/4009/playlist.m3u8
@@ -1625,6 +1623,50 @@ http://jxj.zhgdyun.com:1234/849119120
 http://r.jdshipin.com/WtYt3
 #EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/海峡卫视.png" group-title="卫视频道",海峡卫视
 http://112.26.106.165:7788/849119120
+#EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/凤凰中文.png" group-title="港澳台",凤凰卫视
+http://cdn6.163189.xyz/163189/fhzw
+#EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/凤凰中文.png" group-title="港澳台",凤凰卫视
+http://cdn.163189.xyz/live/fhzw/stream.m3u8
+#EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/凤凰中文.png" group-title="港澳台",凤凰卫视
+http://r.jdshipin.com/cCCzW
+#EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/凤凰中文.png" group-title="港澳台",凤凰卫视
+https://7612-5516-affc-d88b.kylintv.tv/live/pxinhd_iphone.m3u8
+#EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/凤凰中文.png" group-title="港澳台",凤凰卫视
+http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
+#EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/凤凰中文.png" group-title="港澳台",凤凰卫视
+http://php.jdshipin.com:8880/TVOD/iptv.php?id=fhzw
+#EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/凤凰中文.png" group-title="港澳台",凤凰卫视
+https://cdn6.163189.xyz/163189/fhzw
+#EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/凤凰中文.png" group-title="港澳台",凤凰卫视
+http://219.145.93.74:10000/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/凤凰中文.png" group-title="港澳台",凤凰卫视
+http://122.152.202.33/s/81a8a44f/index.m3u8?id=15
+#EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/凤凰中文.png" group-title="港澳台",凤凰卫视
+http://43.152.224.209/qctv.fengshows.cn/live/0701pcc72.flv
+#EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/凤凰香港.png" group-title="港澳台",凤凰卫视(香港台)
+http://cdn6.163189.xyz/163189/fhhk
+#EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/凤凰香港.png" group-title="港澳台",凤凰卫视(香港台)
+http://r.jdshipin.com/yDoTN
+#EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/凤凰香港.png" group-title="港澳台",凤凰卫视(香港台)
+https://cdn6.163189.xyz/live/fhhk/stream.m3u8
+#EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/凤凰香港.png" group-title="港澳台",凤凰卫视(香港台)
+https://cdn6.163189.xyz/163189/fhhk
+#EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/凤凰香港.png" group-title="港澳台",凤凰卫视(香港台)
+http://php.jdshipin.com/TVOD/iptv.php?id=fhhk
+#EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/凤凰香港.png" group-title="港澳台",凤凰卫视(香港台)
+http://php.jdshipin.com:8880/TVOD/iptv.php?id=fhhk
+#EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/凤凰香港.png" group-title="港澳台",凤凰卫视(香港台)
+https://epg.pw/stream/5f16dc7fc8aaaed3205516c63e4a8c24bca9dbba1181684244729cf574505b0e.m3u8
+#EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/凤凰香港.png" group-title="港澳台",凤凰卫视(香港台)
+https://epg.pw/stream/8770e89223a086eb1b8a0c931e42296d772a8069ad3eb72540e0c434e7cb3e93.m3u8
+#EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/凤凰香港.png" group-title="港澳台",凤凰卫视(香港台)
+http://173.208.234.146/live/fhxg.m3u8
+#EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/凤凰香港.png" group-title="港澳台",凤凰卫视(香港台)
+http://122.152.202.33/s/81a8a44f/index.m3u8?id=fhhk TVB
+#EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/凤凰香港.png" group-title="港澳台",凤凰卫视(香港台)
+http://43.152.224.209/qctv.fengshows.cn/live/0701phk72.flv
+#EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/凤凰香港.png" group-title="港澳台",凤凰卫视(香港台)
+http://122.152.202.33/s/81a8a44f/index.m3u8?id=fhhk
 #EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/星空卫视.png" group-title="港澳台",星空卫视
 mitv://generationnexxxt.com:19806/0b87528420394614b1016123ff4fda4c
 #EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/福建海峡卫视.png" group-title="福建频道",福建海峡卫视
@@ -1689,6 +1731,10 @@ rtp://239.3.1.167:8192
 rtp://239.3.1.166:8188
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/WeiShi/BingTuan.png" group-title="卫视",兵团卫视
 rtp://239.3.1.168:8196
+#EXTINF:-1 group-title="卫视IPV4",凤凰卫视
+http://101.35.240.114:88/phenix.php?id=fhzw
+#EXTINF:-1 group-title="卫视IPV4",凤凰卫视(香港台)
+http://101.35.240.114:88/phenix.php?id=fhhk
 #EXTINF:-1 group-title="卫视IPV4",湖南卫视
 http://101.35.240.114:88/live.php?id=湖南卫视
 #EXTINF:-1 group-title="卫视IPV4",北京卫视
@@ -1751,21 +1797,21 @@ http://101.35.240.114:88/live.php?id=黑龙江卫视
 http://101.35.240.114:88/live.php?id=海南卫视
 #EXTINF:-1 group-title="卫视IPV4",大湾区卫视
 http://101.35.240.114:88/live.php?id=大湾区卫视
-#EXTINF:-1 group-title="4K8K频道",深圳卫视4K
+#EXTINF:-1 group-title="4K8K频道",深圳卫视(4K)
 http://101.35.240.114:88/live.php?id=深圳卫视4K
-#EXTINF:-1 group-title="4K8K频道",江苏卫视4K
+#EXTINF:-1 group-title="4K8K频道",江苏卫视(4K)
 http://101.35.240.114:88/live.php?id=江苏卫视4K
-#EXTINF:-1 group-title="4K8K频道",浙江卫视4K
+#EXTINF:-1 group-title="4K8K频道",浙江卫视(4K)
 http://101.35.240.114:88/live.php?id=浙江卫视4K
-#EXTINF:-1 group-title="4K8K频道",湖南卫视4K
+#EXTINF:-1 group-title="4K8K频道",湖南卫视(4K)
 http://101.35.240.114:88/live.php?id=湖南卫视4K
-#EXTINF:-1 group-title="4K8K频道",山东卫视4K
+#EXTINF:-1 group-title="4K8K频道",山东卫视(4K)
 http://101.35.240.114:88/live.php?id=山东卫视4K
-#EXTINF:-1 group-title="4K8K频道",东方卫视4K
+#EXTINF:-1 group-title="4K8K频道",东方卫视(4K)
 http://101.35.240.114:88/live.php?id=东方卫视4K
-#EXTINF:-1 group-title="4K8K频道",广东卫视4K
+#EXTINF:-1 group-title="4K8K频道",广东卫视(4K)
 http://101.35.240.114:88/live.php?id=广东卫视4K
-#EXTINF:-1 group-title="4K8K频道",四川卫视4K
+#EXTINF:-1 group-title="4K8K频道",四川卫视(4K)
 http://101.35.240.114:88/live.php?id=四川卫视4K
 #EXTINF:-1,安徽卫视
 http://1.197.250.140:9901/tsfile/live/0130_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -1863,67 +1909,67 @@ http://120.76.248.139/live/bfgd/4200000110.m3u8
 http://120.76.248.139/live/bfgd/4200000122.m3u8
 #EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/厦门卫视.png" group-title="卫视频道",厦门卫视
 http://e2.woc.iiiya.cn:28888/rtp/239.61.2.11:8060
-#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/江苏卫视4K.png" group-title="卫视频道",江苏卫视4K
+#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/江苏卫视4K.png" group-title="卫视频道",江苏卫视(4K)
 http://8.138.7.223/tv/jsws4k.php
 #EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/河北卫视.png" group-title="卫视频道",河北卫视
 http://120.76.248.139/live/bfgd/4200000108.m3u8
 #EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/海峡卫视.png" group-title="卫视频道",海峡卫视
 http://8.138.7.223/tv/hxws.m3u8
-#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/深圳卫视4K.png" group-title="卫视频道",深圳卫视4K
+#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/深圳卫视4K.png" group-title="卫视频道",深圳卫视(4K)
 http://nn.7x9d.cn/深圳最新.php?id=szws4k
 #EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/澳门卫视.png" group-title="卫视频道",澳门卫视
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=as
-#EXTINF:-1,BRTV北京卫视[超清HDR]
+#EXTINF:-1,北京卫视(高清)
 http://192.168.123.1:23234/rtp/239.3.1.118:8001
-#EXTINF:-1,湖南卫视[超清HDR]
+#EXTINF:-1,湖南卫视(高清)
 http://192.168.123.1:23234/rtp/239.3.1.112:3002
-#EXTINF:-1,东方卫视[超清HDR]
+#EXTINF:-1,东方卫视(高清)
 http://192.168.123.1:23234/rtp/239.3.1.119:3006
-#EXTINF:-1,浙江卫视[超清HDR]
+#EXTINF:-1,浙江卫视(高清)
 http://192.168.123.1:23234/rtp/239.3.1.114:3004
-#EXTINF:-1,江苏卫视[超清HDR]
+#EXTINF:-1,江苏卫视(高清)
 http://192.168.123.1:23234/rtp/239.3.1.113:3003
-#EXTINF:-1,深圳卫视[超清HDR]
+#EXTINF:-1,深圳卫视(高清)
 http://192.168.123.1:23234/rtp/239.3.1.28:2000
-#EXTINF:-1,广东卫视[超清HDR]
+#EXTINF:-1,广东卫视(高清)
 http://192.168.123.1:23234/rtp/239.3.1.27:2000
-#EXTINF:-1,山东卫视[超清HDR]
+#EXTINF:-1,山东卫视(高清)
 http://192.168.123.1:23234/rtp/239.3.1.144:3005
-#EXTINF:-1,四川卫视[超清HDR]
+#EXTINF:-1,四川卫视(高清)
 http://192.168.123.1:23234/rtp/239.3.1.131:3001
-#EXTINF:-1,安徽卫视[高清]
+#EXTINF:-1,安徽卫视(高清)
 http://192.168.123.1:23234/rtp/239.3.1.211:8064
-#EXTINF:-1,天津卫视[高清]
+#EXTINF:-1,天津卫视(高清)
 http://192.168.123.1:23234/rtp/239.3.1.141:1234
-#EXTINF:-1,重庆卫视[高清]
+#EXTINF:-1,重庆卫视(高清)
 http://192.168.123.1:23234/rtp/239.3.1.122:8160
-#EXTINF:-1,黑龙江卫视[高清]
+#EXTINF:-1,黑龙江卫视(高清)
 http://192.168.123.1:23234/rtp/239.3.1.133:8016
-#EXTINF:-1,河北卫视[高清]
+#EXTINF:-1,河北卫视(高清)
 http://192.168.123.1:23234/rtp/239.3.1.148:8072
-#EXTINF:-1,河南卫视[高清]
+#EXTINF:-1,河南卫视(高清)
 http://192.168.123.1:23234/rtp/239.3.1.50:8184
-#EXTINF:-1,辽宁卫视[高清]
+#EXTINF:-1,辽宁卫视(高清)
 http://192.168.123.1:23234/rtp/239.3.1.210:8056
-#EXTINF:-1,湖北卫视[高清]
+#EXTINF:-1,湖北卫视(高清)
 http://192.168.123.1:23234/rtp/239.3.1.138:8044
-#EXTINF:-1,吉林卫视[高清]
+#EXTINF:-1,吉林卫视(高清)
 http://192.168.123.1:23234/rtp/239.3.1.240:8172
-#EXTINF:-1,贵州卫视[高清]
+#EXTINF:-1,贵州卫视(高清)
 http://192.168.123.1:23234/rtp/239.3.1.149:8076
-#EXTINF:-1,东南卫视[高清]
+#EXTINF:-1,东南卫视(高清)
 http://192.168.123.1:23234/rtp/239.3.1.156:8148
-#EXTINF:-1,江西卫视[高清]
+#EXTINF:-1,江西卫视(高清)
 http://192.168.123.1:23234/rtp/239.3.1.123:8164
-#EXTINF:-1,甘肃卫视[高清]
+#EXTINF:-1,甘肃卫视(高清)
 http://192.168.123.1:23234/rtp/239.3.1.201:8180
-#EXTINF:-1,兵团卫视[高清]
+#EXTINF:-1,兵团卫视(高清)
 http://192.168.123.1:23234/rtp/239.3.1.168:8196
-#EXTINF:-1,宁夏卫视[高清]
+#EXTINF:-1,宁夏卫视(高清)
 http://192.168.123.1:23234/rtp/239.3.1.169:8212
-#EXTINF:-1,新疆卫视[高清]
+#EXTINF:-1,新疆卫视(高清)
 http://192.168.123.1:23234/rtp/239.3.1.167:8192
-#EXTINF:-1,西藏卫视[高清]
+#EXTINF:-1,西藏卫视(高清)
 http://192.168.123.1:23234/rtp/239.3.1.166:8188
 #EXTINF:-1,海南卫视
 http://192.168.123.1:23234/rtp/239.3.1.45:8304

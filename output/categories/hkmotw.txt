@@ -12,42 +12,42 @@ TVBS,http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8575/.m3u8
 东森新闻,http://ali.hlspull.yximgs.com/live/tboxpromhqttuqqcvbyquoqdqqeqywefqqfbxfbxxvbqqqlqqhqsxw.flv
 东森超视,http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8525/.m3u8
 东森综合,http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8524/.m3u8
-❌福建漳州六鳌翡翠湾,http://gcalic.v.myalicdn.com/gc/fcw01_1/index.m3u8?contentid=2820180516001
+福建漳州六鳌翡翠湾,http://gcalic.v.myalicdn.com/gc/fcw01_1/index.m3u8?contentid=2820180516001
 非凡-迪安,https://cdn.ttvb.eu.org/huya/940213
 东方明珠东方朔,https://cdn.ttvb.eu.org/bilibili/26351451
 纬来体育,https://epg.pw/stream/4f18dfe0593db5c686eb64ae8edaf2a9202d4d46bdc9bbde2cee27708e12ea01.m3u8
 香港卫视,http://player.cntv.cn/standard/live_HLSDRM20180606.swf?ChannelID=xianggangweishi&P2PChannelID=pd://cctv_p2p_hdxianggangweishi
 香港卫视,http://anren.live/HK/BSJDUFpB.m3u8
 香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8#http://zhibo.hkstv.tv/livestream/mutfysrq.flv
-凤凰中文,http://cdn6.163189.xyz/163189/fhzw
-凤凰中文,http://cdn.163189.xyz/live/fhzw/stream.m3u8
-凤凰中文,http://r.jdshipin.com/cCCzW
-凤凰中文,https://7612-5516-affc-d88b.kylintv.tv/live/pxinhd_iphone.m3u8
-凤凰中文,http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
-凤凰中文,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fhzw
-凤凰中文,https://cdn6.163189.xyz/163189/fhzw
-凤凰中文,http://219.145.93.74:10000/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
-凤凰中文,http://122.152.202.33/s/81a8a44f/index.m3u8?id=15
-凤凰中文,http://43.152.224.209/qctv.fengshows.cn/live/0701pcc72.flv
-凤凰资讯,http://r.jdshipin.com/0Rp07
-凤凰资讯,https://cdn6.163189.xyz/163189/fhzx
-凤凰资讯,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fhzx
-凤凰资讯,http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
-凤凰资讯,http://173.208.234.146/live/fhzx.m3u8
-凤凰资讯,http://43.152.224.209/qctv.fengshows.cn/live/0701pin72.flv
-凤凰资讯,http://playtv-live.ifeng.com:80/live/06OLEEWQKN4.m3u8
-凤凰香港,http://cdn6.163189.xyz/163189/fhhk
-凤凰香港,http://r.jdshipin.com/yDoTN
-凤凰香港,https://cdn6.163189.xyz/live/fhhk/stream.m3u8
-凤凰香港,https://cdn6.163189.xyz/163189/fhhk
-凤凰香港,http://php.jdshipin.com/TVOD/iptv.php?id=fhhk
-凤凰香港,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fhhk
-凤凰香港,https://epg.pw/stream/5f16dc7fc8aaaed3205516c63e4a8c24bca9dbba1181684244729cf574505b0e.m3u8
-凤凰香港,https://epg.pw/stream/8770e89223a086eb1b8a0c931e42296d772a8069ad3eb72540e0c434e7cb3e93.m3u8
-凤凰香港,http://173.208.234.146/live/fhxg.m3u8
-凤凰香港,http://122.152.202.33/s/81a8a44f/index.m3u8?id=fhhk TVB
-凤凰香港,http://43.152.224.209/qctv.fengshows.cn/live/0701phk72.flv
-凤凰香港,http://122.152.202.33/s/81a8a44f/index.m3u8?id=fhhk
+凤凰卫视,http://cdn6.163189.xyz/163189/fhzw
+凤凰卫视,http://cdn.163189.xyz/live/fhzw/stream.m3u8
+凤凰卫视,http://r.jdshipin.com/cCCzW
+凤凰卫视,https://7612-5516-affc-d88b.kylintv.tv/live/pxinhd_iphone.m3u8
+凤凰卫视,http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
+凤凰卫视,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fhzw
+凤凰卫视,https://cdn6.163189.xyz/163189/fhzw
+凤凰卫视,http://219.145.93.74:10000/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
+凤凰卫视,http://122.152.202.33/s/81a8a44f/index.m3u8?id=15
+凤凰卫视,http://43.152.224.209/qctv.fengshows.cn/live/0701pcc72.flv
+凤凰资讯台,http://r.jdshipin.com/0Rp07
+凤凰资讯台,https://cdn6.163189.xyz/163189/fhzx
+凤凰资讯台,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fhzx
+凤凰资讯台,http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
+凤凰资讯台,http://173.208.234.146/live/fhzx.m3u8
+凤凰资讯台,http://43.152.224.209/qctv.fengshows.cn/live/0701pin72.flv
+凤凰资讯台,http://playtv-live.ifeng.com:80/live/06OLEEWQKN4.m3u8
+凤凰卫视(香港台),http://cdn6.163189.xyz/163189/fhhk
+凤凰卫视(香港台),http://r.jdshipin.com/yDoTN
+凤凰卫视(香港台),https://cdn6.163189.xyz/live/fhhk/stream.m3u8
+凤凰卫视(香港台),https://cdn6.163189.xyz/163189/fhhk
+凤凰卫视(香港台),http://php.jdshipin.com/TVOD/iptv.php?id=fhhk
+凤凰卫视(香港台),http://php.jdshipin.com:8880/TVOD/iptv.php?id=fhhk
+凤凰卫视(香港台),https://epg.pw/stream/5f16dc7fc8aaaed3205516c63e4a8c24bca9dbba1181684244729cf574505b0e.m3u8
+凤凰卫视(香港台),https://epg.pw/stream/8770e89223a086eb1b8a0c931e42296d772a8069ad3eb72540e0c434e7cb3e93.m3u8
+凤凰卫视(香港台),http://173.208.234.146/live/fhxg.m3u8
+凤凰卫视(香港台),http://122.152.202.33/s/81a8a44f/index.m3u8?id=fhhk TVB
+凤凰卫视(香港台),http://43.152.224.209/qctv.fengshows.cn/live/0701phk72.flv
+凤凰卫视(香港台),http://122.152.202.33/s/81a8a44f/index.m3u8?id=fhhk
 TVBPearl,http://r.jdshipin.com/ZQ4kN
 TVBPearl,http://php.jdshipin.com/TVOD/iptv.php?id=mzt
 TVBPearl,http://php.jdshipin.com:8880/TVOD/iptv.php?id=mzt
@@ -124,31 +124,31 @@ ViuTV,https://10.fast.hidns.vip/163189/viu/
 台视,http://31.43.191.125:8080/restream/restream/34879
 福建漳州六鳌翡翠湾,https://gcalic.v.myalicdn.com/gc/fcw01_1/index.m3u8
 翡翠台,http://101.35.240.114:88/live.php?id=翡翠台
-凤凰资讯,http://101.35.240.114:88/phenix.php?id=fhzx
-凤凰中文,http://101.35.240.114:88/phenix.php?id=fhzw
-凤凰香港,http://101.35.240.114:88/phenix.php?id=fhhk
-HOY Infotainment (1080p) [Geo-blocked],https://hoytv-live-stream.hoy.tv/ch78/index.m3u8
-HOY TV (1080p) [Geo-blocked],https://hoytv-live-stream.hoy.tv/ch77/index.m3u8
-NOW TV (720p),https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8
-Right Now TV (720p),https://a-cdn.klowdtv.com/live2/rightnowtv_720p/playlist.m3u8
-RTHK TV 31 (1080p) [Geo-blocked],https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/master.m3u8
-RTHK TV 32 (1080p) [Geo-blocked],https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/master.m3u8
-RTHK TV 33 (1080p) [Geo-blocked],https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/master.m3u8
-RTHK TV 34 (1080p) [Geo-blocked],https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/master.m3u8
-RTHK TV 35 (1080p) [Geo-blocked],https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/master.m3u8
-TVB Vietnam (1080p),https://amg01868-amg01868c3-tvbanywhere-us-4491.playouts.now.amagi.tv/playlist/amg01868-tvbusa-tvbvietnam-tvbanywhereus/playlist.m3u8
-TVBS News [Geo-blocked],http://seb.sason.top/sc/tvbsxw_fhd.m3u8
-TVBS-Asia (1080p),http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
-HOY TV Ⓖ,https://hoytv-live-stream.hoy.tv/ch78/index-fhd.m3u8
+凤凰资讯台,http://101.35.240.114:88/phenix.php?id=fhzx
+凤凰卫视,http://101.35.240.114:88/phenix.php?id=fhzw
+凤凰卫视(香港台),http://101.35.240.114:88/phenix.php?id=fhhk
+HOY Infotainment,https://hoytv-live-stream.hoy.tv/ch78/index.m3u8
+HOY TV,https://hoytv-live-stream.hoy.tv/ch77/index.m3u8
+NOW TV,https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8
+Right Now TV,https://a-cdn.klowdtv.com/live2/rightnowtv_720p/playlist.m3u8
+RTHK TV 31,https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/master.m3u8
+RTHK TV 32,https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/master.m3u8
+RTHK TV 33,https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/master.m3u8
+RTHK TV 34,https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/master.m3u8
+RTHK TV 35,https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/master.m3u8
+TVB Vietnam,https://amg01868-amg01868c3-tvbanywhere-us-4491.playouts.now.amagi.tv/playlist/amg01868-tvbusa-tvbvietnam-tvbanywhereus/playlist.m3u8
+TVBS News,http://seb.sason.top/sc/tvbsxw_fhd.m3u8
+TVBS-Asia,http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
+HOY TV G,https://hoytv-live-stream.hoy.tv/ch78/index-fhd.m3u8
 TVB News Channel,https://tvp22.sky4k.top/index1.php
-TVB Finance (Sports & Information Channel),https://tvp22.sky4k.top/index2.php
+TVB Finance,https://tvp22.sky4k.top/index2.php
 纬来体育,https://epg.pw/stream/8855a9936e37e608a0ec8a014cce1673dee9c5d68d560da376cc92e5edef2b25.m3u8
 澳门卫视,http://php.jdshipin.com:8880/TVOD/iptv.php?id=as
 特种兵之火凤凰,https://live.ottiptv.cc/huya/29982636
 HOY78,http://cdn.163189.xyz/live/hoy/stream.m3u8
 HOY TV,http://php.jdshipin.com/TVOD/iptv.php?id=hoytv
 TVB明珠台,http://cdn9.163189.xyz/smt1.1.php?id=pearl_twn
-TVB翡翠台 1080P,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct3
+TVB翡翠台(高清),http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct3
 VIUTV,http://php.jdshipin.com/TVOD/iptv.php?id=viutv2
 华丽翡翠台,http://r.jdshipin.com/thuYX
 台视新闻,http://38.64.72.148/hls/modn/list/4013/chunklist1.m3u8

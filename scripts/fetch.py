@@ -14,6 +14,7 @@ import json
 import re
 import sys
 import time
+import unicodedata
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
@@ -46,6 +47,149 @@ CATEGORIES: dict[str, re.Pattern[str]] = {
     ),
 }
 CJK_RE = re.compile(r"[\u4e00-\u9fff]")
+
+CCTV_OFFICIAL = {
+    1: "综合",
+    2: "财经",
+    3: "综艺",
+    4: "中文国际",
+    5: "体育",
+    6: "电影",
+    7: "国防军事",
+    8: "电视剧",
+    9: "纪录",
+    10: "科教",
+    11: "戏曲",
+    12: "社会与法",
+    13: "新闻",
+    14: "少儿",
+    15: "音乐",
+    16: "奥林匹克",
+    17: "农业农村",
+}
+CCTV_CN_NUM = {
+    "一": 1, "二": 2, "三": 3, "四": 4, "五": 5, "六": 6, "七": 7, "八": 8,
+    "九": 9, "十": 10, "十一": 11, "十二": 12, "十三": 13, "十四": 14,
+    "十五": 15, "十六": 16, "十七": 17,
+}
+# (priority, tokens, suffix label) — higher priority wins when several appear
+QUALITY_TOKENS = [
+    (4, ["8K"], "(8K)"),
+    (3, ["4K", "UHD"], "(4K)"),
+    (2, ["FHD", "1080P", "1080i", "高清", "超清", "全高清"], "(高清)"),
+    (1, ["HD", "720P", "720i"], "(高清)"),
+    (0, ["标清", "SD", "600P", "600p", "480P", "480p", "360P", "360p"], "(标清)"),
+]
+
+
+def _strip_quality(name: str) -> tuple[str, str]:
+    best_priority = -1
+    suffix = ""
+    for priority, tokens, label in QUALITY_TOKENS:
+        for tok in tokens:
+            if tok in name:
+                if priority > best_priority:
+                    best_priority = priority
+                    suffix = label
+                name = name.replace(tok, "")
+    return name, suffix
+
+
+def _trim_junk(name: str) -> str:
+    name = re.sub(r"^[^0-9A-Za-z\u4e00-\u9fff]+", "", name)
+    name = re.sub(r"[^0-9A-Za-z\u4e00-\u9fff+%]+$", "", name)
+    return name.strip()
+
+
+_REGION_RE = re.compile(
+    r"(亚洲|欧洲|美洲|亚太|Asia|Europe|Americas?)(?![A-Za-z])", re.I
+)
+_REGION_MAP = {"asia": "亚洲", "europe": "欧洲", "americas": "美洲", "america": "美洲"}
+
+
+def _drop_brackets(name: str) -> str:
+    """Remove [tag] / (tag) leftovers but keep region words (CCTV-4 feeds)."""
+
+    def repl(m: re.Match) -> str:
+        inner = m.group(0)[1:-1]
+        region = _REGION_RE.search(inner)
+        return f" {region.group(1)}" if region else " "
+
+    return re.sub(r"\[[^\]]*\]|\([^)]*\)|\{[^}]*\}", repl, name)
+
+
+def _cctv_name(num: int, plus: bool, rest: str) -> str | None:
+    if plus and num == 5:
+        return "CCTV-5+ 体育赛事"
+    if num == 4:
+        region = _REGION_RE.search(rest)
+        base = "CCTV-4 中文国际"
+        if region:
+            tok = region.group(1)
+            return f"{base}({_REGION_MAP.get(tok.lower(), tok)})"
+        return base
+    if num in CCTV_OFFICIAL:
+        return f"CCTV-{num} {CCTV_OFFICIAL[num]}"
+    return None
+
+
+def _canonical_base(name: str) -> str:
+    m = re.match(
+        r"^(?:CCTV|央视|中央广播电视总台|中央电视台|中央电视|中央)"
+        r"\s*[-–—_\s]*(\d{1,2})\s*(\+)?",
+        name,
+        re.I,
+    )
+    if m:
+        out = _cctv_name(int(m.group(1)), bool(m.group(2)), name[m.end():])
+        if out:
+            return out
+
+    m = re.match(
+        r"^(?:央视|中央广播电视总台|中央电视台|中央电视|中央)"
+        r"\s*([一二三四五六七八九十]{1,3})\s*[套台期]?\s*(\+)?",
+        name,
+    )
+    if m and m.group(1) in CCTV_CN_NUM:
+        out = _cctv_name(CCTV_CN_NUM[m.group(1)], bool(m.group(2)), name[m.end():])
+        if out:
+            return out
+
+    if re.match(r"^CGTN[\s\-]*(?:英语|英文|English|中文)?$", name, re.I):
+        return "CGTN"
+
+    if name.startswith("凤凰") and "资讯" in name:
+        return "凤凰资讯台"
+    m = re.match(r"^凤凰卫?视?(?:中文)?\s*(欧洲|美洲|香港)?\s*(?:台)?$", name)
+    if m:
+        region = m.group(1)
+        return f"凤凰卫视({region}台)" if region else "凤凰卫视"
+
+    m = re.match(r"^(?:BRTV|BTV)?\s*([一-龥]{2,4})\s*卫视\s*(?:台|频道)?$", name)
+    if m:
+        return f"{m.group(1)}卫视"
+    return name
+
+
+def normalize_name(raw: str) -> str:
+    """Unify channel names to a canonical form, e.g. CCTV1综合 / CCTV-1高清
+    -> \"CCTV-1 综合(高清)\". Unknown channels keep their (cleaned) name."""
+    s = unicodedata.normalize("NFKC", raw or "").strip()
+    if not s:
+        return "Unknown"
+    if re.match(r"^(?:CCTV|中央广播电视总台|中央电视台|中央电视|中央|央视)[\s\-–—_]*4[Kk]", s):
+        return "CCTV-4K"
+    if re.match(r"^(?:CCTV|中央广播电视总台|中央电视台|中央电视|中央|央视)[\s\-–—_]*8[Kk]", s):
+        return "CCTV-8K"
+    s = re.sub(r"[\u200b-\u200f\ufeff]", "", s)
+    s, quality = _strip_quality(s)
+    s = _drop_brackets(s)
+    s = re.sub(r"[\[\]{}]", " ", s)  # orphan brackets from unbalanced tags
+    s = _trim_junk(s)
+    s = re.sub(r"\s+", " ", s)
+    if not s:
+        return "Unknown"
+    return _canonical_base(s) + quality
 
 
 def http_get(url: str, timeout: int = FETCH_TIMEOUT, max_bytes: int = MAX_BYTES) -> bytes:
@@ -222,6 +366,7 @@ def main() -> int:
     seen_urls: set[str] = set()
     summary: list[str] = []
     status: dict[str, dict] = {}
+    renamed = 0
 
     for src in sources:
         name, url, fmt = src["name"], src["url"], src.get("format", "m3u")
@@ -236,6 +381,12 @@ def main() -> int:
             continue
 
         status[url] = {"ok": True, "count": len(channels), "error": ""}
+        for ch in channels:
+            new_name = normalize_name(ch["name"])
+            if new_name != ch["name"]:
+                renamed += 1
+            ch["name"] = new_name
+
         added = 0
         for ch in channels:
             key = ch["url"].strip()
@@ -262,6 +413,7 @@ def main() -> int:
     for line in summary:
         print(line)
     print(f"total channels: {len(merged)}")
+    print(f"names normalized: {renamed}")
     print(f"categories: {json.dumps(cat_counts, ensure_ascii=False)}")
     return 0
 
