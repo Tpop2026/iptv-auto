@@ -2,7 +2,8 @@ name: Update playlists
 
 on:
   schedule:
-    - cron: "17 */6 * * *"
+    # 每天北京时间 16:00（UTC 08:00）更新一次，便于 17:00 测活
+    - cron: "0 8 * * *"
   workflow_dispatch:
   push:
     branches: [main]
