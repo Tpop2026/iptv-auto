@@ -5,8 +5,6 @@ http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226894/1.m3u8?
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/Gsports" group-title="体育",五星体育
 https://cdn.ttvb.eu.org/douyin/Gsports
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/75604127264" group-title="体育",华少体育解说
-https://cdn.ttvb.eu.org/douyin/75604127264
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/CCTV5.png" group-title="体育",CCTV-5 体育
 http://101.66.194.125:9901/tsfile/live/0005_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/风云剧场.png" group-title="体育",风云剧场
