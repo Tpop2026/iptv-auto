@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="https://epg.pw/xmltv/epg.xml,https://live.zhi35.com/epg.xml.gz"
 🕘️更新时间,#genre#
-2026-09-29 20:07 UTC+8,https://github.com/pq0000/iptv-auto
+2026-09-29 20:09 UTC+8,https://github.com/pq0000/iptv-auto
 📺 央视频道,#genre#
 #EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/CCTV1.png" group-title="📺 央视频道",CCTV-1 综合
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226895/1.m3u8?
@@ -5629,6 +5629,8 @@ https://cdn.ttvb.eu.org/bilibili/27781393
 https://cdn.ttvb.eu.org/bilibili/13308358
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/26737864" group-title="📍 地方其他",益达兄弟辅助教学
 https://cdn.ttvb.eu.org/bilibili/26737864
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/12289362" group-title="📍 地方其他",真实球迷汇
+https://cdn.ttvb.eu.org/bilibili/12289362
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/7777" group-title="📍 地方其他",老实憨厚的笑笑
 https://cdn.ttvb.eu.org/bilibili/7777
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/8139918" group-title="📍 地方其他",老王dota2
@@ -5813,6 +5815,8 @@ https://cdn.ttvb.eu.org/douyu/52876
 https://cdn.ttvb.eu.org/huya/791185
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/huya/115959" group-title="📍 地方其他",AG绝迹
 https://cdn.ttvb.eu.org/huya/115959
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/huya/668" group-title="📍 地方其他",ALpb马平
+https://cdn.ttvb.eu.org/huya/668
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/huya/769178" group-title="📍 地方其他",AzZ丶半个橙子
 https://cdn.ttvb.eu.org/huya/769178
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/huya/591756" group-title="📍 地方其他",DK丶微凉
@@ -12490,6 +12494,8 @@ https://cdn.ttvb.eu.org/huya/691406
 https://cdn.ttvb.eu.org/huya/222523
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/soop/rlaxordyd" group-title="综合(英文)",Bisu
 https://cdn.ttvb.eu.org/soop/rlaxordyd
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/soop/lovelove7777" group-title="综合(英文)",Unknown
+https://cdn.ttvb.eu.org/soop/lovelove7777
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/Dmitry_Lixxx" group-title="综合(英文)",Dmitry_Lixxx
 https://cdn.ttvb.eu.org/twitch/Dmitry_Lixxx
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/ESLCS" group-title="综合(英文)",ESLCS

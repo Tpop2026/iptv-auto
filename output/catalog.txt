@@ -1,5 +1,5 @@
 🕘️更新时间,#genre#
-2026-09-29 20:07 UTC+8,https://github.com/pq0000/iptv-auto
+2026-09-29 20:09 UTC+8,https://github.com/pq0000/iptv-auto
 📺 央视频道,#genre#
 CCTV-1 综合,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226895/1.m3u8?
 CCTV-2 财经,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226893/1.m3u8?
@@ -2820,6 +2820,7 @@ YY用户,https://cdn.ttvb.eu.org/yy/1354930976
 玩祭司的屑鱼w,https://cdn.ttvb.eu.org/bilibili/27781393
 甜药Jamren,https://cdn.ttvb.eu.org/bilibili/13308358
 益达兄弟辅助教学,https://cdn.ttvb.eu.org/bilibili/26737864
+真实球迷汇,https://cdn.ttvb.eu.org/bilibili/12289362
 老实憨厚的笑笑,https://cdn.ttvb.eu.org/bilibili/7777
 老王dota2,https://cdn.ttvb.eu.org/bilibili/8139918
 辉耀计划,https://cdn.ttvb.eu.org/bilibili/24158116
@@ -2912,6 +2913,7 @@ zzc啊哦额,https://cdn.ttvb.eu.org/douyu/666743
 龚建ZSMJ,https://cdn.ttvb.eu.org/douyu/52876
 4AM小海xx,https://cdn.ttvb.eu.org/huya/791185
 AG绝迹,https://cdn.ttvb.eu.org/huya/115959
+ALpb马平,https://cdn.ttvb.eu.org/huya/668
 AzZ丶半个橙子,https://cdn.ttvb.eu.org/huya/769178
 DK丶微凉,https://cdn.ttvb.eu.org/huya/591756
 Karsamzing苏弟,https://cdn.ttvb.eu.org/huya/116864
@@ -6255,6 +6257,7 @@ XHope,https://cdn.ttvb.eu.org/huya/821839
 baicaiovo,https://cdn.ttvb.eu.org/huya/691406
 kRYST4L,https://cdn.ttvb.eu.org/huya/222523
 Bisu,https://cdn.ttvb.eu.org/soop/rlaxordyd
+Unknown,https://cdn.ttvb.eu.org/soop/lovelove7777
 Dmitry_Lixxx,https://cdn.ttvb.eu.org/twitch/Dmitry_Lixxx
 ESLCS,https://cdn.ttvb.eu.org/twitch/ESLCS
 GingiTV,https://cdn.ttvb.eu.org/twitch/gingitv
