@@ -15,6 +15,8 @@ https://cdn.ttvb.eu.org/douyu/12534632
 https://cdn.ttvb.eu.org/huya/11601966
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/huya/11352879" group-title="海外",HelloKitty
 https://cdn.ttvb.eu.org/huya/11352879
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/huya/980312" group-title="海外",Ning
+https://cdn.ttvb.eu.org/huya/980312
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/soop/soclato" group-title="海外",Ria
 https://cdn.ttvb.eu.org/soop/soclato
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/soop/nanaringhi" group-title="海外",Unknown
@@ -65,8 +67,6 @@ https://cdn.ttvb.eu.org/bilibili/261955
 https://cdn.ttvb.eu.org/douyin/HHang02
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/NN4747" group-title="海外",NN47
 https://cdn.ttvb.eu.org/douyin/NN4747
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/kaixinX1" group-title="海外",Vie
-https://cdn.ttvb.eu.org/douyin/kaixinX1
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/Xmm.jr" group-title="海外",Xmm
 https://cdn.ttvb.eu.org/douyin/Xmm.jr
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/XiaoXinFps" group-title="海外",imxiaoxin

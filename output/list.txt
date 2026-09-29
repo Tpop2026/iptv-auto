@@ -473,6 +473,7 @@ v猫诺v,https://cdn.ttvb.eu.org/bilibili/308543
 哔哩哔哩直播,https://cdn.ttvb.eu.org/bilibili/1
 哔哩哔哩直播,https://cdn.ttvb.eu.org/bilibili/1obidr4y12a
 宅崽卡卡,https://cdn.ttvb.eu.org/bilibili/1777643588
+小爱Kaede,https://cdn.ttvb.eu.org/bilibili/31408642
 是一只商心慈,https://cdn.ttvb.eu.org/bilibili/1900566555
 氏故-全国服射手,https://cdn.ttvb.eu.org/bilibili/1764828292
 灌注大白菜,https://cdn.ttvb.eu.org/bilibili/32232237
@@ -501,7 +502,6 @@ csgo茄子,https://cdn.ttvb.eu.org/douyin/472143576107
 小央视频,https://cdn.ttvb.eu.org/douyin/cctv_video
 小米官方旗舰店,https://cdn.ttvb.eu.org/douyin/xiaomizhibojian
 小菜,https://cdn.ttvb.eu.org/douyin/51460888935
-小震与大娟唢呐山东歌舞剧院,https://cdn.ttvb.eu.org/douyin/hongzhen1016
 徐同学,https://cdn.ttvb.eu.org/douyin/81530784267
 思小思儿,https://cdn.ttvb.eu.org/douyin/98716378
 无忧小老虎,https://cdn.ttvb.eu.org/douyin/wyxlh472
@@ -512,6 +512,7 @@ csgo茄子,https://cdn.ttvb.eu.org/douyin/472143576107
 江萧絮,https://cdn.ttvb.eu.org/douyin/jiangxiaoxu0622
 浙有正能量,https://cdn.ttvb.eu.org/douyin/sir000115
 浙江交警,https://cdn.ttvb.eu.org/douyin/zj12122
+爱吃番茄,https://cdn.ttvb.eu.org/douyin/62347299995
 王思雨☔️41,https://cdn.ttvb.eu.org/douyin/wsy005200
 王浩宇Whys,https://cdn.ttvb.eu.org/douyin/Whys010821
 电影频道云影院,https://cdn.ttvb.eu.org/douyin/cctv6cinema
@@ -538,6 +539,7 @@ LR1245,https://cdn.ttvb.eu.org/douyu/12534632
 奇光主播q,https://cdn.ttvb.eu.org/douyu/12560807
 孙悟空丨兰林汉,https://cdn.ttvb.eu.org/douyu/475252
 宝贝薇阿,https://cdn.ttvb.eu.org/douyu/71825
+尐表哥,https://cdn.ttvb.eu.org/douyu/217331
 崔杋圭五颜一,https://cdn.ttvb.eu.org/douyu/8189873
 当燕双鹰遇见李元芳,https://cdn.ttvb.eu.org/douyu/3439096
 我砸晕了牛顿奥,https://cdn.ttvb.eu.org/douyu/1218414
@@ -564,6 +566,7 @@ Letme严君泽,https://cdn.ttvb.eu.org/huya/518518
 MH、小辛也,https://cdn.ttvb.eu.org/huya/134761
 MQ丶蜘蛛馍,https://cdn.ttvb.eu.org/huya/29732947
 Navi丶S1mple小电视,https://cdn.ttvb.eu.org/huya/24252134
+Ning,https://cdn.ttvb.eu.org/huya/980312
 UFC钢炮,https://cdn.ttvb.eu.org/huya/29287085
 V1ncent丶文森特,https://cdn.ttvb.eu.org/huya/949527
 barry观世界,https://cdn.ttvb.eu.org/huya/20985835
@@ -714,14 +717,12 @@ lovelive,https://cdn.ttvb.eu.org/bilibili/261955
 HangHang,https://cdn.ttvb.eu.org/douyin/HHang02
 JJ斗地主,https://cdn.ttvb.eu.org/douyin/jjworld
 NN47,https://cdn.ttvb.eu.org/douyin/NN4747
-Vie,https://cdn.ttvb.eu.org/douyin/kaixinX1
 Xmm,https://cdn.ttvb.eu.org/douyin/Xmm.jr
 imxiaoxin,https://cdn.ttvb.eu.org/douyin/XiaoXinFps
 不会捏蓝,https://cdn.ttvb.eu.org/douyin/90492165361
 东营初九,https://cdn.ttvb.eu.org/douyin/chujiu1379
 主播杨树,https://cdn.ttvb.eu.org/douyin/zhuboyangshu
 亦辰辰,https://cdn.ttvb.eu.org/douyin/97931733905
-凡小生,https://cdn.ttvb.eu.org/douyin/fxs0928
 升级职业联赛,https://cdn.ttvb.eu.org/douyin/69069695385
 升级职业锦标赛,https://cdn.ttvb.eu.org/douyin/95963759473
 南施,https://cdn.ttvb.eu.org/douyin/JNAAS
@@ -809,6 +810,7 @@ DK丶微凉,https://cdn.ttvb.eu.org/huya/591756
 Karsamzing苏弟,https://cdn.ttvb.eu.org/huya/116864
 Kimmy,https://cdn.ttvb.eu.org/huya/109810
 LING露雪【世1老六,https://cdn.ttvb.eu.org/huya/326513
+MT丶季多鱼,https://cdn.ttvb.eu.org/huya/531309
 Ming,https://cdn.ttvb.eu.org/huya/991222
 Mint万坤,https://cdn.ttvb.eu.org/huya/775178
 Sdn,https://cdn.ttvb.eu.org/huya/310112
@@ -833,6 +835,7 @@ huya丶寒星,https://cdn.ttvb.eu.org/huya/172392
 老实人sask,https://cdn.ttvb.eu.org/huya/579236
 老鬼-MG,https://cdn.ttvb.eu.org/huya/705112
 虎牙丶三伟子,https://cdn.ttvb.eu.org/huya/657314
+解说海威,https://cdn.ttvb.eu.org/huya/262985
 象棋戴少帅,https://cdn.ttvb.eu.org/huya/487836
 超维视界邀请赛主舞台,https://cdn.ttvb.eu.org/huya/473271
 郭枫荷,https://cdn.ttvb.eu.org/huya/139473
@@ -840,7 +843,6 @@ huya丶寒星,https://cdn.ttvb.eu.org/huya/172392
 陈子豪,https://cdn.ttvb.eu.org/huya/199300
 随风蛮王ovo,https://cdn.ttvb.eu.org/huya/387067
 韩涵-TuT,https://cdn.ttvb.eu.org/huya/18123
-风华-至强男刀,https://cdn.ttvb.eu.org/huya/724014
 香菇滑鸡xghj,https://cdn.ttvb.eu.org/huya/226046
 魔创-雅一儿【许仙,https://cdn.ttvb.eu.org/huya/52033
 Bisu,https://cdn.ttvb.eu.org/soop/rlaxordyd
@@ -875,6 +877,7 @@ YUAN1121,https://cdn.ttvb.eu.org/douyin/29796443468
 同程北海度假专场,https://cdn.ttvb.eu.org/douyin/BeiHai.Travel
 四季沐歌智能花洒,https://cdn.ttvb.eu.org/douyin/Micoe777
 外教英语口语课,https://cdn.ttvb.eu.org/douyin/62380161795
+大象新闻,https://cdn.ttvb.eu.org/douyin/ElephantNews
 央视文艺,https://cdn.ttvb.eu.org/douyin/1027321223
 央视网,https://cdn.ttvb.eu.org/douyin/cctv.com
 央视网科技,https://cdn.ttvb.eu.org/douyin/66415451233.

@@ -6,6 +6,7 @@ ICEKING,https://cdn.ttvb.eu.org/douyu/3567521
 LR1245,https://cdn.ttvb.eu.org/douyu/12534632
 Cc,https://cdn.ttvb.eu.org/huya/11601966
 HelloKitty,https://cdn.ttvb.eu.org/huya/11352879
+Ning,https://cdn.ttvb.eu.org/huya/980312
 Ria,https://cdn.ttvb.eu.org/soop/soclato
 Unknown,https://cdn.ttvb.eu.org/soop/nanaringhi
 Unknown,https://cdn.ttvb.eu.org/soop/rkdfksdud98
@@ -31,7 +32,6 @@ MCG_12Tap,https://cdn.ttvb.eu.org/bilibili/23225863
 lovelive,https://cdn.ttvb.eu.org/bilibili/261955
 HangHang,https://cdn.ttvb.eu.org/douyin/HHang02
 NN47,https://cdn.ttvb.eu.org/douyin/NN4747
-Vie,https://cdn.ttvb.eu.org/douyin/kaixinX1
 Xmm,https://cdn.ttvb.eu.org/douyin/Xmm.jr
 imxiaoxin,https://cdn.ttvb.eu.org/douyin/XiaoXinFps
 Chalice,https://cdn.ttvb.eu.org/douyu/5135383
