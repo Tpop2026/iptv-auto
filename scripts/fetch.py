@@ -8,6 +8,7 @@ names, then writes:
   output/index.m3u / output/list.txt / output/channels.json
   output/categories/<cat>.m3u / <cat>.txt
   output/favorites.m3u / output/favorites.txt   (favorites.txt 模板分组, 线路无上限)
+  output/catalog.m3u / output/catalog.txt       (全量分组: 中文台系/类型 + XX(英文), 线路无上限)
 
 Env: IPTV_CHECK_STREAMS=1 — opt-in 404/410 filter on final lines
      (default off: fetch only, players tolerate dead links).
@@ -484,6 +485,77 @@ def write_favorites(channels: list[dict]) -> None:
     print(f"favorites: {sum(len(n) for _, n in groups)} 个模板频道, 命中 {len(matched_names)} 个")
 
 
+# 全量 catalog：中文按台系/类型，英文独立成 XX(英文) 组（互斥，按序匹配）
+CATALOG_RULES_CN = [
+    ("📻 广播电台", re.compile(r"电台|广播|\bRadio\b|\bFM\s?\d", re.I)),
+    ("🏮 港澳台", re.compile(r"凤凰|TVB|翡翠|明珠|无线电视|HOY|RTHK|港台|NOW\s?TV|ViuTV|Viu\b|台视|中视|华视|民视|公视|东森|三立|中天|非凡|超视|纬来|香港|澳门|台湾", re.I)),
+    ("📺 央视频道", re.compile(r"CCTV|央视|CGTN|中央电视", re.I)),
+    ("📡 卫视频道", re.compile(r"卫视")),
+    ("👶 少儿动画", re.compile(r"少儿|动画|卡通|迪士尼|儿童")),
+    ("🏅 体育赛事", re.compile(r"体育|足球|篮球|网球|高尔夫|赛车|\bF1\b|赛事|搏击|功夫", re.I)),
+    ("📰 新闻资讯", re.compile(r"新闻")),
+    ("🎞️ 影视电影", re.compile(r"影视|电影|剧场|影院|大片|轮播|爱情|喜剧|古装|军旅|惊悚|悬疑|CHC|NewTV|黑莓|哒啵|精品大剧", re.I)),
+    ("📚 纪录片", re.compile(r"纪录|纪实|历史|科学|探索|发现")),
+    ("🎵 音乐频道", re.compile(r"音乐")),
+    ("🎭 综艺娱乐", re.compile(r"综艺|娱乐")),
+]
+CATALOG_RULES_EN = [
+    ("电影(英文)", re.compile(r"Movies?|Cinema|Films?|Cine|HBO|Cinemax|Star Movies|Hallmark|Lifetime|Showtime|AMC|\bTNT\b|\bTBS\b|AXN|Drama|Series|Action|Thriller", re.I)),
+    ("体育(英文)", re.compile(r"Sports?|ESPN|Eurosport|DAZN|WWE|UFC|NBA|NFL|MLB|NHL|FIFA|Football|Racing|Tennis|Golf|Fight|Boxing|Cricket", re.I)),
+    ("少儿(英文)", re.compile(r"Kids|Cartoon|Nickelodeon|Nick Jr|Boomerang|BabyFirst|Baby TV|CBeebies|CBBC|Toon|Disney|Children|Junior", re.I)),
+    ("新闻(英文)", re.compile(r"News|CNN|Fox News|Al Jazeera|Jazeera|France ?24|Sky News|Bloomberg|CNBC|Euronews|\bCNA\b|TRT|NHK World", re.I)),
+    ("音乐(英文)", re.compile(r"Music|MTV|VH1|Mezzo|K-?POP|Concert|Hits", re.I)),
+    ("纪录(英文)", re.compile(r"Discovery|National Geographic|Nat ?Geo|History|Science|Curiosity|Smithsonian|Documentary", re.I)),
+    ("综艺(英文)", re.compile(r"Entertainment|Comedy|Variety|Reality", re.I)),
+    ("广播(英文)", re.compile(r"\bRadio\b|\bFM\b", re.I)),
+]
+CATALOG_DISPLAY_ORDER = [
+    "📺 央视频道", "📡 卫视频道", "🏮 港澳台", "🎞️ 影视电影", "🏅 体育赛事",
+    "👶 少儿动画", "📰 新闻资讯", "🎵 音乐频道", "📚 纪录片", "🎭 综艺娱乐",
+    "📻 广播电台", "📍 地方其他",
+    "电影(英文)", "体育(英文)", "少儿(英文)", "新闻(英文)", "音乐(英文)",
+    "纪录(英文)", "综艺(英文)", "广播(英文)", "综合(英文)",
+]
+
+
+def catalog_group(name: str) -> str:
+    if CJK_RE.search(name):
+        for label, rx in CATALOG_RULES_CN:
+            if rx.search(name):
+                return label
+        return "📍 地方其他"
+    for label, rx in CATALOG_RULES_EN:
+        if rx.search(name):
+            return label
+    return "综合(英文)"
+
+
+def write_catalog(channels: list[dict]) -> None:
+    """全量分组列表：中文台系/类型 + 英文独立 XX(英文) 组；线路无上限。"""
+    stamp = (datetime.now(timezone.utc) + timedelta(hours=8)).strftime("%Y-%m-%d %H:%M")
+    grouped: dict[str, list[dict]] = {label: [] for label in CATALOG_DISPLAY_ORDER}
+    for ch in channels:
+        grouped[catalog_group(ch["name"])].append(ch)
+    m3u = [M3U_HEADER, "🕘️更新时间,#genre#", f"{stamp} UTC+8,https://github.com/pq0000/iptv-auto"]
+    txt = ["🕘️更新时间,#genre#", f"{stamp} UTC+8,https://github.com/pq0000/iptv-auto"]
+    for label in CATALOG_DISPLAY_ORDER:
+        items = grouped.get(label) or []
+        if not items:
+            continue
+        m3u.append(f"{label},#genre#")
+        txt.append(f"{label},#genre#")
+        for ch in items:
+            logo = f' tvg-logo="{ch["logo"]}"' if ch["logo"] else ""
+            tvg_id = f' tvg-id="{ch["tvg_id"]}"' if ch["tvg_id"] else ""
+            m3u.append(f'#EXTINF:-1{tvg_id}{logo} group-title="{label}",{ch["name"]}')
+            m3u.append(ch["url"])
+            txt.append(f"{ch['name']},{ch['url']}")
+    _write(OUT_DIR / "catalog.m3u", m3u)
+    _write(OUT_DIR / "catalog.txt", txt)
+    stats = {k: len(v) for k, v in grouped.items() if v}
+    print(f"catalog: {len(channels)} 条线路, 分组 {json.dumps(stats, ensure_ascii=False)}")
+
+
 def stream_alive(url: str) -> bool:
     """Conservative liveness probe: drop only clear 404/410 answers.
 
@@ -655,6 +727,7 @@ def main() -> int:
 
     write_outputs(final)
     write_favorites(merged)  # 精选列表不设线路上限，按模板分组
+    write_catalog(merged)  # 全量分组列表：中文/英文分列
     cat_counts = {}
     for ch in final:
         for cat in categorize(ch["name"]):

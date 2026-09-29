@@ -1,14 +1,18 @@
 #EXTM3U x-tvg-url="https://epg.pw/xmltv/epg.xml,https://live.zhi35.com/epg.xml.gz"
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/5050" group-title="海外",EdmundDZhang
+https://cdn.ttvb.eu.org/bilibili/5050
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/390508" group-title="海外",OneMicroSpace
 https://cdn.ttvb.eu.org/bilibili/390508
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/1773507572" group-title="海外",iHateTheWorld
 https://cdn.ttvb.eu.org/bilibili/1773507572
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/61848991705" group-title="海外",IamGloria
+https://cdn.ttvb.eu.org/douyin/61848991705
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/30727769100" group-title="海外",M
 https://cdn.ttvb.eu.org/douyin/30727769100
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/46563301865" group-title="海外",Nuna
+https://cdn.ttvb.eu.org/douyin/46563301865
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyu/12267539" group-title="海外",DANK1NG
 https://cdn.ttvb.eu.org/douyu/12267539
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyu/3567521" group-title="海外",ICEKING
-https://cdn.ttvb.eu.org/douyu/3567521
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyu/12534632" group-title="海外",LR1245
 https://cdn.ttvb.eu.org/douyu/12534632
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/huya/11601966" group-title="海外",Cc
@@ -25,8 +29,8 @@ https://cdn.ttvb.eu.org/soop/nanaringhi
 https://cdn.ttvb.eu.org/soop/rkdfksdud98
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/soop/oktube" group-title="海外",GO
 https://cdn.ttvb.eu.org/soop/oktube
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/soop/1004ysus" group-title="海外",Unknown
-https://cdn.ttvb.eu.org/soop/1004ysus
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/soop/sdgk78" group-title="海外",Unknown
+https://cdn.ttvb.eu.org/soop/sdgk78
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/ai_modeler" group-title="海外",AI_Modeler
 https://cdn.ttvb.eu.org/twitch/ai_modeler
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/ASIANDANCERS" group-title="海外",ASIANDANCERS
@@ -83,6 +87,8 @@ https://cdn.ttvb.eu.org/douyu/24422
 https://cdn.ttvb.eu.org/douyu/3484
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyu/9999" group-title="海外",yyfyyf
 https://cdn.ttvb.eu.org/douyu/9999
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/huya/10188" group-title="海外",DANK1NG
+https://cdn.ttvb.eu.org/huya/10188
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/huya/109810" group-title="海外",Kimmy
 https://cdn.ttvb.eu.org/huya/109810
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/huya/991222" group-title="海外",Ming
@@ -93,6 +99,8 @@ https://cdn.ttvb.eu.org/huya/310112
 https://cdn.ttvb.eu.org/huya/821839
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/huya/691406" group-title="海外",baicaiovo
 https://cdn.ttvb.eu.org/huya/691406
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/huya/222523" group-title="海外",kRYST4L
+https://cdn.ttvb.eu.org/huya/222523
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/soop/rlaxordyd" group-title="海外",Bisu
 https://cdn.ttvb.eu.org/soop/rlaxordyd
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/Dmitry_Lixxx" group-title="海外",Dmitry_Lixxx
@@ -101,12 +109,14 @@ https://cdn.ttvb.eu.org/twitch/Dmitry_Lixxx
 https://cdn.ttvb.eu.org/twitch/ESLCS
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/gingitv" group-title="海外",GingiTV
 https://cdn.ttvb.eu.org/twitch/gingitv
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/ToadAmarillo" group-title="海外",ToadAmarillo
-https://cdn.ttvb.eu.org/twitch/ToadAmarillo
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/naowh" group-title="海外",Naowh
+https://cdn.ttvb.eu.org/twitch/naowh
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/27519423" group-title="海外",LofiGirl
 https://cdn.ttvb.eu.org/bilibili/27519423
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/29796443468" group-title="海外",YUAN1121
 https://cdn.ttvb.eu.org/douyin/29796443468
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/soop/kleezzz" group-title="海外",2
+https://cdn.ttvb.eu.org/soop/kleezzz
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/adanalife_" group-title="海外",ADanaLife
 https://cdn.ttvb.eu.org/twitch/adanalife_
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/heartlandtruckingusa" group-title="海外",HeartlandTruckingUSA

@@ -12,6 +12,7 @@ from fetch import (
     CAT_LABELS,
     MAX_PER_NAME,
     M3U_HEADER,
+    catalog_group,
     categorize,
     favorite_match,
     normalize_name,
@@ -81,6 +82,18 @@ check("fav-suzhou4k", favorite_match("苏州4k", "苏州(4K)"), True)
 check("fav-suzhou4k-case", favorite_match("苏州4k", "苏州4K"), True)
 check("fav-4k-not-cctv4", favorite_match("CCTV-4", "CCTV-4K"), False)
 check("fav-neg", favorite_match("湖南卫视", "浙江卫视"), False)
+
+# --- catalog_group --------------------------------------------------------
+check("cat-cn-cctv", catalog_group("CCTV-1 综合"), "📺 央视频道")
+check("cat-cn-weishi", catalog_group("湖南卫视"), "📡 卫视频道")
+check("cat-cn-fh", catalog_group("凤凰卫视"), "🏮 港澳台")
+check("cat-cn-movie", catalog_group("CHC家庭影院"), "🎞️ 影视电影")
+check("cat-cn-local", catalog_group("苏州新闻综合"), "📰 新闻资讯")
+check("cat-cn-fallback", catalog_group("1987年春晚"), "📍 地方其他")
+check("cat-en-sport", catalog_group("ESPN"), "体育(英文)")
+check("cat-en-movie", catalog_group("30A TV Classic Movies"), "电影(英文)")
+check("cat-en-news", catalog_group("Sky News"), "新闻(英文)")
+check("cat-en-fallback", catalog_group("1+1 International"), "综合(英文)")
 
 # --- constants ------------------------------------------------------------
 check("cap", MAX_PER_NAME, 3)

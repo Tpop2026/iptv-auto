@@ -17,6 +17,8 @@ GitHub Actions **每天北京时间 16:00** 自动抓取、去重、归一并提
 | 全量 JSON | `https://raw.githubusercontent.com/pq0000/iptv-auto/main/output/channels.json` |
 | **精选分组列表 M3U**（Guovin 同款） | `https://raw.githubusercontent.com/pq0000/iptv-auto/main/output/favorites.m3u` |
 | **精选分组列表 TXT** | `https://raw.githubusercontent.com/pq0000/iptv-auto/main/output/favorites.txt` |
+| **全量分组列表 M3U**（大而全） | `https://raw.githubusercontent.com/pq0000/iptv-auto/main/output/catalog.m3u` |
+| **全量分组列表 TXT** | `https://raw.githubusercontent.com/pq0000/iptv-auto/main/output/catalog.txt` |
 | 央视频道 | `https://raw.githubusercontent.com/pq0000/iptv-auto/main/output/categories/cctv.m3u`（同名 `.txt`） |
 | 卫视频道 | `https://raw.githubusercontent.com/pq0000/iptv-auto/main/output/categories/weishi.m3u` |
 | 体育频道 | `https://raw.githubusercontent.com/pq0000/iptv-auto/main/output/categories/tiyu.m3u` |
@@ -55,6 +57,10 @@ GitHub raw 链接在国内经常不稳定，可改用以下实测可用的加速
 ## 精选列表（favorites.txt）
 
 `favorites.txt` 是个人频道模板（沿用 Guovin demo.txt 格式）：`分组名,#genre#` 下按行列出频道名。每次抓取会按模板筛选并分组输出 `favorites.m3u` / `favorites.txt`，同名线路**全部保留、无上限**（由播放器自动换线）。改模板推送到 `main` 即生效。
+
+## 全量分组列表（catalog）
+
+`catalog.m3u` / `catalog.txt` 是给"大而全"用户的全量库：**中文频道**按台系/类型分为 央视、卫视、港澳台、影视、体育、少儿、新闻、音乐、纪录、综艺、广播、地方其他；**英文频道**独立成组，按类型分为 `电影(英文)`、`体育(英文)`、`少儿(英文)`、`新闻(英文)`、`音乐(英文)`、`纪录(英文)`、`综艺(英文)`、`广播(英文)`、`综合(英文)`。与 favorites 完全独立、互不影响，线路同样无上限。
 
 ## EPG 节目单接口
 
