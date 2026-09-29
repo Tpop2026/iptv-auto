@@ -26,6 +26,7 @@ CCTV-4 中文国际,https://cdn.ttvb.eu.org/douyin/CCTV4..
 小央视频,https://cdn.ttvb.eu.org/douyin/cctv_video
 央视台球,https://cdn.ttvb.eu.org/douyin/68582844865
 央视网,https://cdn.ttvb.eu.org/bilibili/8178490
+央视频,https://cdn.ttvb.eu.org/bilibili/21623527
 央视文艺,https://cdn.ttvb.eu.org/douyin/1027321223
 央视网,https://cdn.ttvb.eu.org/douyin/cctv.com
 央视网科技,https://cdn.ttvb.eu.org/douyin/66415451233.

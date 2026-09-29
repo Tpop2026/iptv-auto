@@ -1,13 +1,12 @@
 OneMicroSpace,https://cdn.ttvb.eu.org/bilibili/390508
+iHateTheWorld,https://cdn.ttvb.eu.org/bilibili/1773507572
 CBD,https://cdn.ttvb.eu.org/douyin/37907612584
 M,https://cdn.ttvb.eu.org/douyin/30727769100
 Qqqqqqqq,https://cdn.ttvb.eu.org/douyin/505843959641
-4549169,https://cdn.ttvb.eu.org/douyu/4549169
 ICEKING,https://cdn.ttvb.eu.org/douyu/3567521
 LR1245,https://cdn.ttvb.eu.org/douyu/12534632
 Cc,https://cdn.ttvb.eu.org/huya/11601966
 HelloKitty,https://cdn.ttvb.eu.org/huya/11352879
-Ning,https://cdn.ttvb.eu.org/huya/980312
 Ria,https://cdn.ttvb.eu.org/soop/soclato
 Unknown,https://cdn.ttvb.eu.org/soop/nanaringhi
 Unknown,https://cdn.ttvb.eu.org/soop/rkdfksdud98
@@ -32,7 +31,9 @@ soywini,https://cdn.ttvb.eu.org/twitch/soywini_
 MCG_12Tap,https://cdn.ttvb.eu.org/bilibili/23225863
 lovelive,https://cdn.ttvb.eu.org/bilibili/261955
 HangHang,https://cdn.ttvb.eu.org/douyin/HHang02
+NN47,https://cdn.ttvb.eu.org/douyin/NN4747
 Vie,https://cdn.ttvb.eu.org/douyin/kaixinX1
+imxiaoxin,https://cdn.ttvb.eu.org/douyin/XiaoXinFps
 Chalice,https://cdn.ttvb.eu.org/douyu/5135383
 Evelinas,https://cdn.ttvb.eu.org/douyu/10197652
 Jackyar,https://cdn.ttvb.eu.org/douyu/6490082
