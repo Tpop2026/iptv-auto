@@ -77,6 +77,9 @@ check("fav-newtv", favorite_match("NewTV爱情喜剧", "爱情喜剧"), True)
 check("fav-chc", favorite_match("CHC高清电影", "CHC电影"), True)
 check("fav-suzhou", favorite_match("社会经济频道", "苏州社会经济"), True)
 check("fav-record", favorite_match("NewTV精品记录", "精品纪录"), True)
+check("fav-suzhou4k", favorite_match("苏州4k", "苏州(4K)"), True)
+check("fav-suzhou4k-case", favorite_match("苏州4k", "苏州4K"), True)
+check("fav-4k-not-cctv4", favorite_match("CCTV-4", "CCTV-4K"), False)
 check("fav-neg", favorite_match("湖南卫视", "浙江卫视"), False)
 
 # --- constants ------------------------------------------------------------

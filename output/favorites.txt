@@ -1,5 +1,5 @@
 🕘️更新时间,#genre#
-2026-09-29 19:14 UTC+8,https://github.com/pq0000/iptv-auto
+2026-09-29 19:32 UTC+8,https://github.com/pq0000/iptv-auto
 📺央视频道,#genre#
 CCTV-1,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226895/1.m3u8?
 CCTV-1,http://74.91.26.218:82/live/cctv1hd.m3u8
@@ -506,6 +506,8 @@ CCTV-4K,https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4k_mbd.m
 CCTV-4K,http://zteres.sn.chinamobile.com:6060/000000001000/1000000004000011651/1.m3u8?channel-id=ystenlive&Contentid=1000000004000011651&livemode=1&stbId=3
 CCTV-4K,rtp://239.3.1.245:2000
 CCTV-4K,http://101.35.240.114:88/live.php?id=CCTV4K
+CCTV-4K,https://cdn3.wowza.com/5/cHYzekYzM2kvTVFH/charlotte/G0055_009/playlist.m3u8
+CCTV-4K,http://192.151.150.154/live/cctv8k.m3u8
 CCTV-4K,https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4k_mbd.m3u8?auth_key=1790730000-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-2c8affbdb941e7addbf50b2fa9284397&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 CCTV-4K,http://192.168.123.1:23234/rtp/239.3.1.245:2000
 📡卫视频道,#genre#
@@ -690,6 +692,8 @@ CHC动作电影,http://101.35.240.114:88/live.php?id=CHC动作电影
 CHC动作电影,http://t.061899.xyz/tl/tl.php?id=chcdzdy
 CHC动作电影,http://192.168.123.1:23234/rtp/239.3.1.106:8001
 ☘️苏州地方频道,#genre#
+苏州4k,https://tylive.kan0512.com/norecord/csztv4k_4k.m3u8
+苏州4k,https://live-auth.51kandianshi.com/szgd/csztv4k_hd.m3u8
 新闻综合频道,https://m3u8channel.yunxya.com/nmip-media/channellive/channel100028/playlist.m3u8
 新闻综合频道,https://live-auth.51kandianshi.com/szgd/csztv1.m3u8
 新闻综合频道,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226346/index.m3u8

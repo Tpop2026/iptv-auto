@@ -398,6 +398,19 @@ FAVORITE_ALIASES = {
 }
 
 
+_FAV_QUAL_RE = re.compile(
+    r"[\(\[（【]?\s*(?:4[Kk]|8[Kk]|UHD|HD|FHD|高清|超清|标清|1080[PpIi]?|720[PpIi]?)\s*[\)\]）】]?"
+)
+_FAV_SEP_RE = re.compile(r"[\s\-_()（）\[\]【】·]+")
+
+
+def _fav_core(name: str) -> str:
+    """匹配用核心名：去画质标记/括号/空白并小写，如 苏州(4K) / 苏州4k -> 苏州"""
+    s = _FAV_QUAL_RE.sub("", name)
+    s = _FAV_SEP_RE.sub("", s)
+    return s.lower()
+
+
 def favorite_match(template_name: str, channel_name: str) -> bool:
     if channel_name == template_name:
         return True
@@ -412,6 +425,12 @@ def favorite_match(template_name: str, channel_name: str) -> bool:
     if core_t == core_n:
         return True
     if template_name.startswith("NewTV") and channel_name == core_t[5:]:
+        return True
+    # 画质/大小写无关的核心名比较：苏州(4K) ≡ 苏州4k
+    ft, fn = _fav_core(template_name), _fav_core(channel_name)
+    if ft and ft == fn:
+        return True
+    if template_name.startswith("NewTV") and fn == _fav_core(template_name[5:]):
         return True
     return False
 

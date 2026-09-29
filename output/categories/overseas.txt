@@ -1,8 +1,7 @@
 OneMicroSpace,https://cdn.ttvb.eu.org/bilibili/390508
 iHateTheWorld,https://cdn.ttvb.eu.org/bilibili/1773507572
-CBD,https://cdn.ttvb.eu.org/douyin/37907612584
 M,https://cdn.ttvb.eu.org/douyin/30727769100
-Qqqqqqqq,https://cdn.ttvb.eu.org/douyin/505843959641
+DANK1NG,https://cdn.ttvb.eu.org/douyu/12267539
 ICEKING,https://cdn.ttvb.eu.org/douyu/3567521
 LR1245,https://cdn.ttvb.eu.org/douyu/12534632
 Cc,https://cdn.ttvb.eu.org/huya/11601966
@@ -33,11 +32,13 @@ lovelive,https://cdn.ttvb.eu.org/bilibili/261955
 HangHang,https://cdn.ttvb.eu.org/douyin/HHang02
 NN47,https://cdn.ttvb.eu.org/douyin/NN4747
 Vie,https://cdn.ttvb.eu.org/douyin/kaixinX1
+Xmm,https://cdn.ttvb.eu.org/douyin/Xmm.jr
 imxiaoxin,https://cdn.ttvb.eu.org/douyin/XiaoXinFps
 Chalice,https://cdn.ttvb.eu.org/douyu/5135383
 Evelinas,https://cdn.ttvb.eu.org/douyu/10197652
 Jackyar,https://cdn.ttvb.eu.org/douyu/6490082
 pigff,https://cdn.ttvb.eu.org/douyu/24422
+scboy,https://cdn.ttvb.eu.org/douyu/3484
 yyfyyf,https://cdn.ttvb.eu.org/douyu/9999
 Kimmy,https://cdn.ttvb.eu.org/huya/109810
 Ming,https://cdn.ttvb.eu.org/huya/991222
