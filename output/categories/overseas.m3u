@@ -1,16 +1,26 @@
 #EXTM3U x-tvg-url="https://epg.pw/xmltv/epg.xml,https://live.zhi35.com/epg.xml.gz"
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/5050" group-title="海外",EdmundDZhang
 https://cdn.ttvb.eu.org/bilibili/5050
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/407149" group-title="海外",KL_qiqi
+https://cdn.ttvb.eu.org/bilibili/407149
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/12378258" group-title="海外",Mythend
+https://cdn.ttvb.eu.org/bilibili/12378258
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/390508" group-title="海外",OneMicroSpace
 https://cdn.ttvb.eu.org/bilibili/390508
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/10265" group-title="海外",UCYU
+https://cdn.ttvb.eu.org/bilibili/10265
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/1403227" group-title="海外",VVVZQ
+https://cdn.ttvb.eu.org/bilibili/1403227
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/1773507572" group-title="海外",iHateTheWorld
 https://cdn.ttvb.eu.org/bilibili/1773507572
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/61848991705" group-title="海外",IamGloria
-https://cdn.ttvb.eu.org/douyin/61848991705
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/Aa0387" group-title="海外",0387
+https://cdn.ttvb.eu.org/douyin/Aa0387
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/30727769100" group-title="海外",M
 https://cdn.ttvb.eu.org/douyin/30727769100
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/46563301865" group-title="海外",Nuna
-https://cdn.ttvb.eu.org/douyin/46563301865
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/lina17" group-title="海外",Nani
+https://cdn.ttvb.eu.org/douyin/lina17
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/Lusa17781" group-title="海外",Lusa
+https://cdn.ttvb.eu.org/douyin/Lusa17781
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyu/12267539" group-title="海外",DANK1NG
 https://cdn.ttvb.eu.org/douyu/12267539
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyu/12534632" group-title="海外",LR1245
@@ -19,20 +29,22 @@ https://cdn.ttvb.eu.org/douyu/12534632
 https://cdn.ttvb.eu.org/huya/11601966
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/huya/11352879" group-title="海外",HelloKitty
 https://cdn.ttvb.eu.org/huya/11352879
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/huya/980312" group-title="海外",Ning
-https://cdn.ttvb.eu.org/huya/980312
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/soop/soclato" group-title="海外",Ria
 https://cdn.ttvb.eu.org/soop/soclato
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/soop/nanaringhi" group-title="海外",Unknown
-https://cdn.ttvb.eu.org/soop/nanaringhi
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/soop/rkdfksdud98" group-title="海外",Unknown
-https://cdn.ttvb.eu.org/soop/rkdfksdud98
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/soop/smpk96" group-title="海外",Unknown
+https://cdn.ttvb.eu.org/soop/smpk96
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/soop/suezzang25" group-title="海外",Unknown
+https://cdn.ttvb.eu.org/soop/suezzang25
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/soop/haming02" group-title="海外",Unknown
+https://cdn.ttvb.eu.org/soop/haming02
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/soop/oktube" group-title="海外",GO
 https://cdn.ttvb.eu.org/soop/oktube
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/soop/sdgk78" group-title="海外",Unknown
-https://cdn.ttvb.eu.org/soop/sdgk78
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/soop/dlswldus107" group-title="海外",JYEON
+https://cdn.ttvb.eu.org/soop/dlswldus107
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/ai_modeler" group-title="海外",AI_Modeler
 https://cdn.ttvb.eu.org/twitch/ai_modeler
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/ai_technok" group-title="海外",AI_TechnoK
+https://cdn.ttvb.eu.org/twitch/ai_technok
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/ASIANDANCERS" group-title="海外",ASIANDANCERS
 https://cdn.ttvb.eu.org/twitch/ASIANDANCERS
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/asmr_arale" group-title="海外",ASMR_Arale
@@ -57,16 +69,20 @@ https://cdn.ttvb.eu.org/twitch/lilianasana
 https://cdn.ttvb.eu.org/twitch/mira
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/mirayogax" group-title="海外",mirayogax
 https://cdn.ttvb.eu.org/twitch/mirayogax
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/nonstopfashion" group-title="海外",nonstopfashion
-https://cdn.ttvb.eu.org/twitch/nonstopfashion
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/sickemoangel24" group-title="海外",sickemoangel24
 https://cdn.ttvb.eu.org/twitch/sickemoangel24
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/soywini_" group-title="海外",soywini
 https://cdn.ttvb.eu.org/twitch/soywini_
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/4017751" group-title="海外",BestNaomi
+https://cdn.ttvb.eu.org/bilibili/4017751
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/7395955" group-title="海外",Kyo_ow
+https://cdn.ttvb.eu.org/bilibili/7395955
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/23225863" group-title="海外",MCG_12Tap
 https://cdn.ttvb.eu.org/bilibili/23225863
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/261955" group-title="海外",lovelive
-https://cdn.ttvb.eu.org/bilibili/261955
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/1919216529" group-title="海外",waywardzz
+https://cdn.ttvb.eu.org/bilibili/1919216529
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/21306770991" group-title="海外",APEX-QQ
+https://cdn.ttvb.eu.org/douyin/21306770991
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/HHang02" group-title="海外",HangHang
 https://cdn.ttvb.eu.org/douyin/HHang02
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/NN4747" group-title="海外",NN47
@@ -87,28 +103,38 @@ https://cdn.ttvb.eu.org/douyu/24422
 https://cdn.ttvb.eu.org/douyu/3484
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyu/9999" group-title="海外",yyfyyf
 https://cdn.ttvb.eu.org/douyu/9999
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/huya/321123" group-title="海外",CSBOY-Mo
+https://cdn.ttvb.eu.org/huya/321123
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/huya/10188" group-title="海外",DANK1NG
 https://cdn.ttvb.eu.org/huya/10188
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/huya/109810" group-title="海外",Kimmy
-https://cdn.ttvb.eu.org/huya/109810
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/huya/211888" group-title="海外",Maybeee111
+https://cdn.ttvb.eu.org/huya/211888
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/huya/991222" group-title="海外",Ming
 https://cdn.ttvb.eu.org/huya/991222
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/huya/310112" group-title="海外",Sdn
 https://cdn.ttvb.eu.org/huya/310112
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/huya/821839" group-title="海外",XHope
 https://cdn.ttvb.eu.org/huya/821839
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/huya/829922" group-title="海外",Yumiko0414
+https://cdn.ttvb.eu.org/huya/829922
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/huya/691406" group-title="海外",baicaiovo
 https://cdn.ttvb.eu.org/huya/691406
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/huya/222523" group-title="海外",kRYST4L
 https://cdn.ttvb.eu.org/huya/222523
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/soop/rlaxordyd" group-title="海外",Bisu
-https://cdn.ttvb.eu.org/soop/rlaxordyd
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/soop/jaedong23" group-title="海外",JD
+https://cdn.ttvb.eu.org/soop/jaedong23
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/soop/scv6256" group-title="海外",Light
+https://cdn.ttvb.eu.org/soop/scv6256
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/dendi" group-title="海外",Dendi
+https://cdn.ttvb.eu.org/twitch/dendi
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/Dmitry_Lixxx" group-title="海外",Dmitry_Lixxx
 https://cdn.ttvb.eu.org/twitch/Dmitry_Lixxx
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/ESLCS" group-title="海外",ESLCS
 https://cdn.ttvb.eu.org/twitch/ESLCS
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/gingitv" group-title="海外",GingiTV
 https://cdn.ttvb.eu.org/twitch/gingitv
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/missmikkaa" group-title="海外",MissMikkaa
+https://cdn.ttvb.eu.org/twitch/missmikkaa
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/naowh" group-title="海外",Naowh
 https://cdn.ttvb.eu.org/twitch/naowh
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/27519423" group-title="海外",LofiGirl
@@ -119,6 +145,10 @@ https://cdn.ttvb.eu.org/douyin/29796443468
 https://cdn.ttvb.eu.org/soop/kleezzz
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/adanalife_" group-title="海外",ADanaLife
 https://cdn.ttvb.eu.org/twitch/adanalife_
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/coyoteexpress" group-title="海外",CoyoteExpress
+https://cdn.ttvb.eu.org/twitch/coyoteexpress
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/darkmasuotv" group-title="海外",DarkMasuoTV
+https://cdn.ttvb.eu.org/twitch/darkmasuotv
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/heartlandtruckingusa" group-title="海外",HeartlandTruckingUSA
 https://cdn.ttvb.eu.org/twitch/heartlandtruckingusa
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/rawreporting" group-title="海外",RawReporting

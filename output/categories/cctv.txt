@@ -22,12 +22,9 @@ CGTN俄语,https://0472.org/hls/cgtne.m3u8
 CGTN法语,https://0472.org/hls/cgtnf.m3u8
 CGTN西语,https://0472.org/hls/cgtnx.m3u8
 CGTN阿语,https://0472.org/hls/cgtna.m3u8
-CCTV-4 中文国际,https://cdn.ttvb.eu.org/douyin/CCTV4..
 小央视频,https://cdn.ttvb.eu.org/douyin/cctv_video
 央视网,https://cdn.ttvb.eu.org/bilibili/8178490
-央视频,https://cdn.ttvb.eu.org/bilibili/21623527
 央视文艺,https://cdn.ttvb.eu.org/douyin/1027321223
-央视新闻,https://cdn.ttvb.eu.org/douyin/cctvnews
 央视网,https://cdn.ttvb.eu.org/douyin/cctv.com
 央视网科技,https://cdn.ttvb.eu.org/douyin/66415451233.
 央视网财经,https://cdn.ttvb.eu.org/douyin/nuanxinnengl
@@ -56,6 +53,7 @@ CCTV文化精品,https://live.264788.xyz/channel/yangshiwenhuajingpin?streamid=b
 CCTV-1 综合,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226016/index.m3u8
 CCTV-2 财经,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225588/index.m3u8
 CCTV-3 综艺,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226021/index.m3u8
+CCTV-4 中文国际,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226428/index.m3u8
 CCTV-5 体育,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226019/index.m3u8
 CCTV-5+ 体育赛事,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225603/index.m3u8
 CCTV-5+ 体育赛事,http://74.91.26.218:82/live/cctv5p.m3u8
