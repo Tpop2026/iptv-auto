@@ -15,6 +15,8 @@ GitHub Actions **每天北京时间 16:00** 自动抓取、去重、归一并提
 | 全量 M3U | `https://raw.githubusercontent.com/pq0000/iptv-auto/main/output/index.m3u` |
 | 全量 TXT | `https://raw.githubusercontent.com/pq0000/iptv-auto/main/output/list.txt` |
 | 全量 JSON | `https://raw.githubusercontent.com/pq0000/iptv-auto/main/output/channels.json` |
+| **精选分组列表 M3U**（Guovin 同款） | `https://raw.githubusercontent.com/pq0000/iptv-auto/main/output/favorites.m3u` |
+| **精选分组列表 TXT** | `https://raw.githubusercontent.com/pq0000/iptv-auto/main/output/favorites.txt` |
 | 央视频道 | `https://raw.githubusercontent.com/pq0000/iptv-auto/main/output/categories/cctv.m3u`（同名 `.txt`） |
 | 卫视频道 | `https://raw.githubusercontent.com/pq0000/iptv-auto/main/output/categories/weishi.m3u` |
 | 体育频道 | `https://raw.githubusercontent.com/pq0000/iptv-auto/main/output/categories/tiyu.m3u` |
@@ -48,7 +50,11 @@ GitHub raw 链接在国内经常不稳定，可改用以下实测可用的加速
 | 全量 M3U | `https://cdn.jsdelivr.net/gh/pq0000/iptv-auto@main/output/index.m3u` |
 | 全量 TXT（国内节点，推荐） | `https://quantil.jsdelivr.net/gh/pq0000/iptv-auto@main/output/list.txt` |
 
-> jsDelivr 写法：`https://<节点>/gh/仓库所有者/仓库名@分支/路径`，分支固定为 `main`。
+> jsDelivr 写法：`https://<节点>/gh/仓库所有者/仓库名@分支/路径`，分支固定为 `main`。精选列表同理：把路径换成 `output/favorites.m3u`（或 ghproxy 前缀版 `https://ghproxy.net/https://raw.githubusercontent.com/pq0000/iptv-auto/main/output/favorites.m3u`）。
+
+## 精选列表（favorites.txt）
+
+`favorites.txt` 是个人频道模板（沿用 Guovin demo.txt 格式）：`分组名,#genre#` 下按行列出频道名。每次抓取会按模板筛选并分组输出 `favorites.m3u` / `favorites.txt`，同名线路**全部保留、无上限**（由播放器自动换线）。改模板推送到 `main` 即生效。
 
 ## EPG 节目单接口
 

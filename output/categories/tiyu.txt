@@ -1,6 +1,5 @@
 CCTV-5 体育,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226469/1.m3u8?
 CCTV-5+ 体育赛事,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226894/1.m3u8?
-五星体育,https://cdn.ttvb.eu.org/douyin/Gsports
 CCTV-5 体育,http://101.66.194.125:9901/tsfile/live/0005_1.m3u8?key=txiptv&playlive=0&authid=0
 风云剧场,https://live.264788.xyz/channel/fengyunjuchang?streamid=31e7b5b7032d25dd215a4069cdee1a48&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 精品体育,https://epg.pw/stream/f7556eccd4ae06b0c2991fdc7a4f8388496559f728cc82459a8e50346040e226.m3u8
@@ -26,6 +25,7 @@ CCTV-5+ 体育赛事,http://74.91.26.218:82/live/cctv5p.m3u8
 超级体育,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225715/index.m3u8
 五星体育,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=wxtyhd
 五星体育,mitv://generationnexxxt.com:19806/d75057c993f84e7c86f94e8f1e56ad24
+五星体育,http://zteres.sn.chinamobile.com:6060/000000001000/2000000002000000007/1.m3u8?channel-id=hnbblive&Contentid=2000000002000000007&livemode=1&stbId=3
 劲爆体育,http://8.138.7.223/tv/migu3.php?id=jbty
 咪咕体育,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226398/index.m3u8
 广东体育,http://cdn2.163189.xyz/live/gdty/stream.m3u8
@@ -43,7 +43,7 @@ CCTV-5+ 体育赛事,http://74.91.26.218:82/live/cctv5p.m3u8
 游戏风云,http://8.138.7.223/tv/migu3.php?id=yxfy
 山东体育,http://58.57.40.22:9901/tsfile/live/1020_1.m3u8
 陕西体育休闲,http://2280.eu.org:1234/956909356
-陕西体育休闲,http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/sxtyxx/50/20250804/index.m3u8?msisdn=20260927060304a446c1b64f5a4782baa85b23e491e1cf&mdspid=&spid=600572&netType=0&sid=5910022189&pid=2028597139&timestamp=20260927060304&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=956909356&ParentNodeID=-99&assertID=5910022189&client_ip=171.8.79.254&SecurityKey=20260927060304&promotionId=&mvid=5900006712&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=f7a0a8c4fb803860b8d4cdbc29de2520
+陕西体育休闲,http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/sxtyxx/50/20250804/index.m3u8?msisdn=20260928060303dd3600ea91c843b1b6869511836dcdd9&mdspid=&spid=600572&netType=0&sid=5910022189&pid=2028597139&timestamp=20260928060303&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=956909356&ParentNodeID=-99&assertID=5910022189&client_ip=171.8.79.254&SecurityKey=20260928060303&promotionId=&mvid=5900006712&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=5233d40acf5312fd8bf58a225a20cdd4
 云南丽江高尔夫,https://gcalic.v.myalicdn.com/gc/hkylxs09_1/index.m3u8
 体育休闲,rtp://239.3.1.243:8000
 睛彩篮球「移动,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000020000011529&livemode=1&stbId=YanG-1989
@@ -63,6 +63,7 @@ Arena Sport Premium M3,https://racitonsen.s.gy/AM3P
 AS3 Sport TV,https://streamtv.as3sport.online:3394/hybrid/play.m3u8
 Astrahan.Ru Sport,https://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8
 Awapa Sports TV,https://mgv-awapa.akamaized.net/hls/live/2104282/MGV_CHANNEL15/master.m3u8
+AyM Sports,http://168.196.127.137:6001/play/a06v/index.m3u8
 Bahrain Sports 1,https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8
 Bahrain Sports 2,https://5c7b683162943.streamlock.net/live/ngrp:bahrainsportstwo_all/playlist.m3u8
 Band Sports,https://cdn-5.nxplay.com.br/BAND_SPORTS/index.m3u8
@@ -86,7 +87,7 @@ Digi Sport 3,http://forever.megogo.xyz/iptv/QGB4M3H62GC7E3/2524/index.m3u8
 Digi Sport 4,http://forever.megogo.xyz/iptv/QGB4M3H62GC7E3/2538/index.m3u8
 DiviSport,http://stream.mcquack.net/457/index.m3u8
 DSports 2,http://138.121.113.175:8000/play/a0ca/index.m3u8
-DSports,http://15.204.146.163:8002/play/a00g/index.m3u8
+DSports,http://38.187.7.252:8000/play/a03d/index.m3u8
 e.tv News & Sport,https://origin2.afxp.telemedia.co.za/abr_kapang/enterepreneur/playlist.m3u8
 ERT Sports 1,http://hbbtvapp.ert.gr/stream.php/v/vid_ertsports_mpeg.2ts
 ERT Sports 2,http://hbbtvapp.ert.gr/stream.php/v/vid_ertplay2_mpeg.2ts
@@ -149,6 +150,7 @@ Premier Sports,https://amg19223-amg19223c3-amgplt0351.playout.now3.amagi.tv/play
 Premier Sports,https://racitonsen.s.gy/PS1PH
 Prima Sport 5,https://dokagents.site/live/pr5/mono.m3u8
 PTV Sports,http://103.250.28.74:8000/play/a019/index.m3u8
+PX Sports,http://38.252.238.18:8000/play/a02f/index.m3u8
 QazSport,http://stream.mcquack.net/72/index.m3u8
 Radio Turrialba TV Sports,https://live-stream.iblups.com/live/a5ae024a1bbc4a05a68debbc9d379db6bb6a6da3.m3u8
 Rai Sport,https://7nyaler.streamhostingcdn.top/stream/2/index.m3u8

@@ -7,6 +7,7 @@ Reads sources.json, fetches upstream playlists, dedupes channels
 names, then writes:
   output/index.m3u / output/list.txt / output/channels.json
   output/categories/<cat>.m3u / <cat>.txt
+  output/favorites.m3u / output/favorites.txt   (favorites.txt 模板分组, 线路无上限)
 
 Env: IPTV_CHECK_STREAMS=1 — opt-in 404/410 filter on final lines
      (default off: fetch only, players tolerate dead links).
@@ -21,12 +22,13 @@ import time
 import unicodedata
 import urllib.error
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SOURCES_FILE = ROOT / "sources.json"
 STATE_FILE = ROOT / "state.json"
+FAVORITES_FILE = ROOT / "favorites.txt"
 OUT_DIR = ROOT / "output"
 CAT_DIR = OUT_DIR / "categories"
 
@@ -381,6 +383,88 @@ def write_outputs(channels: list[dict]) -> None:
         _write(CAT_DIR / f"{cat}.txt", txt)
 
 
+# 模板名 -> 我方标准名的特殊映射（通用规则覆盖不了的少数派）
+FAVORITE_ALIASES = {
+    "凤凰中文": ["凤凰卫视", "凤凰台", "凤凰卫视中文台"],
+    "凤凰资讯": ["凤凰资讯台"],
+    "凤凰香港": ["凤凰卫视(香港台)"],
+    "CHC高清电影": ["CHC电影"],
+    "NewTV精品记录": ["精品纪录"],
+    "新闻综合频道": ["新闻综合", "苏州新闻综合"],
+    "社会经济频道": ["苏州社会经济"],
+    "文化生活频道": ["苏州文化生活"],
+    "电影娱乐频道": ["苏州电影娱乐"],
+    "生活资讯频道": ["苏州生活资讯"],
+}
+
+
+def favorite_match(template_name: str, channel_name: str) -> bool:
+    if channel_name == template_name:
+        return True
+    if channel_name in FAVORITE_ALIASES.get(template_name, ()):
+        return True
+    if channel_name.startswith(template_name + " ") or channel_name.startswith(template_name + "("):
+        return True
+    if template_name.startswith("NewTV") and channel_name == template_name[5:]:
+        return True
+    core_t = re.sub(r"(台|频道)$", "", template_name)
+    core_n = re.sub(r"(台|频道)$", "", channel_name)
+    if core_t == core_n:
+        return True
+    if template_name.startswith("NewTV") and channel_name == core_t[5:]:
+        return True
+    return False
+
+
+def load_favorites() -> list[tuple[str, list[str]]]:
+    groups: list[tuple[str, list[str]]] = []
+    cat = ""
+    names: list[str] = []
+    if not FAVORITES_FILE.exists():
+        return groups
+    for raw in FAVORITES_FILE.read_text(encoding="utf-8").splitlines():
+        line = raw.strip()
+        if not line or line.startswith("#"):
+            continue
+        if ",#genre#" in line:
+            if names and cat:
+                groups.append((cat, names))
+            cat = line.split(",")[0].strip()
+            names = []
+        else:
+            names.append(line)
+    if names and cat:
+        groups.append((cat, names))
+    return groups
+
+
+def write_favorites(channels: list[dict]) -> None:
+    """按 favorites.txt 模板输出分组精选列表；同名线路全部保留（无上限）。"""
+    groups = load_favorites()
+    if not groups:
+        return
+    stamp = (datetime.now(timezone.utc) + timedelta(hours=8)).strftime("%Y-%m-%d %H:%M")
+    m3u = [M3U_HEADER, "🕘️更新时间,#genre#", f"{stamp} UTC+8,https://github.com/pq0000/iptv-auto"]
+    txt = ["🕘️更新时间,#genre#", f"{stamp} UTC+8,https://github.com/pq0000/iptv-auto"]
+    matched_names = set()
+    for cat, tnames in groups:
+        m3u.append(f"{cat},#genre#")
+        txt.append(f"{cat},#genre#")
+        for t in tnames:
+            for ch in channels:
+                if not favorite_match(t, ch["name"]):
+                    continue
+                matched_names.add(t)
+                logo = f' tvg-logo="{ch["logo"]}"' if ch["logo"] else ""
+                tvg_id = f' tvg-id="{ch["tvg_id"]}"' if ch["tvg_id"] else ""
+                m3u.append(f'#EXTINF:-1{tvg_id}{logo} group-title="{cat}",{t}')
+                m3u.append(ch["url"])
+                txt.append(f"{t},{ch['url']}")
+    _write(OUT_DIR / "favorites.m3u", m3u)
+    _write(OUT_DIR / "favorites.txt", txt)
+    print(f"favorites: {sum(len(n) for _, n in groups)} 个模板频道, 命中 {len(matched_names)} 个")
+
+
 def stream_alive(url: str) -> bool:
     """Conservative liveness probe: drop only clear 404/410 answers.
 
@@ -551,6 +635,7 @@ def main() -> int:
         final = filter_dead(final)
 
     write_outputs(final)
+    write_favorites(merged)  # 精选列表不设线路上限，按模板分组
     cat_counts = {}
     for ch in final:
         for cat in categorize(ch["name"]):

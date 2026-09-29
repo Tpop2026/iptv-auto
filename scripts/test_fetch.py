@@ -13,6 +13,7 @@ from fetch import (
     MAX_PER_NAME,
     M3U_HEADER,
     categorize,
+    favorite_match,
     normalize_name,
     parse_m3u,
     parse_txt,
@@ -63,6 +64,20 @@ check("url-host-case", url_key("HTTP://Example.com/A?b=2"), "http://example.com/
 check("url-fragment", url_key("http://a/x#t=1"), "http://a/x")
 check("url-tracking", url_key("http://a/x?utm_source=s&sign=1"), "http://a/x?sign=1")
 check("url-keep-sign", url_key("http://a/x?sign=1") != url_key("http://a/x?sign=2"), True)
+
+# --- favorite_match -------------------------------------------------------
+check("fav-cctv", favorite_match("CCTV-1", "CCTV-1 综合"), True)
+check("fav-cctv-no-prefix", favorite_match("CCTV-1", "CCTV-12社会与法"), False)
+check("fav-5plus", favorite_match("CCTV-5+", "CCTV-5+ 体育赛事"), True)
+check("fav-weishi-q", favorite_match("湖南卫视", "湖南卫视(4K)"), True)
+check("fav-fh-cn", favorite_match("凤凰中文", "凤凰卫视"), True)
+check("fav-fh-info", favorite_match("凤凰资讯", "凤凰资讯台"), True)
+check("fav-fh-hk", favorite_match("凤凰香港", "凤凰卫视(香港台)"), True)
+check("fav-newtv", favorite_match("NewTV爱情喜剧", "爱情喜剧"), True)
+check("fav-chc", favorite_match("CHC高清电影", "CHC电影"), True)
+check("fav-suzhou", favorite_match("社会经济频道", "苏州社会经济"), True)
+check("fav-record", favorite_match("NewTV精品记录", "精品纪录"), True)
+check("fav-neg", favorite_match("湖南卫视", "浙江卫视"), False)
 
 # --- constants ------------------------------------------------------------
 check("cap", MAX_PER_NAME, 3)
