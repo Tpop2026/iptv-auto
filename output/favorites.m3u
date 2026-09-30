@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="https://epg.pw/xmltv/epg.xml,https://live.zhi35.com/epg.xml.gz"
 🕘️更新时间,#genre#
-2026-09-30 21:44 UTC+8,https://github.com/pq0000/iptv-auto
+2026-09-30 22:05 UTC+8,https://github.com/pq0000/iptv-auto
 📺央视频道,#genre#
 #EXTINF:-1 tvg-id="CCTV1" tvg-logo="https://live.fanmingming.cn/tv/CCTV1.png" group-title="📺央视频道",CCTV-1
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226895/1.m3u8?
@@ -46,6 +46,8 @@ http://120.76.248.139/live/bfgd/4200000484.m3u8
 http://58.57.40.22:9901/tsfile/live/0001_1.m3u8
 #EXTINF:-1 tvg-id="CCTV1" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/CCTV/CCTV-1.png" group-title="📺央视频道",CCTV-1
 rtp://239.3.1.129:8008
+#EXTINF:-1 tvg-id="CCTV1" group-title="📺央视频道",CCTV-1
+http://101.35.240.114:88/live.php?id=CCTV1
 #EXTINF:-1 tvg-id="CCTV1" group-title="📺央视频道",CCTV-1
 http://101.66.194.125:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-id="CCTV1" group-title="📺央视频道",CCTV-1
@@ -98,6 +100,8 @@ http://58.57.40.22:9901/tsfile/live/1001_1.m3u8
 http://61.136.172.236:9901/tsfile/live/0002_1.m3u8
 #EXTINF:-1 tvg-id="CCTV2" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/CCTV/CCTV-2.png" group-title="📺央视频道",CCTV-2
 rtp://239.3.1.60:8084
+#EXTINF:-1 tvg-id="CCTV2" group-title="📺央视频道",CCTV-2
+http://101.35.240.114:88/live.php?id=CCTV2
 #EXTINF:-1 tvg-id="CCTV2" tvg-logo="https://live.fanmingming.cn/tv/CCTV2.png" group-title="📺央视频道",CCTV-2
 http://t.061899.xyz/tl/tl.php?id=cctv2
 #EXTINF:-1 tvg-id="CCTV2" group-title="📺央视频道",CCTV-2
@@ -148,6 +152,8 @@ http://113.15.109.216:59901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid
 http://112.11.122.190:58503/624878271
 #EXTINF:-1 tvg-id="CCTV3" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/CCTV/CCTV-3.png" group-title="📺央视频道",CCTV-3
 rtp://239.3.1.172:8001
+#EXTINF:-1 tvg-id="CCTV3" group-title="📺央视频道",CCTV-3
+http://101.35.240.114:88/live.php?id=CCTV3
 #EXTINF:-1 tvg-id="CCTV3" group-title="📺央视频道",CCTV-3
 http://101.66.194.125:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-id="CCTV3" tvg-logo="https://live.fanmingming.cn/tv/CCTV3.png" group-title="📺央视频道",CCTV-3
@@ -206,6 +212,8 @@ rtp://239.3.1.105:8092
 rtp://239.3.1.213:4220
 #EXTINF:-1 tvg-id="CCTV4美洲" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/CCTV/CCTV-4-AME.png" group-title="📺央视频道",CCTV-4
 rtp://239.3.1.214:4220
+#EXTINF:-1 tvg-id="CCTV4" group-title="📺央视频道",CCTV-4
+http://101.35.240.114:88/live.php?id=CCTV4
 #EXTINF:-1 tvg-id="CCTV4美洲" tvg-logo="https://i.imgur.com/gBbLyqh.png" group-title="📺央视频道",CCTV-4
 https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
 #EXTINF:-1 tvg-id="CCTV4欧洲" tvg-logo="https://i.imgur.com/HGLFdfk.png" group-title="📺央视频道",CCTV-4
@@ -271,6 +279,8 @@ https://piccpndali.v.myalicdn.com/audio/cctv5_2.m3u8
 #EXTINF:-1 tvg-id="CCTV5" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/CCTV/CCTV-5.png" group-title="📺央视频道",CCTV-5
 rtp://239.3.1.173:8001
 #EXTINF:-1 tvg-id="CCTV5" group-title="📺央视频道",CCTV-5
+http://101.35.240.114:88/live.php?id=CCTV5
+#EXTINF:-1 tvg-id="CCTV5" group-title="📺央视频道",CCTV-5
 http://112.30.73.119:9901/tsfile/live/0005_2.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-id="CCTV5" group-title="📺央视频道",CCTV-5
 http://1.197.250.140:9901/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -322,6 +332,10 @@ http://2280.eu.org:1234/641886773
 http://112.11.122.190:58503/641886773
 #EXTINF:-1 tvg-id="CCTV5+" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/CCTV/CCTV-5+.png" group-title="📺央视频道",CCTV-5+
 rtp://239.3.1.130:8004
+#EXTINF:-1 tvg-id="CCTV5+" group-title="📺央视频道",CCTV-5+
+http://101.35.240.114:88/live.php?id=CCTV5p
+#EXTINF:-1 tvg-id="CCTV5+" tvg-logo="https://i.imgur.com/OK8mdJV.png" group-title="📺央视频道",CCTV-5+
+https://myip.pdtvhd.com/Sports/streams/CCTV5pul.m3u8
 #EXTINF:-1 tvg-id="CCTV5+" tvg-logo="https://live.fanmingming.cn/tv/CCTV5+.png" group-title="📺央视频道",CCTV-5+
 http://t.061899.xyz/tl/tl.php?id=cctv5p
 #EXTINF:-1 tvg-id="CCTV5+" group-title="📺央视频道",CCTV-5+
@@ -372,6 +386,8 @@ http://rihou.cc:555/tv/CCTV6酒店
 http://58.57.40.22:9901/tsfile/live/1006_1.m3u8
 #EXTINF:-1 tvg-id="CCTV6" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/CCTV/CCTV-6.png" group-title="📺央视频道",CCTV-6
 rtp://239.3.1.174:8001
+#EXTINF:-1 tvg-id="CCTV6" group-title="📺央视频道",CCTV-6
+http://101.35.240.114:88/live.php?id=CCTV6
 #EXTINF:-1 tvg-id="CCTV6" tvg-logo="https://i.imgur.com/rFiaef7.png" group-title="📺央视频道",CCTV-6
 https://live.eac-news.com/CCTV/streams/cctv6.m3u8
 #EXTINF:-1 tvg-id="CCTV6" group-title="📺央视频道",CCTV-6
@@ -429,6 +445,8 @@ http://120.76.248.139/live/bfgd/4200000127.m3u8
 #EXTINF:-1 tvg-id="CCTV7" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/CCTV/CCTV-7.png" group-title="📺央视频道",CCTV-7
 rtp://239.3.1.61:8104
 #EXTINF:-1 tvg-id="CCTV7" group-title="📺央视频道",CCTV-7
+http://101.35.240.114:88/live.php?id=CCTV7
+#EXTINF:-1 tvg-id="CCTV7" group-title="📺央视频道",CCTV-7
 http://1.197.250.140:9901/tsfile/live/0007_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-id="CCTV7" tvg-logo="https://live.fanmingming.cn/tv/CCTV7.png" group-title="📺央视频道",CCTV-7
 http://t.061899.xyz/tl/tl.php?id=cctv7
@@ -481,6 +499,8 @@ http://124.165.251.82:85/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-id="CCTV8" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/CCTV/CCTV-8.png" group-title="📺央视频道",CCTV-8
 rtp://239.3.1.175:8001
 #EXTINF:-1 tvg-id="CCTV8" group-title="📺央视频道",CCTV-8
+http://101.35.240.114:88/live.php?id=CCTV8
+#EXTINF:-1 tvg-id="CCTV8" group-title="📺央视频道",CCTV-8
 http://1.197.250.140:9901/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-id="CCTV8" tvg-logo="https://live.fanmingming.cn/tv/CCTV8.png" group-title="📺央视频道",CCTV-8
 http://t.061899.xyz/tl/tl.php?id=cctv8
@@ -532,6 +552,8 @@ http://120.76.248.139/live/bfgd/4200000128.m3u8
 http://58.57.40.22:9901/tsfile/live/1009_1.m3u8
 #EXTINF:-1 tvg-id="CCTV9" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/CCTV/CCTV-9.png" group-title="📺央视频道",CCTV-9
 rtp://239.3.1.62:8112
+#EXTINF:-1 tvg-id="CCTV9" group-title="📺央视频道",CCTV-9
+http://101.35.240.114:88/live.php?id=CCTV9
 #EXTINF:-1 tvg-id="CCTV9" tvg-logo="https://live.fanmingming.cn/tv/CCTV9.png" group-title="📺央视频道",CCTV-9
 http://t.061899.xyz/tl/tl.php?id=cctv9
 #EXTINF:-1 tvg-id="CCTV9" tvg-logo="https://live.fanmingming.cn/tv/CCTV-9 纪录.png" group-title="📺央视频道",CCTV-9
@@ -585,6 +607,8 @@ https://piccpndali.v.myalicdn.com/audio/cctv10_2.m3u8
 #EXTINF:-1 tvg-id="CCTV10" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/CCTV/CCTV-10.png" group-title="📺央视频道",CCTV-10
 rtp://239.3.1.63:8116
 #EXTINF:-1 tvg-id="CCTV10" group-title="📺央视频道",CCTV-10
+http://101.35.240.114:88/live.php?id=CCTV10
+#EXTINF:-1 tvg-id="CCTV10" group-title="📺央视频道",CCTV-10
 http://1.197.250.140:9901/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-id="CCTV10" tvg-logo="https://live.fanmingming.cn/tv/CCTV10.png" group-title="📺央视频道",CCTV-10
 http://t.061899.xyz/tl/tl.php?id=cctv10
@@ -637,6 +661,8 @@ http://61.136.172.236:9901/tsfile/live/0011_1.m3u8
 #EXTINF:-1 tvg-id="CCTV11" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/CCTV/CCTV-11.png" group-title="📺央视频道",CCTV-11
 rtp://239.3.1.152:8120
 #EXTINF:-1 tvg-id="CCTV11" group-title="📺央视频道",CCTV-11
+http://101.35.240.114:88/live.php?id=CCTV11
+#EXTINF:-1 tvg-id="CCTV11" group-title="📺央视频道",CCTV-11
 http://1.197.250.140:9901/tsfile/live/0011_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-id="CCTV11" tvg-logo="https://live.fanmingming.cn/tv/CCTV11.png" group-title="📺央视频道",CCTV-11
 http://t.061899.xyz/tl/tl.php?id=cctv11
@@ -687,6 +713,8 @@ http://120.76.248.139/live/bfgd/4200000131.m3u8
 #EXTINF:-1 tvg-id="CCTV12" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/CCTV/CCTV-12.png" group-title="📺央视频道",CCTV-12
 rtp://239.3.1.64:8124
 #EXTINF:-1 tvg-id="CCTV12" group-title="📺央视频道",CCTV-12
+http://101.35.240.114:88/live.php?id=CCTV12
+#EXTINF:-1 tvg-id="CCTV12" group-title="📺央视频道",CCTV-12
 http://124.165.251.82:85/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-id="CCTV12" group-title="📺央视频道",CCTV-12
 http://101.66.194.125:9901/tsfile/live/0012_1.m3u8?key=txiptv&playlive=0&authid=0
@@ -736,6 +764,8 @@ http://120.76.248.139/live/bfgd/4200000067.m3u8
 http://58.57.40.22:9901/tsfile/live/1013_1.m3u8
 #EXTINF:-1 tvg-id="CCTV13" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/CCTV/CCTV-13.png" group-title="📺央视频道",CCTV-13
 rtp://239.3.1.124:8128
+#EXTINF:-1 tvg-id="CCTV13" group-title="📺央视频道",CCTV-13
+http://101.35.240.114:88/live.php?id=CCTV13
 #EXTINF:-1 tvg-id="CCTV13" tvg-logo="https://i.imgur.com/6MTar6J.png" group-title="📺央视频道",CCTV-13
 http://go.bkpcp.top/mg/cctv13
 #EXTINF:-1 tvg-id="CCTV13" group-title="📺央视频道",CCTV-13
@@ -793,6 +823,8 @@ http://rihou.cc:555/tv/CCTV14酒店
 #EXTINF:-1 tvg-id="CCTV14" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/CCTV/CCTV-14.png" group-title="📺央视频道",CCTV-14
 rtp://239.3.1.65:8132
 #EXTINF:-1 tvg-id="CCTV14" group-title="📺央视频道",CCTV-14
+http://101.35.240.114:88/live.php?id=CCTV14
+#EXTINF:-1 tvg-id="CCTV14" group-title="📺央视频道",CCTV-14
 http://1.197.250.140:9901/tsfile/live/0014_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-id="CCTV14" tvg-logo="https://live.fanmingming.cn/tv/CCTV14.png" group-title="📺央视频道",CCTV-14
 http://t.061899.xyz/tl/tl.php?id=cctv14
@@ -845,6 +877,8 @@ http://rihou.cc:555/tv/CCTV15酒店
 #EXTINF:-1 tvg-id="CCTV15" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/CCTV/CCTV-15.png" group-title="📺央视频道",CCTV-15
 rtp://239.3.1.153:8136
 #EXTINF:-1 tvg-id="CCTV15" group-title="📺央视频道",CCTV-15
+http://101.35.240.114:88/live.php?id=CCTV15
+#EXTINF:-1 tvg-id="CCTV15" group-title="📺央视频道",CCTV-15
 http://gmxw.7766.org:808/hls/102/index.m3u8
 #EXTINF:-1 tvg-id="CCTV15" tvg-logo="https://live.fanmingming.cn/tv/CCTV15.png" group-title="📺央视频道",CCTV-15
 http://t.061899.xyz/tl/tl.php?id=cctv15
@@ -894,6 +928,8 @@ http://207.56.13.146:81/cdnlive/cctv16.m3u8
 http://183.250.156.180:9999/newlive/live/hls/17/live.m3u8
 #EXTINF:-1 tvg-id="CCTV16" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/CCTV/CCTV-16.png" group-title="📺央视频道",CCTV-16
 rtp://239.3.1.184:8001
+#EXTINF:-1 tvg-id="CCTV16" group-title="📺央视频道",CCTV-16
+http://101.35.240.114:88/live.php?id=CCTV16
 #EXTINF:-1 tvg-id="CCTV16" tvg-logo="https://live.fanmingming.cn/tv/CCTV16.png" group-title="📺央视频道",CCTV-16
 http://t.061899.xyz/tl/tl.php?id=cctv16
 #EXTINF:-1 tvg-id="CCTV16" group-title="📺央视频道",CCTV-16
@@ -945,6 +981,8 @@ http://rihou.cc:555/tv/CCTV17酒店
 #EXTINF:-1 tvg-id="CCTV17" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/CCTV/CCTV-17.png" group-title="📺央视频道",CCTV-17
 rtp://239.3.1.151:8144
 #EXTINF:-1 tvg-id="CCTV17" group-title="📺央视频道",CCTV-17
+http://101.35.240.114:88/live.php?id=CCTV17
+#EXTINF:-1 tvg-id="CCTV17" group-title="📺央视频道",CCTV-17
 https://live.264788.xyz/channel/cctv17?streamid=f9c36f1e95b5b35eac89cc89583e7c0a&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 #EXTINF:-1 tvg-id="CCTV17" tvg-logo="https://live.fanmingming.cn/tv/CCTV17.png" group-title="📺央视频道",CCTV-17
 http://t.061899.xyz/tl/tl.php?id=cctv17
@@ -964,6 +1002,8 @@ http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv8k
 http://rihou.cc:555/tv/CCTV8K
 #EXTINF:-1 tvg-id="CCTV4K" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/CCTV/CCTV-4K.png" group-title="📺央视频道",CCTV-4K
 rtp://239.3.1.245:2000
+#EXTINF:-1 tvg-id="CCTV4K" group-title="📺央视频道",CCTV-4K
+http://101.35.240.114:88/live.php?id=CCTV4K
 #EXTINF:-1 tvg-id="CCTV.us@SD" group-title="📺央视频道",CCTV-4K
 https://cdn3.wowza.com/5/cHYzekYzM2kvTVFH/charlotte/G0055_009/playlist.m3u8
 #EXTINF:-1 tvg-id="CCTV4K" tvg-logo="https://live.fanmingming.cn/tv/CCTV-4K 高清.png" group-title="📺央视频道",CCTV-4K
@@ -1225,6 +1265,8 @@ http://122.152.202.33/s/81a8a44f/index.m3u8?id=15
 http://43.152.224.209/qctv.fengshows.cn/live/0701pcc72.flv
 #EXTINF:-1 tvg-id="凤凰卫视" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/凤凰中文.png" group-title="📡卫视频道",凤凰中文
 http://zmgd.zyrnet.com:8888/hls/110/index.m3u8
+#EXTINF:-1 tvg-id="凤凰卫视" group-title="📡卫视频道",凤凰中文
+http://101.35.240.114:88/phenix.php?id=fhzw
 #EXTINF:-1 tvg-id="凤凰卫视" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/凤凰香港.png" group-title="📡卫视频道",凤凰香港
 http://cdn6.163189.xyz/163189/fhhk
 #EXTINF:-1 tvg-id="凤凰卫视" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/凤凰香港.png" group-title="📡卫视频道",凤凰香港
@@ -1253,6 +1295,8 @@ http://122.152.202.33/s/81a8a44f/index.m3u8?id=fhhk
 http://43.152.224.209/qctv.fengshows.cn/live/0701phk72.flv
 #EXTINF:-1 tvg-id="凤凰卫视" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/凤凰香港.png" group-title="📡卫视频道",凤凰香港
 http://aktv.top/AKTV/live/aktv/null-5/AKTV.m3u8
+#EXTINF:-1 tvg-id="凤凰卫视" group-title="📡卫视频道",凤凰香港
+http://101.35.240.114:88/phenix.php?id=fhhk
 #EXTINF:-1 tvg-id="凤凰资讯台" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/凤凰资讯.png" group-title="📡卫视频道",凤凰资讯
 https://cdn6.163189.xyz/163189/fhzx
 #EXTINF:-1 tvg-id="凤凰资讯台" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/凤凰资讯.png" group-title="📡卫视频道",凤凰资讯
@@ -1271,6 +1315,8 @@ http://playtv-live.ifeng.com:80/live/06OLEEWQKN4.m3u8
 http://aktv.top/AKTV/live/aktv/null-4/AKTV.m3u8
 #EXTINF:-1 tvg-id="凤凰资讯台" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/凤凰资讯.png" group-title="📡卫视频道",凤凰资讯
 http://zmgd.zyrnet.com:8888/hls/109/index.m3u8
+#EXTINF:-1 tvg-id="凤凰资讯台" group-title="📡卫视频道",凤凰资讯
+http://101.35.240.114:88/phenix.php?id=fhzx
 #EXTINF:-1 tvg-id="CHC高清电影" tvg-logo="https://tb.zbds.top/logo/CHC电影.png" group-title="📡卫视频道",CHC高清电影
 http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-id="CHC家庭影院" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/CHC家庭影院.png" group-title="📡卫视频道",CHC家庭影院

@@ -24,11 +24,6 @@ CGTN西语,https://0472.org/hls/cgtnx.m3u8
 CGTN阿语,https://0472.org/hls/cgtna.m3u8
 CCTV-4 中文国际,https://cdn.ttvb.eu.org/douyin/CCTV4..
 小央视频,https://cdn.ttvb.eu.org/douyin/cctv_video
-央视台球,https://cdn.ttvb.eu.org/douyin/68582844865
-央视网,https://cdn.ttvb.eu.org/bilibili/8178490
-央视文艺,https://cdn.ttvb.eu.org/douyin/1027321223
-央视网科技,https://cdn.ttvb.eu.org/douyin/66415451233.
-央视网财经,https://cdn.ttvb.eu.org/douyin/nuanxinnengl
 CCTV-1 综合,http://74.91.26.218:82/live/cctv1hd.m3u8
 CCTV-2 财经,http://101.66.194.125:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=0&authid=0
 CCTV-3 综艺,http://112.30.73.119:229/tsfile/live/0003_2.m3u8?key=txiptv&playlive=0&authid=0
@@ -71,6 +66,7 @@ CCTV-16 奥林匹克,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/32212261
 CCTV-17 农业农村,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225765/index.m3u8
 央视台球,https://epg.pw/stream/ca9c1cd4b97fb824cedd7fedfd0c7a950afdd7f00751cfbb7c2d89831d7746a5.m3u8
 央视台球,https://epg.pw/stream/25677ac2e8c1f7c3dd6359c43eb5f0f54efb3f5c11f9dda18d01b3e0308ed017.m3u8
+央视台球,http://107.150.60.122/live/ystq.m3u8
 央视文化精品,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=ysjp
 央视文化精品,http://rihou.cc:555/tv/CCTV央视文化
 央视文化精品,http://183.11.239.36:808/hls/97/index.m3u8
