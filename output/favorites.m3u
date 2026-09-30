@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="https://epg.pw/xmltv/epg.xml,https://live.zhi35.com/epg.xml.gz"
 🕘️更新时间,#genre#
-2026-09-30 21:37 UTC+8,https://github.com/pq0000/iptv-auto
+2026-09-30 21:44 UTC+8,https://github.com/pq0000/iptv-auto
 📺央视频道,#genre#
 #EXTINF:-1 tvg-id="CCTV1" tvg-logo="https://live.fanmingming.cn/tv/CCTV1.png" group-title="📺央视频道",CCTV-1
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226895/1.m3u8?
@@ -736,6 +736,8 @@ http://120.76.248.139/live/bfgd/4200000067.m3u8
 http://58.57.40.22:9901/tsfile/live/1013_1.m3u8
 #EXTINF:-1 tvg-id="CCTV13" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/CCTV/CCTV-13.png" group-title="📺央视频道",CCTV-13
 rtp://239.3.1.124:8128
+#EXTINF:-1 tvg-id="CCTV13" tvg-logo="https://i.imgur.com/6MTar6J.png" group-title="📺央视频道",CCTV-13
+http://go.bkpcp.top/mg/cctv13
 #EXTINF:-1 tvg-id="CCTV13" group-title="📺央视频道",CCTV-13
 http://101.66.194.125:9901/tsfile/live/0013_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-id="CCTV13" group-title="📺央视频道",CCTV-13

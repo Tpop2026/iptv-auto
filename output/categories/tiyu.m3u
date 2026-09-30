@@ -5,6 +5,8 @@ http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226894/1.m3u8?
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/21669525" group-title="体育",雨说体育徐静雨
 https://cdn.ttvb.eu.org/bilibili/21669525
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/23923452" group-title="体育",高老师爱足球
+https://cdn.ttvb.eu.org/bilibili/23923452
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/CCTV5.png" group-title="体育",CCTV-5 体育
 http://101.66.194.125:9901/tsfile/live/0005_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/风云剧场.png" group-title="体育",风云剧场
@@ -145,6 +147,8 @@ https://bein-xtra-bein.amagi.tv/playlist.m3u8
 http://201.190.41.246:9060/play/a03y/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/1l3t5jd.png" group-title="体育",BEK Sports West
 https://cdn3.wowza.com/5/ZWQ1K2NYTmpFbGsr/BEK-WOWZA-1/smil:BEKPRIMEW.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/0L9tW3Z.png" group-title="体育",Canal Showsport
+https://livestream.lumpentv.com.ar/hls/lumpen.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/3mEdjuq.png" group-title="体育",CBC Sport
 https://mn-nl.mncdn.com/cbcsports_live/cbcsports/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/eMjutHS.png" group-title="体育",CBS Sports Golazo Network
@@ -353,6 +357,8 @@ https://cloudplay-sonyliv.pages.dev/ten2hd.m3u8
 https://cloudplay-sonyliv.pages.dev/ten3.m3u8
 #EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0025TCMR.png?lock=720x540" group-title="体育",Sony Sports Ten 3 Hindi
 https://cloudplay-sonyliv.pages.dev/ten3hd.m3u8
+#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0025T4PV.png?lock=720x540" group-title="体育",Sony Sports Ten 4
+https://cloudplay-sonyliv.pages.dev/ten4.m3u8
 #EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s149166_ld_h15_aa.png?lock=720x540" group-title="体育",Sony Sports Ten 4 Telugu
 https://cloudplay-sonyliv.pages.dev/ten4hd.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_5/images/LOGO_HD/image.png" group-title="体育",Sony Sports Ten 5
@@ -527,6 +533,8 @@ https://directes-tv-es.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
 https://lsn.lv/bbcradio.m3u8?station=bbc_radio_five_live_sports_extra&bitrate=320000
 #EXTINF:-1 tvg-logo="https://i.imgur.com/16IhU0M.png" group-title="体育",Suspilne Sport
 http://cdnua05.hls.tv/934/hls/8743361621b245838bee193c9ec28322/4856/stream.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/CHDcfrT.png" group-title="体育",XSport S
+http://cdnua05.hls.tv/946/hls/8743361621b245838bee193c9ec28322/3999/stream.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Abu_Dhabi_Sports_logo_2023.svg/1920px-Abu_Dhabi_Sports_logo_2023.svg.png" group-title="体育",Abu Dhabi Sports 1
 https://vo-live.cdb.cdn.orange.com/Content/Channel/AbuDhabiSportsChannel1/HLS/index.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Abu_Dhabi_Sports_logo_2023.svg/1920px-Abu_Dhabi_Sports_logo_2023.svg.png" group-title="体育",Abu Dhabi Sports 2

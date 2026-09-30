@@ -47,6 +47,8 @@ https://0472.org/hls/cgtnf.m3u8
 https://0472.org/hls/cgtnx.m3u8
 #EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/CGTN阿语.png" group-title="央视",CGTN阿语
 https://0472.org/hls/cgtna.m3u8
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/CCTV4.." group-title="央视",CCTV-4 中文国际
+https://cdn.ttvb.eu.org/douyin/CCTV4..
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/cctv_video" group-title="央视",小央视频
 https://cdn.ttvb.eu.org/douyin/cctv_video
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/68582844865" group-title="央视",央视台球
@@ -109,8 +111,6 @@ http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226016/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225588/index.m3u8
 #EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/CCTV3.png" group-title="央视",CCTV-3 综艺
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226021/index.m3u8
-#EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/CCTV4.png" group-title="央视",CCTV-4 中文国际
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226428/index.m3u8
 #EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/CCTV5.png" group-title="央视",CCTV-5 体育
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226019/index.m3u8
 #EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/CCTV5+.png" group-title="央视",CCTV-5+ 体育赛事
@@ -201,6 +201,8 @@ https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8
 http://145.239.5.177/214/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/qBmomnF.png" group-title="央视",CGTN Global Biz
 https://fastlive.cctvplus.com/out/v1/2b3d8a0c805d437f9dc85b764c2ac599/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/nDWkCmL.png" group-title="央视",CGTN Russian
+https://russian-livews.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Poz3xfi.png" group-title="央视",CGTN Spanish
 https://espanol-livews.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/YC5FRmq.png" group-title="央视",Red CCTV

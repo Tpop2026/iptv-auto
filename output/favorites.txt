@@ -1,5 +1,5 @@
 🕘️更新时间,#genre#
-2026-09-30 21:37 UTC+8,https://github.com/pq0000/iptv-auto
+2026-09-30 21:44 UTC+8,https://github.com/pq0000/iptv-auto
 📺央视频道,#genre#
 CCTV-1,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226895/1.m3u8?
 CCTV-1,http://74.91.26.218:82/live/cctv1hd.m3u8
@@ -78,6 +78,7 @@ CCTV-3,http://101.66.194.125:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=0&
 CCTV-3,http://t.061899.xyz/tl/tl.php?id=cctv3
 CCTV-3,http://192.168.123.1:23234/rtp/239.3.1.172:8001
 CCTV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226335/1.m3u8?
+CCTV-4,https://cdn.ttvb.eu.org/douyin/CCTV4..
 CCTV-4,http://1.197.250.140:9901/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV-4,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226428/index.m3u8
 CCTV-4,http://player.cntv.cn/standard/live_HLSDRM20180524.swf?v=180.171.5.8.9.6.3.9&ChannelID=cctveurope&videoTVChannel=cctveurope&P2PChannelID=pd://cctv_p2p_cctveurope&tai=cctv1&VideoName=cctv1&channelID=cctveurope
@@ -367,6 +368,7 @@ CCTV-13,http://61.136.172.236:9901/tsfile/live/0013_1.m3u8
 CCTV-13,http://120.76.248.139/live/bfgd/4200000067.m3u8
 CCTV-13,http://58.57.40.22:9901/tsfile/live/1013_1.m3u8
 CCTV-13,rtp://239.3.1.124:8128
+CCTV-13,http://go.bkpcp.top/mg/cctv13
 CCTV-13,http://101.66.194.125:9901/tsfile/live/0013_1.m3u8?key=txiptv&playlive=0&authid=0
 CCTV-13,http://1.197.250.140:9901/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV-13,http://t.061899.xyz/tl/tl.php?id=cctv13
