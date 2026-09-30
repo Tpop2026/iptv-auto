@@ -145,6 +145,10 @@
 东方卫视(4K),http://101.35.240.114:88/live.php?id=东方卫视4K
 广东卫视(4K),http://101.35.240.114:88/live.php?id=广东卫视4K
 四川卫视(4K),http://101.35.240.114:88/live.php?id=四川卫视4K
+北京卫视超(4K),http://120.211.62.180:8000/hls/35/index.m3u8
+东方卫视(4K),http://bp-resource-dfl.bestv.cn/148/3/video.m3u8
+中国农林卫视,http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/zgnlws/50/20250804/index.m3u8?msisdn=202609292203063507874d1a9c4129b575ed50aa972aee&mdspid=&spid=600572&netType=0&sid=5910022186&pid=2028597139&timestamp=20260929220306&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=956904896&ParentNodeID=-99&assertID=5910022186&client_ip=171.8.79.254&SecurityKey=20260929220306&promotionId=&mvid=5900006709&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=f4370b823985b270072baefd0e1863a0
+中国农林卫视,http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/zgnlws/50/20250804/index.m3u8?msisdn=20260930220306d278d4592fb24aac92678c8cc50b87e0&mdspid=&spid=600572&netType=0&sid=5910022186&pid=2028597139&timestamp=20260930220306&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=956904896&ParentNodeID=-99&assertID=5910022186&client_ip=171.8.79.254&SecurityKey=20260930220306&promotionId=&mvid=5900006709&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=dc6807d0e5a879268247c6f27da31ba4
 人间卫视,http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u
 江苏卫视(4K),http://8.138.7.223/tv/jsws4k.php
 深圳卫视(4K),http://nn.7x9d.cn/深圳最新.php?id=szws4k

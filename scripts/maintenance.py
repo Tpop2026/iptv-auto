@@ -222,6 +222,8 @@ def discover(sources: list[dict]) -> list[dict]:
         f"topic:iptv fork:false pushed:>={cutoff}",
         f"topic:m3u fork:false pushed:>={cutoff}",
         f"IPTV in:name fork:false pushed:>={cutoff}",
+        f"直播源 in:name,description fork:false pushed:>={cutoff}",
+        f"TVBox 直播 fork:false pushed:>={cutoff}",
     ]
 
     existing_urls = {s["url"] for s in sources}
