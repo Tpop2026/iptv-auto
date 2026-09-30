@@ -18,6 +18,7 @@ from fetch import (
     normalize_name,
     parse_m3u,
     parse_txt,
+    tvg_id_for,
     url_key,
 )
 
@@ -94,6 +95,17 @@ check("cat-en-sport", catalog_group("ESPN"), "体育(英文)")
 check("cat-en-movie", catalog_group("30A TV Classic Movies"), "电影(英文)")
 check("cat-en-news", catalog_group("Sky News"), "新闻(英文)")
 check("cat-en-fallback", catalog_group("1+1 International"), "综合(英文)")
+
+# --- tvg_id_for -----------------------------------------------------------
+check("tvg-cctv1", tvg_id_for("CCTV-1 综合"), "CCTV1")
+check("tvg-cctv5p", tvg_id_for("CCTV-5+ 体育赛事"), "CCTV5+")
+check("tvg-cctv4k", tvg_id_for("CCTV-4K"), "CCTV4K")
+check("tvg-cctv4eu", tvg_id_for("CCTV-4 中文国际(欧洲)"), "CCTV4欧洲")
+check("tvg-cctv4", tvg_id_for("CCTV-4 中文国际"), "CCTV4")
+check("tvg-hunan", tvg_id_for("湖南卫视"), "湖南卫视")
+check("tvg-hunan4k", tvg_id_for("湖南卫视(4K)"), "湖南卫视")
+check("tvg-chc", tvg_id_for("CHC电影"), "CHC高清电影")
+check("tvg-en-keep", tvg_id_for("ESPN", "espn.us"), "espn.us")
 
 # --- constants ------------------------------------------------------------
 check("cap", MAX_PER_NAME, 3)

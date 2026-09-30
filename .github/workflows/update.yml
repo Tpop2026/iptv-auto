@@ -23,7 +23,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -37,6 +37,8 @@ jobs:
         run: python scripts/test_fetch.py
 
       - name: Fetch and generate playlists
+        env:
+          IPTV_CHECK_STREAMS: "1"
         run: python scripts/fetch.py
 
       - name: Commit updated outputs

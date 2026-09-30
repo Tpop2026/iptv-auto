@@ -518,6 +518,30 @@ CATALOG_DISPLAY_ORDER = [
 ]
 
 
+def tvg_id_for(name: str, upstream: str = "") -> str:
+    """标准化 tvg-id 以对齐 zhi35/51zmt 系 EPG：CCTV1、CCTV5+、CCTV4欧洲、湖南卫视…"""
+    if name.startswith("CCTV-5+"):
+        return "CCTV5+"
+    if name == "CCTV-4K":
+        return "CCTV4K"
+    if name == "CCTV-8K":
+        return "CCTV8K"
+    if name.startswith("CCTV-4 中文国际"):
+        if "欧洲" in name or "Europe" in name:
+            return "CCTV4欧洲"
+        if "美洲" in name or "America" in name:
+            return "CCTV4美洲"
+        return "CCTV4"
+    m = re.match(r"^CCTV-(\d{1,2})\b", name)
+    if m and int(m.group(1)) in CCTV_OFFICIAL:
+        return f"CCTV{int(m.group(1))}"
+    if name == "CHC电影":
+        return "CHC高清电影"
+    if CJK_RE.search(name):
+        return re.sub(r"\([^)]*\)$", "", name).strip() or upstream
+    return upstream
+
+
 def catalog_group(name: str) -> str:
     if CJK_RE.search(name):
         for label, rx in CATALOG_RULES_CN:
@@ -566,7 +590,7 @@ def stream_alive(url: str) -> bool:
     headers = {"User-Agent": UA, "Range": "bytes=0-0"}
     try:
         req = urllib.request.Request(url, method="HEAD", headers=headers)
-        with urllib.request.urlopen(req, timeout=6):
+        with urllib.request.urlopen(req, timeout=4):
             return True
     except urllib.error.HTTPError as exc:
         if exc.code not in (404, 410):
@@ -575,7 +599,7 @@ def stream_alive(url: str) -> bool:
         return True
     try:
         req = urllib.request.Request(url, method="GET", headers=headers)
-        with urllib.request.urlopen(req, timeout=6):
+        with urllib.request.urlopen(req, timeout=4):
             return True
     except urllib.error.HTTPError as exc:
         return exc.code not in (404, 410)
@@ -587,7 +611,7 @@ def filter_dead(channels: list[dict]) -> list[dict]:
     import concurrent.futures
 
     dead: set[str] = set()
-    with concurrent.futures.ThreadPoolExecutor(max_workers=48) as pool:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=64) as pool:
         futures = {pool.submit(stream_alive, ch["url"]): ch["url"] for ch in channels}
         for fut in concurrent.futures.as_completed(futures):
             if not fut.result():
@@ -680,6 +704,7 @@ def main() -> int:
             if new_name != ch["name"]:
                 renamed += 1
             ch["name"] = new_name
+            ch["tvg_id"] = tvg_id_for(new_name, ch.get("tvg_id", ""))
 
         added = 0
         for ch in channels:
@@ -696,6 +721,9 @@ def main() -> int:
     if not merged:
         print("no channels collected, aborting", file=sys.stderr)
         return 1
+
+    if os.environ.get("IPTV_CHECK_STREAMS") == "1":
+        merged = filter_dead(merged)  # 404/410 硬校验，覆盖全部输出
 
     # cap redundant mirrors: keep the first MAX_PER_NAME lines per name
     per_name: dict[str, int] = {}
@@ -721,9 +749,6 @@ def main() -> int:
                 file=sys.stderr,
             )
             return 2
-
-    if os.environ.get("IPTV_CHECK_STREAMS") == "1":
-        final = filter_dead(final)
 
     write_outputs(final)
     write_favorites(merged)  # 精选列表不设线路上限，按模板分组
