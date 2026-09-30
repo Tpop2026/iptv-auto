@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="https://epg.pw/xmltv/epg.xml,https://live.zhi35.com/epg.xml.gz"
 🕘️更新时间,#genre#
-2026-09-30 22:12 UTC+8,https://github.com/pq0000/iptv-auto
+2026-09-30 22:14 UTC+8,https://github.com/pq0000/iptv-auto
 📺 央视频道,#genre#
 #EXTINF:-1 tvg-id="CCTV1" tvg-logo="https://live.fanmingming.cn/tv/CCTV1.png" group-title="📺 央视频道",CCTV-1 综合
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226895/1.m3u8?
@@ -50,14 +50,6 @@ https://0472.org/hls/cgtnx.m3u8
 https://0472.org/hls/cgtna.m3u8
 #EXTINF:-1 tvg-id="小央视频" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/cctv_video" group-title="📺 央视频道",小央视频
 https://cdn.ttvb.eu.org/douyin/cctv_video
-#EXTINF:-1 tvg-id="央视网" tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/8178490" group-title="📺 央视频道",央视网
-https://cdn.ttvb.eu.org/bilibili/8178490
-#EXTINF:-1 tvg-id="央视文艺" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/1027321223" group-title="📺 央视频道",央视文艺
-https://cdn.ttvb.eu.org/douyin/1027321223
-#EXTINF:-1 tvg-id="央视网科技" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/66415451233." group-title="📺 央视频道",央视网科技
-https://cdn.ttvb.eu.org/douyin/66415451233.
-#EXTINF:-1 tvg-id="央视网财经" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/nuanxinnengl" group-title="📺 央视频道",央视网财经
-https://cdn.ttvb.eu.org/douyin/nuanxinnengl
 #EXTINF:-1 tvg-id="CCTV1" tvg-logo="https://tb.zbds.top/logo/CCTV1.png" group-title="📺 央视频道",CCTV-1 综合
 http://74.91.26.218:82/live/cctv1hd.m3u8
 #EXTINF:-1 tvg-id="CCTV2" tvg-logo="https://tb.zbds.top/logo/CCTV2.png" group-title="📺 央视频道",CCTV-2 财经
@@ -3332,10 +3324,6 @@ http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8525/.m3u8
 http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8524/.m3u8
 #EXTINF:-1 tvg-id="福建漳州六鳌翡翠湾" group-title="🏮 港澳台",福建漳州六鳌翡翠湾
 http://gcalic.v.myalicdn.com/gc/fcw01_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 tvg-id="非凡-迪安" tvg-logo="https://live.yang-1989.eu.org/logo/huya/940213" group-title="🏮 港澳台",非凡-迪安
-https://cdn.ttvb.eu.org/huya/940213
-#EXTINF:-1 tvg-id="东方明珠东方朔" tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/26351451" group-title="🏮 港澳台",东方明珠东方朔
-https://cdn.ttvb.eu.org/bilibili/26351451
 #EXTINF:-1 tvg-id="纬来体育" tvg-logo="https://tb.zbds.top/logo/纬来体育.png" group-title="🏮 港澳台",纬来体育
 https://epg.pw/stream/4f18dfe0593db5c686eb64ae8edaf2a9202d4d46bdc9bbde2cee27708e12ea01.m3u8
 #EXTINF:-1 tvg-id="香港卫视" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/香港卫视.png" group-title="🏮 港澳台",香港卫视
@@ -3643,6 +3631,8 @@ http://live1.habctv.com/ysylsl/sd/live.m3u8
 https://satellitepull.cnr.cn/live/wxcqxwgb/playlist.m3u8
 #EXTINF:-1 tvg-id="CHC高清电影" tvg-logo="https://tb.zbds.top/logo/CHC电影.png" group-title="🎞️ 影视电影",CHC电影
 http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="哔哩哔哩电影" tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/544957" group-title="🎞️ 影视电影",哔哩哔哩电影
+https://cdn.ttvb.eu.org/bilibili/544957
 #EXTINF:-1 tvg-id="电影频道云影院" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/cctv6cinema" group-title="🎞️ 影视电影",电影频道云影院
 https://cdn.ttvb.eu.org/douyin/cctv6cinema
 #EXTINF:-1 tvg-id="电影频道央影传媒" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/cctv6media." group-title="🎞️ 影视电影",电影频道央影传媒
@@ -4132,6 +4122,8 @@ https://cdn.ttvb.eu.org/huya/660133
 https://cdn.ttvb.eu.org/huya/880237
 #EXTINF:-1 tvg-id="哔哩哔哩英雄联盟赛事" tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/7734200" group-title="🏅 体育赛事",哔哩哔哩英雄联盟赛事
 https://cdn.ttvb.eu.org/bilibili/7734200
+#EXTINF:-1 tvg-id="独牙赛事" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/710326334836" group-title="🏅 体育赛事",独牙赛事
+https://cdn.ttvb.eu.org/douyin/710326334836
 #EXTINF:-1 tvg-id="功夫电影" tvg-logo="https://tb.zbds.top/logo/功夫电影.png" group-title="🏅 体育赛事",功夫电影
 https://live.metshop.top/huya/11352941
 #EXTINF:-1 tvg-id="电影功夫片" tvg-logo="https://tb.zbds.top/logo/电影功夫片.png" group-title="🏅 体育赛事",电影功夫片
@@ -5849,6 +5841,8 @@ https://cdn.ttvb.eu.org/douyin/864282758558
 https://cdn.ttvb.eu.org/douyin/827826356797
 #EXTINF:-1 tvg-id="昊天" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/32707556121qu" group-title="📍 地方其他",昊天
 https://cdn.ttvb.eu.org/douyin/32707556121qu
+#EXTINF:-1 tvg-id="是桃桃呀男装" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/55971693628" group-title="📍 地方其他",是桃桃呀男装
+https://cdn.ttvb.eu.org/douyin/55971693628
 #EXTINF:-1 tvg-id="晓筱" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/77706669514" group-title="📍 地方其他",晓筱
 https://cdn.ttvb.eu.org/douyin/77706669514
 #EXTINF:-1 tvg-id="月子" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/59475730286" group-title="📍 地方其他",月子
@@ -5929,6 +5923,8 @@ https://cdn.ttvb.eu.org/douyin/779264779954
 https://cdn.ttvb.eu.org/douyin/94302806398
 #EXTINF:-1 tvg-id="西安发布" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/xianfabu029" group-title="📍 地方其他",西安发布
 https://cdn.ttvb.eu.org/douyin/xianfabu029
+#EXTINF:-1 tvg-id="解说员袁甲" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/yuanjia08" group-title="📍 地方其他",解说员袁甲
+https://cdn.ttvb.eu.org/douyin/yuanjia08
 #EXTINF:-1 tvg-id="豫见文化" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/1041199203" group-title="📍 地方其他",豫见文化
 https://cdn.ttvb.eu.org/douyin/1041199203
 #EXTINF:-1 tvg-id="贵州村超" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/1843300125" group-title="📍 地方其他",贵州村超
@@ -6199,8 +6195,6 @@ https://cdn.ttvb.eu.org/huya/158168
 https://cdn.ttvb.eu.org/huya/233116
 #EXTINF:-1 tvg-id="集美小雪【ZKL" tvg-logo="https://live.yang-1989.eu.org/logo/huya/233997" group-title="📍 地方其他",集美小雪【ZKL
 https://cdn.ttvb.eu.org/huya/233997
-#EXTINF:-1 tvg-id="集美桃子【ZKL" tvg-logo="https://live.yang-1989.eu.org/logo/huya/31315445" group-title="📍 地方其他",集美桃子【ZKL
-https://cdn.ttvb.eu.org/huya/31315445
 #EXTINF:-1 tvg-id="集美欠条【ZKL】白" tvg-logo="https://live.yang-1989.eu.org/logo/huya/30960580" group-title="📍 地方其他",集美欠条【ZKL】白
 https://cdn.ttvb.eu.org/huya/30960580
 #EXTINF:-1 tvg-id="领带哥" tvg-logo="https://live.yang-1989.eu.org/logo/huya/11342430" group-title="📍 地方其他",领带哥
@@ -6383,8 +6377,6 @@ https://cdn.ttvb.eu.org/douyin/10605841863
 https://cdn.ttvb.eu.org/douyin/shumajiang73
 #EXTINF:-1 tvg-id="星际半只猪" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/banzhizhu" group-title="📍 地方其他",星际半只猪
 https://cdn.ttvb.eu.org/douyin/banzhizhu
-#EXTINF:-1 tvg-id="木子喵喵酱" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/MUZIQQZUIKEAI" group-title="📍 地方其他",木子喵喵酱
-https://cdn.ttvb.eu.org/douyin/MUZIQQZUIKEAI
 #EXTINF:-1 tvg-id="李天命" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/281720919128" group-title="📍 地方其他",李天命
 https://cdn.ttvb.eu.org/douyin/281720919128
 #EXTINF:-1 tvg-id="李知恩" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/k1264861020" group-title="📍 地方其他",李知恩
@@ -6405,16 +6397,12 @@ https://cdn.ttvb.eu.org/douyin/978595336269
 https://cdn.ttvb.eu.org/douyin/324546102
 #EXTINF:-1 tvg-id="澄海3c小风" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/ch3c_add" group-title="📍 地方其他",澄海3c小风
 https://cdn.ttvb.eu.org/douyin/ch3c_add
-#EXTINF:-1 tvg-id="炉石汤姆" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/46593224159" group-title="📍 地方其他",炉石汤姆
-https://cdn.ttvb.eu.org/douyin/46593224159
 #EXTINF:-1 tvg-id="王者荣耀南瓜" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/1724102625" group-title="📍 地方其他",王者荣耀南瓜
 https://cdn.ttvb.eu.org/douyin/1724102625
 #EXTINF:-1 tvg-id="疯少" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/46471199412" group-title="📍 地方其他",疯少
 https://cdn.ttvb.eu.org/douyin/46471199412
 #EXTINF:-1 tvg-id="白柯" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/60737206511" group-title="📍 地方其他",白柯
 https://cdn.ttvb.eu.org/douyin/60737206511
-#EXTINF:-1 tvg-id="白泽" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/66611144541" group-title="📍 地方其他",白泽
-https://cdn.ttvb.eu.org/douyin/66611144541
 #EXTINF:-1 tvg-id="直男7" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/aaaaee" group-title="📍 地方其他",直男7
 https://cdn.ttvb.eu.org/douyin/aaaaee
 #EXTINF:-1 tvg-id="知里不理智了" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/68444151609" group-title="📍 地方其他",知里不理智了
@@ -6447,334 +6435,6 @@ https://cdn.ttvb.eu.org/douyin/xuewu520880
 https://cdn.ttvb.eu.org/douyin/XB1205aaa
 #EXTINF:-1 tvg-id="飞雨CD" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/74614661014" group-title="📍 地方其他",飞雨CD
 https://cdn.ttvb.eu.org/douyin/74614661014
-#EXTINF:-1 tvg-id="飞鱼" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/fgj179342" group-title="📍 地方其他",飞鱼
-https://cdn.ttvb.eu.org/douyin/fgj179342
-#EXTINF:-1 tvg-id="鬼狙" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/csgoGJ" group-title="📍 地方其他",鬼狙
-https://cdn.ttvb.eu.org/douyin/csgoGJ
-#EXTINF:-1 tvg-id="魔兽世界Temptat" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/Temptat1993" group-title="📍 地方其他",魔兽世界Temptat
-https://cdn.ttvb.eu.org/douyin/Temptat1993
-#EXTINF:-1 tvg-id="齐鹏鹏" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/Qpp22520" group-title="📍 地方其他",齐鹏鹏
-https://cdn.ttvb.eu.org/douyin/Qpp22520
-#EXTINF:-1 tvg-id="17xwudd丷" tvg-logo="https://live.yang-1989.eu.org/logo/douyu/8584220" group-title="📍 地方其他",17xwudd丷
-https://cdn.ttvb.eu.org/douyu/8584220
-#EXTINF:-1 tvg-id="DL丶拖米" tvg-logo="https://live.yang-1989.eu.org/logo/douyu/793400" group-title="📍 地方其他",DL丶拖米
-https://cdn.ttvb.eu.org/douyu/793400
-#EXTINF:-1 tvg-id="PeRo明明" tvg-logo="https://live.yang-1989.eu.org/logo/douyu/6822146" group-title="📍 地方其他",PeRo明明
-https://cdn.ttvb.eu.org/douyu/6822146
-#EXTINF:-1 tvg-id="QuQu非常规大师" tvg-logo="https://live.yang-1989.eu.org/logo/douyu/178432" group-title="📍 地方其他",QuQu非常规大师
-https://cdn.ttvb.eu.org/douyu/178432
-#EXTINF:-1 tvg-id="Tony托公子" tvg-logo="https://live.yang-1989.eu.org/logo/douyu/6442973" group-title="📍 地方其他",Tony托公子
-https://cdn.ttvb.eu.org/douyu/6442973
-#EXTINF:-1 tvg-id="Tyloo骄阳" tvg-logo="https://live.yang-1989.eu.org/logo/douyu/6049122" group-title="📍 地方其他",Tyloo骄阳
-https://cdn.ttvb.eu.org/douyu/6049122
-#EXTINF:-1 tvg-id="XROCK年鹏Enpi" tvg-logo="https://live.yang-1989.eu.org/logo/douyu/5389181" group-title="📍 地方其他",XROCK年鹏Enpi
-https://cdn.ttvb.eu.org/douyu/5389181
-#EXTINF:-1 tvg-id="Xleft小叮当" tvg-logo="https://live.yang-1989.eu.org/logo/douyu/3168536" group-title="📍 地方其他",Xleft小叮当
-https://cdn.ttvb.eu.org/douyu/3168536
-#EXTINF:-1 tvg-id="Zhou陈尧" tvg-logo="https://live.yang-1989.eu.org/logo/douyu/88660" group-title="📍 地方其他",Zhou陈尧
-https://cdn.ttvb.eu.org/douyu/88660
-#EXTINF:-1 tvg-id="ok林仔" tvg-logo="https://live.yang-1989.eu.org/logo/douyu/500269" group-title="📍 地方其他",ok林仔
-https://cdn.ttvb.eu.org/douyu/500269
-#EXTINF:-1 tvg-id="zzc啊哦额" tvg-logo="https://live.yang-1989.eu.org/logo/douyu/666743" group-title="📍 地方其他",zzc啊哦额
-https://cdn.ttvb.eu.org/douyu/666743
-#EXTINF:-1 tvg-id="三酒OuO" tvg-logo="https://live.yang-1989.eu.org/logo/douyu/2421040" group-title="📍 地方其他",三酒OuO
-https://cdn.ttvb.eu.org/douyu/2421040
-#EXTINF:-1 tvg-id="中年人拳师七号" tvg-logo="https://live.yang-1989.eu.org/logo/douyu/1476712" group-title="📍 地方其他",中年人拳师七号
-https://cdn.ttvb.eu.org/douyu/1476712
-#EXTINF:-1 tvg-id="余小C真的很强" tvg-logo="https://live.yang-1989.eu.org/logo/douyu/1126960" group-title="📍 地方其他",余小C真的很强
-https://cdn.ttvb.eu.org/douyu/1126960
-#EXTINF:-1 tvg-id="冷少icon" tvg-logo="https://live.yang-1989.eu.org/logo/douyu/8682569" group-title="📍 地方其他",冷少icon
-https://cdn.ttvb.eu.org/douyu/8682569
-#EXTINF:-1 tvg-id="刘嘉俊Sylar1" tvg-logo="https://live.yang-1989.eu.org/logo/douyu/762484" group-title="📍 地方其他",刘嘉俊Sylar1
-https://cdn.ttvb.eu.org/douyu/762484
-#EXTINF:-1 tvg-id="十月船长丶" tvg-logo="https://live.yang-1989.eu.org/logo/douyu/718133" group-title="📍 地方其他",十月船长丶
-https://cdn.ttvb.eu.org/douyu/718133
-#EXTINF:-1 tvg-id="叫我老陈就好了" tvg-logo="https://live.yang-1989.eu.org/logo/douyu/74960" group-title="📍 地方其他",叫我老陈就好了
-https://cdn.ttvb.eu.org/douyu/74960
-#EXTINF:-1 tvg-id="吃貨小飛飛" tvg-logo="https://live.yang-1989.eu.org/logo/douyu/12659982" group-title="📍 地方其他",吃貨小飛飛
-https://cdn.ttvb.eu.org/douyu/12659982
-#EXTINF:-1 tvg-id="啦啦啦不是狗狗狗" tvg-logo="https://live.yang-1989.eu.org/logo/douyu/633019" group-title="📍 地方其他",啦啦啦不是狗狗狗
-https://cdn.ttvb.eu.org/douyu/633019
-#EXTINF:-1 tvg-id="四国军棋欠你幸福" tvg-logo="https://live.yang-1989.eu.org/logo/douyu/280087" group-title="📍 地方其他",四国军棋欠你幸福
-https://cdn.ttvb.eu.org/douyu/280087
-#EXTINF:-1 tvg-id="墨岩彧丶Sumiya" tvg-logo="https://live.yang-1989.eu.org/logo/douyu/6567483" group-title="📍 地方其他",墨岩彧丶Sumiya
-https://cdn.ttvb.eu.org/douyu/6567483
-#EXTINF:-1 tvg-id="帽子戏法Chess" tvg-logo="https://live.yang-1989.eu.org/logo/douyu/4487219" group-title="📍 地方其他",帽子戏法Chess
-https://cdn.ttvb.eu.org/douyu/4487219
-#EXTINF:-1 tvg-id="异灵术老师" tvg-logo="https://live.yang-1989.eu.org/logo/douyu/93589" group-title="📍 地方其他",异灵术老师
-https://cdn.ttvb.eu.org/douyu/93589
-#EXTINF:-1 tvg-id="果小果是个弟弟" tvg-logo="https://live.yang-1989.eu.org/logo/douyu/6558897" group-title="📍 地方其他",果小果是个弟弟
-https://cdn.ttvb.eu.org/douyu/6558897
-#EXTINF:-1 tvg-id="椰汁糕冬瓜强" tvg-logo="https://live.yang-1989.eu.org/logo/douyu/63136" group-title="📍 地方其他",椰汁糕冬瓜强
-https://cdn.ttvb.eu.org/douyu/63136
-#EXTINF:-1 tvg-id="洞主丨歌神洞庭湖" tvg-logo="https://live.yang-1989.eu.org/logo/douyu/138243" group-title="📍 地方其他",洞主丨歌神洞庭湖
-https://cdn.ttvb.eu.org/douyu/138243
-#EXTINF:-1 tvg-id="流星丶Meteor丶丶" tvg-logo="https://live.yang-1989.eu.org/logo/douyu/11969011" group-title="📍 地方其他",流星丶Meteor丶丶
-https://cdn.ttvb.eu.org/douyu/11969011
-#EXTINF:-1 tvg-id="白鲨AyoM" tvg-logo="https://live.yang-1989.eu.org/logo/douyu/12821" group-title="📍 地方其他",白鲨AyoM
-https://cdn.ttvb.eu.org/douyu/12821
-#EXTINF:-1 tvg-id="神奇的维C" tvg-logo="https://live.yang-1989.eu.org/logo/douyu/9830066" group-title="📍 地方其他",神奇的维C
-https://cdn.ttvb.eu.org/douyu/9830066
-#EXTINF:-1 tvg-id="立直喵急便" tvg-logo="https://live.yang-1989.eu.org/logo/douyu/8876271" group-title="📍 地方其他",立直喵急便
-https://cdn.ttvb.eu.org/douyu/8876271
-#EXTINF:-1 tvg-id="童猪啊i" tvg-logo="https://live.yang-1989.eu.org/logo/douyu/945159" group-title="📍 地方其他",童猪啊i
-https://cdn.ttvb.eu.org/douyu/945159
-#EXTINF:-1 tvg-id="老皮历险记" tvg-logo="https://live.yang-1989.eu.org/logo/douyu/2140934" group-title="📍 地方其他",老皮历险记
-https://cdn.ttvb.eu.org/douyu/2140934
-#EXTINF:-1 tvg-id="艾琳bigbaby" tvg-logo="https://live.yang-1989.eu.org/logo/douyu/10639765" group-title="📍 地方其他",艾琳bigbaby
-https://cdn.ttvb.eu.org/douyu/10639765
-#EXTINF:-1 tvg-id="谢彬DD" tvg-logo="https://live.yang-1989.eu.org/logo/douyu/110" group-title="📍 地方其他",谢彬DD
-https://cdn.ttvb.eu.org/douyu/110
-#EXTINF:-1 tvg-id="金咕咕金咕咕doinb" tvg-logo="https://live.yang-1989.eu.org/logo/douyu/252140" group-title="📍 地方其他",金咕咕金咕咕doinb
-https://cdn.ttvb.eu.org/douyu/252140
-#EXTINF:-1 tvg-id="阳光男孩Aq" tvg-logo="https://live.yang-1989.eu.org/logo/douyu/7718843" group-title="📍 地方其他",阳光男孩Aq
-https://cdn.ttvb.eu.org/douyu/7718843
-#EXTINF:-1 tvg-id="陶可可coco" tvg-logo="https://live.yang-1989.eu.org/logo/douyu/2501233" group-title="📍 地方其他",陶可可coco
-https://cdn.ttvb.eu.org/douyu/2501233
-#EXTINF:-1 tvg-id="龙四爷攻略组" tvg-logo="https://live.yang-1989.eu.org/logo/douyu/479079" group-title="📍 地方其他",龙四爷攻略组
-https://cdn.ttvb.eu.org/douyu/479079
-#EXTINF:-1 tvg-id="龚建ZSMJ" tvg-logo="https://live.yang-1989.eu.org/logo/douyu/52876" group-title="📍 地方其他",龚建ZSMJ
-https://cdn.ttvb.eu.org/douyu/52876
-#EXTINF:-1 tvg-id="4AM小海xx" tvg-logo="https://live.yang-1989.eu.org/logo/huya/791185" group-title="📍 地方其他",4AM小海xx
-https://cdn.ttvb.eu.org/huya/791185
-#EXTINF:-1 tvg-id="90121童灿" tvg-logo="https://live.yang-1989.eu.org/logo/huya/714333" group-title="📍 地方其他",90121童灿
-https://cdn.ttvb.eu.org/huya/714333
-#EXTINF:-1 tvg-id="AG绝迹" tvg-logo="https://live.yang-1989.eu.org/logo/huya/115959" group-title="📍 地方其他",AG绝迹
-https://cdn.ttvb.eu.org/huya/115959
-#EXTINF:-1 tvg-id="ALpb马平" tvg-logo="https://live.yang-1989.eu.org/logo/huya/668" group-title="📍 地方其他",ALpb马平
-https://cdn.ttvb.eu.org/huya/668
-#EXTINF:-1 tvg-id="AzZ丶半个橙子" tvg-logo="https://live.yang-1989.eu.org/logo/huya/769178" group-title="📍 地方其他",AzZ丶半个橙子
-https://cdn.ttvb.eu.org/huya/769178
-#EXTINF:-1 tvg-id="Karsamzing苏弟" tvg-logo="https://live.yang-1989.eu.org/logo/huya/116864" group-title="📍 地方其他",Karsamzing苏弟
-https://cdn.ttvb.eu.org/huya/116864
-#EXTINF:-1 tvg-id="LK-雨果【52009" tvg-logo="https://live.yang-1989.eu.org/logo/huya/52009" group-title="📍 地方其他",LK-雨果【52009
-https://cdn.ttvb.eu.org/huya/52009
-#EXTINF:-1 tvg-id="MT丶季多鱼" tvg-logo="https://live.yang-1989.eu.org/logo/huya/531309" group-title="📍 地方其他",MT丶季多鱼
-https://cdn.ttvb.eu.org/huya/531309
-#EXTINF:-1 tvg-id="Plu三炮" tvg-logo="https://live.yang-1989.eu.org/logo/huya/617694" group-title="📍 地方其他",Plu三炮
-https://cdn.ttvb.eu.org/huya/617694
-#EXTINF:-1 tvg-id="RASH悲喜" tvg-logo="https://live.yang-1989.eu.org/logo/huya/988" group-title="📍 地方其他",RASH悲喜
-https://cdn.ttvb.eu.org/huya/988
-#EXTINF:-1 tvg-id="RDZ-Jiale嘉乐" tvg-logo="https://live.yang-1989.eu.org/logo/huya/459804" group-title="📍 地方其他",RDZ-Jiale嘉乐
-https://cdn.ttvb.eu.org/huya/459804
-#EXTINF:-1 tvg-id="TG-左耳老熊" tvg-logo="https://live.yang-1989.eu.org/logo/huya/834622" group-title="📍 地方其他",TG-左耳老熊
-https://cdn.ttvb.eu.org/huya/834622
-#EXTINF:-1 tvg-id="Zz1tai姿态" tvg-logo="https://live.yang-1989.eu.org/logo/huya/333003" group-title="📍 地方其他",Zz1tai姿态
-https://cdn.ttvb.eu.org/huya/333003
-#EXTINF:-1 tvg-id="huya丶寒星" tvg-logo="https://live.yang-1989.eu.org/logo/huya/172392" group-title="📍 地方其他",huya丶寒星
-https://cdn.ttvb.eu.org/huya/172392
-#EXTINF:-1 tvg-id="节奏" tvg-logo="https://live.yang-1989.eu.org/logo/huya/476644" group-title="📍 地方其他",节奏
-https://cdn.ttvb.eu.org/huya/476644
-#EXTINF:-1 tvg-id="三千丶新娘-53511" tvg-logo="https://live.yang-1989.eu.org/logo/huya/209801" group-title="📍 地方其他",三千丶新娘-53511
-https://cdn.ttvb.eu.org/huya/209801
-#EXTINF:-1 tvg-id="保镖-大镖客DBKiLL" tvg-logo="https://live.yang-1989.eu.org/logo/huya/816515" group-title="📍 地方其他",保镖-大镖客DBKiLL
-https://cdn.ttvb.eu.org/huya/816515
-#EXTINF:-1 tvg-id="力量哥Lciop" tvg-logo="https://live.yang-1989.eu.org/logo/huya/950827" group-title="📍 地方其他",力量哥Lciop
-https://cdn.ttvb.eu.org/huya/950827
-#EXTINF:-1 tvg-id="单走一张六" tvg-logo="https://live.yang-1989.eu.org/logo/huya/610525" group-title="📍 地方其他",单走一张六
-https://cdn.ttvb.eu.org/huya/610525
-#EXTINF:-1 tvg-id="唐轩宇" tvg-logo="https://live.yang-1989.eu.org/logo/huya/610829" group-title="📍 地方其他",唐轩宇
-https://cdn.ttvb.eu.org/huya/610829
-#EXTINF:-1 tvg-id="安德罗妮丶" tvg-logo="https://live.yang-1989.eu.org/logo/huya/528300" group-title="📍 地方其他",安德罗妮丶
-https://cdn.ttvb.eu.org/huya/528300
-#EXTINF:-1 tvg-id="巨星-绿绿【最细木兰" tvg-logo="https://live.yang-1989.eu.org/logo/huya/547825" group-title="📍 地方其他",巨星-绿绿【最细木兰
-https://cdn.ttvb.eu.org/huya/547825
-#EXTINF:-1 tvg-id="弃徒x" tvg-logo="https://live.yang-1989.eu.org/logo/huya/825290" group-title="📍 地方其他",弃徒x
-https://cdn.ttvb.eu.org/huya/825290
-#EXTINF:-1 tvg-id="微竞-嘎嘎V" tvg-logo="https://live.yang-1989.eu.org/logo/huya/333708" group-title="📍 地方其他",微竞-嘎嘎V
-https://cdn.ttvb.eu.org/huya/333708
-#EXTINF:-1 tvg-id="慎独" tvg-logo="https://live.yang-1989.eu.org/logo/huya/31421" group-title="📍 地方其他",慎独
-https://cdn.ttvb.eu.org/huya/31421
-#EXTINF:-1 tvg-id="拉风龙" tvg-logo="https://live.yang-1989.eu.org/logo/huya/88863" group-title="📍 地方其他",拉风龙
-https://cdn.ttvb.eu.org/huya/88863
-#EXTINF:-1 tvg-id="明眸【没毛" tvg-logo="https://live.yang-1989.eu.org/logo/huya/786724" group-title="📍 地方其他",明眸【没毛
-https://cdn.ttvb.eu.org/huya/786724
-#EXTINF:-1 tvg-id="杨齐家丶" tvg-logo="https://live.yang-1989.eu.org/logo/huya/60066" group-title="📍 地方其他",杨齐家丶
-https://cdn.ttvb.eu.org/huya/60066
-#EXTINF:-1 tvg-id="校长" tvg-logo="https://live.yang-1989.eu.org/logo/huya/77357" group-title="📍 地方其他",校长
-https://cdn.ttvb.eu.org/huya/77357
-#EXTINF:-1 tvg-id="灵石丶小锦儿" tvg-logo="https://live.yang-1989.eu.org/logo/huya/813749" group-title="📍 地方其他",灵石丶小锦儿
-https://cdn.ttvb.eu.org/huya/813749
-#EXTINF:-1 tvg-id="炉石春哥" tvg-logo="https://live.yang-1989.eu.org/logo/huya/312410" group-title="📍 地方其他",炉石春哥
-https://cdn.ttvb.eu.org/huya/312410
-#EXTINF:-1 tvg-id="狂魔哥解说" tvg-logo="https://live.yang-1989.eu.org/logo/huya/919191" group-title="📍 地方其他",狂魔哥解说
-https://cdn.ttvb.eu.org/huya/919191
-#EXTINF:-1 tvg-id="狂鸟丶单身狗-90327" tvg-logo="https://live.yang-1989.eu.org/logo/huya/482" group-title="📍 地方其他",狂鸟丶单身狗-90327
-https://cdn.ttvb.eu.org/huya/482
-#EXTINF:-1 tvg-id="狂鸟丶小宇热游-90098" tvg-logo="https://live.yang-1989.eu.org/logo/huya/10098" group-title="📍 地方其他",狂鸟丶小宇热游-90098
-https://cdn.ttvb.eu.org/huya/10098
-#EXTINF:-1 tvg-id="狂鸟丶楚河-90327" tvg-logo="https://live.yang-1989.eu.org/logo/huya/998" group-title="📍 地方其他",狂鸟丶楚河-90327
-https://cdn.ttvb.eu.org/huya/998
-#EXTINF:-1 tvg-id="甜崽心宝" tvg-logo="https://live.yang-1989.eu.org/logo/huya/16211522" group-title="📍 地方其他",甜崽心宝
-https://cdn.ttvb.eu.org/huya/16211522
-#EXTINF:-1 tvg-id="疯奶丶大硕" tvg-logo="https://live.yang-1989.eu.org/logo/huya/100011" group-title="📍 地方其他",疯奶丶大硕
-https://cdn.ttvb.eu.org/huya/100011
-#EXTINF:-1 tvg-id="盛世-苏晓" tvg-logo="https://live.yang-1989.eu.org/logo/huya/427152" group-title="📍 地方其他",盛世-苏晓
-https://cdn.ttvb.eu.org/huya/427152
-#EXTINF:-1 tvg-id="盛世-莱昂凯SHYEARKMIU" tvg-logo="https://live.yang-1989.eu.org/logo/huya/314957" group-title="📍 地方其他",盛世-莱昂凯SHYEARKMIU
-https://cdn.ttvb.eu.org/huya/314957
-#EXTINF:-1 tvg-id="瞳夕" tvg-logo="https://live.yang-1989.eu.org/logo/huya/814814" group-title="📍 地方其他",瞳夕
-https://cdn.ttvb.eu.org/huya/814814
-#EXTINF:-1 tvg-id="神超" tvg-logo="https://live.yang-1989.eu.org/logo/huya/102411" group-title="📍 地方其他",神超
-https://cdn.ttvb.eu.org/huya/102411
-#EXTINF:-1 tvg-id="绽放曙光" tvg-logo="https://live.yang-1989.eu.org/logo/huya/976453" group-title="📍 地方其他",绽放曙光
-https://cdn.ttvb.eu.org/huya/976453
-#EXTINF:-1 tvg-id="老中医" tvg-logo="https://live.yang-1989.eu.org/logo/huya/599934" group-title="📍 地方其他",老中医
-https://cdn.ttvb.eu.org/huya/599934
-#EXTINF:-1 tvg-id="老实人sask" tvg-logo="https://live.yang-1989.eu.org/logo/huya/579236" group-title="📍 地方其他",老实人sask
-https://cdn.ttvb.eu.org/huya/579236
-#EXTINF:-1 tvg-id="老鬼-MG" tvg-logo="https://live.yang-1989.eu.org/logo/huya/705112" group-title="📍 地方其他",老鬼-MG
-https://cdn.ttvb.eu.org/huya/705112
-#EXTINF:-1 tvg-id="虎牙丶三伟子" tvg-logo="https://live.yang-1989.eu.org/logo/huya/657314" group-title="📍 地方其他",虎牙丶三伟子
-https://cdn.ttvb.eu.org/huya/657314
-#EXTINF:-1 tvg-id="解说海威" tvg-logo="https://live.yang-1989.eu.org/logo/huya/262985" group-title="📍 地方其他",解说海威
-https://cdn.ttvb.eu.org/huya/262985
-#EXTINF:-1 tvg-id="誓约中二约" tvg-logo="https://live.yang-1989.eu.org/logo/huya/189202" group-title="📍 地方其他",誓约中二约
-https://cdn.ttvb.eu.org/huya/189202
-#EXTINF:-1 tvg-id="超维视界邀请赛主舞台" tvg-logo="https://live.yang-1989.eu.org/logo/huya/473271" group-title="📍 地方其他",超维视界邀请赛主舞台
-https://cdn.ttvb.eu.org/huya/473271
-#EXTINF:-1 tvg-id="郭枫荷" tvg-logo="https://live.yang-1989.eu.org/logo/huya/139473" group-title="📍 地方其他",郭枫荷
-https://cdn.ttvb.eu.org/huya/139473
-#EXTINF:-1 tvg-id="金豆-开鑫【国服云缨" tvg-logo="https://live.yang-1989.eu.org/logo/huya/135934" group-title="📍 地方其他",金豆-开鑫【国服云缨
-https://cdn.ttvb.eu.org/huya/135934
-#EXTINF:-1 tvg-id="陈子豪" tvg-logo="https://live.yang-1989.eu.org/logo/huya/199300" group-title="📍 地方其他",陈子豪
-https://cdn.ttvb.eu.org/huya/199300
-#EXTINF:-1 tvg-id="随风蛮王ovo" tvg-logo="https://live.yang-1989.eu.org/logo/huya/387067" group-title="📍 地方其他",随风蛮王ovo
-https://cdn.ttvb.eu.org/huya/387067
-#EXTINF:-1 tvg-id="韩涵-TuT" tvg-logo="https://live.yang-1989.eu.org/logo/huya/18123" group-title="📍 地方其他",韩涵-TuT
-https://cdn.ttvb.eu.org/huya/18123
-#EXTINF:-1 tvg-id="风骨【蒙恬导师" tvg-logo="https://live.yang-1989.eu.org/logo/huya/265386" group-title="📍 地方其他",风骨【蒙恬导师
-https://cdn.ttvb.eu.org/huya/265386
-#EXTINF:-1 tvg-id="魔创-雅一儿【许仙" tvg-logo="https://live.yang-1989.eu.org/logo/huya/52033" group-title="📍 地方其他",魔创-雅一儿【许仙
-https://cdn.ttvb.eu.org/huya/52033
-#EXTINF:-1 tvg-id="久慈" tvg-logo="https://live.yang-1989.eu.org/logo/twitch/kuji_kujia" group-title="📍 地方其他",久慈
-https://cdn.ttvb.eu.org/twitch/kuji_kujia
-#EXTINF:-1 tvg-id="蝦愛橘子" tvg-logo="https://live.yang-1989.eu.org/logo/twitch/shuteye_orange" group-title="📍 地方其他",蝦愛橘子
-https://cdn.ttvb.eu.org/twitch/shuteye_orange
-#EXTINF:-1 tvg-id="農夫小蹦仔" tvg-logo="https://live.yang-1989.eu.org/logo/twitch/informalmiku_" group-title="📍 地方其他",農夫小蹦仔
-https://cdn.ttvb.eu.org/twitch/informalmiku_
-#EXTINF:-1 tvg-id="创艺乔宝儿" tvg-logo="https://live.yang-1989.eu.org/logo/yy/1453915435" group-title="📍 地方其他",创艺乔宝儿
-https://cdn.ttvb.eu.org/yy/1453915435
-#EXTINF:-1 tvg-id="Space频道" tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/26312855" group-title="📍 地方其他",Space频道
-https://cdn.ttvb.eu.org/bilibili/26312855
-#EXTINF:-1 tvg-id="冰影oO" tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/439304" group-title="📍 地方其他",冰影oO
-https://cdn.ttvb.eu.org/bilibili/439304
-#EXTINF:-1 tvg-id="二次元的中科院物理所" tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/1928" group-title="📍 地方其他",二次元的中科院物理所
-https://cdn.ttvb.eu.org/bilibili/1928
-#EXTINF:-1 tvg-id="冷月BOSS" tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/21586546" group-title="📍 地方其他",冷月BOSS
-https://cdn.ttvb.eu.org/bilibili/21586546
-#EXTINF:-1 tvg-id="南柯十七梦" tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/4734353" group-title="📍 地方其他",南柯十七梦
-https://cdn.ttvb.eu.org/bilibili/4734353
-#EXTINF:-1 tvg-id="新华网" tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/22102223" group-title="📍 地方其他",新华网
-https://cdn.ttvb.eu.org/bilibili/22102223
-#EXTINF:-1 tvg-id="火车环球旅行" tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/27841685" group-title="📍 地方其他",火车环球旅行
-https://cdn.ttvb.eu.org/bilibili/27841685
-#EXTINF:-1 tvg-id="点点柏" tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/1812807508" group-title="📍 地方其他",点点柏
-https://cdn.ttvb.eu.org/bilibili/1812807508
-#EXTINF:-1 tvg-id="索松村大空里民宿" tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/23046729" group-title="📍 地方其他",索松村大空里民宿
-https://cdn.ttvb.eu.org/bilibili/23046729
-#EXTINF:-1 tvg-id="绝命笋干" tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/23776378" group-title="📍 地方其他",绝命笋干
-https://cdn.ttvb.eu.org/bilibili/23776378
-#EXTINF:-1 tvg-id="蓝原延珠" tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/10112" group-title="📍 地方其他",蓝原延珠
-https://cdn.ttvb.eu.org/bilibili/10112
-#EXTINF:-1 tvg-id="PUMA官方旗舰店" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/87524611523" group-title="📍 地方其他",PUMA官方旗舰店
-https://cdn.ttvb.eu.org/douyin/87524611523
-#EXTINF:-1 tvg-id="SANQI 发饰" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/63799006825" group-title="📍 地方其他",SANQI 发饰
-https://cdn.ttvb.eu.org/douyin/63799006825
-#EXTINF:-1 tvg-id="i上浙高速" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/57477244469" group-title="📍 地方其他",i上浙高速
-https://cdn.ttvb.eu.org/douyin/57477244469
-#EXTINF:-1 tvg-id="与辉同行" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/56697889278" group-title="📍 地方其他",与辉同行
-https://cdn.ttvb.eu.org/douyin/56697889278
-#EXTINF:-1 tvg-id="交个朋友直播间" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/JGPYZBJ" group-title="📍 地方其他",交个朋友直播间
-https://cdn.ttvb.eu.org/douyin/JGPYZBJ
-#EXTINF:-1 tvg-id="劳动报" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/laodongbao" group-title="📍 地方其他",劳动报
-https://cdn.ttvb.eu.org/douyin/laodongbao
-#EXTINF:-1 tvg-id="卡咔英语" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/54898391755" group-title="📍 地方其他",卡咔英语
-https://cdn.ttvb.eu.org/douyin/54898391755
-#EXTINF:-1 tvg-id="同程北海度假专场" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/BeiHai.Travel" group-title="📍 地方其他",同程北海度假专场
-https://cdn.ttvb.eu.org/douyin/BeiHai.Travel
-#EXTINF:-1 tvg-id="四季沐歌智能花洒" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/Micoe777" group-title="📍 地方其他",四季沐歌智能花洒
-https://cdn.ttvb.eu.org/douyin/Micoe777
-#EXTINF:-1 tvg-id="外教英语口语课" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/62380161795" group-title="📍 地方其他",外教英语口语课
-https://cdn.ttvb.eu.org/douyin/62380161795
-#EXTINF:-1 tvg-id="大声" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/zhejiangzhisheng" group-title="📍 地方其他",大声
-https://cdn.ttvb.eu.org/douyin/zhejiangzhisheng
-#EXTINF:-1 tvg-id="山取" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/454821649298" group-title="📍 地方其他",山取
-https://cdn.ttvb.eu.org/douyin/454821649298
-#EXTINF:-1 tvg-id="新民晚报" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/2008824773" group-title="📍 地方其他",新民晚报
-https://cdn.ttvb.eu.org/douyin/2008824773
-#EXTINF:-1 tvg-id="江苏交通" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/28601656535" group-title="📍 地方其他",江苏交通
-https://cdn.ttvb.eu.org/douyin/28601656535
-#EXTINF:-1 tvg-id="江西交通监控中心" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/62852264024" group-title="📍 地方其他",江西交通监控中心
-https://cdn.ttvb.eu.org/douyin/62852264024
-#EXTINF:-1 tvg-id="海蒂的花园官方旗舰店" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/hddhy20202" group-title="📍 地方其他",海蒂的花园官方旗舰店
-https://cdn.ttvb.eu.org/douyin/hddhy20202
-#EXTINF:-1 tvg-id="西藏高速" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/xizanggaosu" group-title="📍 地方其他",西藏高速
-https://cdn.ttvb.eu.org/douyin/xizanggaosu
-#EXTINF:-1 tvg-id="隔壁王教练教育" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/wangjiaolian996" group-title="📍 地方其他",隔壁王教练教育
-https://cdn.ttvb.eu.org/douyin/wangjiaolian996
-#EXTINF:-1 tvg-id="八卦象棋大师" tvg-logo="https://live.yang-1989.eu.org/logo/douyu/851040" group-title="📍 地方其他",八卦象棋大师
-https://cdn.ttvb.eu.org/douyu/851040
-#EXTINF:-1 tvg-id="百变姑姑肖淑洁" tvg-logo="https://live.yang-1989.eu.org/logo/douyu/594613" group-title="📍 地方其他",百变姑姑肖淑洁
-https://cdn.ttvb.eu.org/douyu/594613
-#EXTINF:-1 tvg-id="神机小诸葛" tvg-logo="https://live.yang-1989.eu.org/logo/douyu/259676" group-title="📍 地方其他",神机小诸葛
-https://cdn.ttvb.eu.org/douyu/259676
-#EXTINF:-1 tvg-id="雷疯小叔" tvg-logo="https://live.yang-1989.eu.org/logo/douyu/291514" group-title="📍 地方其他",雷疯小叔
-https://cdn.ttvb.eu.org/douyu/291514
-#EXTINF:-1 tvg-id="JJ麻将" tvg-logo="https://live.yang-1989.eu.org/logo/huya/28511836" group-title="📍 地方其他",JJ麻将
-https://cdn.ttvb.eu.org/huya/28511836
-#EXTINF:-1 tvg-id="炊烟大壮" tvg-logo="https://live.yang-1989.eu.org/logo/huya/24782284" group-title="📍 地方其他",炊烟大壮
-https://cdn.ttvb.eu.org/huya/24782284
-#EXTINF:-1 tvg-id="一诺台球解说" tvg-logo="https://live.yang-1989.eu.org/logo/huya/10147" group-title="📍 地方其他",一诺台球解说
-https://cdn.ttvb.eu.org/huya/10147
-#EXTINF:-1 tvg-id="乐一解说" tvg-logo="https://live.yang-1989.eu.org/logo/huya/29385237" group-title="📍 地方其他",乐一解说
-https://cdn.ttvb.eu.org/huya/29385237
-#EXTINF:-1 tvg-id="光头阿强球理解说" tvg-logo="https://live.yang-1989.eu.org/logo/huya/28962587" group-title="📍 地方其他",光头阿强球理解说
-https://cdn.ttvb.eu.org/huya/28962587
-#EXTINF:-1 tvg-id="划线王-马惠明斯诺克" tvg-logo="https://live.yang-1989.eu.org/logo/huya/153793" group-title="📍 地方其他",划线王-马惠明斯诺克
-https://cdn.ttvb.eu.org/huya/153793
-#EXTINF:-1 tvg-id="划线百嘉" tvg-logo="https://live.yang-1989.eu.org/logo/huya/32588" group-title="📍 地方其他",划线百嘉
-https://cdn.ttvb.eu.org/huya/32588
-#EXTINF:-1 tvg-id="原始美食与生活" tvg-logo="https://live.yang-1989.eu.org/logo/huya/21356214" group-title="📍 地方其他",原始美食与生活
-https://cdn.ttvb.eu.org/huya/21356214
-#EXTINF:-1 tvg-id="去疼片" tvg-logo="https://live.yang-1989.eu.org/logo/huya/15373958" group-title="📍 地方其他",去疼片
-https://cdn.ttvb.eu.org/huya/15373958
-#EXTINF:-1 tvg-id="台球教练王小鹏【斯诺克" tvg-logo="https://live.yang-1989.eu.org/logo/huya/149671" group-title="📍 地方其他",台球教练王小鹏【斯诺克
-https://cdn.ttvb.eu.org/huya/149671
-#EXTINF:-1 tvg-id="大蒙乡味" tvg-logo="https://live.yang-1989.eu.org/logo/huya/21288462" group-title="📍 地方其他",大蒙乡味
-https://cdn.ttvb.eu.org/huya/21288462
-#EXTINF:-1 tvg-id="女子世界冠军石春侠" tvg-logo="https://live.yang-1989.eu.org/logo/huya/564185" group-title="📍 地方其他",女子世界冠军石春侠
-https://cdn.ttvb.eu.org/huya/564185
-#EXTINF:-1 tvg-id="小虎牙-h2chaE6vsD" tvg-logo="https://live.yang-1989.eu.org/logo/huya/16289380" group-title="📍 地方其他",小虎牙-h2chaE6vsD
-https://cdn.ttvb.eu.org/huya/16289380
-#EXTINF:-1 tvg-id="山药视频" tvg-logo="https://live.yang-1989.eu.org/logo/huya/16797006" group-title="📍 地方其他",山药视频
-https://cdn.ttvb.eu.org/huya/16797006
-#EXTINF:-1 tvg-id="徐大sao" tvg-logo="https://live.yang-1989.eu.org/logo/huya/631427" group-title="📍 地方其他",徐大sao
-https://cdn.ttvb.eu.org/huya/631427
-#EXTINF:-1 tvg-id="會唱歌的小野貓" tvg-logo="https://live.yang-1989.eu.org/logo/huya/11352871" group-title="📍 地方其他",會唱歌的小野貓
-https://cdn.ttvb.eu.org/huya/11352871
-#EXTINF:-1 tvg-id="李子柒" tvg-logo="https://live.yang-1989.eu.org/logo/huya/21969336" group-title="📍 地方其他",李子柒
-https://cdn.ttvb.eu.org/huya/21969336
-#EXTINF:-1 tvg-id="梨涡少女mini" tvg-logo="https://live.yang-1989.eu.org/logo/huya/18958242" group-title="📍 地方其他",梨涡少女mini
-https://cdn.ttvb.eu.org/huya/18958242
-#EXTINF:-1 tvg-id="虎牙斯诺克" tvg-logo="https://live.yang-1989.eu.org/logo/huya/880214" group-title="📍 地方其他",虎牙斯诺克
-https://cdn.ttvb.eu.org/huya/880214
-#EXTINF:-1 tvg-id="虎牙斯诺克1号桌" tvg-logo="https://live.yang-1989.eu.org/logo/huya/20072620" group-title="📍 地方其他",虎牙斯诺克1号桌
-https://cdn.ttvb.eu.org/huya/20072620
-#EXTINF:-1 tvg-id="虎牙斯诺克2号桌" tvg-logo="https://live.yang-1989.eu.org/logo/huya/20072621" group-title="📍 地方其他",虎牙斯诺克2号桌
-https://cdn.ttvb.eu.org/huya/20072621
-#EXTINF:-1 tvg-id="虎牙斯诺克3号桌" tvg-logo="https://live.yang-1989.eu.org/logo/huya/18501408" group-title="📍 地方其他",虎牙斯诺克3号桌
-https://cdn.ttvb.eu.org/huya/18501408
-#EXTINF:-1 tvg-id="虎牙斯诺克副舞台" tvg-logo="https://live.yang-1989.eu.org/logo/huya/880625" group-title="📍 地方其他",虎牙斯诺克副舞台
-https://cdn.ttvb.eu.org/huya/880625
-#EXTINF:-1 tvg-id="野原的一家" tvg-logo="https://live.yang-1989.eu.org/logo/huya/11352970" group-title="📍 地方其他",野原的一家
-https://cdn.ttvb.eu.org/huya/11352970
-#EXTINF:-1 tvg-id="御山玖玥" tvg-logo="https://live.yang-1989.eu.org/logo/yy/1382862318" group-title="📍 地方其他",御山玖玥
-https://cdn.ttvb.eu.org/yy/1382862318
-#EXTINF:-1 tvg-id="燃舞蹈-福星" tvg-logo="https://live.yang-1989.eu.org/logo/yy/22490906" group-title="📍 地方其他",燃舞蹈-福星
-https://cdn.ttvb.eu.org/yy/22490906
-#EXTINF:-1 tvg-id="SOOP「其他」暂无主播在线" tvg-logo="https://epg.yang-1989.xyz/logo/SOOP.png" group-title="📍 地方其他",SOOP「其他」暂无主播在线
-https://live.yang-1989.eu.org/Live.m3u
 #EXTINF:-1 tvg-id="中国交通" tvg-logo="https://tb.zbds.top/logo/中国交通.png" group-title="📍 地方其他",中国交通
 http://drive.mxmy.net:8888/udp/239.3.1.188:8001
 #EXTINF:-1 tvg-id="兵器科技" tvg-logo="https://tb.zbds.top/logo/兵器科技.png" group-title="📍 地方其他",兵器科技
@@ -10667,10 +10327,6 @@ https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/62444e195
 #EXTINF:-1 tvg-logo="https://i.imgur.com/MrIlypV.png" group-title="少儿(英文)",Kids Ukraine – Pluto TV
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/622a2d8da9d8210007d918c2/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
 新闻(英文),#genre#
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/topmedia_topnews" group-title="新闻(英文)",TopMedia_TopNews
-https://cdn.ttvb.eu.org/twitch/topmedia_topnews
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/news5live" group-title="新闻(英文)",news5live
-https://cdn.ttvb.eu.org/twitch/news5live
 #EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/CNA.png" group-title="新闻(英文)",CNA
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
 #EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/CNA.png" group-title="新闻(英文)",CNA
@@ -13374,82 +13030,6 @@ https://cdn.ttvb.eu.org/douyin/FYL99618
 https://cdn.ttvb.eu.org/douyin/Xmm.jr
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/543221183540" group-title="综合(英文)",vx30
 https://cdn.ttvb.eu.org/douyin/543221183540
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyu/5135383" group-title="综合(英文)",Chalice
-https://cdn.ttvb.eu.org/douyu/5135383
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyu/10197652" group-title="综合(英文)",Evelinas
-https://cdn.ttvb.eu.org/douyu/10197652
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyu/6490082" group-title="综合(英文)",Jackyar
-https://cdn.ttvb.eu.org/douyu/6490082
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyu/36252" group-title="综合(英文)",MrGemini
-https://cdn.ttvb.eu.org/douyu/36252
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyu/24422" group-title="综合(英文)",pigff
-https://cdn.ttvb.eu.org/douyu/24422
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyu/3484" group-title="综合(英文)",scboy
-https://cdn.ttvb.eu.org/douyu/3484
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyu/9999" group-title="综合(英文)",yyfyyf
-https://cdn.ttvb.eu.org/douyu/9999
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/huya/991108" group-title="综合(英文)",AmazingJ
-https://cdn.ttvb.eu.org/huya/991108
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/huya/321123" group-title="综合(英文)",CSBOY-Mo
-https://cdn.ttvb.eu.org/huya/321123
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/huya/10188" group-title="综合(英文)",DANK1NG
-https://cdn.ttvb.eu.org/huya/10188
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/huya/310112" group-title="综合(英文)",Sdn
-https://cdn.ttvb.eu.org/huya/310112
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/huya/890001" group-title="综合(英文)",WE957
-https://cdn.ttvb.eu.org/huya/890001
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/huya/821839" group-title="综合(英文)",XHope
-https://cdn.ttvb.eu.org/huya/821839
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/huya/829922" group-title="综合(英文)",Yumiko0414
-https://cdn.ttvb.eu.org/huya/829922
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/huya/691406" group-title="综合(英文)",baicaiovo
-https://cdn.ttvb.eu.org/huya/691406
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/huya/222523" group-title="综合(英文)",kRYST4L
-https://cdn.ttvb.eu.org/huya/222523
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/huya/148651" group-title="综合(英文)",loveyouq
-https://cdn.ttvb.eu.org/huya/148651
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/soop/jaedong23" group-title="综合(英文)",JD
-https://cdn.ttvb.eu.org/soop/jaedong23
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/soop/scv6256" group-title="综合(英文)",Light
-https://cdn.ttvb.eu.org/soop/scv6256
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/soop/lovelove7777" group-title="综合(英文)",Unknown
-https://cdn.ttvb.eu.org/soop/lovelove7777
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/dendi" group-title="综合(英文)",Dendi
-https://cdn.ttvb.eu.org/twitch/dendi
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/Dmitry_Lixxx" group-title="综合(英文)",Dmitry_Lixxx
-https://cdn.ttvb.eu.org/twitch/Dmitry_Lixxx
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/ESLCS" group-title="综合(英文)",ESLCS
-https://cdn.ttvb.eu.org/twitch/ESLCS
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/ToadAmarillo" group-title="综合(英文)",ToadAmarillo
-https://cdn.ttvb.eu.org/twitch/ToadAmarillo
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/27519423" group-title="综合(英文)",LofiGirl
-https://cdn.ttvb.eu.org/bilibili/27519423
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/adanalife_" group-title="综合(英文)",ADanaLife
-https://cdn.ttvb.eu.org/twitch/adanalife_
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/coyoteexpress" group-title="综合(英文)",CoyoteExpress
-https://cdn.ttvb.eu.org/twitch/coyoteexpress
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/heartlandtruckingusa" group-title="综合(英文)",HeartlandTruckingUSA
-https://cdn.ttvb.eu.org/twitch/heartlandtruckingusa
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/rawreporting" group-title="综合(英文)",RawReporting
-https://cdn.ttvb.eu.org/twitch/rawreporting
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/shouttv" group-title="综合(英文)",ShoutTV
-https://cdn.ttvb.eu.org/twitch/shouttv
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/tvoetoinfotv" group-title="综合(英文)",TVOETOINFOTV
-https://cdn.ttvb.eu.org/twitch/tvoetoinfotv
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/therealelvira" group-title="综合(英文)",TheRealElvira
-https://cdn.ttvb.eu.org/twitch/therealelvira
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/theupperleft" group-title="综合(英文)",TheUpperLeft
-https://cdn.ttvb.eu.org/twitch/theupperleft
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/TheWindowSeat" group-title="综合(英文)",TheWindowSeat
-https://cdn.ttvb.eu.org/twitch/TheWindowSeat
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/airportambiance" group-title="综合(英文)",airportambiance
-https://cdn.ttvb.eu.org/twitch/airportambiance
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/europesinoinstitute" group-title="综合(英文)",europesinoinstitute
-https://cdn.ttvb.eu.org/twitch/europesinoinstitute
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/issaboveyou" group-title="综合(英文)",issaboveyou
-https://cdn.ttvb.eu.org/twitch/issaboveyou
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/twitch/keepmunseeweird" group-title="综合(英文)",keepmunseeweird
-https://cdn.ttvb.eu.org/twitch/keepmunseeweird
 #EXTINF:-1 tvg-id="CGTN" tvg-logo="https://tb.zbds.top/logo/CGTN.png" group-title="综合(英文)",CGTN
 http://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
 #EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/20260930 07:17.png" group-title="综合(英文)",20260930 07:17
