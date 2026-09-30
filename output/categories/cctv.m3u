@@ -49,6 +49,14 @@ https://0472.org/hls/cgtnx.m3u8
 https://0472.org/hls/cgtna.m3u8
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/cctv_video" group-title="央视",小央视频
 https://cdn.ttvb.eu.org/douyin/cctv_video
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/8178490" group-title="央视",央视网
+https://cdn.ttvb.eu.org/bilibili/8178490
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/1027321223" group-title="央视",央视文艺
+https://cdn.ttvb.eu.org/douyin/1027321223
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/66415451233." group-title="央视",央视网科技
+https://cdn.ttvb.eu.org/douyin/66415451233.
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/nuanxinnengl" group-title="央视",央视网财经
+https://cdn.ttvb.eu.org/douyin/nuanxinnengl
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/CCTV1.png" group-title="央视",CCTV-1 综合
 http://74.91.26.218:82/live/cctv1hd.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/CCTV2.png" group-title="央视",CCTV-2 财经

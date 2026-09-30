@@ -23,6 +23,10 @@ CGTN法语,https://0472.org/hls/cgtnf.m3u8
 CGTN西语,https://0472.org/hls/cgtnx.m3u8
 CGTN阿语,https://0472.org/hls/cgtna.m3u8
 小央视频,https://cdn.ttvb.eu.org/douyin/cctv_video
+央视网,https://cdn.ttvb.eu.org/bilibili/8178490
+央视文艺,https://cdn.ttvb.eu.org/douyin/1027321223
+央视网科技,https://cdn.ttvb.eu.org/douyin/66415451233.
+央视网财经,https://cdn.ttvb.eu.org/douyin/nuanxinnengl
 CCTV-1 综合,http://74.91.26.218:82/live/cctv1hd.m3u8
 CCTV-2 财经,http://101.66.194.125:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=0&authid=0
 CCTV-3 综艺,http://112.30.73.119:229/tsfile/live/0003_2.m3u8?key=txiptv&playlive=0&authid=0

@@ -1,4 +1,6 @@
 #EXTM3U x-tvg-url="https://epg.pw/xmltv/epg.xml,https://live.zhi35.com/epg.xml.gz"
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/37532256839" group-title="广播",安久电台
+https://cdn.ttvb.eu.org/douyin/37532256839
 #EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/BBS佛教广播.png" group-title="广播",BBS佛教广播
 http://bbstv.clouducs.com:1935/bbstv-live/livestream/chunklist_w1403706733.m3u8
 #EXTINF:-1 group-title="广播",海南广播电视总台新闻频道
