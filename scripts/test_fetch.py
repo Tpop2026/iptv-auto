@@ -12,6 +12,7 @@ from fetch import (
     CAT_LABELS,
     MAX_PER_NAME,
     M3U_HEADER,
+    apply_line_window,
     catalog_group,
     categorize,
     favorite_match,
@@ -108,7 +109,7 @@ check("tvg-chc", tvg_id_for("CHC电影"), "CHC高清电影")
 check("tvg-en-keep", tvg_id_for("ESPN", "espn.us"), "espn.us")
 
 # --- constants ------------------------------------------------------------
-check("cap", MAX_PER_NAME, 3)
+check("cap", MAX_PER_NAME, 20)
 check("epg-header", 'x-tvg-url="' in M3U_HEADER and "epg.pw" in M3U_HEADER, True)
 
 # --- write_outputs --------------------------------------------------------
@@ -126,6 +127,20 @@ check("out-header", idx.splitlines()[0], M3U_HEADER)
 check("out-json", (tmp / "channels.json").exists(), True)
 cat_m3u = (tmp / "categories" / "cctv.m3u").read_text(encoding="utf-8")
 check("out-cat-group", 'group-title="央视"' in cat_m3u, True)
+
+# --- apply_line_window（每台20条滚动窗口：新前旧后，旧的淘汰） ------------
+F.LINES_STATE_FILE = tmp / "lines_state.json"
+ch = lambda n, u: {"name": n, "url": u, "logo": "", "group": "", "tvg_id": ""}  # noqa: E731
+o, _ = apply_line_window([ch("A", "a1"), ch("A", "a2")])
+check("win-init-order", [x["url"] for x in o], ["a1", "a2"])
+o, _ = apply_line_window([ch("A", "a3"), ch("A", "a1"), ch("A", "a2")])
+check("win-new-front", [x["url"] for x in o], ["a3", "a1", "a2"])
+o, _ = apply_line_window([ch("A", "a4"), ch("A", "a1"), ch("A", "a3")])
+check("win-evict-oldest", [x["url"] for x in o], ["a4", "a3", "a1"])
+o, capped = apply_line_window([ch("B", f"b{i}") for i in range(25)])
+check("win-cap20", (len(o), capped), (20, 5))
+o, _ = apply_line_window([ch("B", "bnew")] + [ch("B", f"b{i}") for i in range(20)])
+check("win-roll", (o[0]["url"], len(o), o[-1]["url"]), ("bnew", 20, "b18"))
 
 # --- state noise reduction ------------------------------------------------
 F.STATE_FILE = tmp / "state.json"

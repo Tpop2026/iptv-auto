@@ -29,6 +29,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 SOURCES_FILE = ROOT / "sources.json"
 STATE_FILE = ROOT / "state.json"
+LINES_STATE_FILE = ROOT / "lines_state.json"
 FAVORITES_FILE = ROOT / "favorites.txt"
 OUT_DIR = ROOT / "output"
 CAT_DIR = OUT_DIR / "categories"
@@ -39,7 +40,7 @@ UA = (
 )
 FETCH_TIMEOUT = 25
 MAX_BYTES = 60 * 1024 * 1024
-MAX_PER_NAME = 3
+MAX_PER_NAME = 20
 EPG_URLS = ",".join(
     [
         "https://epg.pw/xmltv/epg.xml",
@@ -471,7 +472,10 @@ def write_favorites(channels: list[dict]) -> None:
         m3u.append(f"{cat},#genre#")
         txt.append(f"{cat},#genre#")
         for t in tnames:
+            added = 0
             for ch in channels:
+                if added >= MAX_PER_NAME:
+                    break
                 if not favorite_match(t, ch["name"]):
                     continue
                 matched_names.add(t)
@@ -480,6 +484,7 @@ def write_favorites(channels: list[dict]) -> None:
                 m3u.append(f'#EXTINF:-1{tvg_id}{logo} group-title="{cat}",{t}')
                 m3u.append(ch["url"])
                 txt.append(f"{t},{ch['url']}")
+                added += 1
     _write(OUT_DIR / "favorites.m3u", m3u)
     _write(OUT_DIR / "favorites.txt", txt)
     print(f"favorites: {sum(len(n) for _, n in groups)} 个模板频道, 命中 {len(matched_names)} 个")
@@ -621,6 +626,40 @@ def filter_dead(channels: list[dict]) -> list[dict]:
     return kept
 
 
+def apply_line_window(merged: list[dict]) -> tuple[list[dict], int]:
+    """全局每台最多 MAX_PER_NAME 条滚动窗口：新发现线路靠前，最旧的被淘汰。
+
+    线路新旧以跨运行的首次发现顺序为准（lines_state.json 持久化），
+    已从上游消失的线路不占窗口。同一台名内的输出顺序 = 新→旧。
+    """
+    state = _load_json(LINES_STATE_FILE)
+    groups: dict[str, list[dict]] = {}
+    for ch in merged:
+        groups.setdefault(ch["name"], []).append(ch)
+    new_state: dict[str, list[str]] = {}
+    out: list[dict] = []
+    for name, chs in groups.items():
+        ch_by_url: dict[str, dict] = {}
+        for c in chs:
+            ch_by_url.setdefault(c["url"], c)
+        run_urls = list(ch_by_url)
+        prev = state.get(name, [])
+        prev_set = set(prev)
+        run_set = set(run_urls)
+        fresh = [u for u in run_urls if u not in prev_set]
+        old = [u for u in prev if u in run_set]
+        window = (fresh + old)[:MAX_PER_NAME]
+        new_state[name] = window
+        out.extend(ch_by_url[u] for u in window)
+    if new_state != state:
+        LINES_STATE_FILE.write_text(
+            json.dumps(new_state, ensure_ascii=False, indent=1) + "\n",
+            encoding="utf-8",
+            newline="\n",
+        )
+    return out, len(merged) - len(out)
+
+
 def _load_json(path: Path) -> dict:
     try:
         return json.loads(path.read_text(encoding="utf-8"))
@@ -725,16 +764,8 @@ def main() -> int:
     if os.environ.get("IPTV_CHECK_STREAMS") == "1":
         merged = filter_dead(merged)  # 404/410 硬校验，覆盖全部输出
 
-    # cap redundant mirrors: keep the first MAX_PER_NAME lines per name
-    per_name: dict[str, int] = {}
-    final: list[dict] = []
-    for ch in merged:
-        seen = per_name.get(ch["name"], 0)
-        if seen >= MAX_PER_NAME:
-            continue
-        per_name[ch["name"]] = seen + 1
-        final.append(ch)
-    capped = len(merged) - len(final)
+    # 全局滚动窗口：每台最多 MAX_PER_NAME 条，新线路靠前
+    final, capped = apply_line_window(merged)
 
     # safety guard: never overwrite with a drastically shrunken list
     # (protects against a big upstream source silently failing)
@@ -751,8 +782,8 @@ def main() -> int:
             return 2
 
     write_outputs(final)
-    write_favorites(merged)  # 精选列表不设线路上限，按模板分组
-    write_catalog(merged)  # 全量分组列表：中文/英文分列
+    write_favorites(final)  # 精选列表：每台最多 20 条（全局滚动窗口）
+    write_catalog(final)  # 全量分组列表：中文/英文分列
     cat_counts = {}
     for ch in final:
         for cat in categorize(ch["name"]):
@@ -761,8 +792,8 @@ def main() -> int:
     print("=== summary ===")
     for line in summary:
         print(line)
-    print(f"total channels: {len(final)} (url-dupes removed {total_parsed - len(merged)}, name-cap removed {capped})")
-    print(f"unique names: {len(per_name)}")
+    print(f"total channels: {len(final)} (url-dupes removed {total_parsed - len(merged)}, window-capped {capped})")
+    print(f"unique names: {len({ch['name'] for ch in final})}")
     print(f"names normalized: {renamed}")
     print(f"categories: {json.dumps(cat_counts, ensure_ascii=False)}")
     return 0

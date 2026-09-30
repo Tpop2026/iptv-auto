@@ -214,6 +214,7 @@ Suara Surabaya Visual Radio,https://ssfm.siar.us/ssfm/live/playlist.m3u8
 SWR 3 Visual Radio,https://swrswr3vr-hls.akamaized.net/hls/live/2018683/swr3vr/master.m3u8
 TDI Radio TV,https://peer2.tdiradio.com/static/streaming-playlists/hls/8f5d84ce-e8ac-4109-9975-9665f5605557/master.m3u8
 Tele Radio Sciacca,http://5cbd3bc28341f.streamlock.net:1935/trs_live/teleradiosciacca-tv/playlist.m3u8
+Tele Radio Sciacca,https://5db313b643fd8.streamlock.net/teleradiosciaccatv/teleradiosciaccatv/playlist.m3u8
 Teleangol Radio,https://pantera1-100gb-cl-movistar.dps.live/teleangolradio/teleangolradio.smil/playlist.m3u8
 TikTok Radio Brasil,https://d1bl6tskrpq9ze.cloudfront.net/hls/master.m3u8?ads.xumo_channelId=99992529
 TNO Radio,https://stmv1.srvstm.com/tnovideo1/tnovideo1/playlist.m3u8
@@ -268,7 +269,6 @@ TRL Tele Radio Leo,https://5db313b643fd8.streamlock.net/TRL/TRL/playlist.m3u8
 TRSP Tele Radio San Pietro,https://5a1178b42cc03.streamlock.net/trsptv/trsptv/playlist.m3u8
 Tele Radio Ercolano,https://rst2.saiuzwebnetwork.it:8081/teleradioercolano/index.m3u8
 Tele Radio Orte,https://flash2.xdevel.com/ortetv/ortetv/index.m3u8
-Tele Radio Sciacca,https://5db313b643fd8.streamlock.net/teleradiosciaccatv/teleradiosciaccatv/playlist.m3u8
 Vintage Radio Tv,https://5f22d76e220e1.streamlock.net/vintageradiotv/vintageradiotv/playlist.m3u8
 Radio Colonna Tv Y,https://www.youtube.com/radiocolonna/live
 BBC Radio 1,https://lsn.lv/bbcradio.m3u8?station=bbc_radio_one&bitrate=320000

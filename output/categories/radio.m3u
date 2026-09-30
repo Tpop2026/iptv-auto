@@ -431,6 +431,8 @@ https://swrswr3vr-hls.akamaized.net/hls/live/2018683/swr3vr/master.m3u8
 https://peer2.tdiradio.com/static/streaming-playlists/hls/8f5d84ce-e8ac-4109-9975-9665f5605557/master.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/uyNOVUW.png" group-title="广播",Tele Radio Sciacca
 http://5cbd3bc28341f.streamlock.net:1935/trs_live/teleradiosciacca-tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/suhz5mE.png" group-title="广播",Tele Radio Sciacca
+https://5db313b643fd8.streamlock.net/teleradiosciaccatv/teleradiosciaccatv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/nhPFGs8.png" group-title="广播",Teleangol Radio
 https://pantera1-100gb-cl-movistar.dps.live/teleangolradio/teleangolradio.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/f4/TikTok_Radio.svg" group-title="广播",TikTok Radio Brasil
@@ -539,8 +541,6 @@ https://5a1178b42cc03.streamlock.net/trsptv/trsptv/playlist.m3u8
 https://rst2.saiuzwebnetwork.it:8081/teleradioercolano/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/uX2uxvN.png" group-title="广播",Tele Radio Orte
 https://flash2.xdevel.com/ortetv/ortetv/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/suhz5mE.png" group-title="广播",Tele Radio Sciacca
-https://5db313b643fd8.streamlock.net/teleradiosciaccatv/teleradiosciaccatv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/n3LtBNT.jpg" group-title="广播",Vintage Radio Tv
 https://5f22d76e220e1.streamlock.net/vintageradiotv/vintageradiotv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/EcQvDfq.png" group-title="广播",Radio Colonna Tv Y
