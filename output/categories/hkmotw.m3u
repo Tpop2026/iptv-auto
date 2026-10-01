@@ -360,7 +360,7 @@ http://101.35.240.114:88/live.php?id=翡翠台
 #EXTINF:-1 group-title="港澳台",翡翠台
 http://iptv.4666888.xyz/iptv2A.php?id=34
 #EXTINF:-1 group-title="港澳台",经典香港电影
-http://hlsztemgsplive.miguvideo.com:8080/wd_r2/virtuallive/5100180869/75/index.m3u8?msisdn=202609302203131452c6839b574665a6ee70f5af11d5c5&mdspid=&spid=800033&netType=0&sid=5500242089&pid=2028597139&timestamp=20260930220313&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=625703337&ParentNodeID=-99&assertID=5500242089&client_ip=171.8.79.254&SecurityKey=20260930220313&promotionId=&mvid=5100180869&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=ed03ef54c25a842174dc38eae17d7884
+http://hlsztemgsplive.miguvideo.com:8080/wd_r2/virtuallive/5100180869/75/index.m3u8?msisdn=20261001220311a00415d45642477d9b3f670095e58f05&mdspid=&spid=800033&netType=0&sid=5500242089&pid=2028597139&timestamp=20261001220311&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=625703337&ParentNodeID=-99&assertID=5500242089&client_ip=171.8.79.254&SecurityKey=20261001220311&promotionId=&mvid=5100180869&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=3b551b5d17154bf7440f9b070e180808
 #EXTINF:-1 group-title="港澳台",TVB千禧经典
 http://iptv.4666888.xyz/iptv2A.php?id=22
 #EXTINF:-1 group-title="港澳台",TVBS新闻
@@ -371,10 +371,10 @@ http://iptv.4666888.xyz/iptv2A.php?id=48
 http://iptv.4666888.xyz/iptv2A.php?id=29
 #EXTINF:-1 tvg-logo="https://i.imgur.com/LNokYLQ.png" group-title="港澳台",HOY Infotainment
 https://hoytv-live-stream.hoy.tv/ch78/index.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/HOY TV.png" group-title="港澳台",HOY TV
+http://r.jdshipin.com/sFw4S
 #EXTINF:-1 tvg-logo="https://i.imgur.com/NfVZPTT.png" group-title="港澳台",HOY TV
 https://hoytv-live-stream.hoy.tv/ch77/index.m3u8
-#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/HOY TV.png" group-title="港澳台",HOY TV
-http://php.jdshipin.com/TVOD/iptv.php?id=hoytv
 #EXTINF:-1 tvg-logo="https://i.imgur.com/5EYjWK7.png" group-title="港澳台",NOW TV
 https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/u8zXUOg.png" group-title="港澳台",Right Now TV
