@@ -162,7 +162,7 @@ ViuTV,http://r.jdshipin.com/TcKr2
 翡翠台,http://122.152.202.33/s/81a8a44f/index.m3u8?id=53
 翡翠台,http://101.35.240.114:88/live.php?id=翡翠台
 翡翠台,http://iptv.4666888.xyz/iptv2A.php?id=34
-经典香港电影,http://hlsztemgsplive.miguvideo.com:8080/wd_r2/virtuallive/5100180869/75/index.m3u8?msisdn=2026100222031114267e0b48ef4236a5180e3038f595fb&mdspid=&spid=800033&netType=0&sid=5500242089&pid=2028597139&timestamp=20261002220311&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=625703337&ParentNodeID=-99&assertID=5500242089&client_ip=171.8.79.254&SecurityKey=20261002220311&promotionId=&mvid=5100180869&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=574fd9c2b1dfb2abaa765fc9f341eb8f
+经典香港电影,http://hlsztemgsplive.miguvideo.com:8080/wd_r2/virtuallive/5100180869/75/index.m3u8?msisdn=20261003180312fd0a9ff37e874493b255bbd4b5e0a8b5&mdspid=&spid=800033&netType=0&sid=5500242089&pid=2028597139&timestamp=20261003180312&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=625703337&ParentNodeID=-99&assertID=5500242089&client_ip=171.8.79.254&SecurityKey=20261003180312&promotionId=&mvid=5100180869&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=6fb95e24c83ede8bc8dc163ab04a8dbb
 TVB千禧经典,http://iptv.4666888.xyz/iptv2A.php?id=22
 TVBS新闻,http://iptv.4666888.xyz/iptv2A.php?id=43
 东森电影,http://iptv.4666888.xyz/iptv2A.php?id=48
