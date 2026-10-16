@@ -1,57 +1,53 @@
-694-27,https://cdn.ttvb.eu.org/bilibili/1726550092
 Devouers,https://cdn.ttvb.eu.org/bilibili/23171963
-EdmundDZhang,https://cdn.ttvb.eu.org/bilibili/5050
 Freddey,https://cdn.ttvb.eu.org/bilibili/735629
-HiiroVTuber,https://cdn.ttvb.eu.org/bilibili/21919321
-J8-CAT,https://cdn.ttvb.eu.org/bilibili/1576075
-KL_qiqi,https://cdn.ttvb.eu.org/bilibili/407149
+Hunk227,https://cdn.ttvb.eu.org/bilibili/1728619632
+Liyuu,https://cdn.ttvb.eu.org/bilibili/5265
 OneMicroSpace,https://cdn.ttvb.eu.org/bilibili/390508
-Tsubaki,https://cdn.ttvb.eu.org/bilibili/647540
-VVVZQ,https://cdn.ttvb.eu.org/bilibili/1403227
 againwhy,https://cdn.ttvb.eu.org/bilibili/862316
+iHateTheWorld,https://cdn.ttvb.eu.org/bilibili/1773507572
 rainasleep,https://cdn.ttvb.eu.org/bilibili/25559603
-Unknown,https://cdn.ttvb.eu.org/soop/itsme1922
-Unknown,https://cdn.ttvb.eu.org/soop/myby1221
-Unknown,https://cdn.ttvb.eu.org/soop/kyoonah1217
-Unknown,https://cdn.ttvb.eu.org/soop/dign1461
-Unknown,https://cdn.ttvb.eu.org/soop/nmh112
-Unknown,https://cdn.ttvb.eu.org/soop/inhye0416
-Unknown,https://cdn.ttvb.eu.org/soop/rlrlvkvk123
-Unknown,https://cdn.ttvb.eu.org/soop/golaniyule0
-Unknown,https://cdn.ttvb.eu.org/soop/ramzzang
-Unknown,https://cdn.ttvb.eu.org/soop/coppag
-Unknown,https://cdn.ttvb.eu.org/soop/gkstkd14
-Unknown,https://cdn.ttvb.eu.org/soop/youhj323
-Unknown,https://cdn.ttvb.eu.org/soop/kkkku96
-Unknown,https://cdn.ttvb.eu.org/soop/nj8893
-Unknown,https://cdn.ttvb.eu.org/soop/tnwl9630
-Unknown,https://cdn.ttvb.eu.org/soop/feel0100
-Unknown,https://cdn.ttvb.eu.org/soop/eunz1nara
-Unknown,https://cdn.ttvb.eu.org/soop/ahfotlrp0675
-Unknown,https://cdn.ttvb.eu.org/soop/leelate
-Unknown,https://cdn.ttvb.eu.org/soop/sobar97
-MD1999,https://cdn.ttvb.eu.org/douyin/37029384065
+Unknown,https://cdn.ttvb.eu.org/bilibili/22863790
+Unknown,https://cdn.ttvb.eu.org/soop/suezzang25
+Unknown,https://cdn.ttvb.eu.org/soop/haming02
+Unknown,https://cdn.ttvb.eu.org/soop/rkdfksdud98
+Unknown,https://cdn.ttvb.eu.org/soop/eunyoung1238
+Unknown,https://cdn.ttvb.eu.org/soop/wnnw
+Unknown,https://cdn.ttvb.eu.org/soop/sdgk78
+Unknown,https://cdn.ttvb.eu.org/soop/rrrr4719
+Unknown,https://cdn.ttvb.eu.org/soop/soclato
+Unknown,https://cdn.ttvb.eu.org/soop/son4069
+Unknown,https://cdn.ttvb.eu.org/soop/sanaekcy
+Unknown,https://cdn.ttvb.eu.org/soop/dbstmf3497
+Unknown,https://cdn.ttvb.eu.org/soop/seungju6544
+Unknown,https://cdn.ttvb.eu.org/soop/ssssummer
+Unknown,https://cdn.ttvb.eu.org/soop/dpfl646
+Unknown,https://cdn.ttvb.eu.org/soop/parang1995
+Unknown,https://cdn.ttvb.eu.org/soop/nanajam
+Unknown,https://cdn.ttvb.eu.org/soop/gorh004
+Unknown,https://cdn.ttvb.eu.org/soop/chamingcha
+Unknown,https://cdn.ttvb.eu.org/soop/ch1716
+0387,https://cdn.ttvb.eu.org/douyin/Aa0387
+700,https://cdn.ttvb.eu.org/douyin/MCS361643051
+AK,https://cdn.ttvb.eu.org/douyin/AK36G
 M,https://cdn.ttvb.eu.org/douyin/30727769100
-Nani,https://cdn.ttvb.eu.org/douyin/lina17
 ice star,https://cdn.ttvb.eu.org/douyin/49770074750
 PUBG】Cc,https://cdn.ttvb.eu.org/douyin/757430167196
+Bouyi,https://cdn.ttvb.eu.org/douyin/bouyi._.08
 ICEKING,https://cdn.ttvb.eu.org/douyu/3567521
 LR1245,https://cdn.ttvb.eu.org/douyu/12534632
-OrangebabyOAO,https://cdn.ttvb.eu.org/douyu/34411
 Cc,https://cdn.ttvb.eu.org/huya/11601966
 HelloKitty,https://cdn.ttvb.eu.org/huya/11352879
-Ning,https://cdn.ttvb.eu.org/huya/980312
 XuanXuanPi【XXP,https://cdn.ttvb.eu.org/huya/317946
-cxy0714,https://cdn.ttvb.eu.org/huya/770714
+E,https://cdn.ttvb.eu.org/soop/salgu1004
+E,http://57.128.231.171:8080/273/index.m3u8
 GO,https://cdn.ttvb.eu.org/soop/oktube
 p,https://cdn.ttvb.eu.org/soop/joahe2
 JYEON,https://cdn.ttvb.eu.org/soop/dlswldus107
 AI_Modeler,https://cdn.ttvb.eu.org/twitch/ai_modeler
 ASIANDANCERS,https://cdn.ttvb.eu.org/twitch/ASIANDANCERS
 ASMR_Arale,https://cdn.ttvb.eu.org/twitch/asmr_arale
-ChinaSlime,https://cdn.ttvb.eu.org/twitch/ChinaSlime
 ColawayTV,https://cdn.ttvb.eu.org/twitch/colawaytv
-Jinnytty,https://cdn.ttvb.eu.org/twitch/jinnytty
+FloppyLottie,https://cdn.ttvb.eu.org/twitch/FloppyLottie
 KBJDanceTV,https://cdn.ttvb.eu.org/twitch/kbjdancetv
 Mellooow,https://cdn.ttvb.eu.org/twitch/Mellooow_
 NonStopFashion,https://cdn.ttvb.eu.org/twitch/nonstopfashion
@@ -63,52 +59,39 @@ mira,https://cdn.ttvb.eu.org/twitch/mira
 mirayogax,https://cdn.ttvb.eu.org/twitch/mirayogax
 sickemoangel24,https://cdn.ttvb.eu.org/twitch/sickemoangel24
 soywini,https://cdn.ttvb.eu.org/twitch/soywini_
-CS-advent,https://cdn.ttvb.eu.org/bilibili/1883358196
-Kyo_ow,https://cdn.ttvb.eu.org/bilibili/7395955
-LIGhtYgo,https://cdn.ttvb.eu.org/bilibili/527206
-LexBurner,https://cdn.ttvb.eu.org/bilibili/11365
 MCG_12Tap,https://cdn.ttvb.eu.org/bilibili/23225863
-lovelive,https://cdn.ttvb.eu.org/bilibili/261955
-9niub,https://cdn.ttvb.eu.org/douyin/9niub
+UCG_Official,https://cdn.ttvb.eu.org/bilibili/5238
+HangHang,https://cdn.ttvb.eu.org/douyin/HHang02
 NN47,https://cdn.ttvb.eu.org/douyin/NN4747
 Newpipi,https://cdn.ttvb.eu.org/douyin/60922269674
+T9,https://cdn.ttvb.eu.org/douyin/FYL99618
+T9,https://streaming.softwarecreation.it/tnove/tnove/playlist.m3u8
+vx30,https://cdn.ttvb.eu.org/douyin/543221183540
 Chalice,https://cdn.ttvb.eu.org/douyu/5135383
 Evelinas,https://cdn.ttvb.eu.org/douyu/10197652
 Jackyar,https://cdn.ttvb.eu.org/douyu/6490082
 MrGemini,https://cdn.ttvb.eu.org/douyu/36252
+Nostalie,https://cdn.ttvb.eu.org/douyu/142488
 impOUO,https://cdn.ttvb.eu.org/douyu/522387
-lqscrisp,https://cdn.ttvb.eu.org/douyu/2739447
 pigff,https://cdn.ttvb.eu.org/douyu/24422
 scboy,https://cdn.ttvb.eu.org/douyu/3484
 yyfyyf,https://cdn.ttvb.eu.org/douyu/9999
-zard1991,https://cdn.ttvb.eu.org/douyu/60937
 AmazingJ,https://cdn.ttvb.eu.org/huya/991108
-CSBOY,https://cdn.ttvb.eu.org/huya/123321
-CSBOY-Mo,https://cdn.ttvb.eu.org/huya/321123
 DANK1NG,https://cdn.ttvb.eu.org/huya/10188
 Maybeee111,https://cdn.ttvb.eu.org/huya/211888
-Remember,https://cdn.ttvb.eu.org/huya/528222
-WE957,https://cdn.ttvb.eu.org/huya/890001
-Yumiko0414,https://cdn.ttvb.eu.org/huya/829922
+XHope,https://cdn.ttvb.eu.org/huya/821839
 baicaiovo,https://cdn.ttvb.eu.org/huya/691406
-kRYST4L,https://cdn.ttvb.eu.org/huya/222523
 loveyouq,https://cdn.ttvb.eu.org/huya/148651
 Bisu,https://cdn.ttvb.eu.org/soop/rlaxordyd
 JD,https://cdn.ttvb.eu.org/soop/jaedong23
 Light,https://cdn.ttvb.eu.org/soop/scv6256
-goblin2001,https://cdn.ttvb.eu.org/soop/goblin2001
+Dmitry_Lixxx,https://cdn.ttvb.eu.org/twitch/Dmitry_Lixxx
 ESLCS,https://cdn.ttvb.eu.org/twitch/ESLCS
-GingiTV,https://cdn.ttvb.eu.org/twitch/gingitv
-Kiaraakitty,https://cdn.ttvb.eu.org/twitch/Kiaraakitty
 Naowh,https://cdn.ttvb.eu.org/twitch/naowh
-QuickyBaby,https://cdn.ttvb.eu.org/twitch/quickybaby
 ToadAmarillo,https://cdn.ttvb.eu.org/twitch/ToadAmarillo
 LofiGirl,https://cdn.ttvb.eu.org/bilibili/27519423
-2,https://cdn.ttvb.eu.org/soop/kleezzz
-2,https://edge55.dc.beltelecom.by/ngtrk/smil:belarus2.smil/playlist.m3u8
-2,http://fta.hugo.mk:1935/live/tvhugo/stream/2.m3u8
 ADanaLife,https://cdn.ttvb.eu.org/twitch/adanalife_
-HeartlandTruckingUSA,https://cdn.ttvb.eu.org/twitch/heartlandtruckingusa
+DarkMasuoTV,https://cdn.ttvb.eu.org/twitch/darkmasuotv
 RawReporting,https://cdn.ttvb.eu.org/twitch/rawreporting
 ShoutTV,https://cdn.ttvb.eu.org/twitch/shouttv
 TVOETOINFOTV,https://cdn.ttvb.eu.org/twitch/tvoetoinfotv
@@ -121,17 +104,13 @@ TopMedia_TopNews,https://cdn.ttvb.eu.org/twitch/topmedia_topnews
 airportambiance,https://cdn.ttvb.eu.org/twitch/airportambiance
 issaboveyou,https://cdn.ttvb.eu.org/twitch/issaboveyou
 keepmunseeweird,https://cdn.ttvb.eu.org/twitch/keepmunseeweird
-news5live,https://cdn.ttvb.eu.org/twitch/news5live
-20261015 06:47,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8
-CETV1,http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cetv1/50/20240709/index.m3u8?msisdn=20261015060312918f37e4a1a34af19f3ed880c496fb29&mdspid=&spid=699004&netType=0&sid=5910022150&pid=2028597139&timestamp=20261015060312&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287154&ParentNodeID=-99&assertID=5910022150&client_ip=171.8.79.254&SecurityKey=20261015060312&promotionId=&mvid=5900006636&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=2296e001ef1a374e58ba6b6128b0c971
-CETV1,http://gslbmgsplive.miguvideo.com/migu/kailu/cetv1/50/20240709/index.m3u8?msisdn=20261014084213f58c2e4ce5b144c6a1b6424bb70795b1&mdspid=&spid=699004&netType=0&sid=5910022150&pid=2028597139&timestamp=20261014084213&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287154&ParentNodeID=-99&assertID=5910022150&client_ip=2409:8a00:6031:9fa1:b1cc:7c75:294:9cb0&SecurityKey=20261014084213&promotionId=&mvid=5900006636&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=645c4ac133e3f127c75d62d0c9f5aa0a&ddCalcu=a604ea51ac3540fa9cc103d32e63df5172c7
-CETV1,http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cetv1/50/20240709/index.m3u8?msisdn=2026101410031141fd38364c7d414aa94ebd5d80cc3063&mdspid=&spid=699004&netType=0&sid=5910022150&pid=2028597139&timestamp=20261014100311&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287154&ParentNodeID=-99&assertID=5910022150&client_ip=171.8.79.254&SecurityKey=20261014100311&promotionId=&mvid=5900006636&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=32446b20b87afb0e17a1fe8781138667
-CETV1,http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cetv1/50/20240709/index.m3u8?msisdn=20261015180309ded267e781584e229f0187a28754d67b&mdspid=&spid=699004&netType=0&sid=5910022150&pid=2028597139&timestamp=20261015180309&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287154&ParentNodeID=-99&assertID=5910022150&client_ip=171.8.79.254&SecurityKey=20261015180309&promotionId=&mvid=5900006636&mcid=500020&playurlVersion=ZQ-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=5bfa97873264afe6097094ed41123abf
-CETV1,http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cetv1/50/20240709/index.m3u8?msisdn=20261014060310ad38bb93e3d846e784138776578bd75e&mdspid=&spid=699004&netType=0&sid=5910022150&pid=2028597139&timestamp=20261014060310&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287154&ParentNodeID=-99&assertID=5910022150&client_ip=171.8.79.254&SecurityKey=20261014060310&promotionId=&mvid=5900006636&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=72ab46f64e091df8092e0b2be6f96e72
+20261016 06:45,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8
+CETV1,http://39.165.39.49:85/tsfile/live/1090_1.m3u8?key=txiptv&playlive=0&authid=0
+CETV1,http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cetv1/50/20240709/index.m3u8?msisdn=202610160603092af72bbe42fa4e59ab0bf37cd4e22069&mdspid=&spid=699004&netType=0&sid=5910022150&pid=2028597139&timestamp=20261016060309&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287154&ParentNodeID=-99&assertID=5910022150&client_ip=171.8.79.254&SecurityKey=20261016060309&promotionId=&mvid=5900006636&mcid=500020&playurlVersion=ZQ-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=dbd1466fe5436b5699c27476023af650
+CETV1,http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cetv1/50/20240709/index.m3u8?msisdn=20261016180309ad803a64f2ad4cf1a693306ba9edb66f&mdspid=&spid=699004&netType=0&sid=5910022150&pid=2028597139&timestamp=20261016180309&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287154&ParentNodeID=-99&assertID=5910022150&client_ip=171.8.79.254&SecurityKey=20261016180309&promotionId=&mvid=5900006636&mcid=500020&playurlVersion=WX-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=3f55b4818c3753eec4ec3e60153740fb
 CETV1,http://kkk.888.3116598.xyz/api.php?n=tttt&id=qYvFjP&tk=FgM0vQMejxvG
 CETV1,http://kkk.888.3116598.xyz/api.php?n=tttt&id=D3LTjJ&tk=FgM0vQMejxvG
 CETV1,http://kkk.888.3116598.xyz/api.php?n=tttt&id=fL0XJF&tk=FgM0vQMejxvG
-CETV1,http://47.104.178.59:3566/923287154
 CETV1,http://192.168.123.1:23234/rtp/239.3.1.57:8152
 CETV1,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225652/index.m3u8
 CETV1,http://player.cntv.cn/standard/live_HLSDRM20180524.swf?ChannelID=cetv1&videoTVChannel=cetv1&P2PChannelID=pd://cctv_p2p_hdcetv1&tai=cetv1&VideoName=cetv1&channelID=cetv1
@@ -140,36 +119,25 @@ CETV1,http://38.75.136.137:98/gslb/dsdqpub/cetv1hd.m3u8?auth=testpub
 CETV1,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cetv1hd
 CETV1,http://120.76.248.139/live/bfgd/4200000135.m3u8
 CETV1,http://183.11.239.36:808/hls/122/index.m3u8
-CETV1,http://45.78.61.93:1234/923287154
-CETV2,http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cetv2/50/20240709/index.m3u8?msisdn=202610150603129ee4509dc84546ca9dcf3ca7d990858c&mdspid=&spid=699004&netType=0&sid=5910022152&pid=2028597139&timestamp=20261015060312&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287211&ParentNodeID=-99&assertID=5910022152&client_ip=171.8.79.254&SecurityKey=20261015060312&promotionId=&mvid=5900006638&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=649b6a7480b5cea006d3b0f4264ccb06
-CETV2,http://gslbmgsplive.miguvideo.com/migu/kailu/cetv2/50/20240709/index.m3u8?msisdn=202610140842149dea3871a8f1403180175d193c230b93&mdspid=&spid=699004&netType=0&sid=5910022152&pid=2028597139&timestamp=20261014084214&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287211&ParentNodeID=-99&assertID=5910022152&client_ip=2409:8a00:6031:9fa1:b1cc:7c75:294:9cb0&SecurityKey=20261014084214&promotionId=&mvid=5900006638&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=f8d894dff011b68b50f73d282b56b3e6&ddCalcu=6fe8e3d1b8369054bd2f8f20d1317bf6085b
-CETV2,http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cetv2/50/20240709/index.m3u8?msisdn=20261014100311eadfd6b2f6954bdab567eefa61cbb3b1&mdspid=&spid=699004&netType=0&sid=5910022152&pid=2028597139&timestamp=20261014100311&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287211&ParentNodeID=-99&assertID=5910022152&client_ip=171.8.79.254&SecurityKey=20261014100311&promotionId=&mvid=5900006638&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=86840f128aff6aa8919daf9b49c60269
-CETV2,http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cetv2/50/20240709/index.m3u8?msisdn=202610151803095bd457e457794cc582e7a80d61f34019&mdspid=&spid=699004&netType=0&sid=5910022152&pid=2028597139&timestamp=20261015180309&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287211&ParentNodeID=-99&assertID=5910022152&client_ip=171.8.79.254&SecurityKey=20261015180309&promotionId=&mvid=5900006638&mcid=500020&playurlVersion=ZQ-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=1f4ef8ba3ed16745ca12ebea3ff76a67
-CETV2,http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cetv2/50/20240709/index.m3u8?msisdn=20261014060311c65f12945fee43bd9d6203c5e2c87731&mdspid=&spid=699004&netType=0&sid=5910022152&pid=2028597139&timestamp=20261014060311&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287211&ParentNodeID=-99&assertID=5910022152&client_ip=171.8.79.254&SecurityKey=20261014060311&promotionId=&mvid=5900006638&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=2b0d0516d9a1b36f61dd6bdcc6386538
+CETV2,http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cetv2/50/20240709/index.m3u8?msisdn=20261016060309d976ac920d2d4eb59f39a46b6a9f0d01&mdspid=&spid=699004&netType=0&sid=5910022152&pid=2028597139&timestamp=20261016060309&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287211&ParentNodeID=-99&assertID=5910022152&client_ip=171.8.79.254&SecurityKey=20261016060309&promotionId=&mvid=5900006638&mcid=500020&playurlVersion=ZQ-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=f602155729f049e2acbd166b6129cd93
+CETV2,http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cetv2/50/20240709/index.m3u8?msisdn=2026101618030909d8853406be489196f28cb4414fb231&mdspid=&spid=699004&netType=0&sid=5910022152&pid=2028597139&timestamp=20261016180309&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287211&ParentNodeID=-99&assertID=5910022152&client_ip=171.8.79.254&SecurityKey=20261016180309&promotionId=&mvid=5900006638&mcid=500020&playurlVersion=WX-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=d166eaa69835cc5fc3cd8ce1b728425d
 CETV2,http://kkk.888.3116598.xyz/api.php?n=tttt&id=wXsslc&tk=FgM0vQMejxvG
 CETV2,http://kkk.888.3116598.xyz/api.php?n=tttt&id=VcK9LD&tk=FgM0vQMejxvG
-CETV2,http://47.104.178.59:3566/923287211
 CETV2,http://183.11.239.36:808/hls/78/index.m3u8
 CETV2,http://192.168.123.1:23234/rtp/239.3.1.54:4120
 CETV2,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226425/index.m3u8
 CETV2,http://player.cntv.cn/standard/live_HLSDRM20180524.swf?ChannelID=cetv2&videoTVChannel=cetv2&P2PChannelID=pd://cctv_p2p_hdcetv2&tai=cetv2&VideoName=cetv2&channelID=cetv2
-CETV2,http://198.204.228.26/live/cetv2.m3u8
 CETV3,http://kkk.888.3116598.xyz/api.php?n=tttt&id=s067jF&tk=FgM0vQMejxvG
-CETV4,http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cetv4/50/20240709/index.m3u8?msisdn=20261015060312a41ab5213f4747f981b5fcf0116aa267&mdspid=&spid=699004&netType=0&sid=5910022154&pid=2028597139&timestamp=20261015060312&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287339&ParentNodeID=-99&assertID=5910022154&client_ip=171.8.79.254&SecurityKey=20261015060312&promotionId=&mvid=5900006640&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=8864d40610eb40ffabcfe989d198775e
-CETV4,http://gslbmgsplive.miguvideo.com/migu/kailu/cetv4/50/20240709/index.m3u8?msisdn=20261014084214097d20cc82a24ade867e59a45c9cd721&mdspid=&spid=699004&netType=0&sid=5910022154&pid=2028597139&timestamp=20261014084214&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287339&ParentNodeID=-99&assertID=5910022154&client_ip=2409:8a00:6031:9fa1:b1cc:7c75:294:9cb0&SecurityKey=20261014084214&promotionId=&mvid=5900006640&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=734003b0f25352833fb52a89c58ffa37&ddCalcu=7733ea41f03f00835bc09f82a52355b2f833
-CETV4,http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cetv4/50/20240709/index.m3u8?msisdn=2026101410031160faacb47c6e4894bb5d2f6e668cb8b9&mdspid=&spid=699004&netType=0&sid=5910022154&pid=2028597139&timestamp=20261014100311&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287339&ParentNodeID=-99&assertID=5910022154&client_ip=171.8.79.254&SecurityKey=20261014100311&promotionId=&mvid=5900006640&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=24dcd4c1dd02699120d3b3677d0c3add
-CETV4,http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cetv4/50/20240709/index.m3u8?msisdn=2026101518030911e76438983543d49e2f798362fb2fff&mdspid=&spid=699004&netType=0&sid=5910022154&pid=2028597139&timestamp=20261015180309&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287339&ParentNodeID=-99&assertID=5910022154&client_ip=171.8.79.254&SecurityKey=20261015180309&promotionId=&mvid=5900006640&mcid=500020&playurlVersion=ZQ-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=368fc3c7b5b641b3dcfc825ebb5a7c2c
-CETV4,http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cetv4/50/20240709/index.m3u8?msisdn=202610140603112b3df4be75b94bfeab134b795d037665&mdspid=&spid=699004&netType=0&sid=5910022154&pid=2028597139&timestamp=20261014060311&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287339&ParentNodeID=-99&assertID=5910022154&client_ip=171.8.79.254&SecurityKey=20261014060311&promotionId=&mvid=5900006640&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=869bc56796a5813958474cad44b0b179
+CETV4,http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cetv4/50/20240709/index.m3u8?msisdn=20261016060309766d3bfe3aab473d8aad53f9c3afe915&mdspid=&spid=699004&netType=0&sid=5910022154&pid=2028597139&timestamp=20261016060309&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287339&ParentNodeID=-99&assertID=5910022154&client_ip=171.8.79.254&SecurityKey=20261016060309&promotionId=&mvid=5900006640&mcid=500020&playurlVersion=ZQ-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=bc828586062324ab5424d4ab18bd8d4a
+CETV4,http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cetv4/50/20240709/index.m3u8?msisdn=202610161803105530424f54324126bc4453afca0c7659&mdspid=&spid=699004&netType=0&sid=5910022154&pid=2028597139&timestamp=20261016180310&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287339&ParentNodeID=-99&assertID=5910022154&client_ip=171.8.79.254&SecurityKey=20261016180310&promotionId=&mvid=5900006640&mcid=500020&playurlVersion=WX-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=4441f6ad4315f5f745fb01da112e5ea4
 CETV4,http://kkk.888.3116598.xyz/api.php?n=tttt&id=rhrCc8&tk=FgM0vQMejxvG
 CETV4,http://kkk.888.3116598.xyz/api.php?n=tttt&id=cFDXDG&tk=FgM0vQMejxvG
 CETV4,http://183.11.239.36:808/hls/79/index.m3u8
-CETV4,http://47.104.178.59:3566/923287339
 CETV4,http://kkk.888.3116598.xyz/api.php?n=tttt&id=bzOgmq&tk=FgM0vQMejxvG
 CETV4,http://192.168.123.1:23234/rtp/239.3.1.56:4120
 CETV4,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225783/index.m3u8
 CETV4,http://player.cntv.cn/standard/live_HLSDRM20180524.swf?ChannelID=cetv4&videoTVChannel=cetv4&P2PChannelID=pd://cctv_p2p_hdcetv4&tai=cetv4&VideoName=cetv4&channelID=cetv4
-CETV4,http://198.204.228.26/live/cetv4.m3u8
-Channel,http://116.77.33.98:44330/tsfile/live/1010_1.m3u8?key=txiptv&playlive=0&authid=0
+HBO,http://zby.lskk.top/cdnlive.php?mode=play&id=68a273c7a3ba7578a2ca58fe24f3c2be&token=wUJLMUpsYJOdEdkpd5OwyC27t69vzy3W
 HBO,http://57.128.231.171:8080/243/index.m3u8
 HBO,http://88.212.15.17/live/test_hbo_hd_hevc/playlist.m3u8
 HBO,http://tvsen7.aynascope.net/hbo/index.m3u8
@@ -183,7 +151,6 @@ CNA,https://live1.mediadesk.al/cnatvlive.m3u8
 CNA,https://live.creacast.com/cna/stream/playlist.m3u8
 CNN,http://212.5.144.156:8080/cnn/index.m3u8
 CNN,https://tvsen6.aynaott.com/cnn/index.m3u8
-CNN,http://ysift55.xyz:80/live/WJ74AC4SRKQQYR7/pahruAQRs8/72329.ts
 CNN,https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
 CNN,https://jmp2.uk/stvp-ATBD800001VA
 CNN,https://jmp2.uk/stvp-GBBD8000016N
@@ -2492,6 +2459,7 @@ CNA International,https://mumt05.tangotv.in/87NeALx2CNA/index.m3u8
 CNA Originals,https://amg01082-cna-amg01082c1-rlaxx-us-11304.playouts.now.amagi.tv/playlist.m3u8
 CNBC,http://41.205.93.154/CNBC/index.m3u8
 CNBC Arabiya,https://cnbc-live.akamaized.net/cnbc/master.m3u8
+CNBC Asia,https://freem3u.xyz/api/live/play.m3u8?vid=9855
 CNBC Awaaz,https://n18syndication.akamaized.net/bpk-tv/CNBC_Awaaz_NW18_MOB/output01/master.m3u8
 CNBC Bajar,https://n18syndication.akamaized.net/bpk-tv/CNBC_Bazaar_NW18_MOB/output01/master.m3u8
 CNBC Europe,http://57.128.231.171:8080/234/index.m3u8
@@ -3155,7 +3123,6 @@ E 24,https://mumt04.tangotv.in/m18aqlK4E24/index.m3u8
 E40,https://copacotf.desdeparaguay.net/e40tv/e40tv_py_alta/playlist.m3u8?admin=tvaccion
 E International Asia,https://gist.githubusercontent.com/iptvonlinetv/cf56ccf36d1c0827e4dc470db7b7912d/raw/066b1c9755b2496805575f16d413bd1207ca8117/udp315.520.789:8060.m3u8
 E International Europe,https://gist.githubusercontent.com/iptvonlinetv/cf56ccf36d1c0827e4dc470db7b7912d/raw/066b1c9755b2496805575f16d413bd1207ca8117/udp120.510.450:6060.m3u8
-E,http://57.128.231.171:8080/273/index.m3u8
 E! East,http://23.237.104.106:8080/USA_E/index.m3u8
 E! Keeping Up,https://xumo-xumoent-vc-117-a3ga4.fast.nbcuni.com/live/master.m3u8
 E! Latin America,http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/entertainment.stream/playlist.m3u8
@@ -3255,7 +3222,6 @@ El Sonorense,https://s5.mexside.net:1936/elsonorense/elsonorense/playlist.m3u8
 El Toro TV,https://streaming-1.eltorotv.com/lb0/eltorotv-streaming-web/index.m3u8
 El Trece,http://15.204.246.24:8080/eltreceHD/index.m3u8
 El Trece,https://livetrx01.vodgc.net/eltrecetv/index.m3u8
-El Trece Internacional Latin America,http://200.7.99.59:8000/play/a0gm/index.m3u8
 EL TV,https://live.eltv.az/live/eltv/playlist.m3u8
 El Watania 1,https://sw1.tanitweb.net/TunisiaTV/_definst_/watania1/chunklist.m3u8
 El Watania 2,https://sw1.tanitweb.net/TunisiaTV/_definst_/watania2/playlist.m3u8?DVR
@@ -3296,6 +3262,7 @@ Energia TV,https://sincerecloud.stream/loadbalancer/public/actMdyoE.m3u8
 Energy,https://ncdn.telewebion.ir/baenergy/live/playlist.m3u8
 Enfoque Digital TV,https://5eaccbab48461.streamlock.net:1936/8074/8074/playlist.m3u8
 English Class,http://31.148.48.15/English_club_TV_HD/index.m3u8
+English Club Global,https://raw.githubusercontent.com/racitonsen/RacIPTV/refs/heads/main/streams/english-club-global.m3u8
 English Club TV,https://stream8.cinerama.uz/1442/tracks-v1a1/mono.m3u8
 Enisey,http://tshift-1.telecoma.tv/enisei/index.m3u8
 Enlace,http://138.121.15.230:9002/ENLACE/index.m3u8
@@ -4064,6 +4031,7 @@ Happy Days NO,https://jmp2.uk/plu-654a508d986ad20008a456a5.m3u8
 Happy Days CA,https://jmp2.uk/plu-62e917b5e354cf0007b97a67.m3u8
 HappyKids,https://dil9xdvretp0f.cloudfront.net/index.m3u8
 Harbin Comprehensive News Channel,https://stream.hrbtv.net/xwzh/playlist.m3u8?_upt=ef41dd531755913594
+Harbin Movie Channel,https://stream.hrbtv.net/yspd/playlist.m3u8
 Hard Knocks,https://d3uyzhwvmemdyf.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/Hard-Knocks-DistroTV/109.m3u8?ads.vf=6pOF6kgy418
 Hard Knocks Fighting Championship,https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883037
 Hare Krsna TV,https://hktv.harekrsnatv.com/HKTV/HKWebApp/manifest.mpd
@@ -4301,7 +4269,6 @@ Huma Betang TV,https://v3.siar.us/humabetangtv/live/playlist.m3u8
 Humor Mill,https://damkf751d85s1.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/HumorMill-DistroTV/152.m3u8?ads.vf=3I7CXmxz7vK
 Hunan News Channel,http://35848.hlsplay.aodianyun.com/guangdianyun_35848/tv_channel_346.m3u8
 Hunan Politics & Law Channel,http://35848.hlsplay.aodianyun.com/guangdianyun_35848/tv_channel_348.m3u8
-Hunan TV,http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
 Hunan Womens Channel,http://35848.hlsplay.aodianyun.com/guangdianyun_35848/tv_channel_349.m3u8
 Hunat TV,https://59cba4d34b678.streamlock.net/canlitv/hunattv/playlist.m3u8
 Hunedoara 1,https://netstreaming.eu/hd1.m3u8
@@ -4960,6 +4927,7 @@ L1 Max,http://190.93.224.42/LIGA-1-MAX/index.m3u8
 L1 TV,https://d34pj260kw1xmk.cloudfront.net/live/l1/tv/index.m3u8
 L!ke,https://cnl-cl.otteravision.com/cnl/cl_h265/cl_h265.m3u8
 L'altro Corriere TV,https://52ee6512fee4427889eba89957975fa0.msvdn.net/live/S24350460/BEj8ZmQiQ9UG/playlist.m3u8
+L'Equipe,https://dq37unyetkpcz.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-m04j89j7k5gtp/LEquipe_FR.m3u8
 La 1,https://cdn.stmify.com/zapitv/stream/LA_1/la1_4k.mpd
 La 1,https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8
 La 1,https://rtvelivestream.rtve.es/rtvesec/cat/la1_cat_main_dvr.m3u8
@@ -8612,6 +8580,7 @@ Sony Entertainment Television,http://103.151.60.162:2122/play/a015/index.m3u8?hl
 Sony Entertainment Television,http://38.96.178.205/SONYHD/index.m3u8
 Sony KAL Hindi,https://wurlsonypicturestv.global.transmit.live/hls/68deeb1c0238cda82df543dd/v1/spt_sonykal_1/lg_us/latest/main/hls/playlist.m3u8
 Sony Marathi,http://107.167.16.138/sonymarathi/index.m3u8?token=test
+Sony Max 1,http://27.116.22.53:5001/live/3418.m3u8
 Sony Max 2,http://107.167.16.138/sonymax2/index.m3u8?token=test
 Sony Max,http://103.185.24.134:3001/SonyMAX/index.m3u8
 Sony Max,http://dksmedia.tv/play/live.php?mac=00:1A:79:B6:60:3D&stream=156013&extension=ts&play_token=slNi06NyY0
@@ -9008,7 +8977,6 @@ T2 Movies,https://ca-rt.onetv.app/T2Movies/index-0.m3u8?token=onetv202
 T2 TV,https://t2hls.wns.live/hls/stream.m3u8
 T5 Satelital,https://stream.t5satelital.blog/hls/t5satelitalweb.m3u8
 T7,https://gjirafa-video-live.gjirafa.net/gjvideo-livestream-specific/1z8-byc-4ee-lc9/index.m3u8
-T9,https://streaming.softwarecreation.it/tnove/tnove/playlist.m3u8
 T13 En Vivo,https://redirector.dps.live/hls/t13/playlist.m3u8
 T18,https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/t18/t18-dm.m3u8
 T24,http://178.134.1.158:8081/t24/index.m3u8
@@ -9187,7 +9155,7 @@ Telecanal Santa Cruz,https://origin-us.streaminghd.cl/telecanal/telecanal/playli
 Telecaribe,http://138.121.15.230:9002/TELECARIBE/index.m3u8
 Telecaribe Plus,https://liveingesta118.cdnmedia.tv/telecaribetvlive/smil:rtmp02.smil/playlist.m3u8
 TeleCauquenes,https://lbgo.bozztv.com/ssh101/ssh101/telecauquenestv/playlist.m3u8
-Teleceiba,https://teleceiba.com/stream/tlcb720.m3u8
+Teleceiba,http://45.238.141.222:8000/play/a0pf/index.m3u8
 Telecentro,https://live2.telemicro.com.do/live/telecentrocast_1080p/playlist.m3u8
 Telecentro,https://streamtv.intervenhosting.net:3531/live/telecentrovelive.m3u8
 TeleCibao,https://edge.essastream.com/telecibaotv/tracks-v1a1/mono.m3u8
@@ -9583,7 +9551,7 @@ TM TV,https://hls.tmtv.live/hls/stream.m3u8
 TMA,http://hls.tmacaraibes.com/live/index.m3u8
 TMC,http://tv.streambox.fr/live/testlivestream/testlivestream/13.m3u8
 TMC,http://151.80.18.177:86/TMC/index.m3u8
-TMF,https://tmf-nl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-10-restreaming/bitok/eyJzdGlkIjoiMGMzZGFhOGYtYjNhMC00Njk1LThkZTktZWNmNmVmNzRmMzY4IiwibWt0IjoibmwiLCJjaCI6IjEwIiwicHRmIjo1fQ%3D%3D/mpgmedia/TMF/TMF_NL/TMF_NL.m3u8
+TMF,https://raw.githubusercontent.com/racitonsen/RacIPTV/refs/heads/main/streams/TMF.m3u8
 TMT,https://live.teleradiocom.tj/9/3m.m3u8
 TMZ,https://aegis-cloudfront-1.tubi.video/57c1fa3c-566b-4998-b6de-d6de67031d99/index.m3u8
 TN8,https://streamingcws30.com/tn8/videotn8/playlist.m3u8
@@ -9829,6 +9797,7 @@ Turma da Monica,https://jmp2.uk/plu-5f997e44949bc70007a6941e.m3u8
 Turno,https://redirector.dps.live/hls/turno/playlist.m3u8
 TUSO,https://tuso.cdn-01.cosmonova.net.ua/hls/tuso_ua.m3u8
 TUTV,https://livestream.telvue.com/templeuni1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+TV1,https://lnk5511.bstrm.net/live/687e3fa8679c8d4d68fab5dd/hd/manifest.mpd
 TV1,https://live.mana2.my/Tv1/index.m3u8?auth_key=1745177809-03fbff3dfc194161829ff0dbf94a205a-0-c6dcdd3499b8b5488b7de0f6613b8047&token=1745177809-03fbff3dfc194161829ff0dbf94a205a-0-c6dcdd3499b8b5488b7de0f6613b8047
 TV1,https://live.tv1.rw/index.m3u8
 TV1,https://tv1.cloudcdn.bg/temp/livestream.m3u8
@@ -10609,7 +10578,6 @@ Uvagut TV,https://hls.uvagut.tv/hls/uvagut/playlist.m3u8
 UzReport TV,https://stream8.cinerama.uz/1015/tracks-v1a1/playlist.m3u8
 V2BEAT TV,https://abr.de1se01.v2beat.live/playlist.m3u8
 V6 News,https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/v6news_nim_https/140622/v6news/playlist.m3u8
-V90,http://57.128.231.171:8080/228/index.m3u8
 V Classic TV,https://5eaccbab48461.streamlock.net:1936/8112/8112/playlist.m3u8
 V gostyakh u skazki,https://stream8.cinerama.uz/1270/tracks-v1a1/mono.m3u8
 V mire zhivotnykh,http://stream.mcquack.net/241/index.m3u8
@@ -11278,6 +11246,11 @@ MTV Azerbaijan S Y,https://www.youtube.com/@MTVAzerbaijan/live
 1,https://edge55.dc.beltelecom.by/ngtrk/smil:belarus1.smil/playlist.m3u8
 1,https://zonam1.ddns.net/hls/stream1.m3u8
 1,https://live.smotrim.ru/vgtrk/0/russia1-hd/index.m3u8
+2,https://edge55.dc.beltelecom.by/ngtrk/smil:belarus2.smil/playlist.m3u8
+2,http://fta.hugo.mk:1935/live/tvhugo/stream/2.m3u8
+S,https://streaming.televizor-24-tochka.ru/live/19.m3u8
+S,http://ott-cdn.ucom.am/s19/index.m3u8
+S,https://streaming102.interskytech.com/live/618.m3u8
 S,https://player.smotrim.ru/iframe/stream/live_id/63251
 S,https://strm.yandex.ru/kal/utv/utv0.m3u8
 S,http://212.0.211.102:9999/play/a00b/index.m3u8
@@ -11295,9 +11268,6 @@ S,https://streaming102.interskytech.com/live/232.m3u8
 S,https://streaming.televizor-24-tochka.ru/live/12.m3u8
 S,http://ott-cdn.ucom.am/s54/index.m3u8
 S,https://streaming.televizor-24-tochka.ru/live/14.m3u8
-S,https://spas.mediacdn.ru/cdn/spas/playlist.m3u8
-S,http://ott-cdn.ucom.am/s52/04.m3u8
-S,http://ott-cdn.ucom.am/s88/index.m3u8
 5,https://edge55.dc.beltelecom.by/ngtrk/smil:belarus5.smil/playlist.m3u8
 5,https://edge55.dc.beltelecom.by/ngtrk/smil:belarus5int.smil/playlist.m3u8
 1Mus,http://hz1.teleport.cc/HLS/HD.m3u8
