@@ -81,12 +81,10 @@ http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8524/.m3u8
 http://iptv.4666888.xyz/iptv2A.php?id=58
 #EXTINF:-1 group-title="港澳台",福建漳州六鳌翡翠湾
 http://gcalic.v.myalicdn.com/gc/fcw01_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/huya/940213" group-title="港澳台",非凡-迪安
-https://cdn.ttvb.eu.org/huya/940213
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/26351451" group-title="港澳台",东方明珠东方朔
-https://cdn.ttvb.eu.org/bilibili/26351451
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/27404696" group-title="港澳台",凤凰傳奇
+https://cdn.ttvb.eu.org/bilibili/27404696
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/纬来体育.png" group-title="港澳台",纬来体育
-https://epg.pw/stream/8855a9936e37e608a0ec8a014cce1673dee9c5d68d560da376cc92e5edef2b25.m3u8
+https://epg.pw/stream/ab6df63b64d0cc44a1f4f029ed847a26fa54a7aebd455578fb05a63f02c22f4b.m3u8
 #EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/香港卫视.png" group-title="港澳台",香港卫视
 http://zhibo.hkstv.tv:80/livestream/mutfysrq.flv
 #EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/香港卫视.png" group-title="港澳台",香港卫视
@@ -370,6 +368,8 @@ http://zby.lskk.top/cdnlive.php?mode=play&id=d8addab13f0194673777b66628b99461&to
 #EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/东森财经新闻台.png" group-title="港澳台",东森财经新闻台
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV03.m3u8
 #EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/华视.png" group-title="港澳台",华视
+http://mtayeh.ottb.xyz/live/774710333494/659822672281/59155.ts
+#EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/华视.png" group-title="港澳台",华视
 https://7612-5516-affc-d88b.kylintv.tv/live/ctshd_iphone.m3u8
 #EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/华视.png" group-title="港澳台",华视
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV12.m3u8
@@ -378,13 +378,13 @@ http://31.43.191.125:8080/restream/restream/34887
 #EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/华视新闻.png" group-title="港澳台",华视新闻
 http://zby.lskk.top/cdnlive.php?mode=play&id=f33de20f378bbcb4bbd1cc681a50458b&token=wUJLMUpsYJOdEdkpd5OwyC27t69vzy3W
 #EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/纬来体育台.png" group-title="港澳台",纬来体育台
+https://epg.pw/stream/8855a9936e37e608a0ec8a014cce1673dee9c5d68d560da376cc92e5edef2b25.m3u8
+#EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/纬来体育台.png" group-title="港澳台",纬来体育台
 https://epg.pw/stream/4f18dfe0593db5c686eb64ae8edaf2a9202d4d46bdc9bbde2cee27708e12ea01.m3u8
 #EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/纬来体育台.png" group-title="港澳台",纬来体育台
 https://hlsz.yjjcfw.com/live/vl.m3u8?expire=1786948372&sign=2e4a56b89fe644db147552011f972714
 #EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/纬来体育台.png" group-title="港澳台",纬来体育台
 http://zby.lskk.top/cdnlive.php?mode=play&id=727fa47e10abaa40752552235048a554&token=wUJLMUpsYJOdEdkpd5OwyC27t69vzy3W
-#EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/纬来体育台.png" group-title="港澳台",纬来体育台
-https://epg.pw/stream/ab6df63b64d0cc44a1f4f029ed847a26fa54a7aebd455578fb05a63f02c22f4b.m3u8
 #EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/纬来体育台.png" group-title="港澳台",纬来体育台
 http://8.138.7.223/【公众号：榴芒电视】/wlty.m3u8
 #EXTINF:-1 tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/纬来戏剧台.png" group-title="港澳台",纬来戏剧台
@@ -442,7 +442,7 @@ http://101.35.240.114:88/live.php?id=翡翠台
 #EXTINF:-1 group-title="港澳台",翡翠台
 http://iptv.4666888.xyz/iptv2A.php?id=34
 #EXTINF:-1 group-title="港澳台",经典香港电影
-http://hlsztemgsplive.miguvideo.com:8080/wd_r2/virtuallive/5100180869/75/index.m3u8?msisdn=20261019220137b09ec2c9926f46b5bfdbce636fcfb2bd&mdspid=&spid=800033&netType=0&sid=5500242089&pid=2028597139&timestamp=20261019220137&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=625703337&ParentNodeID=-99&assertID=5500242089&client_ip=171.8.79.254&SecurityKey=20261019220137&promotionId=&mvid=5100180869&mcid=500020&playurlVersion=WX-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=40b461255905e785844677a3f68e3301
+http://hlsztemgsplive.miguvideo.com:8080/wd_r2/virtuallive/5100180869/75/index.m3u8?msisdn=20261020180138d754fd05fde043418b6285fbf0739cb8&mdspid=&spid=800033&netType=0&sid=5500242089&pid=2028597139&timestamp=20261020180138&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=625703337&ParentNodeID=-99&assertID=5500242089&client_ip=171.8.79.254&SecurityKey=20261020180138&promotionId=&mvid=5100180869&mcid=500020&playurlVersion=WX-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=fb071191ee3b21bc6b3a22a4cfdf8423
 #EXTINF:-1 group-title="港澳台",TVB千禧经典
 http://iptv.4666888.xyz/iptv2A.php?id=22
 #EXTINF:-1 group-title="港澳台",TVBS新闻
@@ -459,8 +459,6 @@ https://hoytv-live-stream.hoy.tv/ch78/index.m3u8
 http://r.jdshipin.com/sFw4S
 #EXTINF:-1 tvg-logo="https://i.imgur.com/NfVZPTT.png" group-title="港澳台",HOY TV
 https://hoytv-live-stream.hoy.tv/ch77/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/5EYjWK7.png" group-title="港澳台",NOW TV
-https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/u8zXUOg.png" group-title="港澳台",Right Now TV
 https://a-cdn.klowdtv.com/live2/rightnowtv_720p/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/kf818kM.png" group-title="港澳台",RTHK TV 31
@@ -492,7 +490,7 @@ https://live.ottiptv.cc/huya/29982636
 #EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/HOY78.png" group-title="港澳台",HOY78
 http://cdn.163189.xyz/live/hoy/stream.m3u8
 #EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/华丽翡翠台.png" group-title="港澳台",华丽翡翠台
-http://php.jdshipin.com/TVOD/iptv.php?id=huali2
+http://r.jdshipin.com/thuYX
 #EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/明珠台.png" group-title="港澳台",明珠台
 http://php.jdshipin.com/TVOD/iptv.php?id=mzt2
 #EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/翡翠台4K.png" group-title="港澳台",翡翠台(4K)

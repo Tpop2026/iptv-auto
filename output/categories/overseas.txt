@@ -1,120 +1,81 @@
 1xRelax,https://cdn.ttvb.eu.org/bilibili/27536309
-Devouers,https://cdn.ttvb.eu.org/bilibili/23171963
-EdmundDZhang,https://cdn.ttvb.eu.org/bilibili/5050
+694-27,https://cdn.ttvb.eu.org/bilibili/1726550092
 Freddey,https://cdn.ttvb.eu.org/bilibili/735629
 Hunk227,https://cdn.ttvb.eu.org/bilibili/1728619632
-J8-CAT,https://cdn.ttvb.eu.org/bilibili/1576075
-KL_qiqi,https://cdn.ttvb.eu.org/bilibili/407149
-KUZUKO,https://cdn.ttvb.eu.org/bilibili/6171143
-OA-Sunzo,https://cdn.ttvb.eu.org/bilibili/30040584
 OneMicroSpace,https://cdn.ttvb.eu.org/bilibili/390508
-Tsubaki,https://cdn.ttvb.eu.org/bilibili/647540
 UCYU,https://cdn.ttvb.eu.org/bilibili/10265
-ZARD_ETERNAL,https://cdn.ttvb.eu.org/bilibili/25392874
-againwhy,https://cdn.ttvb.eu.org/bilibili/862316
-miri,https://cdn.ttvb.eu.org/bilibili/412
 rainasleep,https://cdn.ttvb.eu.org/bilibili/25559603
-Unknown,https://cdn.ttvb.eu.org/soop/myby1221
-Unknown,https://cdn.ttvb.eu.org/soop/kyoonah1217
-Unknown,https://cdn.ttvb.eu.org/soop/dign1461
-Unknown,https://cdn.ttvb.eu.org/soop/haming02
-Unknown,https://cdn.ttvb.eu.org/soop/fall0715
-Unknown,https://cdn.ttvb.eu.org/soop/coppag
-Unknown,https://cdn.ttvb.eu.org/soop/eun7888
-Unknown,https://cdn.ttvb.eu.org/soop/daum0319
-Unknown,https://cdn.ttvb.eu.org/soop/krkdrudwn77
-Unknown,https://cdn.ttvb.eu.org/soop/1004ysus
-Unknown,https://cdn.ttvb.eu.org/soop/smmms2002
-Unknown,https://cdn.ttvb.eu.org/soop/hanny27
-Unknown,https://cdn.ttvb.eu.org/soop/wk3220
-Unknown,https://cdn.ttvb.eu.org/soop/son4069
-Unknown,https://cdn.ttvb.eu.org/soop/dbsek28
-Unknown,https://cdn.ttvb.eu.org/soop/babyrimi
-Unknown,https://cdn.ttvb.eu.org/soop/dpfl646
-Unknown,https://cdn.ttvb.eu.org/soop/pudding0614
-Unknown,https://cdn.ttvb.eu.org/soop/flowerbud1
-Unknown,https://cdn.ttvb.eu.org/soop/hancoma
-700,https://cdn.ttvb.eu.org/douyin/MCS361643051
-MD1999,https://cdn.ttvb.eu.org/douyin/37029384065
-Mahone13,https://cdn.ttvb.eu.org/douyin/973026190437
+Unknown,https://cdn.ttvb.eu.org/bilibili/22863790
+Unknown,https://cdn.ttvb.eu.org/soop/chzh1chzh
+Unknown,https://cdn.ttvb.eu.org/soop/itsme1922
+Unknown,https://cdn.ttvb.eu.org/soop/suezzang25
+Unknown,https://cdn.ttvb.eu.org/soop/daphnerin
+Unknown,https://cdn.ttvb.eu.org/soop/03apple
+Unknown,https://cdn.ttvb.eu.org/soop/inhye0416
+Unknown,https://cdn.ttvb.eu.org/soop/jyurim99
+Unknown,https://cdn.ttvb.eu.org/soop/9hari8
+Unknown,https://cdn.ttvb.eu.org/soop/moonwol0614
+Unknown,https://cdn.ttvb.eu.org/soop/nj8893
+Unknown,https://cdn.ttvb.eu.org/soop/soclato
+Unknown,https://cdn.ttvb.eu.org/soop/tildaaa
+Unknown,https://cdn.ttvb.eu.org/soop/juhyoung04
+Unknown,https://cdn.ttvb.eu.org/soop/km5430678
+Unknown,https://cdn.ttvb.eu.org/soop/sanaekcy
+Unknown,https://cdn.ttvb.eu.org/soop/seungju6544
+Unknown,https://cdn.ttvb.eu.org/soop/ssssummer
+Unknown,https://cdn.ttvb.eu.org/soop/tkxkd9187
+Unknown,https://cdn.ttvb.eu.org/soop/eunz1nara
+0387,https://cdn.ttvb.eu.org/douyin/Aa0387
 M,https://cdn.ttvb.eu.org/douyin/30727769100
-ice star,https://cdn.ttvb.eu.org/douyin/49770074750
-LR1245,https://cdn.ttvb.eu.org/douyu/12534632
-OrangebabyOAO,https://cdn.ttvb.eu.org/douyu/34411
+Nani,https://cdn.ttvb.eu.org/douyin/lina17
+yuan,https://cdn.ttvb.eu.org/douyin/20377502
+PUBG】Cc,https://cdn.ttvb.eu.org/douyin/757430167196
+ICEKING,https://cdn.ttvb.eu.org/douyu/3567521
 Cc,https://cdn.ttvb.eu.org/huya/11601966
 HelloKitty,https://cdn.ttvb.eu.org/huya/11352879
 Ning,https://cdn.ttvb.eu.org/huya/980312
-cxy0714,https://cdn.ttvb.eu.org/huya/770714
+XuanXuanPi【XXP,https://cdn.ttvb.eu.org/huya/317946
 GO,https://cdn.ttvb.eu.org/soop/oktube
-D,https://cdn.ttvb.eu.org/soop/mappp4
 p,https://cdn.ttvb.eu.org/soop/joahe2
+JYEON,https://cdn.ttvb.eu.org/soop/dlswldus107
 AI_Modeler,https://cdn.ttvb.eu.org/twitch/ai_modeler
 ASMR_Arale,https://cdn.ttvb.eu.org/twitch/asmr_arale
 ColawayTV,https://cdn.ttvb.eu.org/twitch/colawaytv
+Jinnytty,https://cdn.ttvb.eu.org/twitch/jinnytty
 KBJDanceTV,https://cdn.ttvb.eu.org/twitch/kbjdancetv
 Mellooow,https://cdn.ttvb.eu.org/twitch/Mellooow_
 NonStopFashion,https://cdn.ttvb.eu.org/twitch/nonstopfashion
 QBunnyTV,https://cdn.ttvb.eu.org/twitch/QBunnyTV
+Zumi,https://cdn.ttvb.eu.org/twitch/zumi
+dancetempt,https://cdn.ttvb.eu.org/twitch/dancetempt
+emi_mge7,https://cdn.ttvb.eu.org/twitch/emi_mge7
 koreandancers,https://cdn.ttvb.eu.org/twitch/koreandancers
 lilianasana,https://cdn.ttvb.eu.org/twitch/lilianasana
 mira,https://cdn.ttvb.eu.org/twitch/mira
 mirayogax,https://cdn.ttvb.eu.org/twitch/mirayogax
 sickemoangel24,https://cdn.ttvb.eu.org/twitch/sickemoangel24
 soywini,https://cdn.ttvb.eu.org/twitch/soywini_
-spicyuuu,https://cdn.ttvb.eu.org/twitch/spicyuuu
 Kyo_ow,https://cdn.ttvb.eu.org/bilibili/7395955
 MCG_12Tap,https://cdn.ttvb.eu.org/bilibili/23225863
-NinjaJam,https://cdn.ttvb.eu.org/bilibili/4472878
+OA-Guxue8,https://cdn.ttvb.eu.org/bilibili/4792266
+OA-LEAVE7,https://cdn.ttvb.eu.org/bilibili/31294374
+OneMoreChanceTXM,https://cdn.ttvb.eu.org/bilibili/1615371
 9niub,https://cdn.ttvb.eu.org/douyin/9niub
-APEX-QQ,https://cdn.ttvb.eu.org/douyin/21306770991
-CS2⚡AI,https://cdn.ttvb.eu.org/douyin/AI_01927
 NN47,https://cdn.ttvb.eu.org/douyin/NN4747
-jjking,https://cdn.ttvb.eu.org/douyin/57894179290
-silent,https://cdn.ttvb.eu.org/douyin/stay0712.
+T9,https://cdn.ttvb.eu.org/douyin/FYL99618
+T9,https://streaming.softwarecreation.it/tnove/tnove/playlist.m3u8
+TEC B1ackovo,https://cdn.ttvb.eu.org/douyin/34250469322
 vx30,https://cdn.ttvb.eu.org/douyin/543221183540
-Evelinas,https://cdn.ttvb.eu.org/douyu/10197652
-MrGemini,https://cdn.ttvb.eu.org/douyu/36252
-Nostalie,https://cdn.ttvb.eu.org/douyu/142488
-lqscrisp,https://cdn.ttvb.eu.org/douyu/2739447
-pigff,https://cdn.ttvb.eu.org/douyu/24422
-scboy,https://cdn.ttvb.eu.org/douyu/3484
-wtybill,https://cdn.ttvb.eu.org/douyu/57321
-yyfyyf,https://cdn.ttvb.eu.org/douyu/9999
-zard1991,https://cdn.ttvb.eu.org/douyu/60937
-Yumiko0414,https://cdn.ttvb.eu.org/huya/829922
-kRYST4L,https://cdn.ttvb.eu.org/huya/222523
-loveyouq,https://cdn.ttvb.eu.org/huya/148651
-JD,https://cdn.ttvb.eu.org/soop/jaedong23
-Dendi,https://cdn.ttvb.eu.org/twitch/dendi
-ESLCS,https://cdn.ttvb.eu.org/twitch/ESLCS
-GingiTV,https://cdn.ttvb.eu.org/twitch/gingitv
-MissMikkaa,https://cdn.ttvb.eu.org/twitch/missmikkaa
-QuickyBaby,https://cdn.ttvb.eu.org/twitch/quickybaby
-RachtaZ,https://cdn.ttvb.eu.org/twitch/RachtaZ
-ToadAmarillo,https://cdn.ttvb.eu.org/twitch/ToadAmarillo
-LofiGirl,https://cdn.ttvb.eu.org/bilibili/27519423
-YUAN1121,https://cdn.ttvb.eu.org/douyin/29796443468
-ADanaLife,https://cdn.ttvb.eu.org/twitch/adanalife_
-HeartlandTruckingUSA,https://cdn.ttvb.eu.org/twitch/heartlandtruckingusa
-RawReporting,https://cdn.ttvb.eu.org/twitch/rawreporting
-ShoutTV,https://cdn.ttvb.eu.org/twitch/shouttv
-TexasNewsStudioTV,https://cdn.ttvb.eu.org/twitch/texasnewsstudiotv
-TheAsylumMovies,https://cdn.ttvb.eu.org/twitch/theasylummovies
-TheRealElvira,https://cdn.ttvb.eu.org/twitch/therealelvira
-TheUpperLeft,https://cdn.ttvb.eu.org/twitch/theupperleft
-TheWindowSeat,https://cdn.ttvb.eu.org/twitch/TheWindowSeat
-TopMedia_TopNews,https://cdn.ttvb.eu.org/twitch/topmedia_topnews
-airportambiance,https://cdn.ttvb.eu.org/twitch/airportambiance
-issaboveyou,https://cdn.ttvb.eu.org/twitch/issaboveyou
-keepmunseeweird,https://cdn.ttvb.eu.org/twitch/keepmunseeweird
-20261019 06:01,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8
+20261020 07:12,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8
+CETV1,http://38.75.136.137:98/gslb/dsdqpub/cetv1hd.m3u8?auth=testpub
+CETV1,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cetv1hd
+CETV1,http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cetv1/50/20240709/index.m3u8?msisdn=202610200603101d1d56f6b6c942249a27e3887e5b8d4f&mdspid=&spid=699004&netType=0&sid=5910022150&pid=2028597139&timestamp=20261020060310&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287154&ParentNodeID=-99&assertID=5910022150&client_ip=171.8.79.254&SecurityKey=20261020060310&promotionId=&mvid=5900006636&mcid=500020&playurlVersion=WX-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=db1eee3827304b3838c5e5d3ab6a8aca
+CETV1,http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cetv1/50/20240709/index.m3u8?msisdn=20261019060311f4673e662db44ca895a34c1882d8a188&mdspid=&spid=699004&netType=0&sid=5910022150&pid=2028597139&timestamp=20261019060311&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287154&ParentNodeID=-99&assertID=5910022150&client_ip=171.8.79.254&SecurityKey=20261019060311&promotionId=&mvid=5900006636&mcid=500020&playurlVersion=WX-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=9a92ca7c7dda0e2e8fac83b18ecebf9f
+CETV1,http://gslbmgsplive.miguvideo.com/migu/kailu/cetv1/50/20240709/index.m3u8?msisdn=202610190842176dafc23e1cff4a98b7c833a92e29e985&mdspid=&spid=699004&netType=0&sid=5910022150&pid=2028597139&timestamp=20261019084217&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287154&ParentNodeID=-99&assertID=5910022150&client_ip=2409:8a00:6030:1e81:5773:d8bc:96ed:2dd2&SecurityKey=20261019084217&promotionId=&mvid=5900006636&mcid=500020&playurlVersion=WX-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=e423029c7c2feaea2f762b4883e422de&ddCalcu=eed4e221233400e2398c874cb22f6e7afe2a
+CETV1,http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cetv1/50/20240709/index.m3u8?msisdn=2026102018030936ed7988fedd4cdc9a9c39becd0f6d10&mdspid=&spid=699004&netType=0&sid=5910022150&pid=2028597139&timestamp=20261020180309&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287154&ParentNodeID=-99&assertID=5910022150&client_ip=171.8.79.254&SecurityKey=20261020180309&promotionId=&mvid=5900006636&mcid=500020&playurlVersion=WX-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=baa8888edcb294196791056c285b3e15
 CETV1,http://183.11.239.36:808/hls/122/index.m3u8
 CETV1,http://120.76.248.139/live/bfgd/4200000135.m3u8
-CETV1,http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cetv1/50/20240709/index.m3u8?msisdn=20261019020310db70eeb60ff44121bc435b2a5d2d6311&mdspid=&spid=699004&netType=0&sid=5910022150&pid=2028597139&timestamp=20261019020310&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287154&ParentNodeID=-99&assertID=5910022150&client_ip=171.8.79.254&SecurityKey=20261019020310&promotionId=&mvid=5900006636&mcid=500020&playurlVersion=WX-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=f20a0453cf400347a5a2143d9c853f24
 CETV1,http://45.192.97.170:8880/play/133.m3u8
-CETV1,http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cetv1/50/20240709/index.m3u8?msisdn=20261018060308ce83b5cb1d0e4f5fb3157c9763c4650f&mdspid=&spid=699004&netType=0&sid=5910022150&pid=2028597139&timestamp=20261018060308&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287154&ParentNodeID=-99&assertID=5910022150&client_ip=171.8.79.254&SecurityKey=20261018060308&promotionId=&mvid=5900006636&mcid=500020&playurlVersion=WX-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=a06e7b3e268f682eeca69e89916db8be
-CETV1,http://gslbmgsplive.miguvideo.com/migu/kailu/cetv1/50/20240709/index.m3u8?msisdn=2026101808421621ab0a893384407aa9d9a10f96007ca8&mdspid=&spid=699004&netType=0&sid=5910022150&pid=2028597139&timestamp=20261018084216&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287154&ParentNodeID=-99&assertID=5910022150&client_ip=2409:8a00:6030:1e81:5b22:d1c9:c67f:6a10&SecurityKey=20261018084216&promotionId=&mvid=5900006636&mcid=500020&playurlVersion=WX-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=e868b390d23df1a9badf02d075cf739f&ddCalcu=fe98e361783fb0c359700dd2230dffd1aab9
-CETV1,http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cetv1/50/20240709/index.m3u8?msisdn=20261019220309ffbab2d180a6420d8beb8932ec2f8931&mdspid=&spid=699004&netType=0&sid=5910022150&pid=2028597139&timestamp=20261019220309&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287154&ParentNodeID=-99&assertID=5910022150&client_ip=171.8.79.254&SecurityKey=20261019220309&promotionId=&mvid=5900006636&mcid=500020&playurlVersion=WX-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=b40ebaf10b20cdb0c862d3d53ce8831d
 CETV1,http://111.31.22.5/cache.ott.fifalive.itv.cmvideo.cn/000000001000//1.m3u8?channel-id=bestzb&Contentid=5000000002000002652&livemode=1&stbId=3
 CETV1,http://markk.top:35455/itv/5000000002000002652.m3u8?cdn=ystenlive
 CETV1,http://117.161.12.124/live/program/live/zgjy1t8m/8000000/mnf.m3u8
@@ -126,12 +87,10 @@ CETV1,http://kkk.888.3116598.xyz/api.php?n=tttt&id=D3LTjJ&tk=FgM0vQMejxvG
 CETV1,http://kkk.888.3116598.xyz/api.php?n=tttt&id=fL0XJF&tk=FgM0vQMejxvG
 CETV1,http://192.168.123.1:23234/rtp/239.3.1.57:8152
 CETV1,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225652/index.m3u8
-CETV1,http://player.cntv.cn/standard/live_HLSDRM20180524.swf?ChannelID=cetv1&videoTVChannel=cetv1&P2PChannelID=pd://cctv_p2p_hdcetv1&tai=cetv1&VideoName=cetv1&channelID=cetv1
-CETV1,http://198.204.228.26/live/cetv1hd.m3u8
-CETV2,http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cetv2/50/20240709/index.m3u8?msisdn=20261019020310f28faedd028d49b39e62776e22708308&mdspid=&spid=699004&netType=0&sid=5910022152&pid=2028597139&timestamp=20261019020310&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287211&ParentNodeID=-99&assertID=5910022152&client_ip=171.8.79.254&SecurityKey=20261019020310&promotionId=&mvid=5900006638&mcid=500020&playurlVersion=WX-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=8930aef4df97ba63d74e990d82d3af91
-CETV2,http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cetv2/50/20240709/index.m3u8?msisdn=20261018060308958d02c7efb24cfabeccea0c4fd96736&mdspid=&spid=699004&netType=0&sid=5910022152&pid=2028597139&timestamp=20261018060308&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287211&ParentNodeID=-99&assertID=5910022152&client_ip=171.8.79.254&SecurityKey=20261018060308&promotionId=&mvid=5900006638&mcid=500020&playurlVersion=WX-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=503fbe32a7e5a79fd1475472c0fe7391
-CETV2,http://gslbmgsplive.miguvideo.com/migu/kailu/cetv2/50/20240709/index.m3u8?msisdn=20261018084217468a271e8fcf4dddbd0166cda96a3d2e&mdspid=&spid=699004&netType=0&sid=5910022152&pid=2028597139&timestamp=20261018084217&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287211&ParentNodeID=-99&assertID=5910022152&client_ip=2409:8a00:6030:1e81:5b22:d1c9:c67f:6a10&SecurityKey=20261018084217&promotionId=&mvid=5900006638&mcid=500020&playurlVersion=WX-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=06f606058115280181c7b89ebe827365&ddCalcu=5066e3f176320086e0b5e89181b572c81081
-CETV2,http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cetv2/50/20240709/index.m3u8?msisdn=20261019220309d83694df2e2847c8b91550ce9174339c&mdspid=&spid=699004&netType=0&sid=5910022152&pid=2028597139&timestamp=20261019220309&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287211&ParentNodeID=-99&assertID=5910022152&client_ip=171.8.79.254&SecurityKey=20261019220309&promotionId=&mvid=5900006638&mcid=500020&playurlVersion=WX-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=faac67548afdd354330b7df12c459d91
+CETV2,http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cetv2/50/20240709/index.m3u8?msisdn=202610200603107b589f9b076840fabb3a4d28531aff8c&mdspid=&spid=699004&netType=0&sid=5910022152&pid=2028597139&timestamp=20261020060310&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287211&ParentNodeID=-99&assertID=5910022152&client_ip=171.8.79.254&SecurityKey=20261020060310&promotionId=&mvid=5900006638&mcid=500020&playurlVersion=WX-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=56e0337637666f152f250297673aae42
+CETV2,http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cetv2/50/20240709/index.m3u8?msisdn=20261019060311ce1243e83ee6432f814adca39d85a0bd&mdspid=&spid=699004&netType=0&sid=5910022152&pid=2028597139&timestamp=20261019060311&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287211&ParentNodeID=-99&assertID=5910022152&client_ip=171.8.79.254&SecurityKey=20261019060311&promotionId=&mvid=5900006638&mcid=500020&playurlVersion=WX-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=67d757c9823fd53c9f4b730b2672e1fb
+CETV2,http://gslbmgsplive.miguvideo.com/migu/kailu/cetv2/50/20240709/index.m3u8?msisdn=20261019084218b313e6f00ed04b2392adccdd55c010c5&mdspid=&spid=699004&netType=0&sid=5910022152&pid=2028597139&timestamp=20261019084218&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287211&ParentNodeID=-99&assertID=5910022152&client_ip=2409:8a00:6030:1e81:5773:d8bc:96ed:2dd2&SecurityKey=20261019084218&promotionId=&mvid=5900006638&mcid=500020&playurlVersion=WX-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=c394fc8c73d219229ce84c084ed8899d&ddCalcu=dc93e9918438f0dce84c8703cd4281e9c292
+CETV2,http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cetv2/50/20240709/index.m3u8?msisdn=202610201803099dd9172d9a294ac09da86c49ee8e9870&mdspid=&spid=699004&netType=0&sid=5910022152&pid=2028597139&timestamp=20261020180309&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287211&ParentNodeID=-99&assertID=5910022152&client_ip=171.8.79.254&SecurityKey=20261020180309&promotionId=&mvid=5900006638&mcid=500020&playurlVersion=WX-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=7066f2464062c63ecc4c82237d220d31
 CETV2,https://vip.taoiptv.cn/source/jsyd.php?id=G_CETV-2.m3u8&sign=mzxn4l
 CETV2,http://221.221.153.193:8888/rtp/239.3.1.54:4120
 CETV2,http://1.82.144.44:4022/rtp/239.109.205.48:8320
@@ -144,10 +103,10 @@ CETV2,http://player.cntv.cn/standard/live_HLSDRM20180524.swf?ChannelID=cetv2&vid
 CETV3,https://vip.taoiptv.cn/source/jsyd.php?id=G_CETV-3.m3u8&sign=mzxn4l
 CETV3,http://221.221.153.193:8888/rtp/239.3.1.55:4120
 CETV3,http://kkk.888.3116598.xyz/api.php?n=tttt&id=s067jF&tk=FgM0vQMejxvG
-CETV4,http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cetv4/50/20240709/index.m3u8?msisdn=20261019020310d7d4b2d7e114436e8593e41ce3843591&mdspid=&spid=699004&netType=0&sid=5910022154&pid=2028597139&timestamp=20261019020310&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287339&ParentNodeID=-99&assertID=5910022154&client_ip=171.8.79.254&SecurityKey=20261019020310&promotionId=&mvid=5900006640&mcid=500020&playurlVersion=WX-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=23b8bfa710e6cdc29523ff212d38e67a
-CETV4,http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cetv4/50/20240709/index.m3u8?msisdn=20261018060308313411f4ec6349c8aeb6ece7b563dce6&mdspid=&spid=699004&netType=0&sid=5910022154&pid=2028597139&timestamp=20261018060308&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287339&ParentNodeID=-99&assertID=5910022154&client_ip=171.8.79.254&SecurityKey=20261018060308&promotionId=&mvid=5900006640&mcid=500020&playurlVersion=WX-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=263c5ddf75f3203eff1df33da5e24ad5
-CETV4,http://gslbmgsplive.miguvideo.com/migu/kailu/cetv4/50/20240709/index.m3u8?msisdn=20261018084217361b730abed44e5684b1bf847579938a&mdspid=&spid=699004&netType=0&sid=5910022154&pid=2028597139&timestamp=20261018084217&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287339&ParentNodeID=-99&assertID=5910022154&client_ip=2409:8a00:6030:1e81:5b22:d1c9:c67f:6a10&SecurityKey=20261018084217&promotionId=&mvid=5900006640&mcid=500020&playurlVersion=WX-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=7e07482bd96b804d95db2cdfeacfccee&ddCalcu=e7eeec01c73f40c8a2ebfdd9c62bb8d0549d
-CETV4,http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cetv4/50/20240709/index.m3u8?msisdn=202610192203099fa9e9bcba07493eb6a531d369353e09&mdspid=&spid=699004&netType=0&sid=5910022154&pid=2028597139&timestamp=20261019220309&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287339&ParentNodeID=-99&assertID=5910022154&client_ip=171.8.79.254&SecurityKey=20261019220309&promotionId=&mvid=5900006640&mcid=500020&playurlVersion=WX-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=3b9639f579cfa6cc29de5e64dc8b2b27
+CETV4,http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cetv4/50/20240709/index.m3u8?msisdn=20261020060310eac71ad27cd644b8bc5592f1a7104f84&mdspid=&spid=699004&netType=0&sid=5910022154&pid=2028597139&timestamp=20261020060310&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287339&ParentNodeID=-99&assertID=5910022154&client_ip=171.8.79.254&SecurityKey=20261020060310&promotionId=&mvid=5900006640&mcid=500020&playurlVersion=WX-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=bb6d7ebcdb7c3cfd2ed08ae299d16fd7
+CETV4,http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cetv4/50/20240709/index.m3u8?msisdn=202610190603119191fcb017114c278723427680ea543e&mdspid=&spid=699004&netType=0&sid=5910022154&pid=2028597139&timestamp=20261019060311&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287339&ParentNodeID=-99&assertID=5910022154&client_ip=171.8.79.254&SecurityKey=20261019060311&promotionId=&mvid=5900006640&mcid=500020&playurlVersion=WX-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=e11ae1dcbd6ac122b324cfc8a17725e5
+CETV4,http://gslbmgsplive.miguvideo.com/migu/kailu/cetv4/50/20240709/index.m3u8?msisdn=20261019084219f7a67109312e4ef48d5635032e5a1d99&mdspid=&spid=699004&netType=0&sid=5910022154&pid=2028597139&timestamp=20261019084219&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287339&ParentNodeID=-99&assertID=5910022154&client_ip=2409:8a00:6030:1e81:5773:d8bc:96ed:2dd2&SecurityKey=20261019084219&promotionId=&mvid=5900006640&mcid=500020&playurlVersion=WX-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=49924eef7d160cb0102dc25406c9b725&ddCalcu=5429e791b23940ce6e0f475d21c6d02c0b10
+CETV4,http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cetv4/50/20240709/index.m3u8?msisdn=202610201803099cfe72ae70f846d28e43bbce086576fb&mdspid=&spid=699004&netType=0&sid=5910022154&pid=2028597139&timestamp=20261020180309&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287339&ParentNodeID=-99&assertID=5910022154&client_ip=171.8.79.254&SecurityKey=20261020180309&promotionId=&mvid=5900006640&mcid=500020&playurlVersion=WX-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=f59e396470ed1ccf2aba297a59e0b51f
 CETV4,https://vip.taoiptv.cn/source/itv.php?id=中国教育电视台4.m3u8&sign=mzxn4l
 CETV4,http://111.31.22.5/cache.ott.fifalive.itv.cmvideo.cn/000000001000//1.m3u8?channel-id=bestzb&Contentid=5000000011000031126&livemode=1&stbId=3
 CETV4,http://markk.top:35455/itv/5000000011000031126.m3u8?cdn=ystenliveCCTV兵器科技
@@ -270,6 +229,12 @@ urd(4K),https://4kuhls.persiana.live/hls/stream.m3u8
 7th Heaven,https://jmp2.uk/plu-6728cab6e482950008b76d8c.m3u8
 7th Heaven DK,https://jmp2.uk/plu-6728c9c85534bb0008b320a4.m3u8
 7th Heaven NO,https://jmp2.uk/plu-6728ca75529ac9000830ab14.m3u8
+7TV,https://especial7tv.gestec-video.com/hls/regional.m3u8
+7TV Cordoba,https://streaming004.gestec-video.com/hls/7TVCORDOBA.m3u8
+7TV Jaen,https://streaming004.gestec-video.com/hls/7TVJAEN.m3u8
+7TV Jerez,https://streaming004.gestec-video.com/hls/7TVJEREZ.m3u8
+7TV Malaga,https://streaming004.gestec-video.com/hls/7TVMALAGA.m3u8
+7TV Sevilla,https://especial7tv.gestec-video.com/hls/7TVSEVILLA.m3u8
 7.TV,https://stream.y5.hu/stream/stream_bekescsaba/stream.m3u8
 8 La Marina TV,https://streaming005.gestec-video.com/hls/canal24.m3u8
 8NTV,https://60417ddeaf0d9.streamlock.net/ntv/videontv/playlist.m3u8
@@ -377,17 +342,7 @@ urd(4K),https://4kuhls.persiana.live/hls/stream.m3u8
 1001 Noites,https://cdn.jmvstream.com/w/LVW-8155/ngrp:LVW8155_41E1ciuCvO_all/playlist.m3u8
 2900 Happiness,https://jmp2.uk/plu-6720bc6cdaad7f000872a6e2.m3u8
 90210,https://jmp2.uk/plu-65a67dd13af63d0008257f17.m3u8
-OPA,https://5f1af61612fb5.streamlock.net/genteopa/videogenteopa_720p/playlist.m3u8
-TV International,https://amg01117-amg01117c1-amgplt0029.playout.now3.amagi.tv/playlist/amg01117-amg01117c1-amgplt0029/playlist.m3u8
-MaisUm,https://stream.ichibansys.com:3230/hybrid/play.m3u8
-TV,http://103.151.60.162:2122/play/a020/index.m3u8?hls
-TV,http://202.70.146.135:8000/play/a06c/index.m3u8
-TV,https://stream.plustv.by/plustv-web/plustv/playlist.m3u8
-TV,https://cdn15.live-tv.cloud/ua_infinitas_tv/pixel-abr/playlist.m3u8
-black,http://stream.mcquack.net/263/index.m3u8
-red,http://5.188.159.128:8070/RED/index.m3u8
-red,http://178.134.1.158:8081/red/index.m3u8
-sci-fi,http://stream.mcquack.net/180/index.m3u8
+TV International,https://3f56f997.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9BbmRUVl9ITFM/playlist.m3u8
 24,http://88.212.15.17/live/test_trojka_25p/playlist.m3u8
 24,https://edge55.dc.beltelecom.by/ngtrk/smil:belarus24.smil/playlist.m3u8
 24,https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia24-hd/1080p.m3u8
@@ -403,8 +358,18 @@ sci-fi,http://stream.mcquack.net/180/index.m3u8
 24,https://tvtogliatti24.ru/hls/live1080/index.m3u8
 24,https://live-saha.cdnvideo.ru/saha2/yak24rtmp_live.smil/playlist.m3u8
 24,https://ext.cdn.nashnet.tv/228.0.0.15/index.m3u8
+OPA,https://5f1af61612fb5.streamlock.net/genteopa/videogenteopa_720p/playlist.m3u8
 Viva Latino,http://stream.mcquack.net/285/index.m3u8
+TV,http://103.151.60.162:2122/play/a020/index.m3u8?hls
+TV,http://202.70.146.135:8000/play/a06c/index.m3u8
+TV,https://stream.plustv.by/plustv-web/plustv/playlist.m3u8
+TV,https://cdn15.live-tv.cloud/ua_infinitas_tv/pixel-abr/playlist.m3u8
 xplor,http://dksmedia.tv/play/live.php?mac=00:1A:79:B6:60:3D&stream=209743&extension=ts&play_token=mR7FwO88sY
+MaisUm,https://stream.ichibansys.com:3230/hybrid/play.m3u8
+black,http://stream.mcquack.net/263/index.m3u8
+red,http://5.188.159.128:8070/RED/index.m3u8
+red,http://178.134.1.158:8081/red/index.m3u8
+sci-fi,http://stream.mcquack.net/180/index.m3u8
 A1,http://31.148.48.15/A1/index.m3u8
 A1 TV,https://stream.a1mediagroep.nl/hls/a1tv.m3u8
 A2,http://31.148.48.15/A2/index.m3u8
@@ -1599,7 +1564,6 @@ Boligkjop i blinde,https://jmp2.uk/plu-63c6a1c46d126a000760b91c.m3u8
 Boligkob i blinde,https://jmp2.uk/plu-63c6a27a4faf1c0007b48f7b.m3u8
 Bolivia TV,http://190.181.61.93:8000/play/a001/index.m3u8
 Bolivision,http://15.204.246.24:8080/BolivisionHD/index.m3u8
-Bolivision Santa Cruz,https://d1mws3umreue1g.cloudfront.net/index.m3u8
 Bollygold,https://jmp2.uk/stvp-IN4000600Q
 Bollywood,http://176.118.197.101/Bollywood_HD/index.m3u8
 Bollywood Classic Romania,http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-bollywood-classic/live_hq?offsetSeconds=0
@@ -1847,9 +1811,9 @@ Canal 9 La Union,http://45.167.2.101:8000/play/a0r5/index.m3u8
 Canal 9 Link,https://617c5175c970b.streamlock.net:4444/9linklivert/smil:9linkmultibr.smil/playlist.m3u8
 Canal 9 Litoral,https://stream.arcast.live/ahora/ahora/playlist.m3u8
 Canal 9 Resistencia,http://coninfo.net:1935/9linklivert/smil:9linkmultibr.smil/playlist.m3u8
+Canal 10,https://ddycmnicl95kp.cloudfront.net/live/ja5k3h31wv9r/master.m3u8
 Canal 10,https://acceso.mediosdecostarica.com:3606/hybrid/play.m3u8
 Canal 10,https://5ca3e84a76d30.streamlock.net/tves/videotves/playlist.m3u8
-Canal 10,https://www.canal10.com.ni/envivo
 Canal 10 Cancun,http://stream2.dynalias.com:1935/live/tvlive1/playlist.m3u8
 Canal 10 Cordoba,https://stream.arcast.net:4443/canal10/ngrp:canal10_all/playlist.m3u8
 Canal 10 Durango,https://5e50264bd6766.streamlock.net/canal10durango/videocanal10durango/playlist.m3u8
@@ -2540,7 +2504,6 @@ Colors Bangla,http://103.165.93.31:8095/colorsBangla/index.m3u8
 Colors Bangla Cinema,http://103.151.60.162:2122/play/a02m/index.m3u8?hls
 Colors Cineplex,http://103.151.60.162:2122/play/a02s/index.m3u8?hls
 Colors Cineplex,https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/gb/YuppTV/ColorsCineplexUK.m3u8
-Colors Cineplex Bollywood,http://dksmedia.tv/play/live.php?mac=00:1A:79:B6:60:3D&stream=946375&extension=ts&play_token=5n2Zexr7WT
 Colors Gujarati,https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/ColorsGujarati.m3u8
 Colors Infinity,http://103.151.60.162:2122/play/a02r/index.m3u8?hls
 Colors Kannada,https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorskannadahd1.smil/playlist.m3u8
@@ -2957,6 +2920,7 @@ Discovery Kids Latin America Brazil,http://15.204.246.24:8080/DiscoveryKidsHD/in
 Discovery Kids Latin America Chile,http://38.224.231.176:8000/play/a01j/index.m3u8
 Discovery Kids Latin America Colombia,http://38.134.250.110:8000/play/a003/index.m3u8
 Discovery Kids Latin America Mexico,http://38.65.175.84:8000/play/a0an/index.m3u8
+Discovery Life,http://57.128.231.171:8080/280/index.m3u8
 Discovery Science,https://drk6xq0vhn.gpcdn.net/live/discovery_science_abr/index.m3u8
 Discovery Science Europe Poland,http://57.128.231.171:8080/279/index.m3u8
 Discovery Science Latin America,http://45.171.64.30:6060/play/a007/index.m3u8
@@ -2997,7 +2961,6 @@ Disney Junior,http://57.128.231.171:8080/277/index.m3u8
 Disney Junior,http://tvsen5.aynascope.net/disney/index.m3u8
 Disney Junior,https://atlantida1.aquax1.cfd/disjr/usergendxvoq4rnd.m3u8
 Disney XD,http://185.227.34.179:8080/disney-xd/index.m3u8
-Disney XD,http://23.237.104.106:8080/USA_DISNEY_XD/index.m3u8
 District of Columbia Network,https://video.oct.dc.gov/out/u/DCN.m3u8
 Distrito Comedia,http://181.119.66.28:8081/DISTRITO-COMEDIA/index.m3u8
 Distrito TV,https://nlb2-live.emitstream.com/hls/3mn7wpcv7hbmxmdzaxap/master.m3u8
@@ -3106,6 +3069,7 @@ DTV Maashorst,https://rrr.sz.xlcdn.com/?account=dtvmaasland&file=dtv3&output=pla
 DTV Oss & Bernheze,https://rrr.sz.xlcdn.com/?account=dtvmaasland&file=dtv1&output=playlist.m3u8&protocol=https&service=wowza&type=live
 DTV-8,https://watch.davestv8.com/hls/stream.m3u8
 dTVi,https://e.siar.us/live/dtvi.m3u8
+DTX,http://57.128.231.171:8080/274/index.m3u8
 Dubai TV International,http://185.9.2.18/chid_139/index.m3u8
 Duck Dynasty,https://amg00276-amg00276c2-rakuten-uk-3449.playouts.now.amagi.tv/playlist.m3u8
 Duck Hunting TV,https://main.duckhunting.playout.vju.tv/duckhuntingtv/main.m3u8
@@ -3171,6 +3135,7 @@ EBC Financial News,http://seb.sason.top/sc/dscjxw_fhd.m3u8
 EBC General Education,https://iptv.ebc.edu.kh/iptv/channel/1.m3u8
 EBC News,http://seb.sason.top/sc/dsxw_fhd.m3u8
 Ebenezer TV,https://5e85d90130e77.streamlock.net/6010/ngrp:6010_all/playlist.m3u8
+EBN Television WIDP,https://627bb251f23c7.streamlock.net:444/EBNTELEVISION/EBNTELEVISION/playlist.m3u8
 EBN TV,https://goliveafrica.media:9998/live/65d8475d1e6cb/index.m3u8
 Ebony TV by Lionsgate,https://aegis-cloudfront-1.tubi.video/a0ad4b53-ab3a-48dd-be12-bc7f533c372c/playlist.m3u8
 EBS 1TV,https://ebsonair.ebs.co.kr/ebs1familypc/familypc1m/playlist.m3u8
@@ -3697,6 +3662,7 @@ Fox WTVT,https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox13tamp
 Fox WTXF-TV,https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox29philadelphiawtx-vizious/playlist.m3u8
 Fox WXXV-TV,https://townnews.g-mana.live/media/c8c354e0-672f-4368-a17d-a862ee98af4a/main.m3u8
 Fox Business Network,https://tvsen6.aynaott.com/foxbusiness/index.m3u8
+Fox Comedy,http://57.128.231.171:8080/250/index.m3u8
 Fox Deportes,http://23.237.104.106:8080/USA_FOX_DEPORTES/index.m3u8
 Fox Life,http://stream.mcquack.net/129/index.m3u8
 Fox News Channel,https://tvsen6.aynaott.com/foxnews/index.m3u8
@@ -3759,6 +3725,7 @@ Fuse,http://23.237.104.106:8080/USA_FUSE/index.m3u8
 FUSION TV,https://edge20.vedge.infomaniak.com/livecast/ik:fusiontv/manifest.m3u8
 Futbol,https://live.teleradiocom.tj/8/3m.m3u8
 Futbol TV,http://stream3.cinerama.uz/1010/tracks-v1a1/mono.m3u8
+Futura,http://170.83.49.66:8083/FUTURAHD/index.m3u8
 Futura,http://168.197.104.22/FUTURA/index.m3u8
 Future TV,https://live.kwikmotion.com/futurelive/ftv.smil/playlist.m3u8
 FUTV,http://190.61.90.17:40000/play/a03v/index.m3u8
@@ -3803,7 +3770,6 @@ GCN,http://liveko24-manminglobal3.ktcdn.co.kr/liveko24/gcnko_1300k.stream/playli
 GCN America,http://liveen24-manminglobal3.ktcdn.co.kr/liveen24/gcnus_1300k.stream/playlist.m3u8
 GCO.tv,https://reflect-golden-co.cablecast.tv/live-3/live/live.m3u8
 GDS TV,http://31.146.5.178:8087/play/a00a/index.m3u8
-ge Fast,https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/playlist.m3u8
 GEB Network KBPX-LD,https://edge1.lifestreamcdn.com/live/geb/playlist.m3u8
 Geekdot,https://stream.ichibantv.com:3764/hybrid/play.m3u8
 GEM 24B,https://ca-rt.onetv.app/gem24b/index-0.m3u8?token=onetv202
@@ -3851,6 +3817,7 @@ Ghost Hunters,https://amg00353-amg00353c30-samsung-au-3440.playouts.now.amagi.tv
 Ghost TV,https://stmv.video.expressolider.com.br/ghostv/ghostv/playlist.m3u8
 Gi Television,https://canal.gitelevisionserver.com/live/DIEEFIh506fL8huspvl0f0c2PZF3/index.m3u8
 Gia Lai TV,http://tldigital-17th06day-tl9648290.duckdns.org/tv.m3u8
+Giallo,https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/GIALLO/CMAF/index.m3u8
 Gigant FM,https://video.uitzending.tv:19360/gigantfm/gigantfm.m3u8
 Gigavision,http://158.172.155.130:8000/play/a0e7/index.m3u8
 Giggle Mug,https://tvsen6.aynaott.com/ytv/index.m3u8
@@ -4401,7 +4368,6 @@ India Daily Live,https://indiadaily.ottlive.co.in/indiadailylive/index.m3u8
 India Today,https://d1rc86nwwc9fag.cloudfront.net/vglive-sk-293160/master.m3u8
 India Today,https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/playlist.m3u8
 India TV,https://pl-indiatvnews.akamaized.net/out/v1/db79179b608641ceaa5a4d0dd0dca8da/index.m3u8
-India TV Aap Ki Adalat,https://amg01550-amg01550c6-samsung-in-4679.playouts.now.amagi.tv/playlist/amg01550-indiatvfast-indiatvakasamsung-samsungin/playlist.m3u8
 India TV Speed News,https://cc-lyf4c0hwzg5dd.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-lyf4c0hwzg5dd/v1/vglive-sk-479089/main.m3u8
 India Voice,https://d1msejlow1t3l4.cloudfront.net/fta/indiavoice/playlist.m3u8
 Indigenous Television,https://np.truestreamz.com/broadcaster/INDIGENOUSmob.stream/playlist.m3u8
@@ -6244,6 +6210,7 @@ Nick Jr. East,http://107.167.16.138/nickjr/index.m3u8?token=test
 Nick Jr. Club,https://jmp2.uk/plu-67f3eb1c443f0671bc03ece8.m3u8
 Nick Jr. Club BR,https://jmp2.uk/plu-6824ce95f09106f4b18f4114.m3u8
 Nick Jr. Club LatAm,https://jmp2.uk/plu-5ddd7cb2cbb9010009b4fe32.m3u8
+Nick Jr. Latin America,https://streaming.onnethn.com/NICK_JR/playlist.m3u8
 Nick Jr. Pluto TV,https://jmp2.uk/plu-5ca6748a37b88b269472dad9.m3u8
 Nick Jr. Pluto TV CA,https://jmp2.uk/plu-62bdb75c3afd1200079146a6.m3u8
 Nick Schweiz,https://hostemea1236.s.gy/hostemea/nickschweiz/28/25/65/74/gg/locos.m3u8
@@ -6358,6 +6325,7 @@ Nova Era TV,http://wz3.dnip.com.br:1935/novaeratv/novaeratv.sdp/live.m3u8
 Nova News,http://213.91.179.28:8000/play/a063
 Nova TV,http://176.61.157.250/NovaTV/index.m3u8
 Nova TV Brasov,http://novapress.ro:2022/live/nova/playlist.m3u8
+Nove,https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/NOVE/CMAF/index.m3u8
 Novela Channel,https://video1.getstreamhosting.com:1936/8284/8284/playlist.m3u8
 Novelisima,http://138.59.177.78:9999/play/a0gg/index.m3u8
 NovgorOblTV,https://rt-nw-novg-htlive.cdn.ngenix.net/hls/CH_R02_NOVGORODTV/variant.m3u8
@@ -6576,10 +6544,12 @@ Omroep Zeeland,https://d3isaxd2t6q8zm.cloudfront.net/live/omroepzeeland/tv/index
 Omroep Zeeland,http://d3isaxd2t6q8zm.cloudfront.net/live/omroepzeeland/tv/index.m3u8
 Omrop Fryslan,https://s-d15f8b0b.b.cdn.bluebillywig.com/live/omropfryslan/f8f68bd5/index.m3u8
 On4 TV,https://edge1.socialsmart.tv/on4/bant1/playlist.m3u8
+ON Cine,https://freem3u.xyz/api/live/play.m3u8?vid=176
 ON FM,https://5ce9406b73c33.streamlock.net/ONFM/livestream/playlist.m3u8
 ON Kids,https://freem3u.xyz/api/live/play.m3u8?vid=179
 ON Life,https://freem3u.xyz/api/live/play.m3u8?vid=188
 ON Movies,https://freem3u.xyz/api/live/play.m3u8?vid=181
+ON Music,https://freem3u.xyz/api/live/play.m3u8?vid=185
 ON News,http://103.250.28.74:8000/play/a046/index.m3u8
 On The Case,https://jmp2.uk/plu-62cd971cec90c20007081050.m3u8
 ON Vie Drama,http://dvrfl05.bozztv.com/vch_vchannel18/index.m3u8
@@ -7736,6 +7706,7 @@ Real Madrid TV,https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3
 Real Madrid TV English,http://88.212.15.17/live/real_madrid_tv/index.m3u8
 Real News Kerala,https://bk7l298nyx53-hls-live.5centscdn.com/realnews/e7dee419f91aa9e65939d3677fb9c4f5.sdp/playlist.m3u8
 Real Television,https://live-evg10.tv360.bitel.com.pe/bitel/realtv/playlist.m3u8
+Real Time,https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/REALTIME/CMAF/index.m3u8
 Real Wild,https://lds-realwild-samsungau.amagi.tv/playlist.m3u8
 Realitatea Plus,https://stream.realitatea.net/realitatea/plus_md/ts:playlist.m3u8
 Realitatea Star,https://stream.realitatea.net/realitatea/star_md/ts:playlist.m3u8
@@ -8304,7 +8275,6 @@ SBN TV,https://watch.sardius.media/channels/Ea867F3e1F56B06/site_c5402f016A/live
 SBN TV Global,https://watch.sardius.media/channels/Ea867F3e1F56B06/site_8D363D13Eb/live.m3u8
 SBN TV International,https://watch.sardius.media/channels/Ea867F3e1F56B06/site_09a4778E89/live.m3u8
 SBS6 Classics,https://sbs6classic.prd1.talpatvcdn.nl/v1/master/8ada1ed2ae3b9c3db6fc5e604cfa78fc7d2d745e/sbs6classic_ssai/fea54560ba684701a2143f33a9cf4489/index.m3u8
-SBS WorldWatch,http://44.32.200.142:5004/auto/v35
 SBT Cuiaba,https://video09.logicahost.com.br/sbtcuiaba/sbtcuiaba/playlist.m3u8
 SBT Interior,https://cdn.jmvstream.com/w/LVW-10801/LVW10801_Xvg4R0u57n/playlist.m3u8
 SBT Kids,https://8994803e454548319ffc0775bc04e0c1.mediatailor.us-east-1.amazonaws.com/v1/master/215c0da80606fed29372070168106400a6ca7e1a/SSAI-TVZyn/index.m3u8
@@ -9004,7 +8974,6 @@ T2 Movies,https://ca-rt.onetv.app/T2Movies/index-0.m3u8?token=onetv202
 T2 TV,https://t2hls.wns.live/hls/stream.m3u8
 T5 Satelital,https://stream.t5satelital.blog/hls/t5satelitalweb.m3u8
 T7,https://gjirafa-video-live.gjirafa.net/gjvideo-livestream-specific/1z8-byc-4ee-lc9/index.m3u8
-T9,https://streaming.softwarecreation.it/tnove/tnove/playlist.m3u8
 T13 En Vivo,https://redirector.dps.live/hls/t13/playlist.m3u8
 T18,https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/t18/t18-dm.m3u8
 T24,http://178.134.1.158:8081/t24/index.m3u8
@@ -9085,6 +9054,7 @@ TC Television,http://45.224.97.181:9999/TC/index.m3u8
 TCM 10,https://live.tcm10.com.br/tcm10hd/stream.m3u8
 TCM,https://turnerlive.warnermediacdn.com/hls/live/2023186/tcmeast/noslate/VIDEO_1_5128000.m3u8
 TCM West,https://turnerlive.warnermediacdn.com/hls/live/2023187/tcmwest/noslate/VIDEO_1_5128000.m3u8
+TCM Latin America Chile,https://streaming.onnethn.com/TCM_HD/playlist.m3u8
 TCM Latin America South,http://45.171.64.30:6060/play/a014/index.m3u8
 TCS+,https://telecorporacion.cdn.vustreams.com/live/19b307cf-3f2d-44cb-bce6-0fd65365c56a/live.isml/live.m3u8
 TCT,https://cdn.jwplayer.com/live/broadcast/frRD2nUK.m3u8
@@ -9118,6 +9088,7 @@ Tekyemadahi,https://ncdn.telewebion.ir/tekyemadahi/live/playlist.m3u8
 Telavision,https://stream.oursnetworktv.com/latin/telaVision/playlist.m3u8
 Tele 1,https://tele1-live.ercdn.net/tele1/tele1.m3u8
 TELE 4 Ojocaliente,https://stream.oursnetworktv.com/latin/encoder53/playlist.m3u8
+TELE 5,https://s6.hopslan.com/tele5X/index.m3u8
 Tele5,http://92.114.85.87:8012/play/a005/index.m3u8
 TELE 6,https://lbgo.bozztv.com/ssh101/ssh101/tele6/playlist.m3u8
 Tele 7,https://ingest2-video.streaming-pro.com/tele7_ABR/stream/playlist.m3u8
@@ -9384,6 +9355,7 @@ TenGer TV,https://cdn4.skygo.mn/live/disk1/VTV/HLSv3-FTA/VTV.m3u8
 Tennis Channel 2,https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8
 Tennis Channel,https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
 Tennis Channel +2,https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8
+Tequila Music TV,https://stream.tequilamusic.net/hls/tequila_tv.m3u8
 Ternopil 1,https://ott.columbus.te.ua/ternopil1/index.m3u8
 TERRA,http://31.148.48.15/Terra_HD/index.m3u8
 Terra,http://stream.mcquack.net/402/index.m3u8
@@ -10847,7 +10819,6 @@ VTV2,https://vips-livecdn.fptplay.net/live/media/vtv2/live247-hls-avc/index.m3u8
 VTV3,https://vips-livecdn.fptplay.net/live/media/vtv3/live247-hls-avc/index.m3u8
 VTV4,https://vips-livecdn.fptplay.net/live/media/vtv4/live247-hls-avc/index.m3u8
 VTV5,https://vips-livecdn.fptplay.net/live/media/vtv5/live247-hls-avc/index.m3u8
-VTV5 Tay Nguyen,https://vips-livecdn.fptplay.net/live/media/vtv5tn/live-hls-avc/index.m3u8
 VTV6,https://vips-livecdn.fptplay.net/live/media/vtv6/live247-hls-avc/index.m3u8
 VTV7,https://vips-livecdn.fptplay.net/live/media/vtv7/live247-hls-avc/index.m3u8
 VTV8,https://dethich.pw/vtv8/index.m3u8
@@ -11142,7 +11113,6 @@ Zee Cine Classic,https://amg00862-amg00862c8-amgplt0173.playout.now3.amagi.tv/pl
 Zee Cinema,http://103.151.60.162:2122/play/a024/index.m3u8?hls
 Zee Cinema,https://d1g8wgjurz8via.cloudfront.net/bpk-tv/NGCHD/default/NGCHD.m3u8
 Zee Cinema APAC,https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/sg/YuppTV/ZeeCinemaAPAC.m3u8
-Zee Cinemalu,https://mumbai-edge.smartplaytv.in/ZeeCinemaluHD/index.m3u8
 Zee Classic,http://107.167.16.138/zeeclassic/index.m3u8?token=test
 Zee Comedy Nation,https://amg00862-amg00862c5-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c5-amgplt0173/playlist.m3u8
 Zee Delhi NCR Haryana,https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeedelhincr/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/cc483a15-1b39-4642-872d-5d08d362ed01/main.m3u8
@@ -11163,7 +11133,7 @@ Zee South Flix,https://amg00862-amg00862c9-amgplt0173.playout.now3.amagi.tv/play
 Zee Talkies,http://107.167.16.138/zeetalkies/index.m3u8?token=test
 Zee Tamil,https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Tamil_HD/hls/Zee_Tamil_HD.m3u8
 Zee Tamil News,https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/ZMCL/ZeeTamilNews.m3u8
-Zee Telugu,https://mumbai-edge.smartplaytv.in/ZeeTeluguHD/index.m3u8
+Zee Telugu,https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/ZeeTeluguHD.m3u8
 Zee Telugu News,https://d116gfrn8orazi.cloudfront.net/index.m3u8?akes=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NjcxOTc5NzJ9.O4qmdMPbHwKrCg6hFXvD70vjSPWKQd0a7NrjmFdeMB8
 Zee TV,http://103.151.60.162:2122/play/a01u/index.m3u8?hls
 Zee TV,http://41.205.93.154/ZEE-TV/index.m3u8
@@ -11272,6 +11242,9 @@ MTV Azerbaijan S Y,https://www.youtube.com/@MTVAzerbaijan/live
 1,https://live.smotrim.ru/vgtrk/0/russia1-hd/index.m3u8
 2,https://edge55.dc.beltelecom.by/ngtrk/smil:belarus2.smil/playlist.m3u8
 2,http://fta.hugo.mk:1935/live/tvhugo/stream/2.m3u8
+S,http://ott-cdn.ucom.am/s17/index.m3u8
+S,https://streaming.televizor-24-tochka.ru/live/8.m3u8
+S,http://cdnua05.hls.tv/632/hls/f62d71219200da4130d13b21d23fb23c/4800/stream.m3u8
 S,https://live.smotrim.ru/vgtrk/0/kultura-hd/index.m3u8
 S,https://streaming102.interskytech.com/live/232.m3u8
 S,http://cdnua05.hls.tv/643/hls/f62d71219200da4130d13b21d23fb23c/4790/stream.m3u8
@@ -11289,9 +11262,6 @@ S,https://strm.yandex.ru/kal/utv/utv0.m3u8
 S,http://212.0.211.102:9999/play/a00b/index.m3u8
 S,http://cdnua05.hls.tv/647/hls/f62d71219200da4130d13b21d23fb23c/4787/stream.m3u8
 S,http://cdnua05.hls.tv/653/hls/f62d71219200da4130d13b21d23fb23c/4833/stream.m3u8
-S,http://cdnua05.hls.tv/630/hls/f62d71219200da4130d13b21d23fb23c/4798/stream.m3u8
-S,https://ngtrk.dc.beltelecom.by/ngtrk/smil:ont.smil/playlist.m3u8
-S,https://streaming.televizor-24-tochka.ru/live/6.m3u8
 5,https://edge55.dc.beltelecom.by/ngtrk/smil:belarus5.smil/playlist.m3u8
 5,https://edge55.dc.beltelecom.by/ngtrk/smil:belarus5int.smil/playlist.m3u8
 1Mus,http://hz1.teleport.cc/HLS/HD.m3u8
@@ -11540,7 +11510,6 @@ Rete 4 G,https://live02-seg.msf.cdn.mediaset.net/live/ch-r4/r4-clr.isml/index.m3
 Italia 1 G,https://live02-seg.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/index.m3u8
 La7,https://d1chghleocc9sm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-evfku205gqrtf/Live.m3u8
 TV8 G,https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11223/tv8web/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556
-Nove,https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/NOVE/CMAF/index.m3u8
 20 Mediaset G,https://live02-seg.msf.cdn.mediaset.net/live/ch-lb/lb-clr.isml/index.m3u8
 Rai 4 G,https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746966&output=7&forceUserAgent=rainet/4.0.5
 Rai 5 G,https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=395276&output=7&forceUserAgent=rainet/4.0.5
@@ -11550,10 +11519,8 @@ Rai Premium G,https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746992
 Cielo G,https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11219/cieloweb/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556
 27 Twentyseven G,https://live02-seg.msf.cdn.mediaset.net/live/ch-ts/ts-clr.isml/index.m3u8
 La 5 G,https://live02-seg.msf.cdn.mediaset.net/live/ch-ka/ka-clr.isml/index.m3u8
-Real Time,https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/REALTIME/CMAF/index.m3u8
 Focus G,https://live02-seg.msf.cdn.mediaset.net/live/ch-fu/fu-clr.isml/index.m3u8
 RTL 102.5,https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/tbbP8T1ZRPBL/playlist.m3u8
-Giallo,https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/GIALLO/CMAF/index.m3u8
 Top Crime G,https://live02-seg.msf.cdn.mediaset.net/live/ch-lt/lt-clr.isml/index.m3u8
 BOING G,https://live02-seg.msf.cdn.mediaset.net/live/ch-kb/kb-clr.isml/index.m3u8
 Rai Gulp G,https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746953&output=7&forceUserAgent=rainet/4.0.5
